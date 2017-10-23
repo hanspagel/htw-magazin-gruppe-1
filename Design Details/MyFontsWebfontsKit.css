@@ -1,0 +1,118 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3464658, 2017-10-15T09:21:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Boston-Black by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/black/
+ * 
+ * Webfont: Boston-BlackIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/black-it/
+ * 
+ * Webfont: Boston-ExtraLightIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/extra-light-it/
+ * 
+ * Webfont: Boston-BoldIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/bold-it/
+ * 
+ * Webfont: Boston-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/bold/
+ * 
+ * Webfont: Boston-ExtraLight by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/extra-light/
+ * 
+ * Webfont: Boston-Heavy by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/heavy/
+ * 
+ * Webfont: Boston-HeavyIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/heavy-it/
+ * 
+ * Webfont: Boston-Light by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/light/
+ * 
+ * Webfont: Boston-LightIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/light-it/
+ * 
+ * Webfont: Boston-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/regular/
+ * 
+ * Webfont: Boston-RegularIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/regular-it/
+ * 
+ * Webfont: Boston-SemiBold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/semi-bold/
+ * 
+ * Webfont: Boston-SemiBoldIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/seim-bold-it/
+ * 
+ * Webfont: Boston-Thin by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/thin/
+ * 
+ * Webfont: Boston-ThinIt by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/boston/thin-it/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3464658
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2017 by Daniel Hernandez &amp; Paula Nazal. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34ddd2");
+
+  
+@font-face {font-family: 'Boston-Black';src: url('webfonts/34DDD2_0_0.eot');src: url('webfonts/34DDD2_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_0_0.woff2') format('woff2'),url('webfonts/34DDD2_0_0.woff') format('woff'),url('webfonts/34DDD2_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-BlackIt';src: url('webfonts/34DDD2_1_0.eot');src: url('webfonts/34DDD2_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_1_0.woff2') format('woff2'),url('webfonts/34DDD2_1_0.woff') format('woff'),url('webfonts/34DDD2_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-ExtraLightIt';src: url('webfonts/34DDD2_2_0.eot');src: url('webfonts/34DDD2_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_2_0.woff2') format('woff2'),url('webfonts/34DDD2_2_0.woff') format('woff'),url('webfonts/34DDD2_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-BoldIt';src: url('webfonts/34DDD2_3_0.eot');src: url('webfonts/34DDD2_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_3_0.woff2') format('woff2'),url('webfonts/34DDD2_3_0.woff') format('woff'),url('webfonts/34DDD2_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-Bold';src: url('webfonts/34DDD2_4_0.eot');src: url('webfonts/34DDD2_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_4_0.woff2') format('woff2'),url('webfonts/34DDD2_4_0.woff') format('woff'),url('webfonts/34DDD2_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-ExtraLight';src: url('webfonts/34DDD2_5_0.eot');src: url('webfonts/34DDD2_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_5_0.woff2') format('woff2'),url('webfonts/34DDD2_5_0.woff') format('woff'),url('webfonts/34DDD2_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-Heavy';src: url('webfonts/34DDD2_6_0.eot');src: url('webfonts/34DDD2_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_6_0.woff2') format('woff2'),url('webfonts/34DDD2_6_0.woff') format('woff'),url('webfonts/34DDD2_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-HeavyIt';src: url('webfonts/34DDD2_7_0.eot');src: url('webfonts/34DDD2_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_7_0.woff2') format('woff2'),url('webfonts/34DDD2_7_0.woff') format('woff'),url('webfonts/34DDD2_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-Light';src: url('webfonts/34DDD2_8_0.eot');src: url('webfonts/34DDD2_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_8_0.woff2') format('woff2'),url('webfonts/34DDD2_8_0.woff') format('woff'),url('webfonts/34DDD2_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-LightIt';src: url('webfonts/34DDD2_9_0.eot');src: url('webfonts/34DDD2_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_9_0.woff2') format('woff2'),url('webfonts/34DDD2_9_0.woff') format('woff'),url('webfonts/34DDD2_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-Regular';src: url('webfonts/34DDD2_A_0.eot');src: url('webfonts/34DDD2_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_A_0.woff2') format('woff2'),url('webfonts/34DDD2_A_0.woff') format('woff'),url('webfonts/34DDD2_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-RegularIt';src: url('webfonts/34DDD2_B_0.eot');src: url('webfonts/34DDD2_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_B_0.woff2') format('woff2'),url('webfonts/34DDD2_B_0.woff') format('woff'),url('webfonts/34DDD2_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-SemiBold';src: url('webfonts/34DDD2_C_0.eot');src: url('webfonts/34DDD2_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_C_0.woff2') format('woff2'),url('webfonts/34DDD2_C_0.woff') format('woff'),url('webfonts/34DDD2_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-SemiBoldIt';src: url('webfonts/34DDD2_D_0.eot');src: url('webfonts/34DDD2_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_D_0.woff2') format('woff2'),url('webfonts/34DDD2_D_0.woff') format('woff'),url('webfonts/34DDD2_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-Thin';src: url('webfonts/34DDD2_E_0.eot');src: url('webfonts/34DDD2_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_E_0.woff2') format('woff2'),url('webfonts/34DDD2_E_0.woff') format('woff'),url('webfonts/34DDD2_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Boston-ThinIt';src: url('webfonts/34DDD2_F_0.eot');src: url('webfonts/34DDD2_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_F_0.woff2') format('woff2'),url('webfonts/34DDD2_F_0.woff') format('woff'),url('webfonts/34DDD2_F_0.ttf') format('truetype');}
+ 
