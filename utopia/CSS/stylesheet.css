@@ -1,3 +1,24 @@
+html{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
 body{
-  background-color: tomato;
+  background-color: #FFDEEB;
+  padding: 40px 30%;
+}
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18;
 }
