@@ -1,7 +1,187 @@
-* {
-  font-family: "Circular Std";
+.nck:after, .menu-links:after, ul li:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#nav ul li {
-  text-decoration: none;
+.menu-icon {
+  background: none no-repeat transparent;
+  overflow: hidden;
+}
+
+.menu-icon {
+  text-indent: 120%
+}
+
+.uilist, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "bitter", Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  margin: 0;
+}
+
+html {
+  font-size: 115%;
+}
+
+.main-nav {
+  position: fixed;
+  z-index: 5000;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.28em;
+  background: #f9f9f9;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  background: none no-repeat center;
+}
+
+.menu-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background: yellow /*url(image/favicon.svg)*/;
+}
+
+.menu {
+  position: relative;
+  font-size: 0.8em;
+  font-family: Sans-serif;
+  text-align: center;
+  color: grey;
+  background: magenta; /* color submenu*/
+}
+
+.menu-primary {
+  background: #0ff;
+  padding: 0 10px;
+}
+
+.menu-secondary {
+  font-size: 1em;
+  padding: 0 10px;
+  line-height: 2.8em;
+}
+
+.menu-links {
+  margin: 0 -10px;
+  border-top: 1px solid red;
+  border-left: 1px solid red;
+}
+
+.menu-links > li {
+  float: left;
+  width: 50%;
+}
+
+.menu-links > li.more:hover {
+  display: block;
+}
+
+.menu-link1 {
+  display: block;
+  padding: 0 16px;
+  line-height: 3.5em;
+  vertical-align: middle;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.menu-link1:hover {
+  color: cyan;
+  background: blue;
+}
+
+/* ----- DELETE LATER ----- */
+
+.menu-link2 {
+  display: block;
+  padding: 0 16px;
+  line-height: 3.5em;
+  vertical-align: middle;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.menu-link2:hover {
+  color: magenta;
+  background: yellow;
+}
+
+/* ----- DELETE LATER ----- */
+
+.main-nav {
+  position: relative;
+}
+
+.menu {
+  text-align: left;
+}
+
+.menu-up {
+  display: none;
+}
+
+.menu-down {
+  display: block;
+}
+
+.menu-panel {
+  position: static;
+  box-shadow: none;
+  border-bottom: 0;
+}
+
+.menu-panel .menu-inner {
+  padding: 0 0 0 60px;
+}
+
+.menu-inner {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-main, .menu-sub {
+  float: left;
+}
+
+.menu-primary, .menu-secondary {
+  padding: 0 15px;
+}
+
+.menu-links {
+  margin: 0;
+  border: 0;
+}
+
+.menu-links > li {
+  width: auto;
+  border: 0;
+}
+
+.menu-home {
+  display: block;
+  position: absolute;
+  top: 0.55rem;
+  left: 5px;
 }
