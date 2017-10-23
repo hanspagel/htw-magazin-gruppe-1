@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "bitter", Georgia, serif;
+  font-family: "Bitter", Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -65,7 +65,7 @@ html {
 .menu {
   position: relative;
   font-size: 0.8em;
-  font-family: Sans-serif;
+  font-family: "Helvetica", sans-serif;
   text-align: center;
   color: grey;
   background: magenta; /* color submenu*/
@@ -184,4 +184,36 @@ html {
   position: absolute;
   top: 0.55rem;
   left: 5px;
+}
+
+.headline {
+  text-align: center;
+  margin-top: -300px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-family:  sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.text {
+  text-align: left;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 50px;
 }
