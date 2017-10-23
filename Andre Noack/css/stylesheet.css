@@ -49,17 +49,11 @@ html {
 }
 
 .menu-icon {
-  width: 20px;
-  height: 20px;
-  background: none no-repeat center;
-}
-
-.menu-icon {
   display: inline-block;
   vertical-align: middle;
   width: 30px;
   height: 30px;
-  background: yellow /*url(image/favicon.svg)*/;
+  background: black /*url(image/favicon.svg)*/;
 }
 
 .menu {
@@ -68,7 +62,7 @@ html {
   font-family: "Helvetica", sans-serif;
   text-align: center;
   color: grey;
-  background: magenta; /* color submenu*/
+  background: #0cf; /* color submenu*/
 }
 
 .menu-primary {
@@ -97,7 +91,7 @@ html {
   display: block;
 }
 
-.menu-link1 {
+.menu-link {
   display: block;
   padding: 0 16px;
   line-height: 3.5em;
@@ -106,28 +100,10 @@ html {
   text-decoration: inherit;
 }
 
-.menu-link1:hover {
+.menu-link:hover {
   color: cyan;
   background: white;
 }
-
-/* ----- DELETE LATER ----- */
-
-.menu-link2 {
-  display: block;
-  padding: 0 16px;
-  line-height: 3.5em;
-  vertical-align: middle;
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.menu-link2:hover {
-  color: magenta;
-  background: white;
-}
-
-/* ----- DELETE LATER ----- */
 
 .main-nav {
   position: relative;
@@ -215,9 +191,10 @@ html {
 
 .text {
   text-align: left;
-  width: 600px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.4;
 }
 
 .image {
