@@ -1,7 +1,19 @@
 html{
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #313131;
 }
 
 body{
-  background-color: tomato;
+  background-color: #f1f1f2;
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
