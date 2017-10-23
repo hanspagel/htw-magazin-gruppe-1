@@ -6,11 +6,11 @@ html, body {
 
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'VT323', monospace;
 }
 
 h1 {
-  font-family: 'Shrikhand', sans-serif;
+  font-family:'VT323', monospace;
   font-size: 100px;
   display: flex;
   align-items: center;

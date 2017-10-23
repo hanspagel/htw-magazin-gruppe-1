@@ -2,6 +2,8 @@ html{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Boston-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -20,7 +22,13 @@ h1, h2, h3, h4, h5 {
 	font-style: normal;
 	line-height: 1em;
 	padding: 0;
-	margin: 5px 0;
+	margin: 10px 0;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 a {
@@ -29,6 +37,11 @@ a {
 }
 a:hover {
 
+}
+
+main{
+  margin: auto;
+  width: 800px;
 }
 
 @media all and (max-width: 780px) {
