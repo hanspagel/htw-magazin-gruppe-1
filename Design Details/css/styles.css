@@ -1,0 +1,27 @@
+html{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Boston-Regular', sans-serif;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+
+}
+
+@media all and (max-width: 780px) {
+
+}
