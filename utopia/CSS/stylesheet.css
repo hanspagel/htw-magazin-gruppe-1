@@ -5,3 +5,17 @@ html{
 body{
   background-color: #FFDEEB;
 }
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18;
+}
