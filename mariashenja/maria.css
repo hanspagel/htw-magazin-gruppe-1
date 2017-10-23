@@ -1,0 +1,32 @@
+html {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+  background-color: ;
+}
+
+
+h1 {
+  font-weight: bold;
+  
+  font-size: 2rem;
+  margin: 1em 0 1em 0;
+
+}
+
+/*Hallo Strg + Shift + 7*/
+
+/* NOTE: n + tab  */
+
+p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner {
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
