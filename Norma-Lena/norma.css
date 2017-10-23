@@ -1,3 +1,41 @@
-body{
-  background-color: tomato;
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #313131;
 }
+
+body{
+  background-color: #f1f1f2;
+}
+
+h1{
+  font-family: 'source sans',
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+p:first-of-type {
+  font-size: ;
+}
+
+.article-inner{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img {
+  width: 100%;
+}
+
+.article-inner-wide{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Kommentare unsichtbar einfügen */
+/* NOTE: hallo hallo hallo */
