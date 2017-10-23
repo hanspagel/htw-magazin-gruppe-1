@@ -10,10 +10,23 @@ body{
 }
 
 h1{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Libre Barcode 39 Text', cursive;
   font-weight: normal;
   letter-spacing: 0.1em;
   font-size: 2rem;
   margin-bottom: 1em;
   margin-top: 2em;
 }
+
+p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Kommentare unsichtbar einfügen */
+/* NOTE: hallo hallo hallo */
