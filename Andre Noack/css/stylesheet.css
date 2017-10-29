@@ -192,6 +192,7 @@ html {
 }
 
 .text {
+  margin-top: 200px;
   text-align: left;
   max-width: 700px;
   margin-left: auto;
@@ -218,4 +219,11 @@ html {
   /*position: absolute;*/
   min-width: 100%;
   min-height: 100%;
+}
+
+.headline .hl-inner-wrapper {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  margin-top: 0;
 }
