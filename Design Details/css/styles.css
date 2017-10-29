@@ -22,13 +22,13 @@ h1, h2, h3, h4, h5 {
 	font-style: normal;
 	line-height: 1em;
 	padding: 0;
-	margin: 10px 0;
+	margin: 1em 0;
 }
 
 h2{
   text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 3px;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
 }
 
 a {
@@ -41,9 +41,14 @@ a:hover {
 
 main{
   margin: auto;
-  width: 800px;
+  width: 1200px;
 }
 
-@media all and (max-width: 780px) {
+article{
+  column-count: 3;
+}
 
+
+@media all and (max-width: 780px) {
+  column-count: 1;
 }
