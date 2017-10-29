@@ -20,6 +20,8 @@
 }
 
 body {
+  position: relative;
+  margin: 0;
   font-family: "Bitter", Georgia, serif;
   font-style: normal;
   font-weight: 400;
@@ -202,7 +204,7 @@ html {
 }
 
 .headline .hl-content:before {
-  content: '';
+  content: 'Test-1-2-3'; /* loeschen nicht vrgessen !!! */
   position: absolute;
   left: 0;
   top: 0;
@@ -212,7 +214,8 @@ html {
   background: rgba(10, 10, 10, 0.15);
 }
 
-.headline img.image {
-  width: 100%;
-  margin-bottom: 50px;
+.headline .hl-content img {
+  /*position: absolute;*/
+  min-width: 100%;
+  min-height: 100%;
 }
