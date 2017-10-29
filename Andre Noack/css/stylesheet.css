@@ -176,7 +176,7 @@ html {
 }
 
 .subtitle {
-  font-family:  sans-serif;
+  font-family: sans-serif;
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
@@ -197,7 +197,7 @@ html {
   line-height: 1.4;
 }
 
-.image {
+img.image {
   width: 100%;
   margin-bottom: 50px;
 }
