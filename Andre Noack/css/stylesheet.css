@@ -197,7 +197,22 @@ html {
   line-height: 1.4;
 }
 
-img.image {
+.headline .hl-content {
+  height: 500px;
+}
+
+.headline .hl-content:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(10, 10, 10, 0.15);
+}
+
+.headline img.image {
   width: 100%;
   margin-bottom: 50px;
 }
