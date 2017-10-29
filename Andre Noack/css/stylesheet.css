@@ -1,4 +1,4 @@
-.nck:after, .menu-links:after, ul li:after {
+.nck:after, .menu-link:after, ul li:after {
   content: "";
   display: table;
   clear: both;
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Bitter", Georgia, serif;
+  font-family: 'Bitter', Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -59,21 +59,27 @@ html {
 .menu {
   position: relative;
   font-size: 0.8em;
-  font-family: "Helvetica", sans-serif;
+  font-family: sans-serif;
   text-align: center;
   color: grey;
-  background: #0cf; /* color submenu*/
+  background: #f9f9f9;
+}
+
+.menu-panel {
+  position: static;
+  box-shadow: none;
+  border-bottom: 0;
 }
 
 .menu-primary {
-  background: #0ff;
+  background: #f2f2f2;
   padding: 0 10px;
 }
 
 .menu-secondary {
   font-size: 1em;
   padding: 0 10px;
-  line-height: 2.8em;
+  line-height: 2.5em;
 }
 
 .menu-links {
@@ -109,9 +115,9 @@ html {
   position: relative;
 }
 
-.menu {
+/*.menu {
   text-align: left;
-}
+}*/
 
 .menu-up {
   display: none;
@@ -121,11 +127,7 @@ html {
   display: block;
 }
 
-.menu-panel {
-  position: static;
-  box-shadow: none;
-  border-bottom: 0;
-}
+
 
 .menu-panel .menu-inner {
   padding: 0 0 0 60px;
