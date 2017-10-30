@@ -18,6 +18,7 @@ h1 {
 }
 
 p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
+  
   font-size: 24px;
   margin-bottom: 0.3em;
 }
