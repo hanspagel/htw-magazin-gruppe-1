@@ -18,7 +18,6 @@ h1 {
 }
 
 p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
-
   font-size: 24px;
   margin-bottom: 0.3em;
 }
@@ -33,27 +32,36 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-inner-wide  {
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
 }
 
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor:pointer;
+  background-image: url("images/Swag.gif");
+}
+
+.article-text-info {
+  background-color: yellow;
+  padding: 1rem 1.3rem;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arimo', sans-serif;
+  border: 3px dashed blue;
+}
+
+.article-image {
+    display: flex;
+}
 
 .article-image img {
-  max-width: 700px;
-  margin-left: auto;
-}
-
-.article-module {
-
-}
-
-
-p {
-    margin: 0cm 2cm;
-}
-
-div {
-
-
-
+  max-width: 700px
 }
