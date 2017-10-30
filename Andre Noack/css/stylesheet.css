@@ -205,7 +205,7 @@ html {
 
 
 .text {
-  margin-top: 200px;
+  margin-top: 900px;
   text-align: left;
   max-width: 700px;
   margin-left: auto;
@@ -214,9 +214,9 @@ html {
   z-index: 100;
 }
 
-.headline .hl-content {
+/*.headline .hl-content {
   height: 800px;
-}
+}*/
 
 .headline .hl-content:before {
   content: '';
