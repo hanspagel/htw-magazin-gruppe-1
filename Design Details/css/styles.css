@@ -84,5 +84,9 @@ p{
 }
 
 @media all and (max-width: 780px) {
-  column-count: 1;
+  section{
+    column-count: 1;
+    width: 100%;
+    padding: 0 8px;
+  }
 }
