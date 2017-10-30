@@ -4,10 +4,12 @@
   clear: both;
 }
 
-.menu-icon-nhl {
+.icon-nhl, .menu-icon-nhl {
   background: none no-repeat transparent;
+  border: 0;
   overflow: hidden;
-  text-indent: 120%
+  text-indent: 120%;
+  white-space: nowrap;
 }
 
 .uilist {
@@ -35,6 +37,12 @@ html {
   position: fixed;
   z-index: 5000;
 }
+
+@media only screen and (min-width: 62.5em) { /* = 1.000 px */
+  .main-nav {
+    position: relative;
+    z-index: 100;
+  }
 
 .navbar {
   position: fixed;
@@ -198,7 +206,7 @@ html {
 }
 
 .headline .hl-content {
-  height: 500px;
+  height: 800px;
 }
 
 .headline .hl-content:before {
