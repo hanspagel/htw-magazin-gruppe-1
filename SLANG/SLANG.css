@@ -3,7 +3,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
 line-height: 1.6; /* NOTE: this is always 160 procent */
 color: #0000ff;
-background-color: yellow;
+background-color: white;
 /*position: relative;*/
 /*padding: 50;*/
 }
@@ -44,7 +44,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .article-module {
-  
+
 }
 
 
