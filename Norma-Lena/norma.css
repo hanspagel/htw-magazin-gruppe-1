@@ -10,7 +10,7 @@ body{
 }
 
 h1{
-  font-family: 'Libre Barcode 39 Text', cursive;
+  font-family: 'source sans',
   font-weight: normal;
   letter-spacing: 0.1em;
   font-size: 2rem;
@@ -19,14 +19,23 @@ h1{
 }
 
 p:first-of-type {
-  font-size: 1.4rem;
+  font-size: ;
 }
 
 .article-inner{
-  max-width: 900px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.article-image img {
+  width: 100%;
+}
+
+.article-inner-wide{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Kommentare unsichtbar einfügen */
 /* NOTE: hallo hallo hallo */
