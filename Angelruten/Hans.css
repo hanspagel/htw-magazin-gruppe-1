@@ -1,3 +1,36 @@
-body {
-  background-color: tomato;
+/* NOTE: Schrifteinstellungen */
+html {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* NOTE: Überschrift */
+h1 {
+  font-family: 'Arimo', serif;
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* NOTE: Der erste Absatz */
+p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img {
+  max-width: 100%;
 }
