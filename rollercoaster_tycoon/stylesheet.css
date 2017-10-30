@@ -41,3 +41,26 @@ p {
   max-width: 50%;
   height: auto;
 }
+
+.article-teaser {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: sans-serif;
+}
+
+.article-teaser:hover {
+  color: green;
+}
