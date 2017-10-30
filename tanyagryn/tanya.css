@@ -57,9 +57,29 @@ h1 {
   color: white;
 }
 
-
-
-
-
-
 /* NOTE: text fließt nach rechts */
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+}
+
+.article-teaser-image img {
+  width: 100px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  transition: all 0.3s;
+}
+
+
+.article-teaser:hover .article-teaser-headline {
+  color: pink;
+  transform: rotate(5deg);
+}
