@@ -1,20 +1,23 @@
-/* NOTE: Schrifteinstellungen */
-html {
-  font-family: 'PT Serif', serif;
+html{
+  font-family: 'Karla';
   font-size: 18px;
   line-height: 1.6;
 }
 
-/* NOTE: Überschrift */
+body {
+  background-color: ivory;
+}
+
+/*Das ist eine Überschrift*/
 h1 {
-  font-family: 'Arimo', serif;
-  font-weight: normal;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0.1em;
   font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
-/* NOTE: Der erste Absatz */
+/* Das ist der erste Absatz im Artikel */
 p:first-of-type {
   font-size: 1.4rem;
 }
@@ -32,5 +35,5 @@ p:first-of-type {
 }
 
 .article-image img {
-  max-width: 100%;
+  max-width: 100%
 }

@@ -1,0 +1,41 @@
+html {
+font-size: 18px;
+line-height: 1.4;
+}
+
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+  background-color: white;
+}
+
+/*Tastenkombination für kommentare: anmarkieren und dann: cmd, shift, 7 oder: n plus tab (note)*/
+
+h1 {
+  font-family: 'Neuton', serif;
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 1em;
+
+}
+
+/* first of type: nur der erste Absatz wird verändert*/
+
+p:first-of-type {
+  font-size: 1.4rem
+}
+
+/* NOTE:  */
+
+
+.article-inner {
+  max-width: 700px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+.article-image img{
+  margin-left: 300px;
+  margin-right: auto;
+}
