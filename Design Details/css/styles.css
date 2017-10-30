@@ -63,10 +63,25 @@ section{
   right: calc(50% - 500px);
 }
 
-p{
-  margin: 0px;
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+  height: 4px;
+  width: 4px;
+  margin: -2px 0 0 -2px;
+  border-radius: 100%;
+  background-color: tomato;
 }
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background-color: rgb(100, 100, 100);
+}
+
+p{
+  margin: 0 0 0.5em 0;
+}
+
+.inlineimg{
+  width: 12px;
+}
 
 @media all and (max-width: 780px) {
   column-count: 1;
