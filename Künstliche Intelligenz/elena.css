@@ -1,0 +1,22 @@
+html {
+  font-family: 'Raleway',sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+}
+h1 {
+  font-weight: medium;
+  font-family: 'Teko'; sans-serif;
+  text-transform: uppercase;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 12rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-weight: normal;
+  font-family: 'Teko'; sans-serif;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 1.8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
