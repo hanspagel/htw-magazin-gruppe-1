@@ -67,7 +67,7 @@ html {
 .menu {
   position: relative;
   font-size: 0.8em;
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   text-align: center;
   color: grey;
   background: #f9f9f9;
@@ -177,7 +177,7 @@ html {
 
 .title {
   text-align: center;
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   font-weight: 800;
   font-size: 48px;
   letter-spacing: 1px;
@@ -185,7 +185,7 @@ html {
 }
 
 .subtitle {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
@@ -225,12 +225,13 @@ html {
 }
 
 .navibar a {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 .header {
   background-image: url('../image/test.jpg');
   background-size: cover;
+  background-position: center;
   height: 80vh;
   text-align: center;
   position: relative;
@@ -244,13 +245,13 @@ html {
 }
 
 .header-headline {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 2.2em;
   line-height: 0.6;
 }
 
 .header-subline {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 1.2em;
   line-height: 0.6;
 }
