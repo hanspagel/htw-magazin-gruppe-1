@@ -44,8 +44,8 @@ main{
   width: 1200px;
 }
 
-article{
-  column-count: 3;
+.section{
+  column-count: 2;
 }
 
 
