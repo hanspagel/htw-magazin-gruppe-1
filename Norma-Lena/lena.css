@@ -41,3 +41,18 @@ h1 {font-family:'Merriweather', serif;
 .article-module {
   padding: 1.5rem 0;
 }
+
+.article-text-info {
+  background-color: blue;
+  float: right;
+  width: 8rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom:  1rem;
+  border: 2px dotted white;
+  font-family:'Merriweather', serif;
+  color: white;
+
+/* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+}
