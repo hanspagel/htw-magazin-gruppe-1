@@ -38,11 +38,12 @@ html {
   z-index: 5000;
 }
 
-@media only screen and (min-width: 62.5em) { /* = 1.000 px */
+@media only screen and (min-width: 62.5em) { /* 62.5em = 1.000 px */
   .main-nav {
     position: relative;
     z-index: 100;
   }
+}
 
 .navbar {
   position: fixed;
