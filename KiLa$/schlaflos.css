@@ -22,7 +22,43 @@ p {
   font-weight: lighter;
 }
 
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+
 /* Experiment */
+
+.glitch-effect {
+  font-family: 'Inconsolata', monospace;
+  font-weight:bold;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+}
 
 .glitch {
   color: white;
@@ -188,32 +224,6 @@ p {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-h1 {
-  font-family: 'Inconsolata', monospace;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  font-size: 3rem;
-  margin-bottom: 3em;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-family: sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  font-size: 1rem;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-family: sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  font-size: 1rem;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-}
 
 .article {
   max-width: 700px;
