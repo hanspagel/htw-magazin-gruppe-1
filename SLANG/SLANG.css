@@ -35,14 +35,21 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   float: left;
 }
 
-.article-inner-wide:hover {
-  cursor: pointer;
-  background: "images/zombie.gif";
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor:pointer;
+  background-image: url("images/Swag.gif");
 }
 
 .article-text-info {
   background-color: yellow;
-  float: right;
   padding: 1rem 1.3rem;
   margin-top: 0.6rem;
   margin-left: 1rem;
@@ -51,7 +58,9 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   border: 3px dashed blue;
 }
 
-
+.article-image {
+    display: flex;
+}
 
 .article-image img {
   max-width: 700px
