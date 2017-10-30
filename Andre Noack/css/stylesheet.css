@@ -4,12 +4,9 @@
   clear: both;
 }
 
-.menu-icon {
+.menu-icon-nhl {
   background: none no-repeat transparent;
   overflow: hidden;
-}
-
-.menu-icon {
   text-indent: 120%
 }
 
@@ -48,7 +45,7 @@ html {
   background: #f9f9f9;
 }
 
-.menu-icon {
+.menu-icon-nhl {
   display: inline-block;
   vertical-align: middle;
   width: 30px;
