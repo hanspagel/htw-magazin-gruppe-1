@@ -1,42 +1,48 @@
-.nck:after, .menu-links:after, ul li:after {
+.nck:after, ul li:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.menu-icon {
+.icon-nhl, .menu-icon-nhl {
   background: none no-repeat transparent;
+  border: 0;
   overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
 }
 
-.menu-icon {
-  text-indent: 120%
-}
-
-.uilist, ul {
+.uilist {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 body {
-  font-family: "bitter", Georgia, serif;
+  position: relative;
+  margin: 0;
+  font-family: "Bitter", Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
   color: #000;
   background-color: #fff;
-  position: relative;
-  margin: 0;
 }
 
 html {
-  font-size: 115%;
+  font-size: 113%;
 }
 
 .main-nav {
   position: fixed;
   z-index: 5000;
+}
+
+@media only screen and (min-width: 62.5em) { /* 62.5em = 1.000 px */
+  .main-nav {
+    position: relative;
+    z-index: 100;
+  }
 }
 
 .navbar {
@@ -48,38 +54,38 @@ html {
   background: #f9f9f9;
 }
 
-.menu-icon {
-  width: 20px;
-  height: 20px;
-  background: none no-repeat center;
-}
-
-.menu-icon {
+.menu-icon-nhl {
   display: inline-block;
   vertical-align: middle;
   width: 30px;
   height: 30px;
-  background: yellow /*url(image/favicon.svg)*/;
+  background: black /*url(image/favicon.svg)*/;
 }
 
 .menu {
   position: relative;
   font-size: 0.8em;
-  font-family: Sans-serif;
+  font-family: sans-serif;
   text-align: center;
   color: grey;
-  background: magenta; /* color submenu*/
+  background: #f9f9f9;
+}
+
+.menu-panel {
+  position: static;
+  box-shadow: none;
+  border-bottom: 0;
 }
 
 .menu-primary {
-  background: #0ff;
+  background: #f2f2f2;
   padding: 0 10px;
 }
 
 .menu-secondary {
   font-size: 1em;
   padding: 0 10px;
-  line-height: 2.8em;
+  line-height: 2.5em;
 }
 
 .menu-links {
@@ -97,7 +103,7 @@ html {
   display: block;
 }
 
-.menu-link1 {
+.menu-link {
   display: block;
   padding: 0 16px;
   line-height: 3.5em;
@@ -106,36 +112,18 @@ html {
   text-decoration: inherit;
 }
 
-.menu-link1:hover {
+.menu-link:hover {
   color: cyan;
-  background: blue;
+  background: white;
 }
-
-/* ----- DELETE LATER ----- */
-
-.menu-link2 {
-  display: block;
-  padding: 0 16px;
-  line-height: 3.5em;
-  vertical-align: middle;
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.menu-link2:hover {
-  color: magenta;
-  background: yellow;
-}
-
-/* ----- DELETE LATER ----- */
 
 .main-nav {
   position: relative;
 }
 
-.menu {
+/*.menu {
   text-align: left;
-}
+}*/
 
 .menu-up {
   display: none;
@@ -145,11 +133,7 @@ html {
   display: block;
 }
 
-.menu-panel {
-  position: static;
-  box-shadow: none;
-  border-bottom: 0;
-}
+
 
 .menu-panel .menu-inner {
   padding: 0 0 0 60px;
@@ -184,4 +168,68 @@ html {
   position: absolute;
   top: 0.55rem;
   left: 5px;
+}
+
+.headline {
+  text-align: center;
+  margin-top: -200px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.subtitle {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: white;
+}
+
+.subtitle a {
+  text-decoration: underline;
+  color: white;
+}
+
+.text {
+  margin-top: 200px;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+}
+
+.headline .hl-content {
+  height: 800px;
+}
+
+.headline .hl-content:before {
+  content: 'Test-1-2-3'; /* loeschen nicht vrgessen !!! */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(10, 10, 10, 0.15);
+}
+
+.headline .hl-content img {
+  /*position: absolute;*/
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.headline .hl-inner-wrapper {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  margin-top: 0;
 }

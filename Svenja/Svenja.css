@@ -1,0 +1,43 @@
+html{
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* So kann man Kommentare machen: Command Shift 7 */
+h1{
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-style: bold;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+h2{
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-style: bold;
+  font-size: 1rem;
+}
+
+/* Das ist der erste Absatz */
+p:first-of-type{
+  font-size: 1.1rem;
+  font-style: bold;
+}
+
+.article-inner{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img{
+  max-width: 100%;
+}

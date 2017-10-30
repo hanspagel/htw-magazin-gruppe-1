@@ -1,0 +1,119 @@
+html {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+line-height: 1.6; /* NOTE: this is always 160 procent */
+color: #0000ff;
+background-color: white;
+/*position: relative;*/
+/*padding: 50;*/
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  /*margin-left: 50;*/
+  letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
+  font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
+}
+
+p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
+  font-size: 24px;
+  margin-bottom: 0.3em;
+}
+
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.article-inner-wide  {
+  max-width: 1000px;
+  float: left;
+}
+
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor:pointer;
+  background-image: url("images/Swag.gif");
+}
+
+.zombie {
+  background-image: url("images/zombie.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.zombie:hover {
+  cursor:pointer;
+  background-image: url("images/zombie.gif");
+}
+
+.Babo {
+  background-image: url("images/Babo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Babo:hover {
+  cursor:pointer;
+  background-image: url("images/Babo.gif");
+}
+
+.Niveaulimbo {
+  background-image: url("images/Niveaulimbo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Niveaulimbo:hover {
+  cursor:pointer;
+  background-image: url("images/Niveaulimbo.gif");
+}
+
+.fly-sein {
+  background-image: url("images/Fly-sein.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.fly-sein:hover {
+  cursor:pointer;
+  background-image: url("images/Fly-sein.gif");
+}
+
+.article-text-info {
+  background-color: yellow;
+  padding: 1rem 1.3rem;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arimo', sans-serif;
+  border: 3px dashed blue;
+}
+
+.article-image {
+    display: flex;
+}
+
+.article-image img {
+  max-width: 700px
+}
