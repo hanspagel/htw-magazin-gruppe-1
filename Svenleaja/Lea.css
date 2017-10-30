@@ -12,20 +12,17 @@ body {
 /*Tastenkombination für kommentare: anmarkieren und dann: cmd, shift, 7 oder: n plus tab (note)*/
 
 h1 {
-  font-family: 'Neuton', serif;
-  font-weight: normal;
-  font-size: 2rem;
-  margin-bottom: 1em;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 3.5rem;
 
 }
 
 /* first of type: nur der erste Absatz wird verändert*/
 
-p:first-of-type {
-  font-size: 1.4rem
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.1rem
 }
-
-/* NOTE:  */
 
 
 .article-inner {
@@ -34,8 +31,22 @@ p:first-of-type {
   margin-right: auto;
 }
 
-
-.article-image img{
-  margin-left: 300px;
+.article-inner-wide {
+  max-width: 800px;
+  margin-left:auto;
   margin-right: auto;
+}
+
+
+.article-module {
+  padding: 10px 0;
+}
+
+.article-text-info {
+  background-color: lightgrey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0 darkgrey;
 }
