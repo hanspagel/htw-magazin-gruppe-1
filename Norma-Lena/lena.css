@@ -15,7 +15,8 @@ h1 {font-family:'Merriweather', serif;
     margin-bottom: 1em;
 }
 
-p:first-of-type {
+/* NOTE: Der erste Absatz im erstenTextmodul*/
+.article-text:first-of-type p:first-of-type {
     font-size: 1.4rem;
     font-style: italic;
   }
@@ -25,6 +26,7 @@ p:first-of-type {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
+    margin-top: 2em;
   }
 
   .article-inner-wide {
