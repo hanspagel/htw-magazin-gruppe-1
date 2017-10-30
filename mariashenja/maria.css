@@ -1,7 +1,7 @@
 html {
   font-family: 'Open Sans';
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 2rem;
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
 
 }
 
@@ -20,14 +20,34 @@ h1 {
 
 /* NOTE: n + tab  */
 
-p:first-of-type {
+.article-text-info {
+  background: #f1f1f1;
+  float:right;
+  width: 12rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.8);
+}
+
+.article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
+  }
+
+.article-module {
+  padding: 1.5rem 0;
 }
 
 .article-inner {
 max-width: 700px;
 margin-left: auto;
 margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-image img {
