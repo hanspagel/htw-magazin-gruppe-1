@@ -59,7 +59,7 @@ html {
   vertical-align: middle;
   width: 30px;
   height: 30px;
-  background: black /*url(image/favicon.svg)*/;
+  background: url(image/favicon.svg);
 }
 
 .menu {
@@ -121,9 +121,9 @@ html {
   position: relative;
 }
 
-/*.menu {
+.menu {
   text-align: left;
-}*/
+}
 
 .menu-up {
   display: none;
@@ -132,8 +132,6 @@ html {
 .menu-down {
   display: block;
 }
-
-
 
 .menu-panel .menu-inner {
   padding: 0 0 0 60px;
@@ -176,6 +174,7 @@ html {
 }
 
 .title {
+  text-align: center;
   font-family: sans-serif;
   font-weight: 800;
   font-size: 48px;
@@ -204,6 +203,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   line-height: 1.4;
+  z-index: 100;
 }
 
 .headline .hl-content {
@@ -211,25 +211,51 @@ html {
 }
 
 .headline .hl-content:before {
-  content: 'Test-1-2-3'; /* loeschen nicht vrgessen !!! */
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: rgba(10, 10, 10, 0.15);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .headline .hl-content img {
-  /*position: absolute;*/
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
+  /*width: auto;
+  z-index: 0;*/
+  left: 50%;
+  top: 50%;
+  right: initial;
+  bottom: initial;
+}
+
+.hl-content img {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .headline .hl-inner-wrapper {
-  position: absolute;
+  position: relative;
+  right: initial;
+  top: inherit;
   left: 50%;
-  bottom: 80px;
-  margin-top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 95%;
+  max-width: 850px;
+  margin-top: 1.0em;
 }
+
+.headline .hl-inner-wrapper {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    right: initial;
+    position: absolute;
+    bottom: 80px;
+    margin-top: 0;
+  }
