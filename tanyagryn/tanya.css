@@ -15,8 +15,9 @@ h1 {
 }
 
 /* NOTE: Nur erster Absatz wird groß */
+/* NOTE: Der erste Absatz im ersten Textmodul */
 
-p:first-of-type {
+.article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
 }
 
@@ -37,3 +38,28 @@ p:first-of-type {
 .article-image img {
  max-width: 100%;
 }
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-info {
+  background-color: blue;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  /* NOTE: blurr füllen rechts farbe */
+  border: 5px dashed black;
+  /* NOTE: rgba 0 0 0 0.2 deckkraft der farbe */
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.2) ;
+  color: white;
+}
+
+
+
+
+
+
+/* NOTE: text fließt nach rechts */
