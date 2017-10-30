@@ -44,7 +44,7 @@ main{
   width: 1200px;
 }
 
-.section{
+section{
   column-count: 2;
 }
 
