@@ -42,6 +42,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   margin-left: auto;
 }
 
+
 p {
     margin: 0cm 2cm;
 }
