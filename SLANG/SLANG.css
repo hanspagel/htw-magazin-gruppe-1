@@ -3,7 +3,11 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
 line-height: 1.6; /* NOTE: this is always 160 procent */
 color: #0000ff;
+<<<<<<< HEAD
 background-color: yellow;
+=======
+background-color: white;
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 /*position: relative;*/
 /*padding: 50;*/
 }
@@ -26,12 +30,17 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 .article-inner {
   max-width: 700px;
   margin-left: auto;
+<<<<<<< HEAD
   margin-left: auto;
+=======
+  margin-right: auto;
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 }
 
 
 .article-inner-wide  {
   max-width: 1000px;
+<<<<<<< HEAD
   margin-left: auto;
   margin-left: auto;
 }
@@ -50,4 +59,38 @@ div {
 
 
 
+=======
+  float: left;
+}
+
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor:pointer;
+  background-image: url("images/Swag.gif");
+}
+
+.article-text-info {
+  background-color: yellow;
+  padding: 1rem 1.3rem;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arimo', sans-serif;
+  border: 3px dashed blue;
+}
+
+.article-image {
+    display: flex;
+}
+
+.article-image img {
+  max-width: 700px
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 }

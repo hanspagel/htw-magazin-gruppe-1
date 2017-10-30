@@ -7,15 +7,24 @@ html {
 
 /* NOTE: Überschrift */
 h1 {
+<<<<<<< HEAD
   font-family: 'Arimo', serif;
+=======
+  font-family: 'Arimo', sans-serif;
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
   font-weight: normal;
   font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
+<<<<<<< HEAD
 /* NOTE: Der erste Absatz */
 p:first-of-type {
+=======
+/* NOTE: Der erste Absatz im ersten Textmodul */
+.article-text:first-of-type p:first-of-type {
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
   font-size: 1.4rem;
 }
 
@@ -33,4 +42,25 @@ p:first-of-type {
 
 .article-image img {
   max-width: 100%;
+<<<<<<< HEAD
+=======
+}
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-info {
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Arimo', sans-serif;
+
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1);
+  border: 5px solid black;
+  background-color: yellow;
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 }

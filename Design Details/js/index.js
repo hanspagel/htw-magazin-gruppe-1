@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
+<<<<<<< HEAD
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
@@ -71,5 +72,8 @@ $(document).ready(function() {
 		afterResponsive: function(isResponsive){},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+=======
+		navigation: true,
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 	});
 });

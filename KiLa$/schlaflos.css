@@ -13,15 +13,16 @@ html {
   font-family: 'Inconsolata', monospace;
   font-size: 30px;
   line-height: 1.1;
-  text-transform: uppercase;
 }
 
 p {
-  font-family: 'Inconsolata', monospace;
-  font-size: 30px;
+  font-family: 'Space Mono';
+  font-size: 20px;
   line-height: 1.1;
-  text-transform: uppercase;
+  font-weight: lighter;
 }
+
+/* Experiment */
 
 .glitch {
   color: white;
@@ -188,11 +189,12 @@ p {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: bold;
   letter-spacing: 0.1em;
   font-size: 3rem;
   margin-bottom: 3em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -201,6 +203,16 @@ h2 {
   letter-spacing: 0.1em;
   font-size: 1rem;
   margin-bottom: 2em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  text-transform: uppercase;
 }
 
 .article {
@@ -221,6 +233,9 @@ h2 {
 }
 
 .article-info {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-size:  20px;
   background: magenta;
   float: right;
   padding: 1rem 1.3rem;
@@ -230,5 +245,29 @@ h2 {
   font-family: sans-serif;
   border: 10px cyan;
   box-shadow: 10px 10px 0 0 cyan;
-
 }
+
+ .article-teaser {
+   display: flex;
+   text-decoration: none;
+   color: magenta;
+ }
+
+ .article-teaser:hover .article-teaser-headline {
+  color: cyan;
+  transform: rotate(4deg);
+ }
+
+
+ .article-teaser-image img {
+   width: 180px;
+ }
+
+ .article-teaser-image {
+  margin-right: 1rem;
+ }
+
+ .article-teaser-headline {
+   align-self: center;
+   transition: all 1s;
+ }
