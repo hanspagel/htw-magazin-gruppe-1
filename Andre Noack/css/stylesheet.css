@@ -32,7 +32,7 @@ body {
 }
 
 html {
-  font-size: 113%;
+  font-size: 1.0em;
 }
 
 .main-nav {
@@ -40,33 +40,26 @@ html {
   z-index: 5000;
 }
 
-@media only screen and (min-width: 62.5em) { /* 62.5em = 1.000 px */
-  .main-nav {
-    position: relative;
-    z-index: 100;
-  }
-}
-
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.28em;
+  padding: 0.25em;
   background: #f9f9f9;
 }
 
 .menu-icon-nhl {
   display: inline-block;
   vertical-align: middle;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   background: black /* url(image/favicon.svg) */;
 }
 
 .menu {
   position: relative;
-  font-size: 0.8em;
+  font-size: 1.4em;
   font-family: -apple-system, sans-serif;
   text-align: center;
   color: grey;
@@ -115,8 +108,7 @@ html {
 }
 
 .menu-link:hover {
-  color: black;
-  background: white;
+  color: #aaa;
 }
 
 .main-nav {
