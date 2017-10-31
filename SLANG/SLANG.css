@@ -68,13 +68,9 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .Babo:hover {
-
   background-image: url("images/Babo.gif");
-  cursor: url("images/babo.jpg"),auto;
-
+  cursor: url("images/babotext.gif"),auto;
 }
-
-
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
@@ -85,8 +81,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .Niveaulimbo:hover {
-
-  cursor:url("images/zombie.gif");
+  cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
