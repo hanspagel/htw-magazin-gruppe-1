@@ -88,13 +88,9 @@ margin-right: auto;
 }
 
 .Babo:hover {
-
   background-image: url("images/Babo.gif");
-  cursor: url("images/babo.jpg"),auto;
-
+  cursor: url("images/babotext.gif"),auto;
 }
-
-
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
@@ -105,8 +101,7 @@ margin-right: auto;
 }
 
 .Niveaulimbo:hover {
-
-  cursor:url("images/zombie.gif");
+  cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
