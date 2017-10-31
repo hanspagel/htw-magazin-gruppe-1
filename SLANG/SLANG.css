@@ -64,12 +64,17 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   width: 300px;
   height: 300px;
   margin:auto;
+
 }
 
 .Babo:hover {
-  cursor:pointer;
+
   background-image: url("images/Babo.gif");
+  cursor: url("images/babo.jpg"),auto;
+
 }
+
+
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
@@ -80,7 +85,8 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .Niveaulimbo:hover {
-  cursor:pointer;
+
+  cursor:url("images/zombie.gif");
   background-image: url("images/Niveaulimbo.gif");
 }
 
