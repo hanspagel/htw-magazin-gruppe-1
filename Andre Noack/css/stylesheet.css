@@ -14,12 +14,6 @@
   white-space: nowrap;
 }
 
-.uilist {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 body {
   position: relative;
   margin: 0;
@@ -35,26 +29,16 @@ html {
   font-size: 1.0em;
 }
 
+ul li {
+  list-style: none;
+  /*display: inline;*/
+  float: left;
+}
+
+/*
 .main-nav {
   position: fixed;
   z-index: 5000;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.25em;
-  background: #f9f9f9;
-}
-
-.menu-icon-nhl {
-  display: inline-block;
-  vertical-align: middle;
-  width: 60px;
-  height: 60px;
-  background: black /* url(image/favicon.svg) */;
 }
 
 .menu {
@@ -77,71 +61,28 @@ html {
   padding: 0 10px;
 }
 
-.menu-secondary {
-  font-size: 1em;
-  padding: 0 10px;
-  line-height: 2.5em;
-}
-
-.menu-links {
-  margin: 0 -10px;
-  border-top: 1px solid red;
-  border-left: 1px solid red;
-}
-
-.menu-links > li {
-  float: left;
-  width: 50%;
-}
-
-.menu-links > li.more:hover {
-  display: block;
-}
-
 .menu-link {
   display: block;
-  padding: 0 16px;
-  line-height: 3.5em;
-  vertical-align: middle;
-  color: inherit;
-  text-decoration: inherit;
+  padding: 10px 10px 35px 10px;
 }
 
 .menu-link:hover {
   color: #aaa;
 }
 
-.main-nav {
-  position: relative;
-}
-
-.menu {
-  text-align: left;
-}
-
 .menu-up {
   display: none;
-}
-
-.menu-down {
-  display: block;
 }
 
 .menu-panel .menu-inner {
   padding: 0 0 0 60px;
 }
 
-.menu-inner {
-  position: relative;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.menu-main, .menu-sub {
+.menu-main {
   float: left;
 }
 
-.menu-primary, .menu-secondary {
+.menu-primary {
   padding: 0 15px;
 }
 
@@ -155,40 +96,7 @@ html {
   border: 0;
 }
 
-.menu-home {
-  display: block;
-  position: absolute;
-  top: 0.55rem;
-  left: 5px;
-}
-
-.headline {
-  text-align: center;
-  margin-top: -200px;
-}
-
-.title {
-  text-align: center;
-  font-family: -apple-system, sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-  letter-spacing: 1px;
-  color: white;
-}
-
-.subtitle {
-  font-family: -apple-system, sans-serif;
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 1.6;
-  color: white;
-}
-
-.subtitle a {
-  text-decoration: underline;
-  color: white;
-}
+*/
 
 /* ---------------> transform + scale = !!! AUSPROBIEREN !!!
 
@@ -203,21 +111,8 @@ html {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.4;
+  line-height: 1.5;
   z-index: 100;
-}
-
-.navibar {
-  height: 52px;
-  line-height: 1;
-  background: #fff;
-  border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  align-items: center;
-}
-
-.navibar a {
-  font-family: -apple-system, sans-serif;
 }
 
 .header {
