@@ -22,8 +22,6 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   margin-bottom: 0.3em;
 }
 
-
-
 .article-inner {
   max-width: 700px;
   margin-left: auto;
@@ -32,31 +30,26 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-inner-wide  {
   max-width: 1000px;
-
-}
-
-.container {
 }
 
 #parent{
-
-margin-left: auto;
-margin-right: auto;
-
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#parent2 {
-
-margin-left: auto;
-margin-right: auto;
-
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -68,8 +61,8 @@ margin-right: auto;
 .zombie {
   background-image: url("images/zombie.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -81,22 +74,21 @@ margin-right: auto;
 .Babo {
   background-image: url("images/Babo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
-
 }
 
 .Babo:hover {
-  background-image: url("images/Babo.gif");
   cursor: url("images/babotext.gif"),auto;
+  background-image: url("images/Babo.gif");
 }
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -108,13 +100,13 @@ margin-right: auto;
 .fly-sein {
   background-image: url("images/Fly-sein.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
 .fly-sein:hover {
-  cursor:pointer;
+  cursor: url("images/flytext.gif"),auto;
   background-image: url("images/Fly-sein.gif");
 }
 
@@ -124,6 +116,13 @@ margin-right: auto;
   margin-top: 2rem;
   font-family: 'Arimo', sans-serif;
   border: 3px dashed blue;
+  text-align: center;
+}
+
+.article-module-article-inner {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-image {
@@ -141,6 +140,6 @@ margin-right: auto;
 }
 
 .article-teaser-image img {
-  width: 300px;
+  width: 350px;
   margin-right: 2rem;
 }
