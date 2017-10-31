@@ -41,7 +41,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .Swag:hover {
-  cursor:pointer;
+  cursor: url("images/swagtext.gif"),auto;
   background-image: url("images/Swag.gif");
 }
 
@@ -113,4 +113,19 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-image {
     display: flex;
+}
+
+.article-teaser {
+  display: flex;
+  color: blue;
+}
+
+.article-teaser:hover{
+  color: red;
+  transform: rotate(5deg);
+}
+
+.article-teaser-image img {
+  width: 300px;
+  margin-right: 2rem;
 }
