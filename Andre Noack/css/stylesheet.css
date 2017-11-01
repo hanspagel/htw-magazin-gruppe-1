@@ -99,33 +99,36 @@ ul li {
 }
 
 .header {
-  background-image: url('../image/test.jpg');
+  background-image: url('../image/cyan.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
-  text-align: center;
+  text-align: left;
   position: relative;
   color: white;
 }
 
 .header-content {
   position: absolute;
-  bottom: 20%;
+  bottom: 50%;
   width: 100%;
 }
 
+.test {
+  width: 60%;
+  float: left;
+}
+
 .header-headline {
+  width: 40%;
   font-family: -apple-system, sans-serif;
   font-size: 2.2em;
-  line-height: 0.6;
+  line-height: 1.3em;
+  float: left;
 }
 
 .header-subline {
   font-family: -apple-system, sans-serif;
   font-size: 1.2em;
   line-height: 0.6;
-}
-
-.header-subline a {
-  color: white;
 }
