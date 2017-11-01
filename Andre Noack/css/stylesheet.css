@@ -1,8 +1,9 @@
 * {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 body {
+  min-height: 100vh;
   position: relative;
   margin: 0;
   font-style: normal;
@@ -16,25 +17,11 @@ html {
   font-size: 1.0em;
 }
 
-ul li {
-  list-style: none;
-  float: left;
-  padding-left: 5em;
-}
-
-ul li:first-child {
-  padding-left: 0;
-  padding-right: 20em;
-}
-
-ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-ul li a:hover {
-  text-decoration: underline;
-  color: cyan;
+.navi-wrapper {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
 }
 
 .navi {
@@ -42,25 +29,49 @@ ul li a:hover {
   font-size: 1.6em;
 }
 
-.navi-wrapper {
-  position: fixed;
-  background-color: #aaa;
-  width: 100%;
-}
-
 .content-padding {
   padding-top: 1.7em;
-  padding-bottom: 4.0em;
+  padding-bottom: 3.5em;
   padding-right: 2em;
   padding-left: 2em;
 }
 
-/* ---------------> transform + scale = !!! AUSPROBIEREN !!!
+.one {
+    width: 50%;
+    float: left;
+}
 
-  transform: rotate(-3deg) scale(1.2);
-  skew = neigen (auch in Grad)
+.two {
+    width: 18%;
+    float: left;
+}
 
-<--------------- */
+.three {
+    width: 18%;
+    float: left;
+}
+
+.four-one {
+    width: 7%;
+    float: left;
+    text-align: right;
+}
+
+.four-two {
+    width: 7%;
+    float: left;
+    text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  transition: 1s;
+  color: cyan;
+}
 
 .text {
   margin-top: 50px;
@@ -78,25 +89,26 @@ ul li a:hover {
   background-position: center;
   height: 80vh;
   text-align: left;
-  /*position: relative;*/
+/*  position: relative;*/
   color: white;
 }
 
 .header-content {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 50%;
   width: 100%;
 }
 
 .test {
-  width: 60%;
+  width: 50%;
   float: left;
+  color: rgba(255,255,255,0);
 }
 
 .header-headline {
-  width: 40%;
+  width: 50%;
   font-family: -apple-system, sans-serif;
-  font-size: 2.2em;
+  font-size: 3.0em;
   line-height: 1.3em;
   float: left;
 }
