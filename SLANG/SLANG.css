@@ -111,16 +111,22 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .article-text-info {
-  background-color: yellow;
+  background-color: blue;
   padding: 1rem 1.3rem;
   margin-top: 2rem;
   font-family: 'Arimo', sans-serif;
-  border: 3px dashed blue;
   text-align: center;
+  color: white;
+}
+
+.article-module-article-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-module-article-inner {
-  width: 1400px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,6 +137,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-teaser {
   display: flex;
+  margin-top: 200px;
   color: blue;
 }
 
