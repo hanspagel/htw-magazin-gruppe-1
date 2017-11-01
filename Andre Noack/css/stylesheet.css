@@ -24,6 +24,17 @@ ul li {
 
 ul li:first-child {
   padding-left: 0;
+  padding-right: 20em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: cyan;
 }
 
 .navi {
@@ -33,13 +44,13 @@ ul li:first-child {
 
 .navi-wrapper {
   position: fixed;
-  background-color: red;
+  background-color: #aaa;
   width: 100%;
 }
 
 .content-padding {
   padding-top: 1.7em;
-  padding-bottom: 3.25em;
+  padding-bottom: 4.0em;
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -67,7 +78,7 @@ ul li:first-child {
   background-position: center;
   height: 80vh;
   text-align: left;
-  position: relative;
+  /*position: relative;*/
   color: white;
 }
 
@@ -93,5 +104,5 @@ ul li:first-child {
 .header-subline {
   font-family: -apple-system, sans-serif;
   font-size: 1.2em;
-  line-height: 0.6;
+  line-height: 0.6em;
 }
