@@ -1,7 +1,10 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
   position: relative;
   margin: 0;
-  font-family: "Bitter", Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -18,68 +21,10 @@ ul li {
   float: left;
 }
 
-/*
-.main-nav {
-  position: fixed;
-  z-index: 5000;
+.navi {
+  color: black;
+  font-size: 1.6em;
 }
-
-.menu {
-  position: relative;
-  font-size: 1.4em;
-  font-family: -apple-system, sans-serif;
-  text-align: center;
-  color: grey;
-  background: #f9f9f9;
-}
-
-.menu-panel {
-  position: static;
-  box-shadow: none;
-  border-bottom: 0;
-}
-
-.menu-primary {
-  background: #f2f2f2;
-  padding: 0 10px;
-}
-
-.menu-link {
-  display: block;
-  padding: 10px 10px 35px 10px;
-}
-
-.menu-link:hover {
-  color: #aaa;
-}
-
-.menu-up {
-  display: none;
-}
-
-.menu-panel .menu-inner {
-  padding: 0 0 0 60px;
-}
-
-.menu-main {
-  float: left;
-}
-
-.menu-primary {
-  padding: 0 15px;
-}
-
-.menu-links {
-  margin: 0;
-  border: 0;
-}
-
-.menu-links > li {
-  width: auto;
-  border: 0;
-}
-
-*/
 
 /* ---------------> transform + scale = !!! AUSPROBIEREN !!!
 
