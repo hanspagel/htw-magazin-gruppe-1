@@ -3,11 +3,7 @@
 }
 
 body {
-  min-height: 100vh;
-  position: relative;
   margin: 0;
-  font-style: normal;
-  font-weight: 400;
   font-size: 1em;
   color: #000;
   background-color: #fff;
@@ -17,11 +13,23 @@ html {
   font-size: 1.0em;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  transition: 1s;
+  color: cyan;
+}
+
 .navi-wrapper {
   position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: left;
   background-color: #fff;
-  width: 100%;
-  overflow: hidden;
 }
 
 .navi {
@@ -31,7 +39,7 @@ html {
 
 .content-padding {
   padding-top: 1.7em;
-  padding-bottom: 3.5em;
+  padding-bottom: 3.25em;
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -63,16 +71,6 @@ html {
     text-align: right;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  transition: 1s;
-  color: cyan;
-}
-
 .text {
   margin-top: 50px;
   text-align: left;
@@ -89,12 +87,11 @@ a:hover {
   background-position: center;
   height: 80vh;
   text-align: left;
-/*  position: relative;*/
   color: white;
+  margin-top: 127px;
 }
 
 .header-content {
-  /*position: absolute;*/
   bottom: 50%;
   width: 100%;
 }
@@ -102,7 +99,7 @@ a:hover {
 .test {
   width: 50%;
   float: left;
-  color: rgba(255,255,255,0);
+  color: rgba(255, 255, 255, 0);
 }
 
 .header-headline {
