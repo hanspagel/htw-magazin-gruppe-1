@@ -32,7 +32,7 @@ video {
 .text-video {
   z-index: 2;
   position: absolute;
-  background: rgba(0, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.25);
   top: 0;
   bottom: 0;
   left: 0;
@@ -47,6 +47,7 @@ video {
 .text-video a {
   color: white;
   text-decoration: none;
+  transition: none;
 }
 
 /* ––– ENDE Landing Page ––– */
@@ -57,8 +58,8 @@ a {
 }
 
 a:hover {
-  transition: 1s;
-  color: cyan;
+  transition: 0.5s;
+  color: grey;
 }
 
 .navi-wrapper {
@@ -88,23 +89,23 @@ a:hover {
 }
 
 .two {
-    width: 18%;
+    width: 22%;
     float: left;
 }
 
 .three {
-    width: 18%;
+    width: 22%;
     float: left;
 }
 
 .four-one {
-    width: 7%;
+    width: 3%;
     float: left;
     text-align: right;
 }
 
 .four-two {
-    width: 7%;
+    width: 3%;
     float: left;
     text-align: right;
 }
@@ -134,6 +135,11 @@ a:hover {
   height: 80vh;
   text-align: left;
   color: white;*/
+}
+
+.header-fr {
+  margin-top: 127px;
+  background-color: #1CBCD9;
 }
 
 .header-content {
