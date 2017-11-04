@@ -2,16 +2,54 @@
   font-family: -apple-system, sans-serif;
 }
 
-body {
+body, html {
   margin: 0;
-  font-size: 1em;
+  padding: 0;
+  font-size: 1.0em;
   color: #000;
   background-color: #fff;
+  width: 100%;
 }
 
-html {
-  font-size: 1.0em;
+/* ––– VIDEO Landing Page ––– */
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100.5%;
+  min-height: 100.5%;
+  width: auto;
+  height: auto;
+  z-index: 1;
 }
+
+.video-wrapper {
+
+}
+
+.text-video {
+  z-index: 2;
+  position: absolute;
+  background: rgba(0, 255, 255, 0.25);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 16.5%;
+  font-size: 20em;
+  font-weight: 600;
+  color: white;
+}
+
+.text-video a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ––– ENDE Landing Page ––– */
 
 a {
   text-decoration: none;
@@ -71,6 +109,12 @@ a:hover {
     text-align: right;
 }
 
+.five {
+  width: 50%;
+  float: left;
+  color: rgba(255, 255, 255, 0);
+}
+
 .text {
   margin-top: 50px;
   text-align: left;
@@ -82,36 +126,35 @@ a:hover {
 }
 
 .header {
-  background-image: url('../image/cyan.png');
+  margin-top: 127px;
+  background-color: tomato;
+  /*background-image: url('../image/test.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
   text-align: left;
-  color: white;
-  margin-top: 127px;
+  color: white;*/
 }
 
 .header-content {
-  bottom: 50%;
-  width: 100%;
-}
-
-.five {
-  width: 50%;
-  float: left;
-  color: rgba(255, 255, 255, 0);
+  color: black;
+  height: 654px;
+  padding-top: 200px;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 .header-headline {
-  width: 50%;
-  font-family: -apple-system, sans-serif;
-  font-size: 3.0em;
-  line-height: 1.3em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+  line-height: 1.1em;
+  width: 40%;
   float: left;
+  margin-bottom: 200px;
 }
 
-.header-subline {
+/*.header-subline {
   font-family: -apple-system, sans-serif;
   font-size: 1.2em;
   line-height: 0.6em;
-}
+}*/
