@@ -1,0 +1,57 @@
+  /*/Com + Schift+7 kommentieren*/
+html {
+  font-family: 'Comic Sans',sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+body {
+background-color: blue;
+}
+h1 {
+  font-weight: normal;
+  font-family: 'Arimo'; serif;
+  letter-spacing: 0.1em;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 2rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*nur der Erster Absatz größe ist*/
+/* NOTE:  */
+.artticle-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+.article-inner {
+  /* NOTE: maximale größe für article */
+  max-width: 700px;
+  /* NOTE: Abstand link und rechts gleich - mittig */
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-image img {
+/* NOTE: 100% vom Breite des Articles vom article inner */
+  max-width: 100%;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NOTE: Abstand zwischen Moduls */
+.article-module {
+  background-color: pink;
+  padding: 50px 0px;
+}
+.article-text-info {
+  background-color: yellow;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 20px 0 red;
+}

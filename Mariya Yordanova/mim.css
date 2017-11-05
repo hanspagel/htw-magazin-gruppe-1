@@ -69,9 +69,9 @@ max-width: 100%;
 }
 
 .article-teaser img {
-  width: 20%;
-  height: 20%;
-  padding: 50px 50px 50px 50px;
+  width: 80%;
+  height: 80%;
+  padding: 50px 50px 50px 0px;
 }
 
 .article-teaser-image {

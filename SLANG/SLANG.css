@@ -1,0 +1,152 @@
+html {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+line-height: 1.6; /* NOTE: this is always 160 procent */
+color: #0000ff;
+background-color: white;
+/*position: relative;*/
+/*padding: 50;*/
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  /*margin-left: 50;*/
+  letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
+  font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
+}
+
+p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
+  font-size: 24px;
+  margin-bottom: 0.3em;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide  {
+  max-width: 1000px;
+}
+
+#parent{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor: url("images/swagtext.gif"),auto;
+  background-image: url("images/Swag.gif");
+}
+
+.zombie {
+  background-image: url("images/zombie.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.zombie:hover {
+  cursor: url("images/smombie.gif"),auto;
+  background-image: url("images/zombie.gif");
+}
+
+.Babo {
+  background-image: url("images/Babo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Babo:hover {
+  cursor: url("images/babotext.gif"),auto;
+  background-image: url("images/Babo.gif");
+}
+
+.Niveaulimbo {
+  background-image: url("images/Niveaulimbo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Niveaulimbo:hover {
+  cursor: url("images/niveautext.gif"),auto;
+  background-image: url("images/Niveaulimbo.gif");
+}
+
+.fly-sein {
+  background-image: url("images/Fly-sein.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.fly-sein:hover {
+  cursor: url("images/flytext.gif"),auto;
+  background-image: url("images/Fly-sein.gif");
+}
+
+.article-text-info {
+  background-color: blue;
+  padding: 1rem 1.3rem;
+  margin-top: 2rem;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.article-module-article-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-module-article-inner {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image {
+    display: flex;
+}
+
+.article-teaser {
+  display: flex;
+  margin-top: 200px;
+  color: blue;
+}
+
+.article-teaser:hover{
+  color: red;
+  transform: rotate(5deg);
+}
+
+.article-teaser-image img {
+  width: 350px;
+  margin-right: 2rem;
+}
