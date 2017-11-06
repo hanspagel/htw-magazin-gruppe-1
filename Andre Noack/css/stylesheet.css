@@ -278,7 +278,7 @@ p.link a:hover span {
 
 .nhl_city_newyork-1 {
   position: absolute;
-  top: 572px;
+  top: 571px;
   left: 733px;
   margin-top: 127px;
 }
@@ -303,7 +303,7 @@ p.link a:hover span {
 .nhl_city_newjersey {
   position: absolute;
   top: 584px;
-  left: 730px;
+  left: 729px;
   margin-top: 127px;
 }
 
@@ -428,7 +428,6 @@ p.link a:hover span {
 
 .nhl_city_vegas {
   position: absolute;
-  z-index: 1;
   top: 661px;
   left: 175px;
   margin-top: 127px;
@@ -441,7 +440,6 @@ p.link a:hover span {
 
 .nhl_city_losangeles-1 {
   position: absolute;
-  z-index: 1;
   top: 680px;
   left: 124px;
   margin-top: 127px;
@@ -454,13 +452,84 @@ p.link a:hover span {
 
 .nhl_city_losangeles-2 {
   position: absolute;
-  z-index: 1;
   top: 690px;
   left: 134px;
   margin-top: 127px;
 }
 
 .nhl_city_losangeles-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_phoenix {
+  position: absolute;
+  top: 720px;
+  left: 204px;
+  margin-top: 127px;
+}
+
+.nhl_city_phoenix:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_nashville {
+  position: absolute;
+  top: 720px;
+  left: 565px;
+  margin-top: 127px;
+}
+
+.nhl_city_nashville:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_raleigh {
+  position: absolute;
+  top: 740px;
+  left: 668px;
+  margin-top: 127px;
+}
+
+.nhl_city_raleigh:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_dallas {
+  position: absolute;
+  top: 765px;
+  left: 430px;
+  margin-top: 127px;
+}
+
+.nhl_city_dallas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_tampa {
+  position: absolute;
+  top: 845px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_tampa:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_miami {
+  position: absolute;
+  top: 878px;
+  left: 692px;
+  margin-top: 127px;
+}
+
+.nhl_city_miami:hover {
   transform: scale(1.6);
   transition: 0.1s;
 }
