@@ -60,3 +60,44 @@ p {
   border: 10px double black;
   box-shadow: 10px 10px 5px 0 rgba(255, 0, 0, 0.5);
 }
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color:red;
+
+}
+.article-teaser-image img{
+  width: 120px;
+
+}
+.article-teaser-image{
+
+margin-right: 1rem;
+}
+  .article-teaser-headline{
+    align-self: center;
+      transition: all 1s;
+
+  }
+  .article-teaser:hover {
+    color:green;
+    transform: rotate(-3deg);
+  }
+
+  .article-graphic {
+    text-align: center;
+  }
+
+
+
+  .animated-eye {
+    animation: fancy 1s infinite alternate;
+    transform-origin: center;
+
+  }
+
+@keyframes fancy {
+  to {
+    transform: scale(1.2);
+  }
+}
