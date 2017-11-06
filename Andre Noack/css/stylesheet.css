@@ -374,6 +374,97 @@ p.link a:hover span {
   transition: 0.1s;
 }
 
+.nhl_city_columbus {
+  position: absolute;
+  z-index: 1;
+  top: 633px;
+  left: 620px;
+  margin-top: 127px;
+}
+
+.nhl_city_columbus:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_colorado {
+  position: absolute;
+  z-index: 1;
+  top: 630px;
+  left: 325px;
+  margin-top: 127px;
+}
+
+.nhl_city_colorado:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_sanjose {
+  position: absolute;
+  z-index: 1;
+  top: 605px;
+  left: 107px;
+  margin-top: 127px;
+}
+
+.nhl_city_sanjose:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_stlouis {
+  position: absolute;
+  z-index: 1;
+  top: 663px;
+  left: 525px;
+  margin-top: 127px;
+}
+
+.nhl_city_stlouis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_vegas {
+  position: absolute;
+  z-index: 1;
+  top: 661px;
+  left: 175px;
+  margin-top: 127px;
+}
+
+.nhl_city_vegas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-1 {
+  position: absolute;
+  z-index: 1;
+  top: 680px;
+  left: 124px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-2 {
+  position: absolute;
+  z-index: 1;
+  top: 690px;
+  left: 134px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
 .text {
   margin-top: 50px;
   text-align: left;
