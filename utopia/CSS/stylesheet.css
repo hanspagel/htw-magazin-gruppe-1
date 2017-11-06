@@ -71,3 +71,31 @@ h2{
   border: 5px dashed yellow;
   box-shadow: 10px 10px 20px 0 red;
 }
+
+.article-teaser{
+display: flex;
+text-decoration: none;
+color:red
+}
+
+.article-teaser:hover {
+  color: green;
+}
+
+.article-teaser:hover .article-teaser-headline{
+  transform: rotate(180deg);
+}
+
+.article-teaser-image{
+  margin-right: 1rem;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-headline{
+  align-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: all 10s;
+}
