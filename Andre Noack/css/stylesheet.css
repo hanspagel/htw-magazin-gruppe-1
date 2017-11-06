@@ -58,8 +58,8 @@ a {
 }
 
 a:hover {
-  transition: 0.5s;
-  color: grey;
+  transition: 0.3s;
+  color: #aaa;
 }
 
 .navi-wrapper {
@@ -116,6 +116,147 @@ a:hover {
   color: rgba(255, 255, 255, 0);
 }
 
+/* MAP HOVER */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.link a:hover {
+  color:#fff;
+}
+
+p.link a:link span {
+  display: none;
+}
+
+p.link a:visited span {
+  display: none;
+}
+
+p.link a:hover span {
+  /*position: absolute;*/
+  color: black;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* === MAP – CANADA === */
+
+.nhl_map {
+  width: 50%;
+  margin-top: 127px;
+  /*background-color: #eee;*/
+  background-size: cover;
+}
+
+.nhl_city_montreal {
+  position: absolute;
+  z-index: 2;
+  top: 504px;
+  left: 716px;
+  margin-top: 127px;
+}
+
+.nhl_city_montreal:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_ottawa {
+  position: absolute;
+  z-index: 2;
+  top: 519px;
+  left: 690px;
+  margin-top: 127px;
+}
+
+.nhl_city_ottawa:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_toronto {
+  position: absolute;
+  z-index: 2;
+  top: 547px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_toronto:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_winnipeg {
+  position: absolute;
+  z-index: 2;
+  top: 473px;
+  left: 448px;
+  margin-top: 127px;
+}
+
+.nhl_city_winnipeg:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_edmonton {
+  position: absolute;
+  z-index: 2;
+  top: 372px;
+  left: 286px;
+  margin-top: 127px;
+}
+
+.nhl_city_edmonton:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_calgary {
+  position: absolute;
+  z-index: 2;
+  top: 411px;
+  left: 259px;
+  margin-top: 127px;
+}
+
+.nhl_city_calgary:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+.nhl_city_vancouver {
+  position: absolute;
+  z-index: 2;
+  top: 415px;
+  left: 172px;
+  margin-top: 127px;
+}
+
+.nhl_city_vancouver:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
+/* === MAP – USA === */
+
+.nhl_city_detroit {
+  position: absolute;
+  z-index: 2;
+  top: 594px;
+  left: 610px;
+  margin-top: 127px;
+}
+
+.nhl_city_detroit:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
 .text {
   margin-top: 50px;
   text-align: left;
@@ -128,6 +269,7 @@ a:hover {
 
 .header {
   margin-top: 127px;
+  background-color: none;
   background-color: tomato;
   /*background-image: url('../image/test.jpg');
   background-size: cover;
