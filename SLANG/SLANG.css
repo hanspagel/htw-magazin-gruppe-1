@@ -147,6 +147,34 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .article-teaser-image img {
-  width: 350px;
+  width: 150px;
+  margin-left: 700px;
   margin-right: 2rem;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: blue;
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 3s infinite;
+  transform-origin:center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
 }

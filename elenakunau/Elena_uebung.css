@@ -44,7 +44,6 @@ h1 {
   background-color: pink;
   padding: 50px 0px;
 }
-
 .article-text-info {
   background-color: yellow;
   float: right;
@@ -56,6 +55,7 @@ h1 {
   /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 20px 0 red;
 }
+<<<<<<< HEAD:elenakunau/Elena_uebung.css
 
 .article-teaser-image img {
   width: 120px;
@@ -123,3 +123,5 @@ h1 {
 .button-rounded {
   border-radius: 5px;
 }
+=======
+>>>>>>> 2b6c0b813859a5fe0a8f9619d05a82fd7b5aef1b:Künstliche Intelligenz/Elena_uebung.css
