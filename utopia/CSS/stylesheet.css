@@ -71,6 +71,7 @@ h2{
   border: 5px dashed yellow;
   box-shadow: 10px 10px 20px 0 red;
 }
+<<<<<<< HEAD
 
 .article-teaser{
 display: flex;
@@ -152,3 +153,5 @@ color:red
     stroke:pink;
   }
 }
+=======
+>>>>>>> 79885946af4aba96d3624f4b09e27ba6c531ba77

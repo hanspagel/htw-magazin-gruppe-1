@@ -44,7 +44,6 @@ h1 {
   background-color: pink;
   padding: 50px 0px;
 }
-
 .article-text-info {
   background-color: yellow;
   float: right;
@@ -55,30 +54,4 @@ h1 {
   border: 10px solid rgba(0, 0, 0, 0.1);
   /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 20px 0 red;
-}
-
-.article-teaser-image img {
-  width: 120px;
-}
-
-.article-teaser:hover .article-teaser-headline {
-  color:green;
-  transform: rotate(180deg);
-
-}
-
-.article-teaser-image {
-  margin-right: 1rem;
-}
-
-.article-teaser-headline {
-align-self: center;
-font-family: 'Arimo', sans-serif;
-text-decoration: none;
-}
-
-.article-teaser{
-display: flex;
-text-decoration: none;
-transition: all 1s;
 }
