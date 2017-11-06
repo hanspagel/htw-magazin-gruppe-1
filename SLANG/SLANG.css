@@ -147,6 +147,11 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .article-teaser-image img {
-  width: 350px;
+  width: 150px;
+  margin-left: 700px;
   margin-right: 2rem;
+}
+
+.article-graphic {
+  text-align: center;
 }
