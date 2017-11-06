@@ -1,4 +1,4 @@
-html{
+html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Boston-Regular', sans-serif;
@@ -6,26 +6,27 @@ html{
   line-height: 1.4;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: black;
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: black;
 }
 
 ::selection {
-    color: white;
-    background: black;
+  color: white;
+  background: black;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: Boston-Black;
-	font-weight: normal;
-	font-style: normal;
-	line-height: 1em;
-	padding: 0;
-	margin: 0 0 1em 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 0 1em 0;
 }
 
-h2{
+h2 {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.1em;
@@ -35,56 +36,65 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
 
-}
+a:hover {}
 
-ul{
+ul {
   margin: 0px;
 }
 
-main{
+main {
   margin: auto;
   width: 100%;
 }
 
-section{
+section {
   column-count: 2;
   column-gap: 50px;
   margin: auto;
   width: 800px;
 }
-.h1box{
+
+.h1box {
   margin: auto;
   width: 800px;
 }
 
-#fp-nav.right{
+#fp-nav.right {
   right: calc(50% - 500px);
 }
 
-#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
   height: 4px;
   width: 4px;
   margin: -2px 0 0 -2px;
   border-radius: 100%;
   background-color: tomato;
 }
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
   background-color: rgb(100, 100, 100);
 }
 
-p{
+p {
   margin: 0 0 0.5em 0;
 }
 
-.inlineimg{
+.inlineimg {
   width: 12px;
 }
 
+.fp-responsive section {
+  column-count: 1;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.fp-responsive .h1box {
+  width: 100%;
+}
+
 @media all and (max-width: 780px) {
-  section{
+  section {
     column-count: 1;
     width: 100%;
     padding: 0 8px;
