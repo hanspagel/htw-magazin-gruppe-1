@@ -1,3 +1,5 @@
+/* NOTE: rem nimmt oberste Schriftgröße als Beispiel */
+
 html, body {
  margin: 0px;
  padding: 0px;
@@ -28,4 +30,37 @@ p {
   font-family: 'VT323', monospace;
   font-size:
   line-height: 1.4;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-picture img {
+  max-width: 50%;
+  height: auto;
+}
+
+.article-teaser {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: sans-serif;
+}
+
+.article-teaser:hover {
+  color: green;
 }
