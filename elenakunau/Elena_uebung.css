@@ -72,13 +72,54 @@ h1 {
 }
 
 .article-teaser-headline {
-align-self: center;
-font-family: 'Arimo', sans-serif;
-text-decoration: none;
+  align-self: center;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
 }
 
 .article-teaser{
-display: flex;
-text-decoration: none;
-transition: all 1s;
+  display: flex;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.article-graphic {
+  text-align: center;
+
+}
+
+.animated-eye {
+  animation: fan 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fan {
+  to {
+    fill: blue;
+    transform: scale(1.2) translateX(200px);
+  }
+
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.button {
+  font-size: 16px;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.button-rounded {
+  border-radius: 5px;
 }
