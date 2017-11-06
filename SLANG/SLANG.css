@@ -155,3 +155,26 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 .article-graphic {
   text-align: center;
 }
+
+.animated-eye {
+  animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: blue;
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 20s infinite;
+  transform-origin:center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
