@@ -71,3 +71,87 @@ h2{
   border: 5px dashed yellow;
   box-shadow: 10px 10px 20px 0 red;
 }
+<<<<<<< HEAD
+
+.article-teaser{
+display: flex;
+text-decoration: none;
+color:red
+}
+
+.article-teaser:hover {
+  color: green;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  transform: rotate(180deg);
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: all 10s;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.mund {
+  animation: munddrehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes munddrehen{
+  to{
+    transform: rotate(-360deg);
+  }
+  10%{
+    stroke: green;
+  }
+  30%{
+    stroke:turquoise;
+  }
+  50%{
+    stroke:blue;
+  }
+  70%{
+    stroke:violet;
+  }
+  90%{
+    stroke:pink;
+  }
+}
+=======
+>>>>>>> 79885946af4aba96d3624f4b09e27ba6c531ba77
