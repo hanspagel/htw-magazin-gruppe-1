@@ -169,7 +169,7 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 .animated-face {
-  animation: drehen 20s infinite;
+  animation: drehen 3s infinite;
   transform-origin:center;
 }
 
