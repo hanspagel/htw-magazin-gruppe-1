@@ -30,7 +30,6 @@ video {
 }
 
 .text-video {
-  z-index: 2;
   position: absolute;
   background: rgba(0, 0, 0, 0.25);
   top: 0;
@@ -64,6 +63,7 @@ a:hover {
 
 .navi-wrapper {
   position: fixed;
+  z-index: 10;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -136,7 +136,7 @@ p.link a:visited span {
 }
 
 p.link a:hover span {
-  /*position: absolute;*/
+  position: absolute;
   color: black;
   display: inline-block;
   margin-left: 5px;
@@ -153,7 +153,6 @@ p.link a:hover span {
 
 .nhl_city_montreal {
   position: absolute;
-  z-index: 2;
   top: 504px;
   left: 716px;
   margin-top: 127px;
@@ -166,7 +165,6 @@ p.link a:hover span {
 
 .nhl_city_ottawa {
   position: absolute;
-  z-index: 2;
   top: 519px;
   left: 690px;
   margin-top: 127px;
@@ -179,7 +177,6 @@ p.link a:hover span {
 
 .nhl_city_toronto {
   position: absolute;
-  z-index: 2;
   top: 547px;
   left: 660px;
   margin-top: 127px;
@@ -192,7 +189,6 @@ p.link a:hover span {
 
 .nhl_city_winnipeg {
   position: absolute;
-  z-index: 2;
   top: 473px;
   left: 448px;
   margin-top: 127px;
@@ -205,7 +201,6 @@ p.link a:hover span {
 
 .nhl_city_edmonton {
   position: absolute;
-  z-index: 2;
   top: 372px;
   left: 286px;
   margin-top: 127px;
@@ -218,7 +213,6 @@ p.link a:hover span {
 
 .nhl_city_calgary {
   position: absolute;
-  z-index: 2;
   top: 411px;
   left: 259px;
   margin-top: 127px;
@@ -231,7 +225,6 @@ p.link a:hover span {
 
 .nhl_city_vancouver {
   position: absolute;
-  z-index: 2;
   top: 415px;
   left: 172px;
   margin-top: 127px;
@@ -246,7 +239,6 @@ p.link a:hover span {
 
 .nhl_city_detroit {
   position: absolute;
-  z-index: 2;
   top: 594px;
   left: 610px;
   margin-top: 127px;
@@ -259,7 +251,6 @@ p.link a:hover span {
 
 .nhl_city_pittsburgh {
   position: absolute;
-  z-index: 2;
   top: 619px;
   left: 655px;
   margin-top: 127px;
