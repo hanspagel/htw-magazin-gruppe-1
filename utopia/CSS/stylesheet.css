@@ -99,3 +99,7 @@ color:red
   font-family: 'Josefin Sans', sans-serif;
   transition: all 10s;
 }
+
+.article-graphic{
+  text-align: center;
+}
