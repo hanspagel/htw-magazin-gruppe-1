@@ -1,209 +1,120 @@
-
-
-.nhl:after, ul li:after {
-  content: "";
-  display: table;
-  clear: both;
+* {
+  font-family: -apple-system, sans-serif;
 }
 
-.icon-nhl, .menu-icon-nhl {
-  background: none no-repeat transparent;
-  border: 0;
-  overflow: hidden;
-  text-indent: 120%;
-  white-space: nowrap;
-}
-
-.uilist {
+body, html {
   margin: 0;
   padding: 0;
-  list-style: none;
+  font-size: 1.0em;
+  color: #000;
+  background-color: #fff;
+  width: 100%;
 }
 
-body {
-  position: relative;
-  margin: 0;
-  font-family: "Bitter", Georgia, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
-  color: #000;
+/* ––– VIDEO Landing Page ––– */
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100.5%;
+  min-height: 100.5%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.video-wrapper {
+
+}
+
+.text-video {
+  z-index: 2;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 16.5%;
+  font-size: 20em;
+  font-weight: 600;
+  color: white;
+}
+
+.text-video a {
+  color: white;
+  text-decoration: none;
+  transition: none;
+}
+
+/* ––– ENDE Landing Page ––– */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: grey;
+}
+
+.navi-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: left;
   background-color: #fff;
 }
 
-html {
-  font-size: 113%;
+.navi {
+  color: black;
+  font-size: 1.6em;
 }
 
-.main-nav {
-  position: fixed;
-  z-index: 5000;
+.content-padding {
+  padding-top: 1.7em;
+  padding-bottom: 3.25em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
-@media only screen and (min-width: 62.5em) { /* 62.5em = 1.000 px */
-  .main-nav {
-    position: relative;
-    z-index: 100;
-  }
+.one {
+    width: 50%;
+    float: left;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.28em;
-  background: #f9f9f9;
+.two {
+    width: 22%;
+    float: left;
 }
 
-.menu-icon-nhl {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  background: url(image/favicon.svg);
+.three {
+    width: 22%;
+    float: left;
 }
 
-.menu {
-  position: relative;
-  font-size: 0.8em;
-  font-family: sans-serif;
-  text-align: center;
-  color: grey;
-  background: #f9f9f9;
+.four-one {
+    width: 3%;
+    float: left;
+    text-align: right;
 }
 
-.menu-panel {
-  position: static;
-  box-shadow: none;
-  border-bottom: 0;
+.four-two {
+    width: 3%;
+    float: left;
+    text-align: right;
 }
 
-.menu-primary {
-  background: #f2f2f2;
-  padding: 0 10px;
-}
-
-.menu-secondary {
-  font-size: 1em;
-  padding: 0 10px;
-  line-height: 2.5em;
-}
-
-.menu-links {
-  margin: 0 -10px;
-  border-top: 1px solid red;
-  border-left: 1px solid red;
-}
-
-.menu-links > li {
-  float: left;
+.five {
   width: 50%;
-}
-
-.menu-links > li.more:hover {
-  display: block;
-}
-
-.menu-link {
-  display: block;
-  padding: 0 16px;
-  line-height: 3.5em;
-  vertical-align: middle;
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.menu-link:hover {
-  color: cyan;
-  background: white;
-}
-
-.main-nav {
-  position: relative;
-}
-
-.menu {
-  text-align: left;
-}
-
-.menu-up {
-  display: none;
-}
-
-.menu-down {
-  display: block;
-}
-
-.menu-panel .menu-inner {
-  padding: 0 0 0 60px;
-}
-
-.menu-inner {
-  position: relative;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.menu-main, .menu-sub {
   float: left;
+  color: rgba(255, 255, 255, 0);
 }
-
-.menu-primary, .menu-secondary {
-  padding: 0 15px;
-}
-
-.menu-links {
-  margin: 0;
-  border: 0;
-}
-
-.menu-links > li {
-  width: auto;
-  border: 0;
-}
-
-.menu-home {
-  display: block;
-  position: absolute;
-  top: 0.55rem;
-  left: 5px;
-}
-
-.headline {
-  text-align: center;
-  margin-top: -200px;
-}
-
-.title {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-  letter-spacing: 1px;
-  color: white;
-}
-
-.subtitle {
-  font-family: sans-serif;
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 1.6;
-  color: white;
-}
-
-.subtitle a {
-  text-decoration: underline;
-  color: white;
-}
-
-/* ---------------> transform + scale = !!! AUSPROBIEREN !!!
-
-  transform: rotate(-3deg) scale(1.2);
-  skew = neigen (auch in Grad)
-
-<--------------- */
 
 .text {
   margin-top: 50px;
@@ -211,50 +122,45 @@ html {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.4;
+  line-height: 1.5;
   z-index: 100;
 }
 
-.navibar {
-  height: 52px;
-  line-height: 1;
-  background: #fff;
-  border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  align-items: center;
-}
-
-.navibar a {
-  font-family: sans-serif;
-}
-
 .header {
-  background-image: url('../image/test.jpg');
+  margin-top: 127px;
+  background-color: tomato;
+  /*background-image: url('../image/test.jpg');
   background-size: cover;
+  background-position: center;
   height: 80vh;
-  text-align: center;
-  position: relative;
-  color: white;
+  text-align: left;
+  color: white;*/
+}
+
+.header-fr {
+  margin-top: 127px;
+  background-color: #1CBCD9;
 }
 
 .header-content {
-  position: absolute;
-  bottom: 20%;
-  width: 100%;
+  color: black;
+  height: 654px;
+  padding-top: 200px;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 .header-headline {
-  font-family: sans-serif;
-  font-size: 2.2em;
-  line-height: 0.6;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+  line-height: 1.1em;
+  width: 40%;
+  float: left;
+  margin-bottom: 200px;
 }
 
-.header-subline {
-  font-family: sans-serif;
+/*.header-subline {
+  font-family: -apple-system, sans-serif;
   font-size: 1.2em;
-  line-height: 0.6;
-}
-
-.header-subline a {
-  color: white;
-}
+  line-height: 0.6em;
+}*/
