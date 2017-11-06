@@ -82,11 +82,11 @@ color:red
   color: green;
 }
 
-.article-teaser:hover .article-teaser-headline{
+.article-teaser:hover .article-teaser-headline {
   transform: rotate(180deg);
 }
 
-.article-teaser-image{
+.article-teaser-image {
   margin-right: 1rem;
 }
 
@@ -94,12 +94,61 @@ color:red
   width: 120px;
 }
 
-.article-teaser-headline{
+.article-teaser-headline {
   align-self: center;
   font-family: 'Josefin Sans', sans-serif;
   transition: all 10s;
 }
 
-.article-graphic{
+.article-graphic {
   text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.mund {
+  animation: munddrehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes munddrehen{
+  to{
+    transform: rotate(-360deg);
+  }
+  10%{
+    stroke: green;
+  }
+  30%{
+    stroke:turquoise;
+  }
+  50%{
+    stroke:blue;
+  }
+  70%{
+    stroke:violet;
+  }
+  90%{
+    stroke:pink;
+  }
 }
