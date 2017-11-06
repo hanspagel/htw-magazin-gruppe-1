@@ -257,6 +257,19 @@ p.link a:hover span {
   transition: 0.1s;
 }
 
+.nhl_city_pittsburgh {
+  position: absolute;
+  z-index: 2;
+  top: 619px;
+  left: 655px;
+  margin-top: 127px;
+}
+
+.nhl_city_pittsburgh:hover {
+  /*transform: scale(5.0);*/
+  transition: 0.1s;
+}
+
 .text {
   margin-top: 50px;
   text-align: left;
@@ -306,3 +319,5 @@ p.link a:hover span {
   font-size: 1.2em;
   line-height: 0.6em;
 }*/
+
+/* === Unterricht 06.11.2017 === */
