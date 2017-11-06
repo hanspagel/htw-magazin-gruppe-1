@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5 {
 	font-style: normal;
 	line-height: 1em;
 	padding: 0;
+<<<<<<< HEAD
+	margin: 1em 0;
+=======
 	margin: 0 0 1em 0;
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 }
 
 h2{
@@ -45,6 +49,15 @@ ul{
 
 main{
   margin: auto;
+<<<<<<< HEAD
+  width: 1200px;
+}
+
+section{
+  column-count: 2;
+}
+
+=======
   width: 100%;
 }
 
@@ -63,25 +76,11 @@ section{
   right: calc(50% - 500px);
 }
 
-#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
-  height: 4px;
-  width: 4px;
-  margin: -2px 0 0 -2px;
-  border-radius: 100%;
-  background-color: tomato;
-}
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
-  background-color: rgb(100, 100, 100);
-}
-
 p{
-  margin: 0 0 0.5em 0;
+  margin: 0px;
 }
 
-.inlineimg{
-  width: 12px;
-}
+>>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 
 @media all and (max-width: 780px) {
   column-count: 1;
