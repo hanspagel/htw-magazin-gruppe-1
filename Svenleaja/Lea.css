@@ -50,3 +50,70 @@ h1 {
   /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0 darkgrey;
 }
+
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.article-teaser:hover {
+  color: white;
+  transform: rotate(0.5deg);
+}
+
+.article-teaser-image img {
+  width: 150px;
+}
+
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+}
+
+
+.article-module-article-related {
+  max-width: 10px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTE: ende */
