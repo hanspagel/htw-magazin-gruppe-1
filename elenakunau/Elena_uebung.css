@@ -55,3 +55,73 @@ h1 {
   /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 20px 0 red;
 }
+<<<<<<< HEAD:elenakunau/Elena_uebung.css
+
+.article-teaser-image img {
+  width: 120px;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  color:green;
+  transform: rotate(180deg);
+
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+}
+
+.article-teaser{
+  display: flex;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.article-graphic {
+  text-align: center;
+
+}
+
+.animated-eye {
+  animation: fan 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fan {
+  to {
+    fill: blue;
+    transform: scale(1.2) translateX(200px);
+  }
+
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.button {
+  font-size: 16px;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.button-rounded {
+  border-radius: 5px;
+}
+=======
+>>>>>>> 2b6c0b813859a5fe0a8f9619d05a82fd7b5aef1b:Künstliche Intelligenz/Elena_uebung.css
