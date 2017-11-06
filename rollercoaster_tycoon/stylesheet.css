@@ -81,6 +81,7 @@ p {
     fill: blue;
   }
 }
+
 .animated-face {
   animation: drehen 20s infinite;
   transform-origin: center;
