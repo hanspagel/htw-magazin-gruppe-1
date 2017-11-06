@@ -159,7 +159,7 @@ p.link a:hover span {
 }
 
 .nhl_city_montreal:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
@@ -171,19 +171,20 @@ p.link a:hover span {
 }
 
 .nhl_city_ottawa:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
 .nhl_city_toronto {
   position: absolute;
+  z-index: 1;
   top: 547px;
   left: 660px;
   margin-top: 127px;
 }
 
 .nhl_city_toronto:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
@@ -195,7 +196,7 @@ p.link a:hover span {
 }
 
 .nhl_city_winnipeg:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
@@ -207,7 +208,7 @@ p.link a:hover span {
 }
 
 .nhl_city_edmonton:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
@@ -219,7 +220,7 @@ p.link a:hover span {
 }
 
 .nhl_city_calgary:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
@@ -231,11 +232,85 @@ p.link a:hover span {
 }
 
 .nhl_city_vancouver:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
 /* === MAP – USA === */
+
+.nhl_city_boston {
+  position: absolute;
+  top: 545px;
+  left: 760px;
+  margin-top: 127px;
+}
+
+.nhl_city_boston:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_minneapolis {
+  position: absolute;
+  z-index: 1;
+  top: 550px;
+  left: 483px;
+  margin-top: 127px;
+}
+
+.nhl_city_minneapolis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_buffalo {
+  position: absolute;
+  z-index: 2;
+  top: 570px;
+  left: 680px;
+  margin-top: 127px;
+}
+
+.nhl_city_buffalo:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-1 {
+  position: absolute;
+  top: 572px;
+  left: 733px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-2 {
+  position: absolute;
+  top: 581px;
+  left: 743px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newjersey {
+  position: absolute;
+  top: 584px;
+  left: 730px;
+  margin-top: 127px;
+}
+
+.nhl_city_newjersey:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
 
 .nhl_city_detroit {
   position: absolute;
@@ -245,19 +320,57 @@ p.link a:hover span {
 }
 
 .nhl_city_detroit:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_chicago {
+  position: absolute;
+  z-index: 1;
+  top: 608px;
+  left: 551px;
+  margin-top: 127px;
+}
+
+.nhl_city_chicago:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_philadelphia {
+  position: absolute;
+  top: 610px;
+  left: 712px;
+  margin-top: 127px;
+}
+
+.nhl_city_philadelphia:hover {
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
 .nhl_city_pittsburgh {
   position: absolute;
+  z-index: 1;
   top: 619px;
   left: 655px;
   margin-top: 127px;
 }
 
 .nhl_city_pittsburgh:hover {
-  /*transform: scale(5.0);*/
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_washington {
+  position: absolute;
+  top: 632px;
+  left: 699px;
+  margin-top: 127px;
+}
+
+.nhl_city_washington:hover {
+  transform: scale(1.6);
   transition: 0.1s;
 }
 
