@@ -1,11 +1,12 @@
 html {font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       line-height: 1.4;
+      color: #778899;
 }
 
 body {
-    background: linear-gradient(to bottom, #87CEFA, #008B8B);
-}
+    background: linear-gradient(to bottom, #000912, #000408 );
+    }
 
 /* NOTE: Überschrift */
 h1 {font-family:'Merriweather', serif;
@@ -13,20 +14,21 @@ h1 {font-family:'Merriweather', serif;
     font-size: 1.7rem;
     margin-top: 1em;
     margin-bottom: 1em;
+    color: #40E0D0;
 }
 
 /* NOTE: Der erste Absatz im erstenTextmodul*/
 .article-text:first-of-type p:first-of-type {
-    font-size: 1.4rem;
-    font-style: italic;
-  }
+  font-size: 1.4rem;
+  font-style: italic;
+  color: lightgrey;
+}
 
 .article-inner {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .article-inner-wide {
     max-width: 900px;
@@ -43,7 +45,7 @@ h1 {font-family:'Merriweather', serif;
 }
 
 .article-text-info {
-  background-color: blue;
+  background-color: #40E0D0;
   float: right;
   width: 8rem;
   padding: 1rem 1.3rem;
@@ -51,8 +53,36 @@ h1 {font-family:'Merriweather', serif;
   margin-bottom:  1rem;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
+  font-weight: bold;
   color: white;
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  transition: all 2s;
+}
+
+.article-teaser:hover {
+  color: blue;
+  transform: rotate(30deg);
+}
+
+.article-teaser-image img {
+  width: 10rem;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  font-family:'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
 }
