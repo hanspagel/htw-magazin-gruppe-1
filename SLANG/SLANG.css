@@ -22,8 +22,6 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   margin-bottom: 0.3em;
 }
 
-
-
 .article-inner {
   max-width: 700px;
   margin-left: auto;
@@ -32,13 +30,10 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-inner-wide  {
   max-width: 1000px;
-
-}
-
-.container {
 }
 
 #parent{
+<<<<<<< HEAD
 position: relative;
 margin-left: auto;
 margin-right: auto;
@@ -50,13 +45,25 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
 
+=======
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -90,8 +97,8 @@ margin-right: auto;
 .zombie {
   background-image: url("images/zombie.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -103,17 +110,21 @@ margin-right: auto;
 .Babo {
   background-image: url("images/Babo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
-
 }
 
 .Babo:hover {
+<<<<<<< HEAD
 
   background-image: url("images/Babo.gif");
   cursor: url("images/babo.jpg"),auto;
 
+=======
+  cursor: url("images/babotext.gif"),auto;
+  background-image: url("images/Babo.gif");
+>>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
 
 
@@ -121,8 +132,8 @@ margin-right: auto;
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
@@ -135,22 +146,35 @@ margin-right: auto;
 .fly-sein {
   background-image: url("images/Fly-sein.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin:auto;
 }
 
 .fly-sein:hover {
-  cursor:pointer;
+  cursor: url("images/flytext.gif"),auto;
   background-image: url("images/Fly-sein.gif");
 }
 
 .article-text-info {
-  background-color: yellow;
+  background-color: blue;
   padding: 1rem 1.3rem;
   margin-top: 2rem;
   font-family: 'Arimo', sans-serif;
-  border: 3px dashed blue;
+  text-align: center;
+  color: white;
+}
+
+.article-module-article-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-module-article-inner {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-image {
@@ -159,6 +183,7 @@ margin-right: auto;
 
 .article-teaser {
   display: flex;
+  margin-top: 200px;
   color: blue;
 }
 
@@ -168,6 +193,34 @@ margin-right: auto;
 }
 
 .article-teaser-image img {
-  width: 300px;
+  width: 150px;
+  margin-left: 700px;
   margin-right: 2rem;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: blue;
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 3s infinite;
+  transform-origin:center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
 }
