@@ -39,14 +39,14 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 }
 
 #parent{
-
+position: relative;
 margin-left: auto;
 margin-right: auto;
 
 }
 
 #parent2 {
-
+position: relative;
 margin-left: auto;
 margin-right: auto;
 
@@ -58,6 +58,28 @@ margin-right: auto;
   width: 300px;
   height: 300px;
   margin:auto;
+}
+
+.Swag:hover {
+  cursor: url("images/swagtext.gif"),auto;
+  background-image: url("images/Swag.gif");
+}
+
+
+
+.yolo {
+  background-image: url("images/yolo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+
+.yolo:hover {
+  background-image: url("images/yolo.gif");
+  cursor: url("images/yolo.gif"),auto;
+
 }
 
 .Swag:hover {
@@ -88,9 +110,13 @@ margin-right: auto;
 }
 
 .Babo:hover {
+
   background-image: url("images/Babo.gif");
-  cursor: url("images/babotext.gif"),auto;
+  cursor: url("images/babo.jpg"),auto;
+
 }
+
+
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
@@ -101,7 +127,8 @@ margin-right: auto;
 }
 
 .Niveaulimbo:hover {
-  cursor: url("images/niveautext.gif"),auto;
+
+  cursor:url("images/zombie.gif");
   background-image: url("images/Niveaulimbo.gif");
 }
 
