@@ -28,7 +28,7 @@ h1 {
 
 p {
   font-family: 'VT323', monospace;
-  font-size:
+  font-size: 1.6em;
   line-height: 1.4;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 .header-picture img {
-  max-width: 50%;
+  max-width: 600px;
   height: auto;
 }
 
@@ -46,6 +46,7 @@ p {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 .article-teaser-image img{
@@ -63,4 +64,31 @@ p {
 
 .article-teaser:hover {
   color: green;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: eyes 3s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes eyes {
+  to {
+    transform: scale(1.2);
+    fill: blue;
+  }
+}
+
+.animated-face {
+  animation: drehen 20s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
 }
