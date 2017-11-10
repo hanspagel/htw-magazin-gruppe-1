@@ -546,7 +546,6 @@ p.link a:hover span {
 
 .header {
   margin-top: 127px;
-  background-color: none;
   background-color: tomato;
   /*background-image: url('../image/test.jpg');
   background-size: cover;
@@ -563,7 +562,7 @@ p.link a:hover span {
 
 .header-content {
   color: black;
-  height: 654px;
+  height: 677px;
   padding-top: 200px;
   font-size: 2.5em;
   font-weight: 700;
