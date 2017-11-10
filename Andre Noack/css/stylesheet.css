@@ -147,6 +147,9 @@ p.link a:hover span {
 .nhl_map {
   width: 50%;
   margin-top: 127px;
+  margin-bottom: 0;
+  height: 677px;
+  padding: 0;
   /*background-color: #eee;*/
   background-size: cover;
 }
