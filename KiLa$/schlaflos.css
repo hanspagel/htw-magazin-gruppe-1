@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: '5darius_regular';
+    src: url('fonts/5darius_-webfont.woff2') format('woff2'),
+         url('fonts/5darius_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   background-color: black;
   color: white;
@@ -32,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   letter-spacing: 0.1em;
   font-size: 1rem;
@@ -52,8 +62,8 @@ h3 {
 /* Experiment */
 
 .glitch-effect {
-  font-family: 'Inconsolata', monospace;
-  font-weight:bold;
+  font-family: 'Helvetica', monospace;
+  font-weight:bolder;
   letter-spacing: 0.1em;
   font-size: 3rem;
   margin-bottom: 3em;
@@ -226,7 +236,7 @@ h3 {
 
 
 .article {
-  max-width: 700px;
+  max-width: 550px;
 }
 
 .first-image img {
@@ -248,10 +258,10 @@ h3 {
   font-size:  20px;
   background: magenta;
   float: right;
-  padding: 1rem 1.3rem;
-  width: 10rem;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  padding: 1rem 1rem;
+  width: 7rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
   font-family: sans-serif;
   border: 10px cyan;
   box-shadow: 10px 10px 0 0 cyan;
@@ -274,10 +284,43 @@ h3 {
  }
 
  .article-teaser-image {
-  margin-right: 1rem;
+   margin-right: 1rem;
  }
 
  .article-teaser-headline {
    align-self: center;
    transition: all 1s;
  }
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 1s infinite alternate;
+  transform-origin: center;
+  fill: cyan;
+}
+
+.animated-face {
+  animation: drehen 60s infinite;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+
+    0% {fill: cyan;}
+    25% {fill: yellow;}
+
+    from {}
+    to {
+      transform:scale(1.2) translateX(200px);
+
+}
+
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
