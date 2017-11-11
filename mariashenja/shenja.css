@@ -99,7 +99,13 @@ margin-right: 1rem;
 @keyframes fancy {
   to {
     fill:red
-
+  }
+    25% {
+      fill: green;
+    }
+    50%{
+      fill:red;
+    }
 
 
 

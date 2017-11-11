@@ -80,6 +80,39 @@ h1 {
   text-align: center;
 }
 
+/* NOTE: augen Animation */
+
+.animated-eye {
+  animation: augenvergrößern 0.5s infinite alternate;
+}
+
+@keyframes augenvergrößern {
+  to {
+    transform: scale(1.55 );
+    fill: yellow;
+    transform
+
+
+  }
+}
+
+
+
+
+
+
+/* NOTE: Gesicht Animation */
+
+.animated-face {
+  animation: drehen 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 
