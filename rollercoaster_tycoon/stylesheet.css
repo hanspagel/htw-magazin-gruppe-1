@@ -70,6 +70,22 @@ p {
   text-align: center;
 }
 
+.audioplayer {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  animation: turn 5s infinite a1lternate;
+  transform-origin: center;
+}
+
+@@keyframes turn {
+  to {
+    transform: perspective(500px) rotateY(30deg);
+  }
+}
+/*
 .animated-eye {
   animation: eyes 3s infinite alternate;
   transform-origin: center;
@@ -92,3 +108,4 @@ p {
     transform: rotate(360deg);
   }
 }
+*/
