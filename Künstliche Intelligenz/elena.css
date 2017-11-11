@@ -1,0 +1,41 @@
+.article-ich-digital h1 {
+  font-family: 'Teko'; sans-serif;
+  text-transform: uppercase;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 224px;
+  font-weight: 500;
+  color: #33495f;
+  margin: 182px 0 0px 119px;
+  text-align: left;
+}
+
+.text-style-1 {
+  animation-name: color_change;
+	animation-duration: 2s;
+  animation-delay: 1.5s;
+	animation-iteration-count: 1;
+  animation-timing-function:ease-in-out;
+   animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes color_change {
+	to { color: #7997a0; }
+}
+
+.article-ich-digital h2 {
+  font-family: 'Teko'; sans-serif;
+  font-size: 35px;
+  color: #000000;
+  margin: 0px 0px 0px 432px;
+  text-align: left;
+}
+
+.article-ich-digital p {
+  font-family: 'Raleway',sans-serif;
+  font-size: 24px;
+  line-height: 1.38;
+  width: 735px;
+  height: 330px;
+  margin-top: 73px;
+  margin-left: 443px;
+}

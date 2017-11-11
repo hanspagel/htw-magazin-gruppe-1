@@ -2,23 +2,153 @@ html{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   line-height: 1.4;
+  color: #ffdeeb;
 }
 
 body{
-  background-color: #FFDEEB;
-  padding: 40px 30%;
+  background-color: #000000;
 }
+
+.article-inner{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NOTE: Überschrift 1*/
 
 h1{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 3rem;
   font-variant: small-caps;
+  margin-bottom: 1em;
+  color: #ffdeeb;
 }
 
 h2{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
-  font-size: 18;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  margin-bottom: 1em;
+  color: #ffdeeb;
+}
+
+/*p:first-of-type{
+  font-size: 1.4rem;
+}*/
+
+/*Ich bin ein Kommentar. Funktioniert so: CMD+Shift+7. Tadaa!*/
+
+.article-image img {
+  width: 100%;
+}
+
+/* NOTE: der erste Absatz im ersten Textmodul */
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-info {
+  background-color: magenta;
+  float: right;
+  width: 10rem;
+  padding: 0.6rem 1.3rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  border: 5px dashed yellow;
+  box-shadow: 10px 10px 20px 0 red;
+}
+
+.article-teaser{
+display: flex;
+text-decoration: none;
+color:red
+}
+
+.article-teaser:hover {
+  color: green;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  transform: rotate(180deg);
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: all 10s;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.mund {
+  animation: munddrehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes munddrehen{
+  to{
+    transform: rotate(-360deg);
+  }
+  10%{
+    stroke: green;
+  }
+  30%{
+    stroke:turquoise;
+  }
+  50%{
+    stroke:blue;
+  }
+  70%{
+    stroke:violet;
+  }
+  90%{
+    stroke:pink;
+  }
 }

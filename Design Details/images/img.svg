@@ -1,0 +1,22 @@
+<svg width="31" height="32" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>img</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-123 364)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 123 -364L 154 -364L 154 -332L 123 -332L 123 -364Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="img" clip-path="url(#clip-0)">
+<path d="M 123 -364L 154 -364L 154 -332L 123 -332L 123 -364Z" fill="#FFFFFF"/>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(129.111 -362.662)"/>
+</g>
+<g id="Vector 2">
+<use xlink:href="#path1_fill" transform="translate(145.998 -362.598)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 29.2409L -1.25 29.2409L -1.25 30.4909L 0 30.4909L 0 29.2409ZM 0 0L 0 -1.25L -1.25 -1.25L -1.25 0L 0 0ZM 17.6134 0L 18.4972 -0.883883L 18.1311 -1.25L 17.6134 -1.25L 17.6134 0ZM 23.9432 6.3298L 25.1932 6.3298L 25.1932 5.81204L 24.827 5.44592L 23.9432 6.3298ZM 23.9432 29.2409L 23.9432 30.4909L 25.1932 30.4909L 25.1932 29.2409L 23.9432 29.2409ZM 1.25 29.2409L 1.25 0L -1.25 0L -1.25 29.2409L 1.25 29.2409ZM 0 1.25L 17.6134 1.25L 17.6134 -1.25L 0 -1.25L 0 1.25ZM 16.7295 0.883883L 23.0593 7.21369L 24.827 5.44592L 18.4972 -0.883883L 16.7295 0.883883ZM 22.6932 6.3298L 22.6932 29.2409L 25.1932 29.2409L 25.1932 6.3298L 22.6932 6.3298ZM 23.9432 27.9909L 0 27.9909L 0 30.4909L 23.9432 30.4909L 23.9432 27.9909Z"/>
+<path id="path1_fill" d="M 0 6.969L 0 0L 6.86179 6.969L 0 6.969Z"/>
+</defs>
+</svg>
