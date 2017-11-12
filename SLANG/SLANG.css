@@ -2,7 +2,7 @@ html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
 line-height: 1.6; /* NOTE: this is always 160 procent */
-color: #0000ff;
+color: white;
 background-color: white;
 /*position: relative;*/
 /*padding: 50;*/
@@ -30,6 +30,10 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-inner-wide  {
   max-width: 1000px;
+}
+
+.background-color {
+  background-color: blue;
 }
 
 #parent{
