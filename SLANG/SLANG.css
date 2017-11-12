@@ -69,15 +69,68 @@ h2{
 }
 
 .spalte-1{
+  padding: 30px;
   width: 33.333%;
   height: 470px;
+  background-color: white;
+}
+
+.dab{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.tinderjährig{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.belastend{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.fermentieren{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.sozialtot{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.tacken{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.vong{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.ahnma{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.looten{
+padding-left: 5%;
+color: #0000ff;
+}
+
+.gefresht{
+padding-left: 5%;
+color: #0000ff;
 }
 
 
-
 .spalte-2{
+  padding: 30px;
   width: 33.333%;
   height: 470px;
+  background-color: white;
 }
 
 .emojionslos {
@@ -132,8 +185,10 @@ h2{
 
 
 .spalte-3{
+  padding: 30px;
   width: 33.333%;
   height: 470px;
+  background-color: white;
 }
 
 .merkules {
