@@ -64,10 +64,6 @@ h1 {
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
 
-h2{
-  color: #0000ff;
-}
-
 .spalte-1{
   width: 33.333%;
   height: 470px;
@@ -275,7 +271,8 @@ color: #0000ff;
 
 .definitionen {
   background-color: white;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #parent{
