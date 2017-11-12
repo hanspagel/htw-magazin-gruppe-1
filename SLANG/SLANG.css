@@ -69,7 +69,7 @@ h2{
 }
 
 .spalte-1{
-  padding: 30px;
+  
   width: 33.333%;
   height: 470px;
   background-color: white;
@@ -127,17 +127,13 @@ color: #0000ff;
 
 
 <<<<<<< HEAD
-=======
 
->>>>>>> bd0d560dcf2e5eeb2e7fb7f997fcd9f870b75e77
 .spalte-2{
-  padding: 30px;
   width: 33.333%;
   height: 470px;
-<<<<<<< HEAD
+
   background-color: white;
-=======
->>>>>>> bd0d560dcf2e5eeb2e7fb7f997fcd9f870b75e77
+
 }
 
 .emojionslos {
@@ -192,7 +188,7 @@ color: #0000ff;
 
 
 .spalte-3{
-  padding: 30px;
+
   width: 33.333%;
   height: 470px;
   background-color: white;
