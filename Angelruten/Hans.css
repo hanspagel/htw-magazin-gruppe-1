@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* NOTE: Der erste Absatz */
+/* NOTE: Der erste Absatz im ersten Textmodul */
 .article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
 }

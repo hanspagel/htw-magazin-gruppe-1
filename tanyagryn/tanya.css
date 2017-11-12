@@ -83,3 +83,31 @@ h1 {
   color: pink;
   transform: rotate(5deg);
 }
+
+.article-graphic {
+  text-align: center;
+}
+/* NOTE: animation: name , dauer, keyframes ´: bestimmtung  */
+
+.animated-eye {
+  animation: fancy 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: red;
+    transform: scale(1.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}

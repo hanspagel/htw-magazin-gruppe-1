@@ -3,11 +3,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
 line-height: 1.6; /* NOTE: this is always 160 procent */
 color: #0000ff;
-<<<<<<< HEAD
-background-color: yellow;
-=======
 background-color: white;
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 /*position: relative;*/
 /*padding: 50;*/
 }
@@ -15,7 +11,7 @@ background-color: white;
 h1 {
   font-weight: normal;
   margin-bottom: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
   /*margin-left: 50;*/
   letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
@@ -26,71 +22,205 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   margin-bottom: 0.3em;
 }
 
-
 .article-inner {
   max-width: 700px;
   margin-left: auto;
-<<<<<<< HEAD
-  margin-left: auto;
-=======
   margin-right: auto;
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
 }
-
 
 .article-inner-wide  {
   max-width: 1000px;
+}
+
+#parent{
 <<<<<<< HEAD
-  margin-left: auto;
-  margin-left: auto;
-}
-
-
-.article-image img {
-  max-width: 700px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
 
 }
 
-p {
-    margin: 0cm 2cm;
-}
-
-div {
-
-
+#parent2 {
+position: relative;
+margin-left: auto;
+margin-right: auto;
 
 =======
-  float: left;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor: url("images/swagtext.gif"),auto;
+  background-image: url("images/Swag.gif");
+}
+
+
+
+.yolo {
+  background-image: url("images/yolo.jpg");
   background-size: cover;
   width: 300px;
   height: 300px;
   margin:auto;
 }
 
+
+.yolo:hover {
+  background-image: url("images/yolo.gif");
+  cursor: url("images/yolo.gif"),auto;
+
+}
+
 .Swag:hover {
-  cursor:pointer;
+  cursor: url("images/swagtext.gif"),auto;
   background-image: url("images/Swag.gif");
 }
 
+.zombie {
+  background-image: url("images/zombie.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.zombie:hover {
+  cursor: url("images/smombie.gif"),auto;
+  background-image: url("images/zombie.gif");
+}
+
+.Babo {
+  background-image: url("images/Babo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Babo:hover {
+<<<<<<< HEAD
+
+  background-image: url("images/Babo.gif");
+  cursor: url("images/babo.jpg"),auto;
+
+=======
+  cursor: url("images/babotext.gif"),auto;
+  background-image: url("images/Babo.gif");
+>>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
+}
+
+
+
+.Niveaulimbo {
+  background-image: url("images/Niveaulimbo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Niveaulimbo:hover {
+
+  cursor:url("images/zombie.gif");
+  background-image: url("images/Niveaulimbo.gif");
+}
+
+.fly-sein {
+  background-image: url("images/Fly-sein.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.fly-sein:hover {
+  cursor: url("images/flytext.gif"),auto;
+  background-image: url("images/Fly-sein.gif");
+}
+
 .article-text-info {
-  background-color: yellow;
+  background-color: blue;
   padding: 1rem 1.3rem;
-  margin-top: 0.6rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
   font-family: 'Arimo', sans-serif;
-  border: 3px dashed blue;
+  text-align: center;
+  color: white;
+}
+
+.article-module-article-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-module-article-inner {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-image {
     display: flex;
 }
 
-.article-image img {
-  max-width: 700px
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
+.article-teaser {
+  display: flex;
+  margin-top: 200px;
+  color: blue;
+}
+
+.article-teaser:hover{
+  color: red;
+  transform: rotate(5deg);
+}
+
+.article-teaser-image img {
+  width: 150px;
+  margin-left: 700px;
+  margin-right: 2rem;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: blue;
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 3s infinite;
+  transform-origin:center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
 }
