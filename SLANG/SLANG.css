@@ -1,44 +1,9 @@
 /* Browser Reset */
 
-html, body, div, span, applet, object, iframe, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body{
 	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 
 /* Start Page */
@@ -63,7 +28,25 @@ h1 {
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
 
+.word {
+	padding-left: 30%;
+	color: blue;
+	line-height: 3.6;
+}
 
+.description {
+	visibility: hidden;
+	position: absolute;
+	padding-top: 16px;
+	line-height: 1.8;
+}
+
+.word:hover .description {
+	visibility: visible;
+	background: white;
+	width: 21%;
+	color: red;
+}
 
 .spalte-1{
   width: 33.333%;
@@ -71,178 +54,16 @@ h1 {
   background-color: white;
 }
 
-.dab{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.dab:hover{
-(Tanzfigur, bei der eine Hand vors Gesicht und die andere schräg nach oben gehalten wird)
-}
-
-.tinderjährig{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.belastend{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.fermentieren{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.sozialtot{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.tacken{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.vong{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.ahnma{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.looten{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.gefresht{
-padding-left: 30%;
-color: #0000ff;
-}
-
-
-
 .spalte-2{
   width: 33.333%;
   height: 470px;
   background-color: white;
 }
 
-.emojionslos {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.geht-fit {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.teilzeittarzan {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.i-bims {
-  padding-left: 30%;
-  color: #0000ff;
-}
-.fernschimmeln {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.nicenstein {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.squad {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.trumpeten {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.unlügbar {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.lit {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-
-
 .spalte-3{
   width: 33.333%;
   height: 470px;
   background-color: white;
-}
-
-.merkules {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.selfiecide {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.gege {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.textmarkeraugenbrauen {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.bruh {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.was-ist-das-für-1-life {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.schatzlos {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.napflixen {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.unfly {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.noicemail {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.einleitung{
-  font-size: 20px;
-  margin-bottom: 0.3em;
 }
 
 .article-inner {
@@ -253,6 +74,20 @@ color: #0000ff;
 
 .article-inner-wide  {
   max-width: 1000px;
+}
+
+.article-stage  {
+  color: #0000ff;
+  background-image: url("images/hej.jpg");
+  background-size: 100%;
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .background-1 {
@@ -269,8 +104,8 @@ color: #0000ff;
 
 .definitionen {
   background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 210px;
 }
 
 #parent{
@@ -291,13 +126,15 @@ margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+		min-height: 100vh;
+		background-color: white;
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -309,27 +146,21 @@ margin-right: auto;
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .yolo:hover {
   background-image: url("images/yolo.gif");
   cursor: url("images/yolo.gif"),auto;
-
-}
-
-.Swag:hover {
-  cursor: url("images/swagtext.gif"),auto;
-  background-image: url("images/Swag.gif");
 }
 
 .zombie {
   background-image: url("images/zombie.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -341,16 +172,12 @@ margin-right: auto;
 .Babo {
   background-image: url("images/Babo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Babo:hover {
-
-  background-image: url("images/Babo.gif");
-  cursor: url("images/babo.jpg"),auto;
-
   cursor: url("images/babotext.gif"),auto;
   background-image: url("images/Babo.gif");
 }
@@ -358,27 +185,41 @@ margin-right: auto;
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Niveaulimbo:hover {
-  cursor: url("images/niveautext.gif");
+  cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
 .fly-sein {
   background-image: url("images/Fly-sein.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .fly-sein:hover {
   cursor: url("images/flytext.gif"),auto;
-  background-image: url("images/Fly-sein.gif");
+  background-image: url("images/fly-sein.gif");
+}
+
+
+.harzen {
+  background-image: url("images/harzen.jpg");
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+  margin:auto;
+}
+
+.harzen:hover {
+  cursor: url("images/harzen.gif"),auto;
+  background-image: url("images/harzen.gif");
 }
 
 .article-text-info {
@@ -449,4 +290,44 @@ margin-right: auto;
   to {
     transform: rotate(360deg);
   }
+}
+
+.article-stage {
+	margin-top: 100px;
+	min-height: 30vh;
+	background-image: url("images/sunrise.jpg");
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	position: relative;
+}
+
+.article-stage::before {
+	content: '';
+	background: linear-gradient(0deg, black, transparent);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.3;
+}
+
+.stage-headline {
+	font-family: "Arimo", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+}
+
+.stage-subline {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 0.5;
+	position: relative;
 }
