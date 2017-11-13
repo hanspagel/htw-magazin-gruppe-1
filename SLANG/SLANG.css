@@ -1,24 +1,226 @@
+/* Browser Reset */
+
+body{
+	margin: 0;
+}
+
+
+
+/* Start Page */
+
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
-line-height: 1.6; /* NOTE: this is always 160 procent */
-color: #0000ff;
+color: white;
 background-color: white;
-/*position: relative;*/
-/*padding: 50;*/
+}
+
+p{
+  line-height: 1.5;
 }
 
 h1 {
   font-weight: normal;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   margin-top: 1em;
-  /*margin-left: 50;*/
+  line-height: 1.6;
   letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
 
-p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
-  font-size: 24px;
+
+
+.spalte-1{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.dab{
+padding-left: 30%;
+color: #0000ff;
+position: relative;
+background-color: red;
+visibility: visible;
+}
+
+/*.dab:hover{
+	visibility: hidden;
+}*/
+
+.dab-info{
+	padding-left: 30%;
+	color: #0000ff;
+	background-color: green;
+	/*visibility: hidden;*/
+}
+
+.dab:hover + .dab-info{
+	visibility: visible;
+}
+
+.tinderjährig{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.belastend{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.fermentieren{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.sozialtot{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.tacken{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.vong{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.ahnma{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.looten{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.gefresht{
+padding-left: 30%;
+color: #0000ff;
+}
+
+
+
+.spalte-2{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.emojionslos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.geht-fit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.teilzeittarzan {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.i-bims {
+  padding-left: 30%;
+  color: #0000ff;
+}
+.fernschimmeln {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.nicenstein {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.squad {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.trumpeten {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unlügbar {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.lit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+
+
+.spalte-3{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.merkules {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.selfiecide {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.gege {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.textmarkeraugenbrauen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.bruh {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.was-ist-das-für-1-life {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.schatzlos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.napflixen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unfly {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.noicemail {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.einleitung{
+  font-size: 20px;
   margin-bottom: 0.3em;
 }
 
@@ -30,25 +232,73 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
 
 .article-inner-wide  {
   max-width: 1000px;
+
+}
+
+.article-stage  {
+  color: #0000ff;
+  background-image: url("images/hej.jpg");
+  background-size: 100%;
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.stage-headline {
+  font-family: 'Agipo';
+  position: relative;
+}
+
+.stage-subline {
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, white, transparent);
+  opacity: 0.5;
+}
+
+.background-1 {
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.background-2 {
+  background-color: blue;
+  padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.definitionen {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #parent{
-<<<<<<< HEAD
 position: relative;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 #parent2 {
-position: relative;
-margin-left: auto;
-margin-right: auto;
-
-=======
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-container {
@@ -56,14 +306,15 @@ margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
+		min-height: 100vh;
+		background-color: white;
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -71,34 +322,25 @@ margin-right: auto;
   cursor: url("images/swagtext.gif"),auto;
   background-image: url("images/Swag.gif");
 }
-
-
 
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
-
 
 .yolo:hover {
   background-image: url("images/yolo.gif");
   cursor: url("images/yolo.gif"),auto;
-
-}
-
-.Swag:hover {
-  cursor: url("images/swagtext.gif"),auto;
-  background-image: url("images/Swag.gif");
 }
 
 .zombie {
   background-image: url("images/zombie.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -110,50 +352,54 @@ margin-right: auto;
 .Babo {
   background-image: url("images/Babo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Babo:hover {
-<<<<<<< HEAD
-
-  background-image: url("images/Babo.gif");
-  cursor: url("images/babo.jpg"),auto;
-
-=======
   cursor: url("images/babotext.gif"),auto;
   background-image: url("images/Babo.gif");
->>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
-
-
 
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Niveaulimbo:hover {
-
-  cursor:url("images/zombie.gif");
+  cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
 .fly-sein {
   background-image: url("images/Fly-sein.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .fly-sein:hover {
   cursor: url("images/flytext.gif"),auto;
-  background-image: url("images/Fly-sein.gif");
+  background-image: url("images/fly-sein.gif");
+}
+
+
+.harzen {
+  background-image: url("images/harzen.jpg");
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+  margin:auto;
+}
+
+.harzen:hover {
+  cursor: url("images/harzen.gif"),auto;
+  background-image: url("images/harzen.gif");
 }
 
 .article-text-info {
@@ -200,6 +446,7 @@ margin-right: auto;
 
 .article-graphic {
   text-align: center;
+	margin-top: 100px;
 }
 
 .animated-eye {
@@ -223,4 +470,44 @@ margin-right: auto;
   to {
     transform: rotate(360deg);
   }
+}
+
+.article-stage {
+	margin-top: 100px;
+	min-height: 30vh;
+	background-image: url("images/sunrise.jpg");
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	position: relative;
+}
+
+.article-stage::before {
+	content: '';
+	background: linear-gradient(0deg, black, transparent);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.3;
+}
+
+.stage-headline {
+	font-family: "Arimo", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+}
+
+.stage-subline {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 0.5;
+	position: relative;
 }
