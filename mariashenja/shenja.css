@@ -1,0 +1,116 @@
+html{
+  font-family: "Poiret One";
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+body {
+background-color: lightblue;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+
+}
+
+/*blablablabla*/
+
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+.article-module {
+ padding: 1.5rem; 0;
+}
+.article-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.article-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-text-info {
+  background-color: yellow;
+  float:right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin: 1em;
+  border: 10px double black;
+  box-shadow: 10px 10px 5px 0 rgba(255, 0, 0, 0.5);
+}
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color:red;
+
+}
+.article-teaser-image img{
+  width: 120px;
+
+}
+.article-teaser-image{
+
+margin-right: 1rem;
+}
+  .article-teaser-headline{
+    align-self: center;
+      transition: all 1s;
+
+  }
+  .article-teaser:hover {
+    color:green;
+    transform: rotate(-3deg);
+  }
+
+  .article-graphic {
+    text-align: center;
+  }
+
+
+
+  .animated-eye {
+    animation: fancy 1s infinite alternate;
+    transform-origin: center;
+
+  }
+
+@keyframes fancy {
+  to {
+    fill:red
+  }
+    25% {
+      fill: green;
+    }
+    50%{
+      fill:red;
+    }
+
+
+
+    ;
+    transform:scale(1.2);
+
+  }
+}

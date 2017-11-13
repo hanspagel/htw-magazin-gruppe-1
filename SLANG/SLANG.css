@@ -1,0 +1,463 @@
+/* Browser Reset */
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Start Page */
+
+html {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+color: white;
+background-color: white;
+}
+
+p{
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  line-height: 1.6;
+  /*margin-left: 50;*/
+  letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
+  font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
+}
+
+.spalte-1{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.dab{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.tinderjährig{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.belastend{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.fermentieren{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.sozialtot{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.tacken{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.vong{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.ahnma{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.looten{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.gefresht{
+padding-left: 30%;
+color: #0000ff;
+}
+
+
+.spalte-2{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.emojionslos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.geht-fit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.teilzeittarzan {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.i-bims {
+  padding-left: 30%;
+  color: #0000ff;
+}
+.fernschimmeln {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.nicenstein {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.squad {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.trumpeten {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unlügbar {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.lit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+
+
+.spalte-3{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.merkules {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.selfiecide {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.gege {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.textmarkeraugenbrauen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.bruh {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.was-ist-das-für-1-life {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.schatzlos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.napflixen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unfly {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.noicemail {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+
+
+
+.h2{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.einleitung{
+  font-size: 20px;
+  margin-bottom: 0.3em;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide  {
+  max-width: 1000px;
+}
+
+.background-1 {
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.background-2 {
+  background-color: blue;
+  padding-top: 60px;
+}
+
+.definitionen {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#parent{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#parent2 {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Swag {
+  background-image: url("images/Swag.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Swag:hover {
+  cursor: url("images/swagtext.gif"),auto;
+  background-image: url("images/Swag.gif");
+}
+
+
+
+.yolo {
+  background-image: url("images/yolo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin:auto;
+}
+
+
+.yolo:hover {
+  background-image: url("images/yolo.gif");
+  cursor: url("images/yolo.gif"),auto;
+
+}
+
+.Swag:hover {
+  cursor: url("images/swagtext.gif"),auto;
+  background-image: url("images/Swag.gif");
+}
+
+.zombie {
+  background-image: url("images/zombie.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.zombie:hover {
+  cursor: url("images/smombie.gif"),auto;
+  background-image: url("images/zombie.gif");
+}
+
+.Babo {
+  background-image: url("images/Babo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Babo:hover {
+
+  background-image: url("images/Babo.gif");
+  cursor: url("images/babo.jpg"),auto;
+
+  cursor: url("images/babotext.gif"),auto;
+  background-image: url("images/Babo.gif");
+}
+
+
+
+.Niveaulimbo {
+  background-image: url("images/Niveaulimbo.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.Niveaulimbo:hover {
+
+  cursor:url("images/zombie.gif");
+  background-image: url("images/Niveaulimbo.gif");
+}
+
+.fly-sein {
+  background-image: url("images/Fly-sein.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.fly-sein:hover {
+  cursor: url("images/flytext.gif"),auto;
+  background-image: url("images/Fly-sein.gif");
+}
+
+.article-text-info {
+  background-color: blue;
+  padding: 1rem 1.3rem;
+  margin-top: 2rem;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.article-module-article-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-module-article-inner {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image {
+    display: flex;
+}
+
+.article-teaser {
+  display: flex;
+  margin-top: 200px;
+  color: blue;
+}
+
+.article-teaser:hover{
+  color: red;
+  transform: rotate(5deg);
+}
+
+.article-teaser-image img {
+  width: 150px;
+  margin-left: 700px;
+  margin-right: 2rem;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: blue;
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 3s infinite;
+  transform-origin:center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}

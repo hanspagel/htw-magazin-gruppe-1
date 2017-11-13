@@ -1,0 +1,113 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* NOTE: das ist eine Überschrift */
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* NOTE: Nur erster Absatz wird groß */
+/* NOTE: Der erste Absatz im ersten Textmodul */
+
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner {
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.article-inner-wide {
+ max-width: 900px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* NOTE: img betrifft nur die bilder im artikel  */
+
+.article-image img {
+ max-width: 100%;
+}
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-info {
+  background-color: blue;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  /* NOTE: blurr füllen rechts farbe */
+  border: 5px dashed black;
+  /* NOTE: rgba 0 0 0 0.2 deckkraft der farbe */
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.2) ;
+  color: white;
+}
+
+/* NOTE: text fließt nach rechts */
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+}
+
+.article-teaser-image img {
+  width: 100px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  transition: all 0.3s;
+}
+
+
+.article-teaser:hover .article-teaser-headline {
+  color: pink;
+  transform: rotate(5deg);
+}
+
+.article-graphic {
+  text-align: center;
+}
+/* NOTE: animation: name , dauer, keyframes ´: bestimmtung  */
+
+.animated-eye {
+  animation: fancy 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: red;
+    transform: scale(1.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
