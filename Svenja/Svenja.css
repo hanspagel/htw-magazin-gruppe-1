@@ -41,3 +41,46 @@ p:first-of-type{
 .article-image img{
   max-width: 100%;
 }
+
+.article-stage{
+  background-image: url(wasser.png);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before{
+  content:"";
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+
+.stage-headline{
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline{
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+body{
+  margin: 0;
+}
