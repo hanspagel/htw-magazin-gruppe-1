@@ -12,7 +12,7 @@
 }
 
 
-.spirale-animation{
+.spirale_animation{
   position: relative;
   width: 100%;
   max-height: 2048px;
@@ -21,4 +21,45 @@
 
 #spirale_animation {
   width: 100%;
+}
+
+.metaball-video{
+margin: 0;
+padding: 0;
+}
+
+.gehirn_überschrift {
+	font-family: Teko;
+	font-size: 224px;
+	font-weight: 500;
+	color: #33495f;
+  margin: 0;
+}
+
+.grosse_zahl{
+	font-family: Teko;
+	font-size: 150px;
+	font-weight: 500;
+	color: #33495f;
+  margin: 0;
+  margin-bottom: -20px;
+}
+
+.subheadline {
+	font-family: Teko;
+	font-size: 24px;
+	letter-spacing: 1.1px;
+	color: #394a5c;
+}
+
+
+.info-gehirn-rechtsbündig {
+  text-align: right;
+  margin-right: 137px;
+
+}
+
+.info-gehirn-linksbündig{
+  text-aligt: left;
+  margin-left: 137px;
 }
