@@ -1,11 +1,13 @@
 .header-kuenst {
 font-family: Teko;
+height: 0;
 font-size: 80px;
 font-weight: 300;
 text-align: left;
+margin-bottom: 0;
 color: #f17571;
 margin-left: 300;
-hightt:0;
+top:50%;
 display: inline-block;
 box-sizing: border-box;
   position: relative;
@@ -14,9 +16,12 @@ box-sizing: border-box;
 
 .header-liche {
 	font-family: Teko;
+  height: 0;
+  margin-bottom: 0;
 	font-size: 80px;
 	font-weight: 300;
 	text-align: left;
+  top:50%;
 	color: #33495f;
   display: inline-block;
   box-sizing: border-box;
@@ -25,12 +30,10 @@ box-sizing: border-box;
 
 .header-inteligenz {
   padding-left: 600;
-  margin-top: 0;
+  height: 0;
+  margin-top: 0px;
+  top:80%;
   height: 180;
-  margin:0;
-
-  border: 0;
-  margin: 0;
 	font-family: Teko;
 	font-size: 80px;
 	font-weight: 300;
@@ -39,4 +42,95 @@ box-sizing: border-box;
   display: inline-block;
   box-sizing: border-box;
     position: relative;
+
+}
+.header-kuenst h1{
+  animation: move3 3s;
+  -webkit-animation: move3 3s;
+}
+
+.header-liche h1{
+  margin-top: 0px;
+  animation: move2 3s;
+  -webkit-animation: move2 3s;
+}
+
+.header-inteligenz h1{
+  margin-top: 0px;
+  animation: move1 2s;
+  -webkit-animation: move1 2s;
+}
+
+
+@keyframes move1 {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes move1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+@keyframes move2 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes move2 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes move3 {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes move3 {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
 }
