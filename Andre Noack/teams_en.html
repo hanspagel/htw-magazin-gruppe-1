@@ -5,6 +5,24 @@
 		<title>national hockey league&reg;</title>
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="css/stylesheet.css" rel="stylesheet" />
+		<!--<link href="js/script.js" rel="javascript" />-->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+	    $(document).ready(function() {
+
+					$(".infos").hide();
+
+	        $(".link a").click(function() {
+
+						var team = $(this).data("team");
+
+						$(".infos").hide();
+						$(team).show();
+
+					})
+
+	    });
+    </script>
 	</head>
 	<body>
 
@@ -33,132 +51,141 @@
 	<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
 
     <div class="nhl_city_montreal">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Montreal&nbsp;Canadiens</span></a></p>
+			<p class="link">
+				<a href="#"><img src="image/nhl_city.svg" alt=""><span>Montreal&nbsp;Canadiens</span></a>
+				<div id="hiddendiv">
+					Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+				</div>
+			</p>
     </div>
 
     <div class="nhl_city_ottawa">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Ottawa&nbsp;Senators</span></a></p>
+			<p class="link"><a href="#" data-team=".city_ottawa"><img src="image/nhl_city.svg" alt=""><span>Ottawa&nbsp;Senators</span></a></p>
     </div>
 
     <div class="nhl_city_toronto">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Toronto&nbsp;Maple&nbsp;Leafs</span></a></p>
+      <p class="link"><a href="#" data-team=".city_toronto"><img src="image/nhl_city.svg" alt=""><span>Toronto&nbsp;Maple&nbsp;Leafs</span></a></p>
     </div>
 
     <div class="nhl_city_winnipeg">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Winnipeg&nbsp;Jets</span></a></p>
+      <p class="link"><a href="#" data-team=".city_winnipeg"><img src="image/nhl_city.svg" alt=""><span>Winnipeg&nbsp;Jets</span></a></p>
     </div>
 
     <div class="nhl_city_edmonton">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Edmonton&nbsp;Oilers</span></a></p>
+      <p class="link"><a href="#" data-team=".city_edmonton"><img src="image/nhl_city.svg" alt=""><span>Edmonton&nbsp;Oilers</span></a></p>
     </div>
 
     <div class="nhl_city_calgary">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Calgary&nbsp;Flames</span></a></p>
+      <p class="link"><a href="#" data-team=".city_calgary"><img src="image/nhl_city.svg" alt=""><span>Calgary&nbsp;Flames</span></a></p>
     </div>
 
     <div class="nhl_city_vancouver">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Vancouver&nbsp;Canucks</span></a></p>
+      <p class="link"><a href="#" data-team=".city_vancouver"><img src="image/nhl_city.svg" alt=""><span>Vancouver&nbsp;Canucks</span></a></p>
     </div>
 
 <!-- USA -->
 
 		<div class="nhl_city_boston">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Boston&nbsp;Bruins</span></a></p>
+			<p class="link"><a href="#" data-team=".city_boston"><img src="image/nhl_city.svg" alt=""><span>Boston&nbsp;Bruins</span></a></p>
 		</div>
 
 		<div class="nhl_city_minneapolis">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Minnesota&nbsp;Wild</span></a></p>
+			<p class="link"><a href="#" data-team=".city_minneapolis"><img src="image/nhl_city.svg" alt=""><span>Minnesota&nbsp;Wild</span></a></p>
 		</div>
 
 		<div class="nhl_city_buffalo">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Buffalo&nbsp;Sabres</span></a></p>
+			<p class="link"><a href="#" data-team=".city_buffalo"><img src="image/nhl_city.svg" alt=""><span>Buffalo&nbsp;Sabres</span></a></p>
 		</div>
 
 		<div class="nhl_city_newyork-1">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Rangers</span></a></p>
+			<p class="link"><a href="#" data-team=".city_newyork-1"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Rangers</span></a></p>
 		</div>
 
 		<div class="nhl_city_newyork-2">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Islanders</span></a></p>
+			<p class="link"><a href="#" data-team=".city_newyork-2"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Islanders</span></a></p>
 		</div>
 
 		<div class="nhl_city_newjersey">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;Jersey&nbsp;Devils</span></a></p>
+			<p class="link"><a href="#" data-team=".city_newjersey"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;Jersey&nbsp;Devils</span></a></p>
 		</div>
 
     <div class="nhl_city_detroit">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Detroit&nbsp;Red&nbsp;Wings</span></a></p>
+      <p class="link"><a href="#" data-team=".city_detroit"><img src="image/nhl_city.svg" alt=""><span>Detroit&nbsp;Red&nbsp;Wings</span></a></p>
     </div>
 
 		<div class="nhl_city_philadelphia">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Philadelphia&nbsp;Flyers</span></a></p>
+      <p class="link"><a href="#" data-team=".city_philadelphia"><img src="image/nhl_city.svg" alt=""><span>Philadelphia&nbsp;Flyers</span></a></p>
     </div>
 
 		<div class="nhl_city_pittsburgh">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Pittsburgh&nbsp;Penguins</span></a></p>
+			<p class="link"><a href="#" data-team=".city_pittsburgh"><img src="image/nhl_city.svg" alt=""><span>Pittsburgh&nbsp;Penguins</span></a></p>
 		</div>
 
 		<div class="nhl_city_chicago">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Chicago&nbsp;Blackhawks</span></a></p>
+      <p class="link"><a href="#" data-team=".city_chicago"><img src="image/nhl_city.svg" alt=""><span>Chicago&nbsp;Blackhawks</span></a></p>
     </div>
 
 		<div class="nhl_city_washington">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Washington&nbsp;Wings</span></a></p>
+      <p class="link"><a href="#" data-team=".city_washington"><img src="image/nhl_city.svg" alt=""><span>Washington&nbsp;Wings</span></a></p>
     </div>
 
 		<div class="nhl_city_columbus">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Columbus&nbsp;Blue&nbsp;Jackets</span></a></p>
+      <p class="link"><a href="#" data-team=".city_columbus"><img src="image/nhl_city.svg" alt=""><span>Columbus&nbsp;Blue&nbsp;Jackets</span></a></p>
     </div>
 
 		<div class="nhl_city_colorado">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Colorado&nbsp;Avalanche</span></a></p>
+      <p class="link"><a href="#" data-team=".city_colorado"><img src="image/nhl_city.svg" alt=""><span>Colorado&nbsp;Avalanche</span></a></p>
     </div>
 
 		<div class="nhl_city_sanjose">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>San&nbsp;Jose&nbsp;Sharks</span></a></p>
+      <p class="link"><a href="#" data-team=".city_sanjose"><img src="image/nhl_city.svg" alt=""><span>San&nbsp;Jose&nbsp;Sharks</span></a></p>
     </div>
 
 		<div class="nhl_city_stlouis">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>St.&nbsp;Louis&nbsp;Blues</span></a></p>
+      <p class="link"><a href="#" data-team=".city_stlouis"><img src="image/nhl_city.svg" alt=""><span>St.&nbsp;Louis&nbsp;Blues</span></a></p>
     </div>
 
 		<div class="nhl_city_vegas">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Vegas&nbsp;Golden&nbsp;Knights</span></a></p>
+      <p class="link"><a href="#" data-team=".city_vegas"><img src="image/nhl_city.svg" alt=""><span>Vegas&nbsp;Golden&nbsp;Knights</span></a></p>
     </div>
 
 		<div class="nhl_city_losangeles-1">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Los&nbsp;Angeles&nbsp;Kings</span></a></p>
+      <p class="link"><a href="#" data-team=".city_losangeles-1"><img src="image/nhl_city.svg" alt=""><span>Los&nbsp;Angeles&nbsp;Kings</span></a></p>
     </div>
 
 		<div class="nhl_city_losangeles-2">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Anaheim&nbsp;Ducks</span></a></p>
+      <p class="link"><a href="#" data-team=".city_losangeles-2"><img src="image/nhl_city.svg" alt=""><span>Anaheim&nbsp;Ducks</span></a></p>
     </div>
 
 		<div class="nhl_city_phoenix">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Arizona&nbsp;Coyotes</span></a></p>
+      <p class="link"><a href="#" data-team=".city_phoenix"><img src="image/nhl_city.svg" alt=""><span>Arizona&nbsp;Coyotes</span></a></p>
     </div>
 
 		<div class="nhl_city_nashville">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Nashville&nbsp;Predators</span></a></p>
+      <p class="link"><a href="#" data-team=".city_nashville"><img src="image/nhl_city.svg" alt=""><span>Nashville&nbsp;Predators</span></a></p>
     </div>
 
 		<div class="nhl_city_raleigh">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Carolina&nbsp;Hurricanes</span></a></p>
+      <p class="link"><a href="#" data-team=".city_raleigh"><img src="image/nhl_city.svg" alt=""><span>Carolina&nbsp;Hurricanes</span></a></p>
     </div>
 
 		<div class="nhl_city_dallas">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Dallas&nbsp;Stars</span></a></p>
+      <p class="link"><a href="#" data-team=".city_dallas"><img src="image/nhl_city.svg" alt=""><span>Dallas&nbsp;Stars</span></a></p>
     </div>
 
 		<div class="nhl_city_tampa">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Tampa&nbsp;Bay&nbsp;Lightning</span></a></p>
+      <p class="link"><a href="#" data-team=".city_tampa"><img src="image/nhl_city.svg" alt=""><span>Tampa&nbsp;Bay&nbsp;Lightning</span></a></p>
     </div>
 
 		<div class="nhl_city_miami">
-      <p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Florida&nbsp;Panthers</span></a></p>
+      <p class="link"><a href="#" data-team=".city_miami"><img src="image/nhl_city.svg" alt=""><span>Florida&nbsp;Panthers</span></a></p>
     </div>
 
   </div>
+
+	<div class="infos city_ottawa">
+		Tolles Team
+	</div>
 
   </body>
 </html>
