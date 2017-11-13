@@ -28,7 +28,25 @@ h1 {
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
 
+.word {
+	padding-left: 30%;
+	color: blue;
+	line-height: 3.6;
+}
 
+.description {
+	visibility: hidden;
+	position: absolute;
+	padding-top: 16px;
+	line-height: 1.8;
+}
+
+.word:hover .description {
+	visibility: visible;
+	background: white;
+	width: 21%;
+	color: red;
+}
 
 .spalte-1{
   width: 33.333%;
@@ -36,192 +54,16 @@ h1 {
   background-color: white;
 }
 
-.dab{
-padding-left: 30%;
-color: #0000ff;
-position: relative;
-background-color: red;
-visibility: visible;
-}
-
-/*.dab:hover{
-	visibility: hidden;
-}*/
-
-.dab-info{
-	padding-left: 30%;
-	color: #0000ff;
-	background-color: green;
-	/*visibility: hidden;*/
-}
-
-.dab:hover + .dab-info{
-	visibility: visible;
-}
-
-.tinderjährig{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.belastend{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.fermentieren{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.sozialtot{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.tacken{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.vong{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.ahnma{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.looten{
-padding-left: 30%;
-color: #0000ff;
-}
-
-.gefresht{
-padding-left: 30%;
-color: #0000ff;
-}
-
-
-
 .spalte-2{
   width: 33.333%;
   height: 470px;
   background-color: white;
 }
 
-.emojionslos {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.geht-fit {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.teilzeittarzan {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.i-bims {
-  padding-left: 30%;
-  color: #0000ff;
-}
-.fernschimmeln {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.nicenstein {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.squad {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.trumpeten {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.unlügbar {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.lit {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-
-
 .spalte-3{
   width: 33.333%;
   height: 470px;
   background-color: white;
-}
-
-.merkules {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.selfiecide {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.gege {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.textmarkeraugenbrauen {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.bruh {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.was-ist-das-für-1-life {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.schatzlos {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.napflixen {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.unfly {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.noicemail {
-  padding-left: 30%;
-  color: #0000ff;
-}
-
-.einleitung{
-  font-size: 20px;
-  margin-bottom: 0.3em;
 }
 
 .article-inner {
@@ -232,7 +74,6 @@ color: #0000ff;
 
 .article-inner-wide  {
   max-width: 1000px;
-
 }
 
 .article-stage  {
@@ -249,27 +90,6 @@ color: #0000ff;
   position: relative;
 }
 
-
-.stage-headline {
-  font-family: 'Agipo';
-  position: relative;
-}
-
-.stage-subline {
-  position: relative;
-}
-
-.article-stage::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(0deg, white, transparent);
-  opacity: 0.5;
-}
-
 .background-1 {
   background-color: blue;
   padding-top: 20px;
@@ -284,8 +104,8 @@ color: #0000ff;
 
 .definitionen {
   background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 210px;
 }
 
 #parent{
