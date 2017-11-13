@@ -5,17 +5,32 @@
  padding: 0px;
  border: 0px;
  }
+ /*landing-page*/
+
+ .header {
+   display: flex;
+   justify-content: center;
+   animation: turn 4s infinite linear
+ }
+
+ .header-picture img {
+   max-width: 600px;
+   height: auto;
+ }
+
+ @keyframes turn {
+   from {transform: rotateY(0deg)}
+   to {transform: rotateY(360deg)}
+ }
+
 
  /*zuckerwatte-page*/
+
+
 .logo-schrift-img {
   width: 10%;
   position: left;
 }
-
-/*.logo-schrift {
-  width: 100px;
-  height: auto;
-}*/
 
 .content {
   margin-top: 5%;
@@ -48,14 +63,9 @@ p {
   width: 100%;
 }
 
-.header {
+.audioplayer {
   display: flex;
   justify-content: center;
-}
-
-.header-picture img {
-  max-width: 600px;
-  height: auto;
 }
 
 .article-teaser {
@@ -81,25 +91,6 @@ p {
 .article-teaser:hover {
   color: green;
 }
-
-.article-graphic {
-  text-align: center;
-}
-
-.audioplayer {
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  animation: turn 4s infinite linear
-}
-
-@keyframes turn {
-  from {transform: rotateY(0deg)}
-  to {transform: rotateY(360deg)}
-}
-
 
 /*
 .animated-eye {
