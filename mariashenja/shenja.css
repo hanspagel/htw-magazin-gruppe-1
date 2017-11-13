@@ -90,27 +90,61 @@ margin-right: 1rem;
 
 
 
-  .animated-eye {
-    animation: fancy 1s infinite alternate;
-    transform-origin: center;
-
-  }
+.animated-eye {
+  animation: fancy 1s infinite alternate;
+  transform-origin: center;
+}
 
 @keyframes fancy {
   to {
     fill:red
   }
-    25% {
-      fill: green;
-    }
-    50%{
-      fill:red;
-    }
 
-
-
-    ;
-    transform:scale(1.2);
-
+  25% {
+    fill: green;
   }
+
+  50%{
+    fill:red;
+  }
+}
+
+.article-stage {
+  background-image: url(wasser.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(90deg, black, transparent);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.3;
+}
+
+
+
+.stage-headline {
+
+  font-family: 'Arimo';
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.1;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
 }
