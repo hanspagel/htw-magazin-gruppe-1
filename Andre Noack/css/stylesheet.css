@@ -583,10 +583,18 @@ p.link a:hover span {
 
 .infos {
   position: relative;
-  left: 55%;
+  left: 53.5%;
   top: -910px;
 }
 
+.infos h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+}
+
+.infos img {
+  width: 10%;
+}
 /*.header-subline {
   font-family: -apple-system, sans-serif;
   font-size: 1.2em;
