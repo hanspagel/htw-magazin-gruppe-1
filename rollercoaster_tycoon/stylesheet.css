@@ -13,13 +13,14 @@ vh ist viewport height, höhe des Browserfensters */
 
 .header {
   display: flex;
-  justify-content: center;
-  animation: turn 4s infinite linear
+
+  animation: turn 4s infinite linear;
  }
 
  .header-picture img {
   max-width: 600px;
-  height: auto;
+  justify-content: center;
+  align-items: center;
  }
 
  @keyframes turn {
@@ -98,6 +99,9 @@ p {
   color: green;
 }
 
+.box-voll {
+  position: right;
+}
 
  * fullPage 2.9.5
  * https://github.com/alvarotrigo/fullPage.js
@@ -244,13 +248,11 @@ html.fp-enabled,
   top: 17px;
 }
 
-#fp-nav ul,
-.fp-slidesNav ul {
+#fp-nav ul, .fp-slidesNav ul {
   margin: 0;
   padding: 0;
 }
-#fp-nav ul li,
-.fp-slidesNav ul li {
+#fp-nav ul li, .fp-slidesNav ul li {
   display: block;
   width: 14px;
   height: 13px;
@@ -262,8 +264,7 @@ html.fp-enabled,
   display: inline-block;
 }
 
-#fp-nav ul li a,
-.fp-slidesNav ul li a {
+#fp-nav ul li a, .fp-slidesNav ul li a {
   display: block;
   position: relative;
   z-index: 1;
@@ -283,8 +284,7 @@ html.fp-enabled,
   border-radius: 100%;
 }
 
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
   border-radius: 50%;
   position: absolute;
   z-index: 1;
