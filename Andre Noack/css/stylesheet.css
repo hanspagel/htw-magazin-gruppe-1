@@ -147,9 +147,9 @@ p.link a:hover span {
   width: 50%;
   margin-top: 127px;
   margin-bottom: 0;
-  height: 677px;
+  /*height: 677px;*/
   padding: 0;
-  /*background-color: #eee;*/
+  background-color: #eee;
   background-size: cover;
 }
 
@@ -579,6 +579,12 @@ p.link a:hover span {
   float: left;
   margin-bottom: 200px;
   color: tomato;
+}
+
+.infos {
+  position: relative;
+  left: 55%;
+  top: -910px;
 }
 
 /*.header-subline {
