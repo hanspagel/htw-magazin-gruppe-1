@@ -42,7 +42,7 @@ padding: 0;
 	font-weight: 500;
 	color: #33495f;
   margin: 0;
-  margin-bottom: -20px;
+  margin-bottom: -60px;
 }
 
 .subheadline {
@@ -62,4 +62,13 @@ padding: 0;
 .info-gehirn-linksbündig{
   text-aligt: left;
   margin-left: 137px;
+}
+
+
+.gehirn_infografik{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
