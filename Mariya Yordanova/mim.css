@@ -83,5 +83,48 @@ max-width: 100%;
   align-self: center;
   font-family: 'Arimo', sans-serif;
   transition: all 1s;
+}
 
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+  fill: grey;
+transform: scale(1.2);
+  }
+}
+
+@keyframes fancy {
+  0% {
+    fill: aqua;
+  }
+
+  25% {
+    fill: black;
+  }
+
+  50% {
+    fill: tomato;
+  }
+
+  75% {
+    fill: orange;
+  }
+}
+
+.animated-face {
+  animation:  drehen 10s infinite;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
 }
