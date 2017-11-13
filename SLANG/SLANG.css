@@ -383,12 +383,17 @@ margin-right: auto;
   margin:auto;
 }
 
+.fly-sein:hover {
+  cursor: url("images/flytext.gif"),auto;
+  background-image: url("images/fly-sein.gif");
+}
+
 
 .harzen {
   background-image: url("images/harzen.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+  width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
