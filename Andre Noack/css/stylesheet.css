@@ -583,6 +583,7 @@ p.link a:hover span {
 
 .infos {
   position: relative;
+  display: inline-block;
   left: 53.5%;
   top: -910px;
 }
@@ -594,7 +595,15 @@ p.link a:hover span {
 
 .infos img {
   width: 10%;
+  filter: grayscale(100%);
 }
+
+.infos img:hover {
+  width: 20%;
+  filter: grayscale(0%);
+  transition: 0.2s;
+}
+
 /*.header-subline {
   font-family: -apple-system, sans-serif;
   font-size: 1.2em;
