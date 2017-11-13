@@ -43,6 +43,10 @@ vh ist viewport height, höhe des Browserfensters */
   margin-left: 5%;
   margin-right: 5%;
   position: relative;
+<<<<<<< HEAD
+
+=======
+>>>>>>> fa8a7255c2f364f0f39133618868379ee4b58748
 }
 
 .text {
@@ -75,6 +79,10 @@ p {
   justify-content: center;
 }
 
+
+/*Artikelverknüpfung*/
+
+
 .article-teaser {
   display: flex;
   justify-content: center;
@@ -102,6 +110,9 @@ p {
 .box-voll {
   position: right;
 }
+
+/*Sidebar*/
+
 
  * fullPage 2.9.5
  * https://github.com/alvarotrigo/fullPage.js
@@ -374,10 +385,9 @@ html.fp-enabled,
     transform: rotate(360deg);
   }
 }
-*/
+
 .article-stage {
-  background-image:
-   url(pictures/Hintergrund.jpg);
+  background: linear-gradient(0, red, yellow)
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -408,3 +418,4 @@ html.fp-enabled,
   color: white;
   font-family: 'VT323', monospace;
 }
+*/
