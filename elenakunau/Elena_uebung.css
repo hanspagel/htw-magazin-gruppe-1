@@ -123,5 +123,47 @@ h1 {
 .button-rounded {
   border-radius: 5px;
 }
-=======
->>>>>>> 2b6c0b813859a5fe0a8f9619d05a82fd7b5aef1b:Künstliche Intelligenz/Elena_uebung.css
+
+.article-stage {
+  background-image: url(Brain_ChangesTheBrain_BG.jpg);
+  min-height: 70vh;
+  /* NOTE: max fläche ausfüllt  */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color:white;
+  /* NOTE: relative bezieht sich an diesem div */
+  position:relative;
+}
+
+.stage-headline {
+  font-family:'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  /* NOTE: relative - div kommt nach oben */
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+.article-stage::before {
+  /* NOTE: content brauchen wir aber können wir es löschen */
+  content: "Apfelkucken";
+  background: linear-gradient(0deg, black, transparent);
+  /* NOTE: absolute was und wo steht */
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width:100%;
+  opacity: 0.5;
+}
+body {
+  margin: 0;
+}
