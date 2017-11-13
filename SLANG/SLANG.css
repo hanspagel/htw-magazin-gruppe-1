@@ -1,24 +1,250 @@
+/* Browser Reset */
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Start Page */
+
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
-line-height: 1.6; /* NOTE: this is always 160 procent */
-color: #0000ff;
+color: white;
 background-color: white;
-/*position: relative;*/
-/*padding: 50;*/
+}
+
+p{
+  line-height: 1.5;
 }
 
 h1 {
   font-weight: normal;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   margin-top: 1em;
+  line-height: 1.6;
   /*margin-left: 50;*/
   letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
 
-p:first-of-type /* NOTE: fitst of type means only the first headline is bigger */ {
-  font-size: 24px;
+.spalte-1{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.dab{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.tinderjährig{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.belastend{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.fermentieren{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.sozialtot{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.tacken{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.vong{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.ahnma{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.looten{
+padding-left: 30%;
+color: #0000ff;
+}
+
+.gefresht{
+padding-left: 30%;
+color: #0000ff;
+}
+
+
+.spalte-2{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.emojionslos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.geht-fit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.teilzeittarzan {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.i-bims {
+  padding-left: 30%;
+  color: #0000ff;
+}
+.fernschimmeln {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.nicenstein {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.squad {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.trumpeten {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unlügbar {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.lit {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+
+
+.spalte-3{
+  width: 33.333%;
+  height: 470px;
+  background-color: white;
+}
+
+.merkules {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.selfiecide {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.gege {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.textmarkeraugenbrauen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.bruh {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.was-ist-das-für-1-life {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.schatzlos {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.napflixen {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.unfly {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+.noicemail {
+  padding-left: 30%;
+  color: #0000ff;
+}
+
+
+
+
+.h2{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.einleitung{
+  font-size: 20px;
   margin-bottom: 0.3em;
 }
 
@@ -32,8 +258,24 @@ p:first-of-type /* NOTE: fitst of type means only the first headline is bigger *
   max-width: 1000px;
 }
 
+.background-1 {
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.background-2 {
+  background-color: blue;
+  padding-top: 60px;
+}
+
+.definitionen {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 #parent{
-<<<<<<< HEAD
 position: relative;
 margin-left: auto;
 margin-right: auto;
@@ -45,7 +287,6 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
 
-=======
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -56,7 +297,6 @@ margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
 
 .Swag {
@@ -116,15 +356,12 @@ margin-right: auto;
 }
 
 .Babo:hover {
-<<<<<<< HEAD
 
   background-image: url("images/Babo.gif");
   cursor: url("images/babo.jpg"),auto;
 
-=======
   cursor: url("images/babotext.gif"),auto;
   background-image: url("images/Babo.gif");
->>>>>>> 35364ed0eae40f2e0127bd956e4282fc102af224
 }
 
 
