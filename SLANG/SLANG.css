@@ -253,6 +253,42 @@ color: #0000ff;
 
 .article-inner-wide  {
   max-width: 1000px;
+
+}
+
+.article-stage  {
+  color: #0000ff;
+  background-image: url("images/hej.jpg");
+  background-size: 100%;
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.stage-headline {
+  font-family: 'Agipo';
+  position: relative;
+}
+
+.stage-subline {
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, white, transparent);
+  opacity: 0.5;
 }
 
 .background-1 {
@@ -376,9 +412,18 @@ margin-right: auto;
   margin:auto;
 }
 
-.fly-sein:hover {
-  cursor: url("images/flytext.gif"),auto;
-  background-image: url("images/Fly-sein.gif");
+
+.harzen {
+  background-image: url("images/harzen.jpg");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin:auto;
+}
+
+.harzen:hover {
+  cursor: url("images/harzen.gif"),auto;
+  background-image: url("images/harzen.gif");
 }
 
 .article-text-info {
