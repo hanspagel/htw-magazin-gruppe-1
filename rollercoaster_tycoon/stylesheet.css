@@ -125,3 +125,17 @@ p {
   }
 }
 */
+.article-stage {
+  background-image: url(pictures/Hintergrund.jpg);
+}
+
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.8em;
+}
+.article-inner p, h2, h3 {
+  color: white;
+  font-family: 'VT323', monospace;
+}
