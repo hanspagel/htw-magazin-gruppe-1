@@ -12,20 +12,17 @@ body {
 /*Tastenkombination für kommentare: anmarkieren und dann: cmd, shift, 7 oder: n plus tab (note)*/
 
 h1 {
-  font-family: 'Neuton', serif;
-  font-weight: normal;
-  font-size: 2rem;
-  margin-bottom: 1em;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 3.5rem;
 
 }
 
 /* first of type: nur der erste Absatz wird verändert*/
 
-p:first-of-type {
-  font-size: 1.4rem
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.1rem
 }
-
-/* NOTE:  */
 
 
 .article-inner {
@@ -33,12 +30,133 @@ p:first-of-type {
   margin-left:auto;
   margin-right: auto;
 }
-<<<<<<< HEAD
-=======
 
-
-.article-image img{
-  margin-left: 300px;
+.article-inner-wide {
+  max-width: 800px;
+  margin-left:auto;
   margin-right: auto;
 }
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
+
+
+.article-module {
+  padding: 10px 0;
+}
+
+.article-text-info {
+  background-color: lightgrey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0 darkgrey;
+}
+
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.article-teaser:hover {
+  color: white;
+  transform: rotate(0.5deg);
+}
+
+.article-teaser-image img {
+  width: 150px;
+}
+
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+/* NOTE: augen Animation */
+
+.animated-eye {
+  animation: augenvergrößern 0.5s infinite alternate;
+}
+
+@keyframes augenvergrößern {
+  to {
+    transform: scale(1.55 );
+    fill: yellow;
+    transform
+
+
+  }
+}
+
+
+
+
+
+
+/* NOTE: Gesicht Animation */
+
+.animated-face {
+  animation: drehen 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+.article-module-article-related {
+  max-width: 10px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTE: ende */
