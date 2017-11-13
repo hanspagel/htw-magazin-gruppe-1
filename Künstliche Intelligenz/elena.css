@@ -4,10 +4,10 @@
   border-style: solid;
   margin-top:182px;
   margin-bottom: 49px;
-  width:829px;
+  width:1200px;
   display: inline-block;
   box-sizing: border-box;
-    position: relative;
+  position: relative;
 }
 
 .article-ich-digital h1{
@@ -21,6 +21,8 @@
   border-width: 3px;
   width: 279px;
   display: inline-block;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .text-style-1 ul {
@@ -31,7 +33,8 @@
   border-width: 3px;
   width: 550px;
   display: inline-block;
-
+  box-sizing: border-box;
+  position: relative;
 }
 
 .text-style-1 ul li{
