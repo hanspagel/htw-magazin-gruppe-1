@@ -1,23 +1,52 @@
 /* NOTE: rem nimmt oberste Schriftgröße als Beispiel */
 
-html, body {
+* {
  margin: 0px;
  padding: 0px;
  border: 0px;
  }
+ /*landing-page*/
+
+ .header {
+   display: flex;
+   justify-content: center;
+   animation: turn 4s infinite linear
+ }
+
+ .header-picture img {
+   max-width: 600px;
+   height: auto;
+ }
+
+ @keyframes turn {
+   from {transform: rotateY(0deg)}
+   to {transform: rotateY(360deg)}
+ }
+
 
  /*zuckerwatte-page*/
 
-.logo-schrift {
-  width: 100px;
-  height: auto;
+
+.logo-schrift-img {
+  width: 10%;
+  position: left;
 }
 
 .content {
-  margin-top: 5em;
-  margin-bottom: 4em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text {
+  width:45%;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 2.0em;
+  line-height: 1.4;
 }
 
 p {
@@ -26,14 +55,17 @@ p {
   line-height: 1.4;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
+.box-voll {
+  width: 100%;
 }
 
-.header-picture img {
-  max-width: 600px;
-  height: auto;
+.box-outline {
+  width: 100%;
+}
+
+.audioplayer {
+  display: flex;
+  justify-content: center;
 }
 
 .article-teaser {
@@ -60,25 +92,6 @@ p {
   color: green;
 }
 
-.article-graphic {
-  text-align: center;
-}
-
-.audioplayer {
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  animation: turn 4s infinite linear
-}
-
-@keyframes turn {
-  from {transform: rotateY(0deg)}
-  to {transform: rotateY(360deg)}
-}
-
-
 /*
 .animated-eye {
   animation: eyes 3s infinite alternate;
@@ -103,3 +116,17 @@ p {
   }
 }
 */
+.article-stage {
+  background-image: url(pictures/Hintergrund.jpg);
+}
+
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.8em;
+}
+.article-inner p, h2, h3 {
+  color: white;
+  font-family: 'VT323', monospace;
+}
