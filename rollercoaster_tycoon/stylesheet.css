@@ -37,20 +37,17 @@ vh ist viewport height, höhe des Browserfensters */
 }
 
 .content {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 5%;
   position: relative;
-<<<<<<< HEAD
-
-=======
->>>>>>> fa8a7255c2f364f0f39133618868379ee4b58748
+  min-height: 100vh;
 }
 
 .text {
   width:45%;
   position: absolute;
+  left: 30%;
+  top: 10%;
+  border: 10px solid red;
 }
 
 h1 {
@@ -66,16 +63,24 @@ p {
 }
 
 .box-voll {
-  width: 100%;
+  width: 40%;
+  height:25%;
+  position: absolute;
+  right: 10%;
+  color: #FEBBBB;
 }
 
 .box-outline {
-  width: 100%;
+  width: 60%;
+  height:40%;
+  position: absolute;
+  border: 4px solid #EFE0E7;
 }
 
 .audioplayer {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 
