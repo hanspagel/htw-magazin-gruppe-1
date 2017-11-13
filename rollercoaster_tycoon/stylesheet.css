@@ -1,6 +1,6 @@
 /* NOTE: rem nimmt oberste Schriftgröße als Beispiel */
 
-html, body, zuckerwatte-page {
+* {
  margin: 0px;
  padding: 0px;
  border: 0px;
@@ -47,7 +47,6 @@ p {
 .box-outline {
   width: 100%;
 }
-
 
 .header {
   display: flex;
