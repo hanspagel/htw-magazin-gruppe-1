@@ -83,3 +83,80 @@ h1 {
   color: pink;
   transform: rotate(5deg);
 }
+
+.article-graphic {
+  text-align: center;
+}
+/* NOTE: animation: name , dauer, keyframes ´: bestimmtung  */
+
+.animated-eye {
+  animation: fancy 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: red;
+    transform: scale(1.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* NOTE:   background-attachment: fixed - bild bewegt sich nicht)
+  */
+  /* NOTE:  flex -> wechsel in layout option */
+
+.article-stage {
+  background-image: url(bilder/bild2.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* NOTE: position absolute -> elemt ist frei verschiebbar  */
+/* NOTE: .article-stage:: before -> bedeutet Verlauf */
+
+.article-stage::before {
+  content: '';
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+
+.stage-headline {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 3rem;
+line-height: 1.2;
+position: relative;
+}
+
+.stage-subline {
+ font-weight: normal;
+ font-size: 1rem;
+ position: relative;
+}
+
+body {
+  margin: 0;
+}

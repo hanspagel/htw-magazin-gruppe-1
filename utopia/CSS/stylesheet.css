@@ -7,6 +7,8 @@ html{
 
 body{
   background-color: #000000;
+  background-image: url(../images/background1.png);
+  background-attachment: fixed;
 }
 
 .article-inner{
@@ -82,11 +84,11 @@ color:red
   color: green;
 }
 
-.article-teaser:hover .article-teaser-headline{
+.article-teaser:hover .article-teaser-headline {
   transform: rotate(180deg);
 }
 
-.article-teaser-image{
+.article-teaser-image {
   margin-right: 1rem;
 }
 
@@ -94,8 +96,135 @@ color:red
   width: 120px;
 }
 
-.article-teaser-headline{
+.article-teaser-headline {
   align-self: center;
   font-family: 'Josefin Sans', sans-serif;
   transition: all 10s;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.mund {
+  animation: munddrehen 10s infinite;
+  transform-origin: center;
+
+}
+
+@keyframes munddrehen{
+  to {
+    transform: rotate(-360deg);
+  }
+
+  10%{
+    stroke: green;
+  }
+  30%{
+    stroke:turquoise;
+  }
+  50%{
+    stroke:blue;
+  }
+  70%{
+    stroke:violet;
+  }
+  90%{
+    stroke:pink;
+  }
+}
+.animated-dot {
+  animation: verschieben 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes verschieben{
+  25% {
+    transform: translate(370px, 0px)
+    fill:turquoise;
+  }
+  50% {
+    transform: translate(0px, 370px)
+    fill:green;
+  }
+  75% {
+    transform: translate(-370px, 0px)
+    fill:blue;
+  }
+  100% {
+    transform: translate(0px, -370px)
+  }
+}
+
+.article-stage {
+/*  background-image: url(../images/milkyway.jpg);*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  /*background: linear-gradient(0deg, black, transparent, black);*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.stage-headline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.thomas {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin-left: -300px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.thomas:hover {
+  filter: grayscale(0%);
 }
