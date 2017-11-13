@@ -1,23 +1,37 @@
 /* NOTE: rem nimmt oberste Schriftgröße als Beispiel */
 
-html, body {
+html, body, zuckerwatte-page {
  margin: 0px;
  padding: 0px;
  border: 0px;
  }
 
  /*zuckerwatte-page*/
-
-.logo-schrift {
-  width: 100px;
-  height: auto;
+.logo-schrift-img {
+  width: 10%;
+  position: left;
 }
 
+/*.logo-schrift {
+  width: 100px;
+  height: auto;
+}*/
+
 .content {
-  margin-top: 5em;
-  margin-bottom: 4em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text {
+  width:45%;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 2.0em;
+  line-height: 1.4;
 }
 
 p {
@@ -25,6 +39,15 @@ p {
   font-size: 1.6em;
   line-height: 1.4;
 }
+
+.box-voll {
+  width: 100%;
+}
+
+.box-outline {
+  width: 100%;
+}
+
 
 .header {
   display: flex;
