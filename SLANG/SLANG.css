@@ -59,10 +59,11 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 1em;
   line-height: 1.6;
-  /*margin-left: 50;*/
   letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
   font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
 }
+
+
 
 .spalte-1{
   width: 33.333%;
@@ -73,6 +74,10 @@ h1 {
 .dab{
 padding-left: 30%;
 color: #0000ff;
+}
+
+.dab:hover{
+(Tanzfigur, bei der eine Hand vors Gesicht und die andere schräg nach oben gehalten wird)
 }
 
 .tinderjährig{
@@ -119,6 +124,7 @@ color: #0000ff;
 padding-left: 30%;
 color: #0000ff;
 }
+
 
 
 .spalte-2{
@@ -234,15 +240,6 @@ color: #0000ff;
   color: #0000ff;
 }
 
-
-
-
-.h2{
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .einleitung{
   font-size: 20px;
   margin-bottom: 0.3em;
@@ -267,6 +264,7 @@ color: #0000ff;
 .background-2 {
   background-color: blue;
   padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .definitionen {
@@ -279,17 +277,13 @@ color: #0000ff;
 position: relative;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 #parent2 {
-position: relative;
-margin-left: auto;
-margin-right: auto;
-
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-container {
@@ -312,8 +306,6 @@ margin-right: auto;
   background-image: url("images/Swag.gif");
 }
 
-
-
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
@@ -321,7 +313,6 @@ margin-right: auto;
   height: 300px;
   margin:auto;
 }
-
 
 .yolo:hover {
   background-image: url("images/yolo.gif");
@@ -364,8 +355,6 @@ margin-right: auto;
   background-image: url("images/Babo.gif");
 }
 
-
-
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
@@ -375,8 +364,7 @@ margin-right: auto;
 }
 
 .Niveaulimbo:hover {
-
-  cursor:url("images/zombie.gif");
+  cursor: url("images/niveautext.gif");
   background-image: url("images/Niveaulimbo.gif");
 }
 
@@ -437,6 +425,7 @@ margin-right: auto;
 
 .article-graphic {
   text-align: center;
+	margin-top: 100px;
 }
 
 .animated-eye {
