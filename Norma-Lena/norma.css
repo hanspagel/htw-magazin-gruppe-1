@@ -130,6 +130,7 @@ p:first-of-type {
   display: flex;
   align-items: center;
   color: white;
+  position: relative;
 }
 
 .stage-headline {
@@ -137,17 +138,24 @@ p:first-of-type {
   font-weight: normal;
   font-size: 3rem;
   line-height: 1.0;
+  position: relative;
 }
 
 .stage-subline {
   font-weight: normal;
   font-size: 1.5rem;
+  position: relative;
 }
 
 .article-stage::before {
-  content: 'Apfelkuchen';
-  background: black;
+  content:'';
+  background: linear-gradient(0deg, black, transparent);
   position: absolute;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.6;
+
 }
 
 body {
