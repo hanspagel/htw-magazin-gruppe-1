@@ -31,6 +31,9 @@ vh ist viewport height, höhe des Browserfensters */
 
  /*zuckerwatte-page*/
 
+.logo{
+  margin-top:3%;
+}
 
 .logo-schrift-img {
   width: 10%;
@@ -39,16 +42,16 @@ vh ist viewport height, höhe des Browserfensters */
 
 .content {
   margin: 5%;
+  margin-top: 2%;
   position: relative;
   min-height: 100vh;
 }
 
 .text {
-  width:45%;
+  width:43%;
   position: absolute;
-  left: 30%;
-  top: 10%;
-  border: 10px solid red;
+  left: 8%;
+  top: 34%;
 }
 
 h1 {
@@ -64,18 +67,33 @@ p {
 }
 
 .box-voll {
-  width: 40%;
-  height:25%;
+  width: 55%;
+  height:55%;
   position: absolute;
-  right: 10%;
-  color: #FEBBBB;
+  left:5%;
+  top:5%;
+  background-color: #FEBBBB;
 }
 
 .box-outline {
-  width: 60%;
-  height:40%;
+  width: 56%;
+  height:50%;
   position: absolute;
   border: 4px solid #EFE0E7;
+  right: 5%;
+  bottom:10%;
+}
+
+.zuckerwatte{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-zuckerwatte img {
+  width: 100%;
 }
 
 .audioplayer {
