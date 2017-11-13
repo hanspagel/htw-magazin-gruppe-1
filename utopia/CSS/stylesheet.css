@@ -7,6 +7,8 @@ html{
 
 body{
   background-color: #000000;
+  background-image: url(../images/background1.png);
+  background-attachment: fixed;
 }
 
 .article-inner{
@@ -178,14 +180,25 @@ color:red
 }
 
 .article-stage {
-  background-image: url(../images/milkyway.jpg);
+/*  background-image: url(../images/milkyway.jpg);*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 60vh;
+  min-height: 70vh;
   text-align: center;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  /*background: linear-gradient(0deg, black, transparent, black);*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .stage-headline {
@@ -194,9 +207,24 @@ color:red
   font-variant: normal;
   font-size: 2rem;
   line-height: 1.2;
+  position: relative;
 }
 
 .stage-subline {
   font-weight: normal;
   font-size: 1.2rem;
+  position: relative;
+}
+
+.thomas {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin-left: -300px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.thomas:hover {
+  filter: grayscale(0%);
 }

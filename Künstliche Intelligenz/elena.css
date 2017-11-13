@@ -2,12 +2,28 @@
 .header-wrap {
   border-width: 3px;
   border-style: solid;
-  margin-top:182px;
+  margin-top: 182px;
   margin-bottom: 49px;
-  width:1200px;
+  margin-left: 119px;
   display: inline-block;
   box-sizing: border-box;
   position: relative;
+}
+
+.header-left {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;‚
+  width: 279px;
+  margin: 0 0 0 0;
+}
+
+.header-right {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 600px;
+  margin: 0 0 0 0;
 }
 
 .article-ich-digital h1{
@@ -19,25 +35,17 @@
   color: #33495f;
   border-style: solid;
   border-width: 3px;
-  width: 279px;
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
 }
 
-.text-style-1 ul {
+.header-right ul {
   height: 224px;
   overflow: hidden;
   transition-timing-function:ease;
   border-style: solid;
   border-width: 3px;
-  width: 550px;
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
 }
 
-.text-style-1 ul li{
+.header-right ul li{
   font-family: 'Teko'; sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
@@ -49,7 +57,7 @@
   transition: 1500ms;
 }
 
-.text-style-1 ul:hover li {
+.header-right ul:hover li {
 animation-name: digital;
 transform: translateX(0px) translateY(300px) translateZ(0px);
 animation-direction: inherit;
@@ -83,7 +91,7 @@ animation-direction: inherit;
   transition-delay: 340ms;
 }
 
-.text-style-1 ul li{
+.header-right ul li{
   animation-name: color_change;
 	animation-duration: 2s;
   animation-delay: 1.5s;
