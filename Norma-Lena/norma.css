@@ -10,7 +10,7 @@ body{
 }
 
 h1{
-  font-family: 'source sans',
+  font-family: 'source sans';
   font-weight: normal;
   letter-spacing: 0.1em;
   font-size: 2rem;
@@ -29,7 +29,6 @@ p:first-of-type {
 }
 
 .article-image img {
-<<<<<<< HEAD
     width: 100%;
 }
 
@@ -86,35 +85,33 @@ p:first-of-type {
 }
 
 .animated-eye {
-animation: fancy 0.6s infinite alternate;
-transform-origin: center;
+  animation: fancy 0.6s infinite alternate;
+  transform-origin: center;
 }
+
 @keyframes fancy {
-to {
-  transform: scale(1.2);
-  fill: pink;
-}
+  to {
+    transform: scale(1.2);
+    fill: pink;
+  }
 }
 
 .article-white {
   background-color: black;
   width: 400;
   height: 400;
-position: center;
+  position: center;
 }
 
 .animated-cat {
   animation: cat 3s infinite;
   transform-origin: center;
-  trans
-  }
-  @keyframes cat{
-to{  transform: rotate(360deg);
+}
 
-}
-}
-=======
-  width: 100%;
+@keyframes cat{
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 .article-inner-wide{
@@ -124,4 +121,3 @@ to{  transform: rotate(360deg);
 }
 /* Kommentare unsichtbar einfügen */
 /* NOTE: hallo hallo hallo */
->>>>>>> b7d9ac331db79434bd9ca89a955420acb72028c2
