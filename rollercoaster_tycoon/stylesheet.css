@@ -5,28 +5,27 @@ vh ist viewport height, höhe des Browserfensters */
  margin: 0px;
  padding: 0px;
  border: 0px;
- }
+}
 
 
  /*landing-page*/
 
 
-.header {
-  display: flex;
-
+.intro {
   animation: turn 4s infinite linear;
- }
-
- .header-picture img {
-  max-width: 600px;
-  justify-content: center;
+  display: flex;
   align-items: center;
- }
+  height: 100vh;
+}
 
- @keyframes turn {
+.intro img {
+  max-width: 60%;
+}
+
+@keyframes turn {
   from {transform: rotateY(0deg)}
   to {transform: rotateY(360deg)}
- }
+}
 
 
  /*zuckerwatte-page*/
