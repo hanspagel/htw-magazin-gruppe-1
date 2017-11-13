@@ -1,44 +1,9 @@
 /* Browser Reset */
 
-html, body, div, span, applet, object, iframe, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body{
 	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 
 /* Start Page */
@@ -74,10 +39,24 @@ h1 {
 .dab{
 padding-left: 30%;
 color: #0000ff;
+position: relative;
+background-color: red;
+visibility: visible;
 }
 
-.dab:hover{
-(Tanzfigur, bei der eine Hand vors Gesicht und die andere schräg nach oben gehalten wird)
+/*.dab:hover{
+	visibility: hidden;
+}*/
+
+.dab-info{
+	padding-left: 30%;
+	color: #0000ff;
+	background-color: green;
+	/*visibility: hidden;*/
+}
+
+.dab:hover + .dab-info{
+	visibility: visible;
 }
 
 .tinderjährig{
@@ -253,6 +232,42 @@ color: #0000ff;
 
 .article-inner-wide  {
   max-width: 1000px;
+
+}
+
+.article-stage  {
+  color: #0000ff;
+  background-image: url("images/hej.jpg");
+  background-size: 100%;
+  padding: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.stage-headline {
+  font-family: 'Agipo';
+  position: relative;
+}
+
+.stage-subline {
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, white, transparent);
+  opacity: 0.5;
 }
 
 .background-1 {
@@ -291,13 +306,15 @@ margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+		min-height: 100vh;
+		background-color: white;
 }
 
 .Swag {
   background-image: url("images/Swag.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -309,27 +326,21 @@ margin-right: auto;
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .yolo:hover {
   background-image: url("images/yolo.gif");
   cursor: url("images/yolo.gif"),auto;
-
-}
-
-.Swag:hover {
-  cursor: url("images/swagtext.gif"),auto;
-  background-image: url("images/Swag.gif");
 }
 
 .zombie {
   background-image: url("images/zombie.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
@@ -341,16 +352,12 @@ margin-right: auto;
 .Babo {
   background-image: url("images/Babo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Babo:hover {
-
-  background-image: url("images/Babo.gif");
-  cursor: url("images/babo.jpg"),auto;
-
   cursor: url("images/babotext.gif"),auto;
   background-image: url("images/Babo.gif");
 }
@@ -358,27 +365,41 @@ margin-right: auto;
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .Niveaulimbo:hover {
-  cursor: url("images/niveautext.gif");
+  cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
 .fly-sein {
   background-image: url("images/Fly-sein.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+	width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .fly-sein:hover {
   cursor: url("images/flytext.gif"),auto;
-  background-image: url("images/Fly-sein.gif");
+  background-image: url("images/fly-sein.gif");
+}
+
+
+.harzen {
+  background-image: url("images/harzen.jpg");
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+  margin:auto;
+}
+
+.harzen:hover {
+  cursor: url("images/harzen.gif"),auto;
+  background-image: url("images/harzen.gif");
 }
 
 .article-text-info {
@@ -449,4 +470,44 @@ margin-right: auto;
   to {
     transform: rotate(360deg);
   }
+}
+
+.article-stage {
+	margin-top: 100px;
+	min-height: 30vh;
+	background-image: url("images/sunrise.jpg");
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: white;
+	position: relative;
+}
+
+.article-stage::before {
+	content: '';
+	background: linear-gradient(0deg, black, transparent);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.3;
+}
+
+.stage-headline {
+	font-family: "Arimo", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+}
+
+.stage-subline {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 0.5;
+	position: relative;
 }
