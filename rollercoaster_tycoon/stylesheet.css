@@ -34,18 +34,12 @@ vh ist viewport height, höhe des Browserfensters */
 }
 
 .content {
-<<<<<<< HEAD
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
   position: relative;
-=======
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
->>>>>>> cdb38bdf4e34ddfeee924e388faa385e161ea93b
+
 }
 
 .text {
@@ -78,6 +72,10 @@ p {
   justify-content: center;
 }
 
+
+/*Artikelverknüpfung*/
+
+
 .article-teaser {
   display: flex;
   justify-content: center;
@@ -101,6 +99,9 @@ p {
 .article-teaser:hover {
   color: green;
 }
+
+
+/*Sidebar*/
 
 
  * fullPage 2.9.5
@@ -346,10 +347,9 @@ html.fp-enabled,
     transform: rotate(360deg);
   }
 }
-*/
+
 .article-stage {
-  background-image:
-   url(pictures/Hintergrund.jpg);
+  background: linear-gradient(0, red, yellow)
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -380,3 +380,4 @@ html.fp-enabled,
   color: white;
   font-family: 'VT323', monospace;
 }
+*/
