@@ -182,10 +182,21 @@ color:red
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 60vh;
+  min-height: 70vh;
   text-align: center;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(0deg, black, transparent, black);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .stage-headline {
@@ -194,9 +205,11 @@ color:red
   font-variant: normal;
   font-size: 2rem;
   line-height: 1.2;
+  position: relative;
 }
 
 .stage-subline {
   font-weight: normal;
   font-size: 1.2rem;
+  position: relative;
 }
