@@ -22,7 +22,6 @@ video {
   min-height: 100.5%;
   width: auto;
   height: auto;
-  z-index: 1;
 }
 
 .video-wrapper {
