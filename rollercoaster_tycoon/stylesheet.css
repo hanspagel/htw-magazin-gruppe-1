@@ -29,7 +29,7 @@
 
 .logo-schrift-img {
   width: 10%;
-  position: left;
+  position: fixed;
 }
 
 .content {
@@ -37,10 +37,12 @@
   margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  position: relative;
 }
 
 .text {
   width:45%;
+  position: absolute;
 }
 
 h1 {
@@ -117,16 +119,35 @@ p {
 }
 */
 .article-stage {
-  background-image: url(pictures/Hintergrund.jpg);
+  background-image:
+   url(pictures/Hintergrund.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1rem;
+  height:90vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-h2 {
+.article-inner{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.stage-headline {
+  color: white;
+  font-family: 'VT323', monospace;
   font-size: 2em;
 }
-h3 {
+
+.stage-subline{
+  color: white;
+  font-family: 'VT323', monospace;
   font-size: 1.8em;
 }
-.article-inner p, h2, h3 {
+.Zitat{
   color: white;
   font-family: 'VT323', monospace;
 }
