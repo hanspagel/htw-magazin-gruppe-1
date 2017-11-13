@@ -1,22 +1,116 @@
-html {
-  font-family: 'Raleway',sans-serif;
-  font-size: 19px;
-  line-height: 1.4;
+
+.header-wrap {
+  border-width: 3px;
+  border-style: solid;
+  margin-top:182px;
+  margin-bottom: 49px;
+  width:1200px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
 }
-h1 {
-  font-weight: medium;
+
+.article-ich-digital h1{
   font-family: 'Teko'; sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
-  font-size: 12rem;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 224px;
+  font-weight: 500;
+  color: #33495f;
+  border-style: solid;
+  border-width: 3px;
+  width: 279px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
 }
-h2 {
-  font-weight: normal;
+
+.text-style-1 ul {
+  height: 224px;
+  overflow: hidden;
+  transition-timing-function:ease;
+  border-style: solid;
+  border-width: 3px;
+  width: 550px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.text-style-1 ul li{
   font-family: 'Teko'; sans-serif;
+  text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
-  font-size: 1.8rem;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 224px;
+  font-weight: 500;
+  color: #33495f;
+  list-style: none;
+  float: left;
+  transition: 1500ms;
+}
+
+.text-style-1 ul:hover li {
+animation-name: digital;
+transform: translateX(0px) translateY(300px) translateZ(0px);
+animation-direction: inherit;
+}
+
+#animation-d {
+  transition-delay: 50ms;
+}
+
+#animation-i{
+  transition-delay: 80ms;
+}
+
+#animation-g{
+  transition-delay: 100ms;
+}
+
+#animation-i{
+  transition-delay: 220ms;
+}
+
+#animation-t{
+  transition-delay: 300ms;
+}
+
+#animation-a{
+  transition-delay: 330ms;
+}
+
+#animation-l{
+  transition-delay: 340ms;
+}
+
+.text-style-1 ul li{
+  animation-name: color_change;
+	animation-duration: 2s;
+  animation-delay: 1.5s;
+	animation-iteration-count: 1;
+  animation-timing-function:ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes color_change {
+	to { color: #7997a0; }
+}
+
+.article-ich-digital h3 {
+  font-family: 'Teko'; sans-serif;
+  font-size: 35px;
+  color: #000000;
+  margin: 0px 0px 0px 432px;
+  text-align: left;
+}
+
+.article-ich-digital p {
+  font-family: 'Raleway',sans-serif;
+  font-size: 24px;
+  line-height: 1.38;
+  width: 735px;
+  height: 330px;
+  margin-top: 73px;
+  margin-left: 443px;
 }

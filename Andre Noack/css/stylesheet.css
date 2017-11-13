@@ -30,7 +30,6 @@ video {
 }
 
 .text-video {
-  z-index: 2;
   position: absolute;
   background: rgba(0, 0, 0, 0.25);
   top: 0;
@@ -58,12 +57,13 @@ a {
 }
 
 a:hover {
-  transition: 0.5s;
-  color: grey;
+  transition: 0.3s;
+  color: #aaa;
 }
 
 .navi-wrapper {
   position: fixed;
+  z-index: 10;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -116,6 +116,427 @@ a:hover {
   color: rgba(255, 255, 255, 0);
 }
 
+/* MAP HOVER */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.link a:hover {
+  color:#fff;
+}
+
+p.link a:link span {
+  display: none;
+}
+
+p.link a:visited span {
+  display: none;
+}
+
+p.link a:hover span {
+  position: absolute;
+  color: black;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* === MAP – CANADA === */
+
+.nhl_map {
+  width: 50%;
+  margin-top: 127px;
+  margin-bottom: 0;
+  height: 677px;
+  padding: 0;
+  /*background-color: #eee;*/
+  background-size: cover;
+}
+
+.nhl_city_montreal {
+  position: absolute;
+  top: 504px;
+  left: 716px;
+  margin-top: 127px;
+}
+
+.nhl_city_montreal:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_ottawa {
+  position: absolute;
+  top: 519px;
+  left: 690px;
+  margin-top: 127px;
+}
+
+.nhl_city_ottawa:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_toronto {
+  position: absolute;
+  z-index: 1;
+  top: 547px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_toronto:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_winnipeg {
+  position: absolute;
+  top: 473px;
+  left: 448px;
+  margin-top: 127px;
+}
+
+.nhl_city_winnipeg:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_edmonton {
+  position: absolute;
+  top: 372px;
+  left: 286px;
+  margin-top: 127px;
+}
+
+.nhl_city_edmonton:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_calgary {
+  position: absolute;
+  top: 411px;
+  left: 259px;
+  margin-top: 127px;
+}
+
+.nhl_city_calgary:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_vancouver {
+  position: absolute;
+  top: 415px;
+  left: 172px;
+  margin-top: 127px;
+}
+
+.nhl_city_vancouver:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+/* === MAP – USA === */
+
+.nhl_city_boston {
+  position: absolute;
+  top: 545px;
+  left: 760px;
+  margin-top: 127px;
+}
+
+.nhl_city_boston:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_minneapolis {
+  position: absolute;
+  z-index: 1;
+  top: 550px;
+  left: 483px;
+  margin-top: 127px;
+}
+
+.nhl_city_minneapolis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_buffalo {
+  position: absolute;
+  z-index: 2;
+  top: 570px;
+  left: 680px;
+  margin-top: 127px;
+}
+
+.nhl_city_buffalo:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-1 {
+  position: absolute;
+  top: 571px;
+  left: 733px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-2 {
+  position: absolute;
+  top: 581px;
+  left: 743px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newjersey {
+  position: absolute;
+  top: 584px;
+  left: 729px;
+  margin-top: 127px;
+}
+
+.nhl_city_newjersey:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_detroit {
+  position: absolute;
+  top: 594px;
+  left: 610px;
+  margin-top: 127px;
+}
+
+.nhl_city_detroit:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_chicago {
+  position: absolute;
+  z-index: 1;
+  top: 608px;
+  left: 551px;
+  margin-top: 127px;
+}
+
+.nhl_city_chicago:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_philadelphia {
+  position: absolute;
+  top: 610px;
+  left: 712px;
+  margin-top: 127px;
+}
+
+.nhl_city_philadelphia:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_pittsburgh {
+  position: absolute;
+  z-index: 1;
+  top: 619px;
+  left: 655px;
+  margin-top: 127px;
+}
+
+.nhl_city_pittsburgh:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_washington {
+  position: absolute;
+  top: 632px;
+  left: 699px;
+  margin-top: 127px;
+}
+
+.nhl_city_washington:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_columbus {
+  position: absolute;
+  z-index: 1;
+  top: 633px;
+  left: 620px;
+  margin-top: 127px;
+}
+
+.nhl_city_columbus:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_colorado {
+  position: absolute;
+  z-index: 1;
+  top: 630px;
+  left: 325px;
+  margin-top: 127px;
+}
+
+.nhl_city_colorado:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_sanjose {
+  position: absolute;
+  z-index: 1;
+  top: 605px;
+  left: 107px;
+  margin-top: 127px;
+}
+
+.nhl_city_sanjose:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_stlouis {
+  position: absolute;
+  z-index: 1;
+  top: 663px;
+  left: 525px;
+  margin-top: 127px;
+}
+
+.nhl_city_stlouis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_vegas {
+  position: absolute;
+  top: 661px;
+  left: 175px;
+  margin-top: 127px;
+}
+
+.nhl_city_vegas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-1 {
+  position: absolute;
+  top: 680px;
+  left: 124px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-2 {
+  position: absolute;
+  top: 690px;
+  left: 134px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_phoenix {
+  position: absolute;
+  top: 720px;
+  left: 204px;
+  margin-top: 127px;
+}
+
+.nhl_city_phoenix:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_nashville {
+  position: absolute;
+  top: 720px;
+  left: 565px;
+  margin-top: 127px;
+}
+
+.nhl_city_nashville:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_raleigh {
+  position: absolute;
+  top: 740px;
+  left: 668px;
+  margin-top: 127px;
+}
+
+.nhl_city_raleigh:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_dallas {
+  position: absolute;
+  top: 765px;
+  left: 430px;
+  margin-top: 127px;
+}
+
+.nhl_city_dallas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_tampa {
+  position: absolute;
+  top: 845px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_tampa:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_miami {
+  position: absolute;
+  top: 878px;
+  left: 692px;
+  margin-top: 127px;
+}
+
+.nhl_city_miami:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
 .text {
   margin-top: 50px;
   text-align: left;
@@ -144,7 +565,7 @@ a:hover {
 
 .header-content {
   color: black;
-  height: 654px;
+  height: 677px;
   padding-top: 200px;
   font-size: 2.5em;
   font-weight: 700;
@@ -164,3 +585,5 @@ a:hover {
   font-size: 1.2em;
   line-height: 0.6em;
 }*/
+
+/* === Unterricht 06.11.2017 === */
