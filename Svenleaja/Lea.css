@@ -207,3 +207,27 @@ h1 {
 .nachoben a:hover {
   color: #910000
 }
+
+
+
+
+
+.button {
+  border-radius: 50;
+  font-family: 'Libre Baskerville', serif;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: url(jenny_marbles.png), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
+}
+
+.button:hover {
+  color: darkred;
+}
+
+/* NOTE: vh=browser höhe */
+.article-interactive {
+  min-height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
