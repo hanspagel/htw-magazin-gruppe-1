@@ -5,6 +5,7 @@ vh ist viewport height, höhe des Browserfensters */
  margin: 0px;
  padding: 0px;
  border: 0px;
+ cursor: url(pictures/ballon.png), pointer;
 }
 
 
@@ -28,7 +29,7 @@ vh ist viewport height, höhe des Browserfensters */
 }
 
 
- /*zuckerwatte-page*/
+ /*Allgemein*/
 
 .logo{
   margin-top:3%;
@@ -46,12 +47,6 @@ vh ist viewport height, höhe des Browserfensters */
   min-height: 100vh;
 }
 
-.text {
-  width:43%;
-  position: absolute;
-  left: 8%;
-  top: 34%;
-}
 
 h1 {
   font-family: 'VT323', monospace;
@@ -69,6 +64,7 @@ p {
   width: 55%;
   height:55%;
   position: absolute;
+  position: fixed;
   left:5%;
   top:5%;
   background-color: #FEBBBB;
@@ -78,9 +74,19 @@ p {
   width: 56%;
   height:50%;
   position: absolute;
+  position: fixed;
   border: 4px solid #EFE0E7;
   right: 5%;
   bottom:10%;
+}
+
+/*zuckerwatte*/
+
+.text-zuckerwatte {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
 }
 
 .zuckerwatte{
@@ -94,6 +100,134 @@ p {
 .img-zuckerwatte img {
   width: 100%;
 }
+
+/*Burger*/
+
+.text-burger {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.burger{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-burger img {
+  width: 100%;
+}
+
+/*Start*/
+
+.text-start {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.start{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-start img {
+  width: 100%;
+}
+
+/*Zange*/
+
+.text-zange {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.zange{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-zange img {
+  width: 100%;
+}
+
+/*Ballon*/
+
+.text-ballon {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.ballon{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-ballon img {
+  width: 100%;
+}
+
+/*Person*/
+
+.text-person {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.person{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-person img {
+  width: 100%;
+}
+
+/*Kopf*/
+
+.text-kopf {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 34%;
+}
+
+.kopf{
+  position: absolute;
+  width:38%;
+  right: 18%;
+  bottom:23%;
+}
+
+
+.img-kopf img {
+  width: 100%;
+}
+
+/*Audioplayer*/
 
 .audioplayer {
   display: flex;
