@@ -22,7 +22,6 @@ video {
   min-height: 100.5%;
   width: auto;
   height: auto;
-  z-index: 1;
 }
 
 .video-wrapper {
@@ -148,16 +147,16 @@ p.link a:hover span {
   width: 50%;
   margin-top: 127px;
   margin-bottom: 0;
-  height: 677px;
+  /*height: 677px;*/
   padding: 0;
-  /*background-color: #eee;*/
+  background-color: #eee;
   background-size: cover;
 }
 
 .nhl_city_montreal {
   position: absolute;
-  top: 504px;
-  left: 716px;
+  top: 500px;
+  left: 715px;
   margin-top: 127px;
 }
 
@@ -168,7 +167,7 @@ p.link a:hover span {
 
 .nhl_city_ottawa {
   position: absolute;
-  top: 519px;
+  top: 520px;
   left: 690px;
   margin-top: 127px;
 }
@@ -181,7 +180,7 @@ p.link a:hover span {
 .nhl_city_toronto {
   position: absolute;
   z-index: 1;
-  top: 547px;
+  top: 545px;
   left: 660px;
   margin-top: 127px;
 }
@@ -193,8 +192,8 @@ p.link a:hover span {
 
 .nhl_city_winnipeg {
   position: absolute;
-  top: 473px;
-  left: 448px;
+  top: 470px;
+  left: 450px;
   margin-top: 127px;
 }
 
@@ -205,8 +204,8 @@ p.link a:hover span {
 
 .nhl_city_edmonton {
   position: absolute;
-  top: 372px;
-  left: 286px;
+  top: 370px;
+  left: 285px;
   margin-top: 127px;
 }
 
@@ -217,8 +216,8 @@ p.link a:hover span {
 
 .nhl_city_calgary {
   position: absolute;
-  top: 411px;
-  left: 259px;
+  top: 410px;
+  left: 260px;
   margin-top: 127px;
 }
 
@@ -230,7 +229,7 @@ p.link a:hover span {
 .nhl_city_vancouver {
   position: absolute;
   top: 415px;
-  left: 172px;
+  left: 175px;
   margin-top: 127px;
 }
 
@@ -257,7 +256,7 @@ p.link a:hover span {
   position: absolute;
   z-index: 1;
   top: 550px;
-  left: 483px;
+  left: 485px;
   margin-top: 127px;
 }
 
@@ -549,10 +548,11 @@ p.link a:hover span {
 
 .header {
   margin-top: 127px;
-  background-color: tomato;
-  /*background-image: url('../image/test.jpg');
+  background-image: url('../image/test.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  /*background-color: tomato;
   height: 80vh;
   text-align: left;
   color: white;*/
@@ -578,6 +578,30 @@ p.link a:hover span {
   width: 40%;
   float: left;
   margin-bottom: 200px;
+  color: tomato;
+}
+
+.infos {
+  position: relative;
+  display: inline-block;
+  left: 53.5%;
+  top: -910px;
+}
+
+.infos h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+}
+
+.infos img {
+  width: 10%;
+  filter: grayscale(100%);
+}
+
+.infos img:hover {
+  width: 20%;
+  filter: grayscale(0%);
+  transition: 0.2s;
 }
 
 /*.header-subline {
