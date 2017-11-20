@@ -45,10 +45,13 @@ padding: 0;
 }
 
 .subheadline {
-	font-family: 'Teko';
-	font-size: 24px;
-	letter-spacing: 1.1px;
-	color: #394a5c;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	letter-spacing: 1.8px;
+  line-height: 30px;
+	color: #FFFFFF;
+  font-weight: 550;
+  opacity: 0.9;
 }
 
 
@@ -65,7 +68,7 @@ padding: 0;
 .gehirn_infografik{
   position: absolute;
   top: 122px;
-  right: 114px;
+  right: 105px;
   bottom: 0;
-  left: 137px;
+  left: 95px;
 }
