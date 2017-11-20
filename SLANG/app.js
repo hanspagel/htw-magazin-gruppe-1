@@ -1,6 +1,10 @@
 
 $(document).ready(function(){
 
-  alert ("OMFG JAVASCRIPT")
+  $(".button").click(function(){
+
+    $(".article-interactive").addClass("action")
+
+  })
 
 })

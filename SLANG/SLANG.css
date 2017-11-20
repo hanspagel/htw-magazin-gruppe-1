@@ -352,7 +352,7 @@ margin-right: auto;
 	outline: 5px solid red;
 }
 
-.button:hover {
+.button:hover{
 	background-color: red;
 }
 
@@ -363,4 +363,10 @@ margin-right: auto;
 	background-color: yellow;
 	display: flex;
 	align-items: center;
+}
+
+.action{
+	background: url(images/action.gif);
+	background-repeat: no-repeat;
+	background-position: center;
 }
