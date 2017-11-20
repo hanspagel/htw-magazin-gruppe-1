@@ -23,16 +23,13 @@
   width: 100%;
 }
 
-.metaball-video{
-margin: 0;
-padding: 0;
-}
-
 .gehirn_überschrift {
 	font-family: Teko;
 	font-size: 224px;
-	font-weight: 500;
+	font-weight: 800;
 	color: #33495f;
+  text-shadow: 0px 0px 3px #F7F2E0,
+               0px 0px 5px #F7F2E0;
   margin: 0;
 }
 
@@ -41,8 +38,10 @@ padding: 0;
 	font-size: 150px;
 	font-weight: 500;
 	color: #33495f;
+  text-shadow: 0px 0px 5px #F7F2E0,
+               0px 0px 8px #F7F2E0;
   margin: 0;
-  margin-bottom: -60px;
+  margin-bottom: -20px;
 }
 
 .subheadline {
@@ -50,6 +49,9 @@ padding: 0;
 	font-size: 24px;
 	letter-spacing: 1.1px;
 	color: #394a5c;
+  text-shadow: 0px 0px 2px #F7F2E0,
+               0px 0px 5px #F7F2E0;
+  margin: 0;
 }
 
 
@@ -65,10 +67,22 @@ padding: 0;
 }
 
 
+
 .gehirn_infografik{
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+}
+
+/*overlayer
+.gehirn_infografik{
+  position: absolute;
+  left: 50;
+  top: 50;
+  transform: translateX(-50%) translateY(-50%);
+  text-transform: uppercase;
+
 }
