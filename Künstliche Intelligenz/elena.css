@@ -1,13 +1,20 @@
+.KI_seite {
+height: 800px;
+background-color: #DADADA;
 
+  }
 .header-wrap {
   border-width: 3px;
-  border-style: solid;
-  margin-top: 182px;
+  margin-top: 80px;
   margin-bottom: 49px;
-  margin-left: 119px;
+  margin-left: 95px;
+  /*border: solid;*/
+  width: 1000px;
+  height: 224px;
   display: inline-block;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 .header-left {
@@ -16,6 +23,7 @@
   position: relative;‚
   width: 279px;
   margin: 0 0 0 0;
+  vertical-align: middle;
 }
 
 .header-right {
@@ -24,6 +32,7 @@
   position: relative;
   width: 600px;
   margin: 0 0 0 0;
+  vertical-align: middle;
 }
 
 .article-ich-digital h1{
@@ -33,16 +42,15 @@
   font-size: 224px;
   font-weight: 500;
   color: #33495f;
-  border-style: solid;
   border-width: 3px;
+  margin: 0;
 }
 
 .header-right ul {
-  height: 224px;
-  overflow: hidden;
+  /*height: 224px;*/
   transition-timing-function:ease;
-  border-style: solid;
   border-width: 3px;
+  margin: 0;
 }
 
 .header-right ul li{
@@ -54,41 +62,47 @@
   color: #33495f;
   list-style: none;
   float: left;
-  transition: 1500ms;
 }
 
 .header-right ul:hover li {
 animation-name: digital;
-transform: translateX(0px) translateY(300px) translateZ(0px);
-animation-direction: inherit;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state:running ;
+}
+
+@keyframes digital {
+  to {
+    transform: translateX(0px) translateY(300px) translateZ(0px);
+  }
 }
 
 #animation-d {
-  transition-delay: 50ms;
+  animation-delay: 250ms;
 }
 
 #animation-i{
-  transition-delay: 80ms;
+  animation-delay: 280ms;
 }
 
 #animation-g{
-  transition-delay: 100ms;
+  animation-delay: 300ms;
 }
 
 #animation-i{
-  transition-delay: 220ms;
+  animation-delay: 420ms;
 }
 
 #animation-t{
-  transition-delay: 300ms;
+  animation-delay: 500ms;
 }
 
 #animation-a{
-  transition-delay: 330ms;
+  animation-delay: 530ms;
 }
 
 #animation-l{
-  transition-delay: 340ms;
+  animation-delay: 540ms;
 }
 
 .header-right ul li{
@@ -109,7 +123,7 @@ animation-direction: inherit;
   font-family: 'Teko'; sans-serif;
   font-size: 35px;
   color: #000000;
-  margin: 0px 0px 0px 432px;
+  margin: 0px 0px 0px 443px;
   text-align: left;
 }
 
