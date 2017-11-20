@@ -5,7 +5,6 @@ body{
 }
 
 
-
 /* Start Page */
 
 html {
@@ -139,7 +138,7 @@ margin-right: auto;
 }
 
 .Swag:hover {
-  cursor: url("images/swagtext.gif"),auto;
+  cursor: url("images/swagtext.png"),auto;
   background-image: url("images/Swag.gif");
 }
 
@@ -178,7 +177,7 @@ margin-right: auto;
 }
 
 .Babo:hover {
-  cursor: url("images/babotext.gif"),auto;
+  cursor: url("images/babotext.png"),auto;
   background-image: url("images/Babo.gif");
 }
 
@@ -191,7 +190,7 @@ margin-right: auto;
 }
 
 .Niveaulimbo:hover {
-  cursor: url("images/niveautext.gif"),auto;
+  cursor: url("images/niveautext.png"),auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
@@ -204,7 +203,7 @@ margin-right: auto;
 }
 
 .fly-sein:hover {
-  cursor: url("images/flytext.gif"),auto;
+  cursor: url("images/flytext.png"),auto;
   background-image: url("images/fly-sein.gif");
 }
 
@@ -249,7 +248,8 @@ margin-right: auto;
 
 .article-teaser {
   display: flex;
-  margin-top: 200px;
+  margin-top: 80px;
+	margin-bottom: 50px;
   color: blue;
 }
 
@@ -260,8 +260,6 @@ margin-right: auto;
 
 .article-teaser-image img {
   width: 150px;
-  margin-left: 700px;
-  margin-right: 2rem;
 }
 
 .article-graphic {
@@ -311,6 +309,7 @@ margin-right: auto;
 	background: linear-gradient(0deg, black, transparent);
 	position: absolute;
 	top: 0;
+	left: 0;
 	bottom: 0;
 	width: 100%;
 	opacity: 0.3;
@@ -330,4 +329,38 @@ margin-right: auto;
 	font-size: 1.5rem;
 	line-height: 0.5;
 	position: relative;
+}
+
+.button{
+	/* NOTE: border, background, font-family, font-size, padding */
+	border: 5px;
+	border-radius: 0;
+	background: blue;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.5rem;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	/* NOTE: rechts unten blur überfüllen farbe */
+	box-shadow: 5px 5px 0 0 black;
+	cursor: pointer;
+}
+
+.button:focus{
+	outline: 5px solid red;
+}
+
+.button:hover {
+	background-color: red;
+}
+
+.article-interactive{
+	margin-top: 80px;
+	text-align: center;
+	min-height: 40vh;
+	background-color: yellow;
+	display: flex;
+	align-items: center;
 }
