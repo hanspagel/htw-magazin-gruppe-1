@@ -54,7 +54,7 @@ h1 {font-family:'Merriweather', serif;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
   font-weight: bold;
-  color: white;
+  color: #000912;
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
@@ -86,3 +86,32 @@ h1 {font-family:'Merriweather', serif;
   font-weight: bold;
   color: white;
 }
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: eyes 0.5s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes eyes {
+  to {
+    transform:scale(1.2);
+    fill: white;
+  }
+}
+
+.animated-face {
+  animation: drehen 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.fisch-illustration{fill:white;stroke:#000912;stroke-width:18;stroke-miterlimit:10;}
