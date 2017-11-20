@@ -17,6 +17,7 @@ vh ist viewport height, höhe des Browserfensters */
   display: flex;
   align-items: center;
   height: 100vh;
+  cursor: url(pictures/ballon.png), pointer;
 }
 
 .intro img {
@@ -516,6 +517,22 @@ html.fp-enabled,
 .fp-responsive .fp-auto-height-responsive .fp-slide,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
   height: auto !important;
+}
+
+.button {
+  border: 1px solid pink;
+  background-color: grey;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  color: pink;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 0 black;
+  cursor: url(pumpkin.gif), pointer;
+}
+
+.button:hover {
+  background-color: black;
 }
 
 /*
