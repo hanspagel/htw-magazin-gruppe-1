@@ -228,3 +228,27 @@ color:red
 .thomas:hover {
   filter: grayscale(0%);
 }
+
+.button {
+  background-color: #ffdeeb;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 0;
+  box-shadow: 7px 7px magenta;
+  cursor: url(../images/schluessel.png), pointer;
+}
+
+.button:hover{
+  background-color: magenta;
+  border: 2px dotted yellow;
+  box-shadow: 7px 7px yellow;
+}
+
+.article-interactive{
+  text-align: center;
+  min-height: 50vh;
+  background-color: yellow;
+  display: flex;
+  align-items:
+}
