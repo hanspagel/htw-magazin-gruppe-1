@@ -6,24 +6,28 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="css/stylesheet.css" rel="stylesheet" />
 		<script src="js/jquery.js"></script>
-		<!--<link href="js/script.js" rel="javascript" />
-		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+		<script src="js/main.js"></script>
+		<!--<link href="js/script.js" rel="javascript" />-->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 		<script>
-	    $(document).ready(function() {
 
-					$(".infos").hide();
+		$(document).ready(function() {
 
-	        $(".link a").click(function() {
+		    $(".infos").hide();
 
-						var team = $(this).data("team");
+		    $(".link a").click(function() {
 
-						$(".infos").hide();
-						$(team).show();
+		      var team = $(this).data("team");
 
-					})
+		      $(".infos").hide();
+		      $(team).show();
 
-	    });
+		    })
+
+		});
+
+
 		</script>
 
 	</head>
@@ -82,8 +86,6 @@
 	    <div class="nhl_city_vancouver">
 	      <p class="link"><a href="#" data-team=".city_vancouver"><img src="image/nhl_city.svg" alt=""><span>Vancouver&nbsp;Canucks</span></a></p>
 	    </div>
-
-	<!-- USA -->
 
 			<div class="nhl_city_boston">
 				<p class="link"><a href="#" data-team=".city_boston"><img src="image/nhl_city.svg" alt=""><span>Boston&nbsp;Bruins</span></a></p>
@@ -183,33 +185,40 @@
 
 		</div>
 
+		<div class="team_infos">
+
 			<div class="infos city_montreal">
-				<h1>MONTREAL&nbsp;CANADIENS<img src="image/Montreal_Canadiens.png" alt=""></h1>
+				<div class="infos_team">MONTREAL&nbsp;CANADIENS</div>
+				<div class="infos_logo">
+					<img src="image/Montreal_Canadiens.png" alt="">
+				</div>
 			</div>
 
 			<div class="infos city_ottawa">
-				<h1>OTTAWA SENATORS<img src="image/ottawa_senators.png" alt=""></h1>
+				<h1>OTTAWA&nbsp;SENATORS<img src="image/ottawa_senators.png" alt=""></h1>
 			</div>
 
 			<div class="infos city_toronto">
-				<h1>TORONTO MAPLE LEAFS<img src="image/toronto_maple_leafs.png" alt=""></h1>
+				<h1>TORONTO&nbsp;MAPLE&nbsp;LEAFS<img src="image/toronto_maple_leafs.png" alt=""></h1>
 			</div>
 
 			<div class="infos city_winnipeg">
-				<h1>WINNIPEG JETS<img src="image/winnipeg_jets.png" alt=""></h1>
+				<h1>WINNIPEG&nbsp;JETS<img src="image/winnipeg_jets.png" alt=""></h1>
 			</div>
 
 			<div class="infos city_edmonton">
-				<h1>EDMONTON OILERS<img src="image/edmonton_oilers.png" alt=""></h1>
+				<h1>EDMONTON&nbsp;OILERS<img src="image/edmonton_oilers.png" alt=""></h1>
 			</div>
 
 			<div class="infos city_calgary">
-				<h1>CALGARY FLAMES<img src="image/calgary_flames.png" alt=""></h1>
+				<h1>CALGARY&nbsp;FLAMES<img src="image/calgary_flames.png" alt=""></h1>
 			</div>
 
 			<div class="infos city_vancouver">
-				<h1>VANCOUVER CANUCKS<img src="image/vancouver_canucks.png" alt=""></h1>
+				<h1>VANCOUVER&nbsp;CANUCKS<img src="image/vancouver_canucks.png" alt=""></h1>
 			</div>
+
+		</div>
 
 	</div>
 
