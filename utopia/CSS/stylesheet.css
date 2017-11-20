@@ -237,6 +237,7 @@ color:red
   border-radius: 0;
   box-shadow: 7px 7px magenta;
   cursor: url(../images/schluessel.png), pointer;
+
 }
 
 .button:hover{
@@ -245,10 +246,20 @@ color:red
   box-shadow: 7px 7px yellow;
 }
 
+.button:visited{
+  outline-color: none;
+}
+
 .article-interactive{
   text-align: center;
   min-height: 50vh;
-  background-color: yellow;
   display: flex;
   align-items:
+}
+
+.spacedonut{
+  background: url(../images/spacedonut.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
