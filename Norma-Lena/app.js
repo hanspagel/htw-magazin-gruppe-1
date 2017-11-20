@@ -1,11 +1,11 @@
 
 $(document).ready(function() {
 
-$(".button").click(function() {
+  $(".button").click(function(){
 
-  $(".article-interactive").toggleClass ("schnabel")
+    $(".article-interactive").toggleClass("source")
 
-})
 
+    })
 
 })
