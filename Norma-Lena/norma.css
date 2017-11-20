@@ -164,6 +164,25 @@ p:first-of-type {
 body {
   margin:0;
 }
+.article-interactive {
+  background: url(schnabel.gif);
+}
+
+.button {
+  border: 5px solid yellow;
+  /* NOTE: border, background, border-radius: 0, font-family, font-size */
+
+  /* NOTE: png, gif, max. 100 px */
+  cursor: url(cursor.png), pointer;
+}
+
+.button:hover {
+  border: 5px solid blue;
+}
+
+.action{
+  
+}
 
 /* Kommentare unsichtbar einfügen */
 /* NOTE: hallo hallo hallo */
