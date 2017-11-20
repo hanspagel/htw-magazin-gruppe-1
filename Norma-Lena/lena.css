@@ -51,8 +51,72 @@ h1 {font-family:'Merriweather', serif;
   margin-bottom:  1rem;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
+<<<<<<< HEAD
+  font-weight: bold;
+  color: #000912;
+=======
   color: white;
+>>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
 }
+<<<<<<< HEAD
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  transition: all 2s;
+}
+
+.article-teaser:hover {
+  color: blue;
+  transform: rotate(30deg);
+}
+
+.article-teaser-image img {
+  width: 10rem;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  font-family:'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: eyes 0.5s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes eyes {
+  to {
+    transform:scale(1.2);
+    fill: white;
+  }
+}
+
+.animated-face {
+  animation: drehen 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.fisch-illustration{fill:white;stroke:#000912;stroke-width:18;stroke-miterlimit:10;}
+=======
+>>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
