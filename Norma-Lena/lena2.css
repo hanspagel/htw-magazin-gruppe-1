@@ -164,24 +164,17 @@ p:first-of-type {
 body {
   margin:0;
 }
+
 .article-interactive {
-  background: url(schnabel.gif);
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
-.button {
-  border: 5px solid yellow;
-  /* NOTE: border, background, border-radius: 0, font-family, font-size */
-
-  /* NOTE: png, gif, max. 100 px */
-  cursor: url(cursor.png), pointer;
-}
-
-.button:hover {
-  border: 5px solid blue;
-}
-
-.action{
-  
+.source {
+  background: url(source.gif);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Kommentare unsichtbar einfügen */
