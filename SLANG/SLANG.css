@@ -333,7 +333,6 @@ margin-right: auto;
 	position: relative;
 }
 
-
 .button {
 /* NOTE: border, background, font-family, font-size, padding, border-radius*/
 background-color: yellow;
@@ -342,15 +341,11 @@ font-size: 14px;
 border-color: yellow;
 padding: 30px;
 position: relative;
-
 }
-
-
 
 .button:hover {
 	background-color: #ff0000;
 	border-color: #ff0000;
-
 }
 
 .article-interactive {
@@ -359,15 +354,11 @@ min-height: 50vh;
 background-color: black;
 display: flex;
 align-items: center;
-
 }
-
 
 .action {
 background: url(images/haha.gif);
-
 }
-
 
 .face{
 background: #0000ff;
