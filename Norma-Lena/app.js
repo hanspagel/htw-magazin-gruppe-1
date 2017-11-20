@@ -1,7 +1,11 @@
 
 $(document).ready(function() {
 
-$(".button").click
+$(".button").click(function() {
+
+  $(".article-interactive").toggleClass ("schnabel")
+
+})
 
 
 })

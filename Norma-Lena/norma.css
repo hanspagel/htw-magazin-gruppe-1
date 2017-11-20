@@ -164,8 +164,11 @@ p:first-of-type {
 body {
   margin:0;
 }
-.article-interactive {
+.schnabel {
   background: url(schnabel.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .button {
@@ -180,8 +183,10 @@ body {
   border: 5px solid blue;
 }
 
-.action{
-  
+.article-interactive{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
 /* Kommentare unsichtbar einfügen */
