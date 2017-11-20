@@ -1,32 +1,129 @@
-.article-ich-digital h1 {
+.KI_seite {
+height: 800px;
+background-color: #DADADA;
+
+  }
+.header-wrap {
+  border-width: 3px;
+  margin-top: 80px;
+  margin-bottom: 49px;
+  margin-left: 95px;
+  /*border: solid;*/
+  width: 1000px;
+  height: 224px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-left {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;‚
+  width: 279px;
+  margin: 0 0 0 0;
+  vertical-align: middle;
+}
+
+.header-right {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 600px;
+  margin: 0 0 0 0;
+  vertical-align: middle;
+}
+
+.article-ich-digital h1{
   font-family: 'Teko'; sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
   font-size: 224px;
   font-weight: 500;
   color: #33495f;
-  margin: 182px 0 0px 119px;
-  text-align: left;
+  border-width: 3px;
+  margin: 0;
 }
 
-.text-style-1 {
+.header-right ul {
+  /*height: 224px;*/
+  transition-timing-function:ease;
+  border-width: 3px;
+  margin: 0;
+}
+
+.header-right ul li{
+  font-family: 'Teko'; sans-serif;
+  text-transform: uppercase;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 224px;
+  font-weight: 500;
+  color: #33495f;
+  list-style: none;
+  float: left;
+}
+
+.header-right ul:hover li {
+animation-name: digital;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state:running ;
+}
+
+@keyframes digital {
+  to {
+    transform: translateX(0px) translateY(300px) translateZ(0px);
+  }
+}
+
+#animation-d {
+  animation-delay: 250ms;
+}
+
+#animation-i{
+  animation-delay: 280ms;
+}
+
+#animation-g{
+  animation-delay: 300ms;
+}
+
+#animation-i{
+  animation-delay: 420ms;
+}
+
+#animation-t{
+  animation-delay: 500ms;
+}
+
+#animation-a{
+  animation-delay: 530ms;
+}
+
+#animation-l{
+  animation-delay: 540ms;
+}
+
+.header-right ul li{
   animation-name: color_change;
 	animation-duration: 2s;
   animation-delay: 1.5s;
 	animation-iteration-count: 1;
   animation-timing-function:ease-in-out;
-   animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
+
 
 @-webkit-keyframes color_change {
 	to { color: #7997a0; }
 }
 
-.article-ich-digital h2 {
+.article-ich-digital h3 {
   font-family: 'Teko'; sans-serif;
   font-size: 35px;
   color: #000000;
-  margin: 0px 0px 0px 432px;
+  margin: 0px 0px 0px 443px;
   text-align: left;
 }
 

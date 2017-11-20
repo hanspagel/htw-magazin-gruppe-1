@@ -7,24 +7,16 @@ html {
 
 /* NOTE: Überschrift */
 h1 {
-<<<<<<< HEAD
-  font-family: 'Arimo', serif;
-=======
   font-family: 'Arimo', sans-serif;
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
   font-weight: normal;
   font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
-<<<<<<< HEAD
-/* NOTE: Der erste Absatz */
-p:first-of-type {
-=======
+
 /* NOTE: Der erste Absatz im ersten Textmodul */
 .article-text:first-of-type p:first-of-type {
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
   font-size: 1.4rem;
 }
 
@@ -42,8 +34,6 @@ p:first-of-type {
 
 .article-image img {
   max-width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 .article-module {
@@ -53,16 +43,15 @@ p:first-of-type {
 .article-text-info {
   float: right;
   width: 10rem;
-  padding: 1rem 1.3rem;
+  padding: 0.9rem 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
   font-family: 'Arimo', sans-serif;
+  font-size: 0.9rem;
 
   /* NOTE: rechts unten blur überfüllen farbe */
-  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1);
-  border: 5px solid black;
-  background-color: yellow;
->>>>>>> 134fbae2a86e4c4b731aa5887b314d82ebe5ebef
+  border-left: 5px solid yellow;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), transparent);
 }
 
 .article-teaser {
@@ -80,6 +69,15 @@ p:first-of-type {
   width: 120px;
 }
 
+.article-module strong {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+}
+
+
+
+
 .article-teaser-image {
   margin-right: 1rem;
 }
@@ -89,3 +87,101 @@ p:first-of-type {
   font-family: 'Arimo', sans-serif;
   transition: all 0.2s;
 }
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 10s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  0% {
+    fill: pink;
+  }
+
+  25% {
+    fill: green;
+  }
+
+  50% {
+    fill: red;
+  }
+
+  75% {
+    fill: orange;
+  }
+
+  100% {
+    fill: blue;
+  }
+}
+
+.animated-face {
+  animation: drehen 60s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.article-stage {
+  background-image: url(wasser.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.stage-headline {
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,12 +1,11 @@
 html {font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       line-height: 1.4;
-      color: #778899;
 }
 
 body {
-    background: linear-gradient(to bottom, #000912, #000408 );
-    }
+    background: linear-gradient(to bottom, #87CEFA, #008B8B);
+}
 
 /* NOTE: Überschrift */
 h1 {font-family:'Merriweather', serif;
@@ -14,21 +13,20 @@ h1 {font-family:'Merriweather', serif;
     font-size: 1.7rem;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #40E0D0;
 }
 
 /* NOTE: Der erste Absatz im erstenTextmodul*/
 .article-text:first-of-type p:first-of-type {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: lightgrey;
-}
+    font-size: 1.4rem;
+    font-style: italic;
+  }
 
 .article-inner {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 
 .article-inner-wide {
     max-width: 900px;
@@ -45,7 +43,7 @@ h1 {font-family:'Merriweather', serif;
 }
 
 .article-text-info {
-  background-color: #40E0D0;
+  background-color: blue;
   float: right;
   width: 8rem;
   padding: 1rem 1.3rem;
@@ -53,12 +51,17 @@ h1 {font-family:'Merriweather', serif;
   margin-bottom:  1rem;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
+<<<<<<< HEAD
   font-weight: bold;
   color: #000912;
+=======
+  color: white;
+>>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
 }
+<<<<<<< HEAD
 
 .article-teaser {
   display: flex;
@@ -115,3 +118,5 @@ h1 {font-family:'Merriweather', serif;
 }
 
 .fisch-illustration{fill:white;stroke:#000912;stroke-width:18;stroke-miterlimit:10;}
+=======
+>>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
