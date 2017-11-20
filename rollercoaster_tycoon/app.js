@@ -1,1 +1,3 @@
-alert("YEY ITS JAVASCRIPT")
+$(document).ready(
+s
+)
