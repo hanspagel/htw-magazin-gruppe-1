@@ -115,3 +115,8 @@ body{
   display: flex;
   align-items: center;
 }
+
+.action{
+  background: url(200w_d.gif);
+  background-size: cover;
+}
