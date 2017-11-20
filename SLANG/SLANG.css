@@ -387,13 +387,13 @@ margin-right: auto;
 .harzen {
   background-image: url("images/harzen.jpg");
   background-size: cover;
-  width: 350px;
-  height: 350px;
+  width: 20vw;
+  height: 20vw;
   margin:auto;
 }
 
 .harzen:hover {
-  cursor: url("images/harzen.gif"),auto;
+  cursor: url("images/herzentext.gif"),auto;
   background-image: url("images/harzen.gif");
 }
 
