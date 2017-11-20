@@ -12,7 +12,7 @@
 }
 
 
-.spirale_animation{
+.spirale_animation {
   position: relative;
   width: 100%;
   max-height: 2048px;
@@ -36,7 +36,7 @@ padding: 0;
   margin: 0;
 }
 
-.grosse_zahl{
+.grosse_zahl {
 	font-family: Teko;
 	font-size: 150px;
 	font-weight: 500;
@@ -60,7 +60,7 @@ padding: 0;
 }
 
 .info-gehirn-linksbündig{
-  text-aligt: left;
+  text-align: left;
   margin-left: 137px;
 }
 
