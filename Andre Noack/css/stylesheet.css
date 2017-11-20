@@ -147,9 +147,9 @@ p.link a:hover span {
   width: 50%;
   margin-top: 127px;
   margin-bottom: 0;
-  height: 677px;
+  /*height: 677px;*/
   padding: 0;
-  /*background-color: #eee;*/
+  background-color: #eee;
   background-size: cover;
 }
 
@@ -579,6 +579,29 @@ p.link a:hover span {
   float: left;
   margin-bottom: 200px;
   color: tomato;
+}
+
+.infos {
+  position: relative;
+  display: inline-block;
+  left: 53.5%;
+  top: -910px;
+}
+
+.infos h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+}
+
+.infos img {
+  width: 10%;
+  filter: grayscale(100%);
+}
+
+.infos img:hover {
+  width: 20%;
+  filter: grayscale(0%);
+  transition: 0.2s;
 }
 
 /*.header-subline {
