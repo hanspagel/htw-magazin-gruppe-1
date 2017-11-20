@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(
-s
-)
-=======
 $(document).ready(function() {
 
   $(".button").click(function() {
@@ -12,4 +7,3 @@ $(document).ready(function() {
   })
 
 })
->>>>>>> a0db863f17598af4efe0d44263674a9fce002c9e
