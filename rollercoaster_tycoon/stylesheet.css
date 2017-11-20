@@ -30,7 +30,7 @@ vh ist viewport height, höhe des Browserfensters */
 }
 
 
- /*Allgemein*/
+/*Allgemein*/
 
 .logo{
   margin-top:3%;
@@ -81,7 +81,7 @@ p {
   bottom:10%;
 }
 
-/*zuckerwatte*/
+/*Zuckerwatte*/
 
 .text-zuckerwatte {
   width:43%;
@@ -92,9 +92,9 @@ p {
 
 .zuckerwatte{
   position: absolute;
-  width:38%;
-  right: 18%;
-  bottom:23%;
+  width:40%;
+  right: 15%;
+  bottom:30%;
 }
 
 
@@ -107,15 +107,15 @@ p {
 .text-burger {
   width:43%;
   position: absolute;
-  left: 8%;
-  top: 34%;
+  right: 8%;
+  top: 10%;
 }
 
 .burger{
   position: absolute;
   width:38%;
-  right: 18%;
-  bottom:23%;
+  left:3%;
+  bottom:18%;
 }
 
 
@@ -268,7 +268,7 @@ p {
   position: right;
 }
 
-/*Sidebar*/
+/*Navigation*/
 
 
  * fullPage 2.9.5
@@ -519,6 +519,11 @@ html.fp-enabled,
   height: auto !important;
 }
 
+.article-interactive{
+  display: flex;
+  align-items: center;
+}
+
 .button {
   border: 1px solid pink;
   background-color: grey;
@@ -528,7 +533,21 @@ html.fp-enabled,
   padding: 5px;
   border-radius: 5px;
   box-shadow: 3px 3px 0 0 black;
-  cursor: url(pumpkin.gif), pointer;
+<<<<<<< HEAD
+=======
+
+}
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.action {
+  background: url(pictures/action.gif);
+>>>>>>> a0db863f17598af4efe0d44263674a9fce002c9e
 }
 
 .button:hover {

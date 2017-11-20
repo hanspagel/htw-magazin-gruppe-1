@@ -1,10 +1,11 @@
 html {font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       line-height: 1.4;
+      color: white;
 }
 
 body {
-    background: linear-gradient(to bottom, #87CEFA, #008B8B);
+    background: linear-gradient(to bottom, #011F27, #000506);
 }
 
 /* NOTE: Überschrift */
@@ -51,17 +52,15 @@ h1 {font-family:'Merriweather', serif;
   margin-bottom:  1rem;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
-<<<<<<< HEAD
   font-weight: bold;
   color: #000912;
-=======
   color: white;
->>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
+
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
 }
-<<<<<<< HEAD
+
 
 .article-teaser {
   display: flex;
@@ -117,6 +116,6 @@ h1 {font-family:'Merriweather', serif;
     }
 }
 
-.fisch-illustration{fill:white;stroke:#000912;stroke-width:18;stroke-miterlimit:10;}
-=======
->>>>>>> 46ae8e8a67322a039a45bcefb59854b4e740b1f3
+.article-interactive {
+  background: url(source.gif);
+}
