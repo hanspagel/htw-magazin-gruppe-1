@@ -2,7 +2,8 @@ html{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  color: #ffdeeb;
+  color: white;
+  opacity: 0.75;
 }
 
 body{
@@ -32,7 +33,7 @@ h1{
   font-size: 3rem;
   font-variant: small-caps;
   margin-bottom: 1em;
-  color: #ffdeeb;
+  color: white;
 }
 
 h2{
@@ -41,7 +42,7 @@ h2{
   font-size: 1.5rem;
   font-variant: small-caps;
   margin-bottom: 1em;
-  color: #ffdeeb;
+  color: white;
 }
 
 /*p:first-of-type{
@@ -54,10 +55,10 @@ h2{
   width: 100%;
 }
 
-/* NOTE: der erste Absatz im ersten Textmodul */
+/* NOTE: der erste Absatz im ersten Textmodul
 .article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
-}
+}*/
 
 .article-module {
   padding: 1.5rem 0;
@@ -99,6 +100,7 @@ color:red
 .article-teaser-headline {
   align-self: center;
   font-family: 'Josefin Sans', sans-serif;
+  color: magenta;
   transition: all 10s;
 }
 
@@ -220,7 +222,7 @@ color:red
   width: 300px;
   height: auto;
   position: absolute;
-  margin-left: -300px;
+  margin-left: -320px;
   filter: grayscale(100%);
   transition: filter 0.5s;
 }
@@ -246,8 +248,8 @@ color:red
   box-shadow: 7px 7px yellow;
 }
 
-.button:visited{
-  outline-color: none;
+.button:focus{
+  outline: none;
 }
 
 .article-interactive{
