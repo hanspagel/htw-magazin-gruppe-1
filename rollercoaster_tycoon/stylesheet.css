@@ -43,9 +43,9 @@ vh ist viewport height, höhe des Browserfensters */
 
 .content {
   margin: 5%;
-  margin-top: 2%;
+  margin-top: 5%;
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 
@@ -66,8 +66,8 @@ p {
   height:55%;
   position: absolute;
   position: fixed;
-  left:5%;
-  top:5%;
+  left:10%;
+  top:13%;
   background-color: #FEBBBB;
 }
 
@@ -87,7 +87,7 @@ p {
   width:43%;
   position: absolute;
   left: 8%;
-  top: 34%;
+  top: 30%;
 }
 
 .zuckerwatte{
@@ -126,17 +126,17 @@ p {
 /*Start*/
 
 .text-start {
-  width:43%;
+  width:50%;
   position: absolute;
-  left: 8%;
-  top: 34%;
+  left: 18%;
+  top: 38%;
 }
 
 .start{
   position: absolute;
-  width:38%;
-  right: 18%;
-  bottom:23%;
+  width:25%;
+  right: 10%;
+  top:10%;
 }
 
 
@@ -149,15 +149,15 @@ p {
 .text-zange {
   width:43%;
   position: absolute;
-  left: 8%;
-  top: 34%;
+  left: 18%;
+  top: 5%;
 }
 
 .zange{
   position: absolute;
-  width:38%;
-  right: 18%;
-  bottom:23%;
+  width:20%;
+  right: 20%;
+  bottom:20%;
 }
 
 
@@ -170,19 +170,40 @@ p {
 .text-ballon {
   width:43%;
   position: absolute;
-  left: 8%;
-  top: 34%;
+  left: 40%;
+  top: 0;
 }
 
 .ballon{
   position: absolute;
-  width:38%;
-  right: 18%;
-  bottom:23%;
+  width:17%;
+  right: 65%;
+  bottom:8%;
 }
 
 
 .img-ballon img {
+  width: 100%;
+}
+
+/*Kopf*/
+
+.text-kopf {
+  width:43%;
+  position: absolute;
+  left: 8%;
+  top: 0;
+}
+
+.kopf{
+  position: absolute;
+  width:38%;
+  right: 15%;
+  bottom:15%;
+}
+
+
+.img-kopf img {
   width: 100%;
 }
 
@@ -192,7 +213,7 @@ p {
   width:43%;
   position: absolute;
   left: 8%;
-  top: 34%;
+  top: 0;
 }
 
 .person{
@@ -207,26 +228,7 @@ p {
   width: 100%;
 }
 
-/*Kopf*/
 
-.text-kopf {
-  width:43%;
-  position: absolute;
-  left: 8%;
-  top: 34%;
-}
-
-.kopf{
-  position: absolute;
-  width:38%;
-  right: 18%;
-  bottom:23%;
-}
-
-
-.img-kopf img {
-  width: 100%;
-}
 
 /*Audioplayer*/
 
