@@ -1,1 +1,10 @@
-alert("Sie haben eine Reise nach Utopia gewonnen!")
+
+$(document).ready(function() {
+
+$(".button").click(function() {
+
+  $(".article-interactive").addClass("spacedonut")
+
+})
+
+})
