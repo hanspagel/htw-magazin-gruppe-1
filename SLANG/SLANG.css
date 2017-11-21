@@ -219,7 +219,7 @@ margin-right: auto;
 }
 
 .harzen:hover {
-  cursor: url("images/herzentext.gif"),auto;
+  cursor: url("images/harzentext.gif"),auto;
   background-image: url("images/harzen.gif");
 }
 
