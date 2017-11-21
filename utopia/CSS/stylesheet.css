@@ -8,8 +8,9 @@ html{
 
 body{
   background-color: #000000;
-  background-image: url(../images/background1.png);
+  background-image: url(../images/background5.png);
   background-attachment: fixed;
+
 }
 
 .article-inner{
@@ -264,4 +265,9 @@ color:red
   background-repeat: no-repeat;
   background-position: center;
 
+}
+
+.stars{
+  position: absolute;
+  repeat: repeat-y;
 }
