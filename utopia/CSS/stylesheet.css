@@ -271,3 +271,8 @@ color:red
   position: absolute;
   repeat: repeat-y;
 }
+
+.article-pic{
+  width: 300px;
+  height: auto;
+}
