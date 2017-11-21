@@ -269,10 +269,17 @@ color:red
 
 .stars{
   position: absolute;
-  repeat: repeat-y;
+  
 }
 
-.article-pic{
-  width: 300px;
+.article-pic img{
+  width: 150%;
   height: auto;
+  margin-left: -40%;
+}
+.article-pic2 img{
+  width: 120%;
+  height: auto;
+  margin-top: -150%;
+  margin-left: 50%;
 }
