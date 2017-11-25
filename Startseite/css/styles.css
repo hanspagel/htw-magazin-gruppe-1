@@ -52,7 +52,8 @@ article{
   transition: 500ms ease;
 }
 .card:hover .info {
-  max-height: 300px;
+  max-height: 150px;
+  height: 150px;
 }
 
 footer{
