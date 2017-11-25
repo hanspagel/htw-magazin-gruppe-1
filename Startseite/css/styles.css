@@ -7,8 +7,12 @@ html{
 header{
   position: fixed;
 }
+main{
+  /*height: 10000px;*/
+}
 article{
   white-space: nowrap;
+  transform: rotate(-13deg);
 }
 .card{
   display: inline-block;
@@ -17,6 +21,14 @@ article{
   background-color: tomato;
   border-radius: 3px;
   padding: 10px;
+  transition: 500ms ease;
+  margin-right: calc(30px - 5px);
+}
+.card:last-child{
+  margin-right: 0px;
+}
+.card:hover{
+  transform: translateY(-150px);
 }
 footer{
   position: fixed;
