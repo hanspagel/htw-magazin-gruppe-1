@@ -2,7 +2,10 @@
 window.onload = function() {
   var windowWidth = window.innerWidth;
   var stack = document.getElementsByClassName('card-stack')[0];
-  var stackWidth = 
+  // add 5 because inline-block sucks and i'm too lazy to deal with flexbox
+  var cardWidth = document.getElementsByClassName("card")[0].offsetWidth + 5;
+  console.log(cardWidth);
+  var stackWidth =
   // update position of square 1 ands when scroll event fires.
   window.addEventListener('scroll', function() {
     var scrollLeft = window.pageXOffset || window.scrollLeft;
@@ -13,6 +16,8 @@ window.onload = function() {
     + "px)";
   });
 };
+
+
 
 // window.onload = function() {
 //   var container = document.getElementById('container');
