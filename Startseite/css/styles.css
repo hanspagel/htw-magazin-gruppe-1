@@ -47,10 +47,12 @@ article{
   transform: translateY(-150px);
 }
 .info{
-  display: none;
+  overflow-y: hidden;
+  max-height: 0px;
+  transition: 500ms ease;
 }
 .card:hover .info {
-  display:block;
+  max-height: 300px;
 }
 
 footer{
@@ -83,6 +85,9 @@ h1, h2, h3, h4, h5 {
 	line-height: 1em;
 	padding: 0;
 	margin: 0 0 1em 0;
+}
+p{
+  margin: 0px;
 }
 
 
