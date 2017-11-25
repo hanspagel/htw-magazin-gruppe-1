@@ -25,12 +25,11 @@ main{
 article{
   white-space: nowrap;
   transform: rotate(-13deg);
-  bottom: 0px;
   margin: auto 0px auto 80px;
-  /*padding-top: 150px;*/
 }
 .card{
   display: inline-block;
+  vertical-align: top;
   white-space: normal;
   width: 246px;
   height: 377px;
@@ -50,7 +49,10 @@ article{
 .info{
   display: none;
 }
-.card:hover .info { display:block; }
+.card:hover .info {
+  display:block;
+}
+
 footer{
   position: fixed;
   right:0px;
