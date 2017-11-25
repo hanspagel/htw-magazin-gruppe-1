@@ -1,0 +1,60 @@
+html{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  line-height: 1.4;
+}
+header{
+  position: fixed;
+}
+article{
+  white-space: nowrap;
+}
+.card{
+  display: inline-block;
+  width: 246px;
+  height: 377px;
+  background-color: tomato;
+  border-radius: 3px;
+  padding: 10px;
+}
+footer{
+  position: fixed;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1em;
+	padding: 0;
+	margin: 0 0 1em 0;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+
+}
+
+
+@media all and (max-width: 780px) {
+
+}
