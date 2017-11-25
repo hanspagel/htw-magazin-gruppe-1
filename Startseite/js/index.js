@@ -24,3 +24,13 @@ window.onload = function() {
     // }
   });
 };
+
+function scrollCard(direction) {
+  var windowc = document.getElementsByTagName("main")[0];
+  if (direction=="left") {
+    windowc.scrollTo(300, 0);
+  } else {
+    windowc.scrollTo(500, 0);
+  }
+
+}

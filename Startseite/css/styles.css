@@ -23,6 +23,7 @@ main{
 article{
   white-space: nowrap;
   transform: rotate(-13deg);
+  bottom: 0px;
 }
 .card{
   display: inline-block;
