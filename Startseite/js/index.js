@@ -16,5 +16,10 @@ window.onload = function() {
      scrollPercent * 693
     + "px)";
     // console.log(scrollPercent);
+
+    // stop vertical scrool. super-jittery
+    if (document.body.scrollTop!=0) {
+      document.body.scrollTop = 0;
+    }
   });
 };
