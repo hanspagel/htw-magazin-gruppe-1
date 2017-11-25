@@ -24,6 +24,7 @@ article{
   white-space: nowrap;
   transform: rotate(-13deg);
   bottom: 0px;
+  margin: 0px 0px 0px 80px;
 }
 .card{
   display: inline-block;
@@ -37,7 +38,7 @@ article{
   box-shadow: 1px 2px 26px rgba(0,0,0,0.1);
 }
 .card:last-child{
-  margin-right: 0px;
+  margin-right: 800px;
 }
 .card:hover{
   transform: translateY(-150px);
