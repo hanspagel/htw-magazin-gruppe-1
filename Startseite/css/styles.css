@@ -33,6 +33,7 @@ article{
   padding: 10px;
   transition: 500ms ease;
   margin-right: calc(30px - 5px);
+  box-shadow: 1px 2px 26px rgba(0,0,0,0.1);
 }
 .card:last-child{
   margin-right: 0px;
