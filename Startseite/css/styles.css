@@ -19,12 +19,14 @@ main{
   width: 100vw;
   overflow-x: scroll;
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
 }
 article{
   white-space: nowrap;
   transform: rotate(-13deg);
   bottom: 0px;
-  margin: 0px 0px 0px 80px;
+  margin: auto 0px auto 80px;
 }
 .card{
   display: inline-block;
