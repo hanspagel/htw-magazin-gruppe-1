@@ -27,10 +27,11 @@ window.onload = function() {
 
 function scrollCard(direction) {
   var windowc = document.getElementsByTagName("main")[0];
+  var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
   if (direction=="left") {
-    windowc.scrollTo(271, 0);
+    windowc.scrollTo(scrollLeft-300, 0);
   } else {
-    windowc.scrollTo(500, 0);
+    windowc.scrollTo(scrollLeft+300, 0);
   }
 
 }
