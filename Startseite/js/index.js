@@ -13,8 +13,8 @@ window.onload = function() {
     var scrollPercent = scrollLeft/3205 || 0;
 
     stack.style.transform = "rotate(-13deg) translateY("+
-     scrollPercent
+     scrollPercent * 693
     + "px)";
-    console.log(scrollPercent);
+    // console.log(scrollPercent);
   });
 };
