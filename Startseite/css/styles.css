@@ -27,9 +27,11 @@ article{
   transform: rotate(-13deg);
   bottom: 0px;
   margin: auto 0px auto 80px;
+  /*padding-top: 150px;*/
 }
 .card{
   display: inline-block;
+  white-space: normal;
   width: 246px;
   height: 377px;
   background-color: tomato;
@@ -45,6 +47,10 @@ article{
 .card:hover{
   transform: translateY(-150px);
 }
+.info{
+  display: none;
+}
+.card:hover .info { display:block; }
 footer{
   position: fixed;
   right:0px;
