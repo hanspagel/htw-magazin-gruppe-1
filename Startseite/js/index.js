@@ -1,5 +1,14 @@
 
 window.onload = function() {
+
+  // random bg-colors for cards:
+  var cards = document.getElementsByClassName("card");
+  for (var i = 0; i < cards.length; i++) {
+    randomHue = Math.floor(Math.random() * 361);
+    cards[i].style.backgroundColor = "hsl("+ randomHue +",70%,60%)";
+  }
+
+
   var windowc = document.getElementsByTagName("main")[0];
   var windowWidth = window.innerWidth;
   var stack = document.getElementsByClassName('card-stack')[0];
