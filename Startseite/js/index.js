@@ -58,18 +58,19 @@ window.requestAnimFrame = (function(){
 
 // main function
 function scrollToX(scrollTargetX, speed, easing) {
+  var windowc = document.getElementsByTagName("main")[0];
     // scrollTargetY: the target scrollY property of the window
     // speed: time in pixels per second
     // easing: easing equation to use
 
-    var scrollY = windowc.scrollY || document.documentElement.scrollTop,
-        scrollTargetY = scrollTargetY || 0,
+    var scrollX = windowc.scrollLeft || windowc.pageXOffset,
+        scrollTargetX = scrollTargetX || 0,
         speed = speed || 2000,
         easing = easing || 'easeOutSine',
         currentTime = 0;
 
     // min time .1, max time .8 seconds
-    var time = Math.max(.1, Math.min(Math.abs(scrollY - scrollTargetY) / speed, .8));
+    var time = Math.max(.1, Math.min(Math.abs(scrollX - scrollTargetX) / speed, .8));
 
     // easing equations from https://github.com/danro/easing-js/blob/master/easing.js
     var easingEquations = {
@@ -97,10 +98,10 @@ function scrollToX(scrollTargetX, speed, easing) {
         if (p < 1) {
             requestAnimFrame(tick);
 
-            window.scrollTo(0, scrollY + ((scrollTargetY - scrollY) * t));
+            windowc.scrollTo(scrollX + ((scrollTargetX - scrollX) * t), 0);
         } else {
             console.log('scroll done');
-            window.scrollTo(0, scrollTargetY);
+            windowc.scrollTo(scrollTargetX, 0);
         }
     }
 
@@ -116,10 +117,11 @@ function scrollCard(direction) {
   var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
   var currentSlot = Math.floor(scrollLeft/scrollJump);
   var lastSlot = (currentSlot-1)*scrollJump;
+  var nextSlot = (currentSlot+1)*scrollJump;
   if (direction=="left") {
-    scrollToY(lastSlot, 0, 'easeInOutQuint');
+    scrollToX(lastSlot, 1500, 'easeInOutQuint');
   } else {
-    scrollTo((currentSlot+1)*scrollJump, 0);
+    scrollToX(nextSlot, 1500, 'easeInOutQuint');
   }
 
 }
