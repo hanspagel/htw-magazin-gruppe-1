@@ -35,7 +35,7 @@ main{
 section{
   display: inline-block;
   vertical-align: top;
-  white-space: normal;
+  /*white-space: normal;*/
   width: 246px;
   height: 377px;
   margin-right: calc(30px - 5px);
