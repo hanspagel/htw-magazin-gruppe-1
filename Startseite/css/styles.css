@@ -43,7 +43,7 @@ article{
 .card:last-child{
   margin-right: 800px;
 }
-.card:hover{
+.card:hover, .card:focus{
   transform: translateY(-150px);
 }
 .info{
@@ -51,7 +51,7 @@ article{
   max-height: 0px;
   transition: 500ms ease;
 }
-.card:hover .info {
+.card:hover .info, .card:focus .info {
   max-height: 150px;
   height: 150px;
 }

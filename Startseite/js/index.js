@@ -1,9 +1,9 @@
 var scrollJump = 303;
+var cards = document.getElementsByClassName("card");
 
 window.onload = function() {
 
   // random bg-colors for cards:
-  var cards = document.getElementsByClassName("card");
   for (var i = 0; i < cards.length; i++) {
     randomHue = Math.floor(Math.random() * 361);
     cards[i].style.backgroundColor = "hsl("+ randomHue +",70%,60%)";
@@ -26,7 +26,12 @@ window.onload = function() {
     stack.style.transform = "rotate(-13deg) translateY("+
      scrollPercent * 900
     + "px)";
-    // console.log(scrollPercent);
+
+
+    // show info for active card
+    var currentSlot = Math.floor(scrollLeft/scrollJump);
+    cards[currentSlot].focus();
+    // console.log(currentSlot);
 
     // stop vertical scrool. super-jittery
     // if (document.body.scrollTop!=0) {
