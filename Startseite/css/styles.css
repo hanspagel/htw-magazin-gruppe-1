@@ -22,10 +22,11 @@ main{
   display: flex;
   flex-direction: column;
 }
-article{
+.card-stack{
   white-space: nowrap;
   transform: rotate(-13deg);
   margin: auto 0px auto 80px;
+  /*transition: 100ms;*/
 }
 .card{
   display: inline-block;
