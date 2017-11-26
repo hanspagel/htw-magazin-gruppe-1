@@ -1,3 +1,4 @@
+var scrollJump = 303;
 
 window.onload = function() {
 
@@ -37,10 +38,11 @@ window.onload = function() {
 function scrollCard(direction) {
   var windowc = document.getElementsByTagName("main")[0];
   var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
+  var currentSlot = Math.floor(scrollLeft/scrollJump);
   if (direction=="left") {
-    windowc.scrollTo(scrollLeft-300, 0);
+    windowc.scrollTo((currentSlot-1)*scrollJump, 0);
   } else {
-    windowc.scrollTo(scrollLeft+300, 0);
+    windowc.scrollTo((currentSlot+1)*scrollJump, 0);
   }
 
 }
