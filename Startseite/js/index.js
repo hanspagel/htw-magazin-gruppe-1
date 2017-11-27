@@ -18,7 +18,7 @@ window.onload = function() {
   var stackWidth = cardWidth * 15;
 
   // update position of square 1 ands when scroll event fires.
-  windowc.addEventListener('scroll', function() {
+  function adjust() {
     var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
     // var scrollPercent = scrollLeft/(stackWidth-window.innerWidth) || 0;
     var scrollPercent = scrollLeft/4105 || 0;
@@ -29,7 +29,7 @@ window.onload = function() {
 
 
     // show info for active card
-    var currentSlot = Math.floor(scrollLeft/scrollJump);
+    // var currentSlot = Math.floor(scrollLeft/scrollJump);
     // cards[currentSlot].focus();
 
     // console.log(currentSlot);
@@ -38,78 +38,10 @@ window.onload = function() {
     // if (document.body.scrollTop!=0) {
     //   document.body.scrollTop = 0;
     // }
-  });
+  };
+  var throttled = throttle(adjust, 10)
+  windowc.addEventListener('scroll', throttled);
 };
-
-
-
-// Scroll easing:
-
-// first add raf shim
-// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
-window.requestAnimFrame = (function(){
-  return  window.requestAnimationFrame       ||
-          window.webkitRequestAnimationFrame ||
-          window.mozRequestAnimationFrame    ||
-          function( callback ){
-            window.setTimeout(callback, 1000 / 60);
-          };
-})();
-
-// main function
-function scrollToX(scrollTargetX, speed, easing) {
-  var windowc = document.getElementsByTagName("main")[0];
-    // scrollTargetY: the target scrollY property of the window
-    // speed: time in pixels per second
-    // easing: easing equation to use
-
-    var scrollX = windowc.scrollLeft || windowc.pageXOffset,
-        scrollTargetX = scrollTargetX || 0,
-        speed = speed || 2000,
-        easing = easing || 'easeOutSine',
-        currentTime = 0;
-
-    // min time .1, max time .8 seconds
-    var time = Math.max(.1, Math.min(Math.abs(scrollX - scrollTargetX) / speed, .8));
-
-    // easing equations from https://github.com/danro/easing-js/blob/master/easing.js
-    var easingEquations = {
-            easeOutSine: function (pos) {
-                return Math.sin(pos * (Math.PI / 2));
-            },
-            easeInOutSine: function (pos) {
-                return (-0.5 * (Math.cos(Math.PI * pos) - 1));
-            },
-            easeInOutQuint: function (pos) {
-                if ((pos /= 0.5) < 1) {
-                    return 0.5 * Math.pow(pos, 5);
-                }
-                return 0.5 * (Math.pow((pos - 2), 5) + 2);
-            }
-        };
-
-    // add animation loop
-    function tick() {
-        currentTime += 1 / 60;
-
-        var p = currentTime / time;
-        var t = easingEquations[easing](p);
-
-        if (p < 1) {
-            requestAnimFrame(tick);
-
-            windowc.scrollTo(scrollX + ((scrollTargetX - scrollX) * t), 0);
-        } else {
-            console.log('scroll done');
-            windowc.scrollTo(scrollTargetX, 0);
-        }
-    }
-
-    // call it once to get started
-    tick();
-}
-
-// scroll it!
 
 // use buttons to jump between cards
 function scrollCard(direction) {
@@ -184,3 +116,105 @@ window.addEventListener('mousedown', function(e){
 window.addEventListener('mouseup', function(e){
   curDown = false;
 });
+
+
+// throttle as seen in underscore.js
+function throttle(func, wait, options) {
+  var context, args, result;
+  var timeout = null;
+  var previous = 0;
+  if (!options) options = {};
+  var later = function() {
+    previous = options.leading === false ? 0 : Date.now();
+    timeout = null;
+    result = func.apply(context, args);
+    if (!timeout) context = args = null;
+  };
+  return function() {
+    var now = Date.now();
+    if (!previous && options.leading === false) previous = now;
+    var remaining = wait - (now - previous);
+    context = this;
+    args = arguments;
+    if (remaining <= 0 || remaining > wait) {
+      if (timeout) {
+        clearTimeout(timeout);
+        timeout = null;
+      }
+      previous = now;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    } else if (!timeout && options.trailing !== false) {
+      timeout = setTimeout(later, remaining);
+    }
+    return result;
+  };
+};
+
+// Scroll easing:
+
+// first add raf shim
+// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+window.requestAnimFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 60);
+          };
+})();
+
+// main function
+function scrollToX(scrollTargetX, speed, easing) {
+  var windowc = document.getElementsByTagName("main")[0];
+    // scrollTargetY: the target scrollY property of the window
+    // speed: time in pixels per second
+    // easing: easing equation to use
+
+    var scrollX = windowc.scrollLeft || windowc.pageXOffset,
+        scrollTargetX = scrollTargetX || 0,
+        speed = speed || 2000,
+        easing = easing || 'easeOutSine',
+        currentTime = 0;
+
+    // min time .1, max time .8 seconds
+    var time = Math.max(.1, Math.min(Math.abs(scrollX - scrollTargetX) / speed, .8));
+
+    // easing equations from https://github.com/danro/easing-js/blob/master/easing.js
+    var easingEquations = {
+            easeOutSine: function (pos) {
+                return Math.sin(pos * (Math.PI / 2));
+            },
+            easeInOutSine: function (pos) {
+                return (-0.5 * (Math.cos(Math.PI * pos) - 1));
+            },
+            easeInOutQuint: function (pos) {
+                if ((pos /= 0.5) < 1) {
+                    return 0.5 * Math.pow(pos, 5);
+                }
+                return 0.5 * (Math.pow((pos - 2), 5) + 2);
+            }
+        };
+
+    // add animation loop
+    function tick() {
+        currentTime += 1 / 60;
+
+        var p = currentTime / time;
+        var t = easingEquations[easing](p);
+
+        if (p < 1) {
+            requestAnimFrame(tick);
+
+            windowc.scrollTo(scrollX + ((scrollTargetX - scrollX) * t), 0);
+        } else {
+            console.log('scroll done');
+            windowc.scrollTo(scrollTargetX, 0);
+        }
+    }
+
+    // call it once to get started
+    tick();
+}
+
+// scroll it!
