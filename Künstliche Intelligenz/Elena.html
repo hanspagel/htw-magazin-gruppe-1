@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="mina.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="../AnnaPermyakova/annap.css">
-=======
-    <script src="particles.js"></script>
->>>>>>> 0e6da02a053b1d0cd39132c5e5419f7e0b8ae3ae
 
+    <link rel='stylesheet' href='Mariya_KI.css'>
+    <link rel='stylesheet' href='js/particlesjs/demo/css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
     <body>
@@ -26,7 +26,6 @@
 
       <section class="article-page article-kuenstliche-intelligenz">
 
-<<<<<<< HEAD
         <div class="KI_seite">
 
           <div id="metaball-video" class="metaball-video">
@@ -49,15 +48,15 @@
             <h1> INTELIGENZ </h1>
           </div>
 
-=======
+
         <div class="metaball-video">
           <video id="metaball-video" preload="auto" autoplay="true" loop="loop" muted="muted" >
             <source src="metaball.mp4" type="video/mp4">
           </video>
->>>>>>> 0e6da02a053b1d0cd39132c5e5419f7e0b8ae3ae
+
         </div>
 
-</div>
+        </div>
       </section>
 
       <section class="article-page-article-gehirn">
@@ -110,13 +109,37 @@
       </section>
 
 
-      <section class="article-page article-neuronen">
+      <section class="article-page neuronen">
+
+          <div class="triangle-down-left">
+          </div>
+
+          <div class="base-element">
+            <div class="info">
+              <h1 style="font-size:18vw">NEURONEN</h1>
+              <p style="font-size:-2vw">Die Neuronen in unerem Hirn empfangen unentwegt elektrische Impulse von anderen Nervenzellen und schicken sie ihrerseits weiter. Die Signale erzeugen sie, indem sie die Spannung zwischen ihrem und ihrer Umgebung verändern.</p>
+            </div>
+          </div>
 
       </section>
 
-      <section class="article-page article-nest">
+      <section class="article-page nest">
+        <div class="particles-background">
+          <div class="js-background" id="particles-js"></div>
+        </div>
 
       </section>
+      <script type="text/javascript" src="js/particlesjs/particles.js"></script>
+      <script src="js/app.js"></script>
+      <script>
+    var update;
+    update = function() {
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    }
+  </script>
 
       <section class="article-ich-digital">
 
