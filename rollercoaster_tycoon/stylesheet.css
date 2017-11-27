@@ -32,6 +32,10 @@ vh ist viewport height, höhe des Browserfensters */
 
 /*Allgemein*/
 
+.header{
+  left:0;
+}
+
 .logo{
   margin-top:3%;
 }
@@ -69,6 +73,8 @@ p {
   left:10%;
   top:13%;
   background-color: #FEBBBB;
+    -webkit-transition: height 0.7s;
+    -moz-transition: height 0.7s;
 }
 
 .box-outline {
@@ -123,6 +129,15 @@ p {
   width: 100%;
 }
 
+.box-voll-burger {
+  width: 35%;
+  height:80%;
+  position: absolute;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #E53B46;
+
 /*Start*/
 
 .text-start {
@@ -156,8 +171,8 @@ p {
 .zange{
   position: absolute;
   width:20%;
-  right: 20%;
-  bottom:20%;
+  right: 15%;
+  bottom:10%;
 }
 
 
@@ -199,7 +214,7 @@ p {
   position: absolute;
   width:38%;
   right: 15%;
-  bottom:15%;
+  top:0;
 }
 
 
@@ -219,8 +234,8 @@ p {
 .person{
   position: absolute;
   width:38%;
-  right: 18%;
-  bottom:23%;
+  right: 10%;
+  bottom:10%;
 }
 
 

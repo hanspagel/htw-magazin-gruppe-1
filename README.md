@@ -13,11 +13,12 @@
 
 * Alle Dateien in GitHub (HTML, CSS, JS)
 * Eine kurze Textdatei (README) mit allen Namen und einer kurzen Beschreibung (3-4 Sätze)
+* 31.12.2017
 
 ## Bewertungskriterien
 
-Abgabe 10%
-Kombination 30%
-Kreativität 30%
-Design 20%
-Code 10%
+* Abgabe 10%
+* Kombination 30%
+* Kreativität 30%
+* Design 20%
+* Code 10%
