@@ -389,10 +389,37 @@ background-position: center;
 	letter-spacing: 50pt;
 }
 
-.link-harzen {
+.link {
 	height: 100%;
 	width: 25%;
 	position: absolute;
 	z-index: 3;
+}
+
+.link-harzen {
 	cursor: url("images/harzentext.gif"),auto;
+}
+
+.link-niveau {
+	cursor: url("images/niveautext.gif"),auto;
+}
+
+.link-swag {
+	cursor: url("images/swagtext.gif"),auto;
+}
+
+.link-yolo {
+	cursor: url("images/yolotext.gif"),auto;
+}
+
+.link-babo {
+	cursor: url("images/babotext.gif"),auto;
+}
+
+.link-fly {
+	cursor: url("images/flytext.gif"),auto;
+}
+
+.link-smombie {
+	cursor: url("images/smombie.gif"),auto;
 }
