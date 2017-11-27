@@ -162,9 +162,7 @@ p.link a:active {
 .nhl_map {
   width: 50%;
   margin-bottom: 0;
-  /*height: 677px;*/
   padding: 0;
-  /*background-color: #eee;*/
   background-size: cover;
 }
 
@@ -598,7 +596,7 @@ p.link a:active {
 
 .infos_headline {
   display: flex;
-  height: 50px;
+  height: 200px;
   /*margin-top: 10px;*/
   width: 100%;
 }
@@ -612,12 +610,14 @@ p.link a:active {
   font-size: 3.0em;
   font-weight: 800;
   width: 80%;
+  display: block;
 }
 
 .team_logo {
   filter: grayscale(100%);
   width: 20%;
-  float: right;
+  display: block;
+  text-align: justify;
 }
 
 .team_logo:hover {
@@ -630,7 +630,6 @@ p.link a:active {
 }
 
 .test {
-  margin-top: 150px;
   margin-right: 100px;
   line-height: 1.5em;
   font-size: 1.1em;

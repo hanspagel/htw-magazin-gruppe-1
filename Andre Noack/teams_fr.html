@@ -5,16 +5,45 @@
 		<title>national hockey league&reg;</title>
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="css/stylesheet.css" rel="stylesheet" />
+		<link href="css/aos.css" rel="stylesheet">
+		<script href="js/aos.js"></script>
+		<script src="js/jquery.js"></script>
+		<!--<link href="js/script.js" rel="javascript" />-->
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+		<script>
+
+		$(document).ready(function() {
+
+		    $(".infos").hide();
+
+		    $(".link a").click(function() {
+
+					$(".link img").attr("src", "image/nhl_city.svg");
+
+		      var team = $(this).data("team");
+
+		      $(".infos").hide();
+		      $(team).show();
+
+					$(this).find("img").attr("src", "image/nhl_city_red.svg");
+
+		    })
+
+		});
+
+		</script>
+
 	</head>
 	<body>
 
 	<nav class="navi-wrapper">
 		<nav class="navi content-padding">
 			<div class="one">
-				<a href="index_en.html">ligue nationale de hockey&reg;</a>
+				<a href="index_fr.html">ligue nationale de hockey&reg;</a>
 			</div>
 			<div class="two">
-				<a href="teams_en.html">&eacute;quipes</a>
+				<a href="teams_fr.html">&eacute;quipes</a>
 			</div>
 			<div class="three">
 				<a href="#">information</a>
@@ -28,134 +57,527 @@
 		</nav>
 	</nav>
 
-<!-- CANADA -->
+	<div class="nhl_wrapper">
 
-	<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
+		<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
 
-		<div class="nhl_city_montreal">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Canadiens&nbsp;de&nbsp;Montréal</span></a></p>
+			<div class="nhl_city_montreal">
+				<p class="link"><a href="#" data-team=".city_montreal"><img src="image/nhl_city.svg" alt=""><span>Canadiens&nbsp;de Montréal</span></a></p>
+			</div>
+
+			<div class="nhl_city_ottawa">
+				<p class="link"><a href="#" data-team=".city_ottawa"><img src="image/nhl_city.svg" alt=""><span>Sénateurs&nbsp;d&#146;Ottawa</span></a></p>
+			</div>
+
+			<div class="nhl_city_toronto">
+				<p class="link"><a href="#" data-team=".city_toronto"><img src="image/nhl_city.svg" alt=""><span>Toronto&nbsp;Maple&nbsp;Leafs</span></a></p>
+			</div>
+
+			<div class="nhl_city_winnipeg">
+				<p class="link"><a href="#" data-team=".city_winnipeg"><img src="image/nhl_city.svg" alt=""><span>Jets&nbsp;de&nbsp;Winnipeg</span></a></p>
+			</div>
+
+			<div class="nhl_city_edmonton">
+				<p class="link"><a href="#" data-team=".city_edmonton"><img src="image/nhl_city.svg" alt=""><span>Oilers&nbsp;d&#146;Edmonton</span></a></p>
+			</div>
+
+			<div class="nhl_city_calgary">
+		  	<p class="link"><a href="#" data-team=".city_calgary"><img src="image/nhl_city.svg" alt=""><span>Flames&nbsp;de&nbsp;Calgary</span></a></p>
+			</div>
+
+			<div class="nhl_city_vancouver">
+		  	<p class="link"><a href="#" data-team=".city_vancouver"><img src="image/nhl_city.svg" alt=""><span>Canucks&nbsp;de&nbsp;Vancouver</span></a></p>
+			</div>
+
+			<div class="nhl_city_boston">
+				<p class="link"><a href="#" data-team=".city_boston"><img src="image/nhl_city.svg" alt=""><span>Bruins&nbsp;de&nbsp;Boston</span></a></p>
+			</div>
+
+			<div class="nhl_city_minneapolis">
+				<p class="link"><a href="#" data-team=".city_minneapolis"><img src="image/nhl_city.svg" alt=""><span>Wild&nbsp;du&nbsp;Minnesota</span></a></p>
+			</div>
+
+			<div class="nhl_city_buffalo">
+				<p class="link"><a href="#" data-team=".city_buffalo"><img src="image/nhl_city.svg" alt=""><span>Sabres&nbsp;de&nbsp;Buffalo</span></a></p>
+			</div>
+
+			<div class="nhl_city_newyork-1">
+				<p class="link"><a href="#" data-team=".city_newyork-1"><img src="image/nhl_city.svg" alt=""><span>Rangers&nbsp;de&nbsp;New&nbsp;York</span></a></p>
+			</div>
+
+			<div class="nhl_city_newyork-2">
+				<p class="link"><a href="#" data-team=".city_newyork-2"><img src="image/nhl_city.svg" alt=""><span>Islanders&nbsp;de&nbsp;New&nbsp;York</span></a></p>
+			</div>
+
+			<div class="nhl_city_newjersey">
+				<p class="link"><a href="#" data-team=".city_newjersey"><img src="image/nhl_city.svg" alt=""><span>Devils&nbsp;du&nbsp;New&nbsp;Jersey</span></a></p>
+			</div>
+
+			<div class="nhl_city_detroit">
+		  	<p class="link"><a href="#" data-team=".city_detroit"><img src="image/nhl_city.svg" alt=""><span>Red&nbsp;Wings&nbsp;de&nbsp;Détroit</span></a></p>
+			</div>
+
+			<div class="nhl_city_philadelphia">
+				<p class="link"><a href="#" data-team=".city_philadelphia"><img src="image/nhl_city.svg" alt=""><span>Flyers&nbsp;de&nbsp;Philadelphie</span></a></p>
+			</div>
+
+			<div class="nhl_city_pittsburgh">
+				<p class="link"><a href="#" data-team=".city_pittsburgh"><img src="image/nhl_city.svg" alt=""><span>Penguins&nbsp;de&nbsp;Pittsburgh</span></a></p>
+			</div>
+
+			<div class="nhl_city_chicago">
+				<p class="link"><a href="#" data-team=".city_chicago"><img src="image/nhl_city.svg" alt=""><span>Blackhawks&nbsp;de&nbsp;Chicago</span></a></p>
+			</div>
+
+			<div class="nhl_city_washington">
+				<p class="link"><a href="#" data-team=".city_washington"><img src="image/nhl_city.svg" alt=""><span>Capitals&nbsp;de&nbsp;Washington</span></a></p>
+			</div>
+
+			<div class="nhl_city_columbus">
+				<p class="link"><a href="#" data-team=".city_columbus"><img src="image/nhl_city.svg" alt=""><span>Blue&nbsp;Jackets&nbsp;de&nbsp;Columbus</span></a></p>
+			</div>
+
+			<div class="nhl_city_colorado">
+				<p class="link"><a href="#" data-team=".city_colorado"><img src="image/nhl_city.svg" alt=""><span>Avalanche&nbsp;du&nbsp;Colorado</span></a></p>
+			</div>
+
+			<div class="nhl_city_sanjose">
+				<p class="link"><a href="#" data-team=".city_sanjose"><img src="image/nhl_city.svg" alt=""><span>Sharks&nbsp;de&nbsp;San&nbsp;José</span></a></p>
+			</div>
+
+			<div class="nhl_city_stlouis">
+				<p class="link"><a href="#" data-team=".city_stlouis"><img src="image/nhl_city.svg" alt=""><span>Blues&nbsp;de&nbsp;Saint-Louis</span></a></p>
+			</div>
+
+			<div class="nhl_city_vegas">
+				<p class="link"><a href="#" data-team=".city_vegas"><img src="image/nhl_city.svg" alt=""><span>Golden&nbsp;Knights&nbsp;de&nbsp;Vegas</span></a></p>
+			</div>
+
+			<div class="nhl_city_losangeles-1">
+				<p class="link"><a href="#" data-team=".city_losangeles-1"><img src="image/nhl_city.svg" alt=""><span>Kings&nbsp;de&nbsp;Los&nbsp;Angeles</span></a></p>
+			</div>
+
+			<div class="nhl_city_losangeles-2">
+				<p class="link"><a href="#" data-team=".city_losangeles-2"><img src="image/nhl_city.svg" alt=""><span>Ducks&nbsp;d&#146;Anaheim</span></a></p>
+			</div>
+
+			<div class="nhl_city_phoenix">
+				<p class="link"><a href="#" data-team=".city_phoenix"><img src="image/nhl_city.svg" alt=""><span>Coyotes&nbsp;de&nbsp;l&#146;Arizona</span></a></p>
+			</div>
+
+			<div class="nhl_city_nashville">
+				<p class="link"><a href="#" data-team=".city_nashville"><img src="image/nhl_city.svg" alt=""><span>Predators&nbsp;de&nbsp;Nashville</span></a></p>
+			</div>
+
+			<div class="nhl_city_raleigh">
+				<p class="link"><a href="#" data-team=".city_raleigh"><img src="image/nhl_city.svg" alt=""><span>Hurricanes&nbsp;de&nbsp;la&nbsp;Caroline</span></a></p>
+			</div>
+
+			<div class="nhl_city_dallas">
+				<p class="link"><a href="#" data-team=".city_dallas"><img src="image/nhl_city.svg" alt=""><span>Stars&nbsp;de&nbsp;Dallas</span></a></p>
+			</div>
+
+			<div class="nhl_city_tampa">
+				<p class="link"><a href="#" data-team=".city_tampa"><img src="image/nhl_city.svg" alt=""><span>Lightning&nbsp;de&nbsp;Tampa&nbsp;Bay</span></a></p>
+			</div>
+
+			<div class="nhl_city_miami">
+				<p class="link"><a href="#" data-team=".city_miami"><img src="image/nhl_city.svg" alt=""><span>Panthers&nbsp;de&nbsp;la&nbsp;Floride</span></a></p>
+			</div>
+
 		</div>
 
-		<div class="nhl_city_ottawa">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Sénateurs&nbsp;d&#146;Ottawa</span></a></p>
-		</div>
+		<div class="team_infos">
 
-		<div class="nhl_city_toronto">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Toronto&nbsp;Maple&nbsp;Leafs</span></a></p>
-		</div>
+			<div class="infos city_montreal">
+				<div class="infos_headline">
+					<div class="team_detail">CANADIENS&nbsp;DE&nbsp;MONTRÉAL</div>
+					<div class="team_logo">
+						<img src="image/Montreal_Canadiens.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Les Canadiens de Montréal sont une franchise de hockey sur glace professionnel située à Montréal dans la province de Québec au Canada. L’équipe est membre de la Division Atlantique de l’Association de l’Est dans la Ligue nationale de hockey. Bien que le nom le plus utilisé pour désigner cette équipe soit les « Canadiens de Montréal », son nom officiel est le Club de hockey Canadien, inc..</p><br>
+					<p>Les « Canadiens » disputent leurs matchs locaux au Centre Bell, connu sous le nom de Centre Molson jusqu’en 2002. Avant 1996, l’équipe était domiciliée au Forum de Montréal, où elle a reçu ses adversaires pendant sept décennies et remporté 22 de ses 24 Coupes Stanley. Le Forum est considéré comme le véritable temple du hockey.</p><br>
+					<p>Fondés en 1909, les Canadiens de Montréal sont la plus vieille équipe de hockey au monde toujours en activité, sans aucune interruption. Elle fait partie des équipes fondatrices de la ligue avec les Arenas de Toronto, les Sénateurs d’Ottawa et les Wanderers de Montréal et fait également partie des six équipes originales de la LNH, groupe de six équipes s’étant partagé la lutte pour la Coupe entre 1942 et 1967. Avec ses 24 Coupes Stanley, la franchise est l’équipe la plus titrée de toute l’histoire de la LNH, loin devant les Maple Leafs de Toronto au deuxième rang, avec une récolte de 13 Coupes Stanley.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_winnipeg">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Jets&nbsp;de&nbsp;Winnipeg</span></a></p>
-		</div>
+			<div class="infos city_ottawa">
+				<div class="infos_headline">
+					<div class="team_detail">SÉNATEURS&nbsp;D&#146;OTTAWA</div>
+					<div class="team_logo">
+						<img src="image/ottawa_senators.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Ottawa Senators are a professional ice hockey team based in Ottawa, Ontario, Canada. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The Senators play their home games at the 17,373 seat Canadian Tire Centre which opened in 1996 as the Palladium.</p><br>
+					<p>Founded and established by Ottawa real estate developer Bruce Firestone, the team is the second NHL franchise to use the Ottawa Senators name. The original Ottawa Senators, founded in 1883, had a famed history, winning 11 Stanley Cups and playing in the NHL from 1917 until 1934. On December 6, 1990, after a two-year public campaign by Firestone, the NHL awarded a new franchise, which began play in the 1992–93 season. The current team owner is Eugene Melnyk, and in 2016, the franchise was valued by Forbes magazine at US$355 million.</p><br>
+					<p>The Senators have qualified for the Stanley Cup playoffs in 15 of the past 19 seasons; have won four division titles and, in 2003, the Presidents' Trophy; and have appeared in the 2007 Stanley Cup Finals. The club has been regularly represented in the top half in attendance in the NHL.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_edmonton">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Oilers&nbsp;d&#146;Edmonton</span></a></p>
-		</div>
+			<div class="infos city_toronto">
+				<div class="infos_headline">
+					<div class="team_detail">TORONTO&nbsp;MAPLE&nbsp;LEAFS</div>
+					<div class="team_logo">
+						<img src="image/toronto_maple_leafs.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Toronto Maple Leafs (officially the Toronto Maple Leaf Hockey Club) are a professional ice hockey team based in Toronto, Ontario. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The club is owned by Maple Leaf Sports & Entertainment, Ltd. and are represented by Chairman Larry Tanenbaum. With an estimated worth of US $1.1 billion in 2016 according to Forbes, the Leafs are the third most valuable franchise in the NHL, after the Montreal Canadiens and the New York Rangers. The team's broadcasting rights are split between BCE Inc. and Rogers Communication. For their first 14 seasons, the club played their home games at the Mutual Street Arena, before moving to Maple Leaf Gardens in 1931. The club moved to their present home, the Air Canada Centre in February 1999.</p><br>
+					<p>The Maple Leafs were founded in 1917, operating simply as Toronto and known then as the Toronto Arenas. Under new ownership, the club was named the Toronto St. Patricks in 1919. In 1927 the club was purchased by Conn Smythe and renamed the Maple Leafs. A member of the "Original Six," the club was one of six NHL teams to have endured through the period of League retrenchment during the Great Depression. The club has won thirteen Stanley Cup championships, second only to the 24 championships of the Montreal Canadiens. The club's history includes two recognized dynasties, from 1947 to 1951; and from 1962 to 1967. Winning their last championship in 1967, the club's 50-season drought between championships is the longest current streak in the NHL.</p><br>
+					<p>The Maple Leafs have rivalries with three NHL franchises, the Detroit Red Wings, the Montreal Canadiens, and the Ottawa Senators. The club is affiliated with two minor league teams, the Toronto Marlies of the American Hockey League, and the Orlando Solar Bears of the ECHL.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_calgary">
-	  	<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Flames&nbsp;de&nbsp;Calgary</span></a></p>
-		</div>
+			<div class="infos city_winnipeg">
+				<div class="infos_headline">
+				<div class="team_detail">JETS&nbsp;DE&nbsp;WINNIPEG</div>
+				<div class="team_logo">
+					<img src="image/winnipeg_jets.png" alt="">
+				</div>
+			</div>
+				<div class="test">
+					<p>The Winnipeg Jets are a professional ice hockey team based in Winnipeg, Manitoba, Canada. They are members of the Central Division of the Western Conference of the National Hockey League (NHL). The team is owned by True North Sports & Entertainment and plays its home games at Bell MTS Place.</p><br>
+					<p>The Jets began play as the Atlanta Thrashers in the 1999–2000 NHL season. True North Sports & Entertainment then bought the team in May 2011 and relocated the franchise from Atlanta, Georgia to Winnipeg prior to the 2011–12 season (the first NHL franchise to relocate since the Hartford Whalers became the Carolina Hurricanes in 1997). The team was renamed the Jets after Winnipeg's original WHA/NHL team, which relocated after the 1995–96 season to become the team now known as the Arizona Coyotes.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_vancouver">
-	  	<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Canucks&nbsp;de&nbsp;Vancouver</span></a></p>
-		</div>
+			<div class="infos city_edmonton">
+				<div class="infos_headline">
+				<div class="team_detail">OILERS&nbsp;D&#146;EDMONTON</div>
+				<div class="team_logo">
+					<img src="image/edmonton_oilers.png" alt="">
+				</div>
+			</div>
+				<div class="test">
+					<p>The Edmonton Oilers are a professional ice hockey team based in Edmonton, Alberta. They are members of the Pacific Division of the Western Conference of the National Hockey League (NHL).</p><br>
+					<p>The Oilers were founded on November 1, 1971, with the team playing its first season in 1972, as one of the twelve founding franchises of the major professional World Hockey Association (WHA). They were originally intended to be one of two WHA teams in Alberta (the other one being the Calgary Broncos). However, when the Broncos relocated to Cleveland, Ohio, before the WHA's first season began, the Oilers were renamed the Alberta Oilers. They returned to using the Edmonton Oilers name for the following year, and have been called that ever since. The Oilers subsequently joined the NHL in 1979 as one of four franchises introduced through the NHL merger with the WHA.</p><br>
+					<p>After joining the NHL, the Oilers went on to win the Stanley Cup on five occasions: 1983–84, 1984–85, 1986–87, 1987–88 and 1989–90. Along with the Pittsburgh Penguins, the Oilers are tied for the most championships won by any team since the NHL-WHA merger and also the most won by any team that joined the league in or after 1967. Among all NHL teams, only the Montreal Canadiens have won the Stanley Cup more times since the League's 1967 expansion. For their success in the 1980s, the Oilers team of this era has been honoured with dynasty status by the Hockey Hall of Fame.</p>
+				</div>
+			</div>
 
-<!-- USA -->
+			<div class="infos city_calgary">
+				<div class="infos_headline">
+					<div class="team_detail">FLAMES&nbsp;DE&nbsp;CALGARY</div>
+				<div class="team_logo">
+					<img src="image/calgary_flames.png" alt="">
+				</div>
+			</div>
+			<div class="test">
+				<p>The Calgary Flames are a professional ice hockey team based in Calgary, Alberta, Canada. They are members of the Pacific Division of the Western Conference of the National Hockey League (NHL). The club is the third major-professional ice hockey team to represent the city of Calgary, following the Calgary Tigers (1921–1927) and Calgary Cowboys (1975–1977). The Flames are one of two NHL franchises in Alberta; the other is the Edmonton Oilers. The cities' proximity has led to a rivalry known as the Battle of Alberta.</p><br>
+				<p>The team was founded in 1972 in Atlanta, Georgia as the Atlanta Flames until relocating to Calgary in 1980. The Flames played their first three seasons in Calgary at the Stampede Corral before moving into their current home arena, the Scotiabank Saddledome (originally known as the Olympic Saddledome), in 1983. In 1985–86, the Flames became the first Calgary team since the 1923–24 Tigers to compete for the Stanley Cup. In 1988–89, the Flames won their first and only championship. The Flames' unexpected run to the 2004 Stanley Cup Finals gave rise to the Red Mile, and in 2011 the team hosted and won the second Heritage Classic outdoor game.</p><br>
+				<p>The Flames have won two Presidents' Trophies as the league's top regular season team, and have claimed five division championships. Individually, Jarome Iginla is the franchise leader in games played, goals, and points, and is a two-time winner of the Maurice Richard Trophy as the league's leading goal scorer. Miikka Kiprusoff has the most wins by a goaltender in a Calgary Flames uniform. Nine people associated with the Flames have been inducted into the Hockey Hall of Fame.</p><br>
+				<p>Off the ice, the Flames own a Western Hockey League franchise (the Calgary Hitmen), a National Lacrosse League franchise (the Calgary Roughnecks) and a CFL franchise (the Calgary Stampeders). They also lend their name to a bar and entertainment centre called Flames Central on Stephen Avenue in Downtown Calgary. Through the Flames Foundation, the team has donated more than $32 million to charity throughout southern Alberta since the franchise arrived.</p>
+			</div>
+			</div>
 
-		<div class="nhl_city_boston">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Bruins&nbsp;de&nbsp;Boston</span></a></p>
-		</div>
+			<div class="infos city_vancouver">
+				<div class="infos_headline">
+					<div class="team_detail">CANUCKS&nbsp;DE&nbsp;VANCOUVER</div>
+				<div class="team_logo">
+					<img src="image/vancouver_canucks.png" alt="">
+				</div>
+			</div>
+				<div class="test">
+					<p>The Vancouver Canucks are a professional ice hockey team based in Vancouver, British Columbia. They are members of the Pacific Division of the Western Conference of the National Hockey League (NHL). The Canucks play their home games at Rogers Arena, formerly known as General Motors Place, which has an official capacity of 18,910. Henrik Sedin is currently the captain of the team, Travis Green is the head coach and Jim Benning is the general manager.</p><br>
+					<p>The Canucks joined the league in 1970 as an expansion team along with the Buffalo Sabres. In its NHL history, the team has advanced to the Stanley Cup Finals three times, losing to the New York Islanders in 1982, the New York Rangers in 1994 and the Boston Bruins in 2011. They have won the Presidents' Trophy in back-to-back seasons as the team with the league's best regular season record in the 2010–11 and 2011–12 seasons. They won three division titles as a member of the Smythe Division from 1974 to 1993, and seven titles as a member of the Northwest Division from 1998 to 2013.</p><br>
+					<p>The Canucks have retired four players' jerseys in their history—Stan Smyl (12), Trevor Linden (16), Markus Naslund (19) and Pavel Bure (10); all but Bure have served as team captain. Smyl has the distinction of being the only Canuck to have his jersey number retired at their former arena, the Pacific Coliseum, as well as the only Canuck to play his entire career with the team upon retiring it.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_minneapolis">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Wild&nbsp;du&nbsp;Minnesota</span></a></p>
-		</div>
+			<div class="infos city_boston">
+				<div class="infos_headline">
+					<div class="team_detail">BOSTON BRUINS</div>
+					<div class="team_logo">
+						<img src="image/Boston_Bruins.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Boston Bruins are a professional ice hockey team based in Boston, Massachusetts. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The team has been in existence since 1924, and is the league's third-oldest team overall and the oldest in the United States. It is also an Original Six franchise, along with the Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens, New York Rangers and Toronto Maple Leafs. The Bruins have won six Stanley Cup championships, tied for fourth most of all-time with the Blackhawks and tied second-most of any American NHL team also with the Blackhawks (behind the Red Wings, who have 11).</p><br>
+					<p>The first facility to host the Bruins was the Boston Arena (today's Matthews Arena) – the world's oldest (built 1909–10) indoor ice hockey facility still in use for the sport at any level of competition – and following the Bruins' departure from the Boston Arena, the team played its home games at the Boston Garden for 67 seasons, beginning in 1928 and concluding in 1995, when they moved to the TD Garden.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_buffalo">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Sabres&nbsp;de&nbsp;Buffalo</span></a></p>
-		</div>
+			<div class="infos city_minneapolis">
+				<div class="infos_headline">
+					<div class="team_detail">MINNESOTA WILD</div>
+					<div class="team_logo">
+						<img src="image/Minnesota_Wild.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Minnesota Wild are a professional ice hockey team based in St. Paul, Minnesota. They are members of the Central Division of the Western Conference of the National Hockey League (NHL). The Wild are the only Minneapolis-St. Paul area major professional sports league franchises to play in St. Paul; the other three play in Minneapolis.</p><br>
+					<p>The new team was founded on June 25, 1997, but started playing in the 2000–01 NHL season. The Wild were the first NHL franchise in Minnesota since the Minnesota North Stars moved to Dallas in 1993. They lost their first game, 3–1, to the Mighty Ducks of Anaheim and recorded their first win against the Tampa Bay Lightning five games later. The Wild play at the Xcel Energy Center. In the 2002–03 season, the team made its first Stanley Cup playoff appearance, making a surprising run to the Western Conference Finals. As of 2017, the Wild have averaged a .544 points percentage since entering the league.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_newyork-1">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Rangers&nbsp;de&nbsp;New&nbsp;York</span></a></p>
-		</div>
+			<div class="infos city_buffalo">
+				<div class="infos_headline">
+					<div class="team_detail">BUFFALO SABRES</div>
+					<div class="team_logo">
+						<img src="image/Buffalo_Sabres.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Buffalo Sabres are a professional ice hockey team based in Buffalo, New York. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The team was established in 1970, along with the Vancouver Canucks, when the league expanded to 14 teams. They have played at KeyBank Center since 1996. Prior to that, the Buffalo Sabres played at the Buffalo Memorial Auditorium from the start of the franchise in 1970. The Sabres are owned by Terry Pegula, who purchased the club in 2011.</p><br>
+					<p>The team has twice advanced to the Stanley Cup Finals, losing to the Philadelphia Flyers in 1975 and to the Dallas Stars in 1999. The best known line in team history is The French Connection, which consisted of Gilbert Perreault, Rick Martin and Rene Robert. All three players have had their sweater numbers (11, 7 and 14, respectively) retired and a statue erected in their honor at KeyBank Center in 2012. Tim Horton (2), Pat LaFontaine (16), Danny Gare (18) and Dominik Hasek (39) have also had their jersey numbers retired.</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_newyork-2">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Islanders&nbsp;de&nbsp;New&nbsp;York</span></a></p>
-		</div>
+			<div class="infos city_newyork-1">
+				<div class="infos_headline">
+					<div class="team_detail">NEW YORK RANGERS</div>
+					<div class="team_logo">
+						<img src="image/NewYork_Rangers.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_newjersey">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Devils&nbsp;du&nbsp;New&nbsp;Jersey</span></a></p>
-		</div>
+			<div class="infos city_newyork-2">
+				<div class="infos_headline">
+					<div class="team_detail">NEW YORK ISLANDERS</div>
+					<div class="team_logo">
+						<img src="image/NewYork_Islanders.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_detroit">
-	  	<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Red&nbsp;Wings&nbsp;de&nbsp;Détroit</span></a></p>
-		</div>
+			<div class="infos city_newjersey">
+				<div class="infos_headline">
+					<div class="team_detail">NEW JERSEY DEVILS</div>
+					<div class="team_logo">
+						<img src="image/NewJersey_Devils.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_philadelphia">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Flyers&nbsp;de&nbsp;Philadelphie</span></a></p>
-		</div>
+			<div class="infos city_detroit">
+				<div class="infos_headline">
+					<div class="team_detail">DETROIT RED WINGS</div>
+					<div class="team_logo">
+						<img src="image/Detroit_Red_Wings.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_pittsburgh">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Penguins&nbsp;de&nbsp;Pittsburgh</span></a></p>
-		</div>
+			<div class="infos city_philadelphia">
+				<div class="infos_headline">
+					<div class="team_detail">PHILADELPHIA FLYERS</div>
+					<div class="team_logo">
+						<img src="image/Philadelphia_Flyers.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_chicago">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Blackhawks&nbsp;de&nbsp;Chicago</span></a></p>
-		</div>
+			<div class="infos city_pittsburgh">
+				<div class="infos_headline">
+					<div class="team_detail">PITTSBURGH PENGUINS</div>
+					<div class="team_logo">
+						<img src="image/Pittsburgh_Penguins.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_washington">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Capitals&nbsp;de&nbsp;Washington</span></a></p>
-		</div>
+			<div class="infos city_chicago">
+				<div class="infos_headline">
+					<div class="team_detail">CHICAGO BLACKHAWKS</div>
+					<div class="team_logo">
+						<img src="image/Chicago_Blackhawks.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_columbus">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Blue&nbsp;Jackets&nbsp;de&nbsp;Columbus</span></a></p>
-		</div>
+			<div class="infos city_washington">
+				<div class="infos_headline">
+					<div class="team_detail">WASHINGTON WINGS</div>
+					<div class="team_logo">
+						<img src="image/Washington_Capitals.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_colorado">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Avalanche&nbsp;du&nbsp;Colorado</span></a></p>
-		</div>
+			<div class="infos city_columbus">
+				<div class="infos_headline">
+					<div class="team_detail">COLUMBUS BLUE JACKETS</div>
+					<div class="team_logo">
+						<img src="image/Columbus_Blue_Jackets.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_sanjose">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Sharks&nbsp;de&nbsp;San&nbsp;José</span></a></p>
-		</div>
+			<div class="infos city_colorado">
+				<div class="infos_headline">
+					<div class="team_detail">COLORADO AVALANCHE</div>
+					<div class="team_logo">
+						<img src="image/Colorado_Avalanche.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_stlouis">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Blues&nbsp;de&nbsp;Saint-Louis</span></a></p>
-		</div>
+			<div class="infos city_sanjose">
+				<div class="infos_headline">
+					<div class="team_detail">SAN JOSE SHARKS</div>
+					<div class="team_logo">
+						<img src="image/SanJose_Sharks.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_vegas">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Golden&nbsp;Knights&nbsp;de&nbsp;Vegas</span></a></p>
-		</div>
+			<div class="infos city_stlouis">
+				<div class="infos_headline">
+					<div class="team_detail">ST. LOUIS BLUES</div>
+					<div class="team_logo">
+						<img src="image/St._Louis_Blues.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_losangeles-1">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Kings&nbsp;de&nbsp;Los&nbsp;Angeles</span></a></p>
-		</div>
+			<div class="infos city_vegas">
+				<div class="infos_headline">
+					<div class="team_detail">GOLDEN KNIGHTS</div>
+					<div class="team_logo">
+						<img src="image/Vegas_Golden_Knights.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_losangeles-2">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Ducks&nbsp;d&#146;Anaheim</span></a></p>
-		</div>
+			<div class="infos city_losangeles-1">
+				<div class="infos_headline">
+					<div class="team_detail">LOS ANGELES KINGS</div>
+					<div class="team_logo">
+						<img src="image/LosAngeles_Kings.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_phoenix">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Coyotes&nbsp;de&nbsp;l&#146;Arizona</span></a></p>
-		</div>
+			<div class="infos city_losangeles-2">
+				<div class="infos_headline">
+					<div class="team_detail">ANAHEIM DUCKS</div>
+					<div class="team_logo">
+						<img src="image/Anaheim_Ducks.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_nashville">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Predators&nbsp;de&nbsp;Nashville</span></a></p>
-		</div>
+			<div class="infos city_phoenix">
+				<div class="infos_headline">
+					<div class="team_detail">ARIZONA COYOTES</div>
+					<div class="team_logo">
+						<img src="image/Arizona_Coyotes.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_raleigh">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Hurricanes&nbsp;de&nbsp;la&nbsp;Caroline</span></a></p>
-		</div>
+			<div class="infos city_nashville">
+				<div class="infos_headline">
+					<div class="team_detail">NASHVILLE PREDATORS</div>
+					<div class="team_logo">
+						<img src="image/Nashville_Predators.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_dallas">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Stars&nbsp;de&nbsp;Dallas</span></a></p>
-		</div>
+			<div class="infos city_raleigh">
+				<div class="infos_headline">
+					<div class="team_detail">CAROLINA HURRICANES</div>
+					<div class="team_logo">
+						<img src="image/Carolina_Hurricanes.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_tampa">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Lightning&nbsp;de&nbsp;Tampa&nbsp;Bay</span></a></p>
-		</div>
+			<div class="infos city_dallas">
+				<div class="infos_headline">
+					<div class="team_detail">DALLAS STARS</div>
+					<div class="team_logo">
+						<img src="image/Dallas_Stars.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
 
-		<div class="nhl_city_miami">
-			<p class="link"><a href="#"><img src="image/nhl_city.svg" alt=""><span>Panthers&nbsp;de&nbsp;la&nbsp;Floride</span></a></p>
+			<div class="infos city_tampa">
+				<div class="infos_headline">
+					<div class="team_detail">TAMPA BAY LIGHTNING</div>
+					<div class="team_logo">
+						<img src="image/Tampa_Bay_Lightning.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
+
+			<div class="infos city_miami">
+				<div class="infos_headline">
+					<div class="team_detail">PANTHERS&nbsp;DE&nbsp;LA&nbsp;FLORIDE</div>
+					<div class="team_logo">
+						<img src="image/Florida_Panthers.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>Text Text Text Text Text Text Text Text Text</p>
+				</div>
+			</div>
+
 		</div>
 
 	</div>
