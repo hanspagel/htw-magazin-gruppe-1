@@ -360,7 +360,7 @@ align-items: center;
 }
 
 .action {
-background: url(images/haha.gif);
+background: url(images/harzen.gif);
 }
 
 .face{
@@ -371,4 +371,23 @@ background-image: url(images/male-head.gif);
 background-repeat: no-repeat;
 background-size: 63%;
 background-position: center;
+}
+
+
+
+.clickable {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 5;
+	color:black;
+}
+
+
+
+.harzenpage {
+background-image: url(images/harzen.gif);
+background-repeat: repeat;
 }

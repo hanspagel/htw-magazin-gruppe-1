@@ -8,7 +8,21 @@ vh ist viewport height, höhe des Browserfensters */
  cursor: url(pictures/ballon.png), pointer;
 }
 
+.header{
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right:0;
 
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+}
  /*landing-page*/
 
 
@@ -32,12 +46,13 @@ vh ist viewport height, höhe des Browserfensters */
 
 /*Allgemein*/
 
-.header{
-  left:0;
+
+.header {
+  left: 0;
 }
 
-.logo{
-  margin-top:3%;
+.logo {
+  margin-top: 3%;
 }
 
 .logo-schrift-img {
@@ -67,40 +82,40 @@ p {
 
 .box-voll {
   width: 55%;
-  height:55%;
+  height: 55%;
   position: absolute;
   position: fixed;
-  left:10%;
-  top:13%;
+  left: 10%;
+  top: 13%;
   background-color: #FEBBBB;
-    -webkit-transition: height 0.7s;
-    -moz-transition: height 0.7s;
+  -webkit-transition: height 0.7s;
+  -moz-transition: height 0.7s;
 }
 
 .box-outline {
   width: 56%;
-  height:50%;
+  height: 50%;
   position: absolute;
   position: fixed;
   border: 4px solid #EFE0E7;
   right: 5%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Zuckerwatte*/
 
 .text-zuckerwatte {
-  width:43%;
-  position: absolute;
+  width: 43%;
   left: 8%;
   top: 30%;
+  position: absolute;
 }
 
-.zuckerwatte{
-  position: absolute;
-  width:40%;
+.zuckerwatte {
+  width: 40%;
   right: 15%;
-  bottom:30%;
+  bottom: 30%;
+  position: absolute;
 }
 
 
@@ -111,17 +126,17 @@ p {
 /*Burger*/
 
 .text-burger {
-  width:43%;
-  position: absolute;
+  width: 43%;
   right: 8%;
   top: 10%;
+  position: absolute;
 }
 
-.burger{
+.burger {
+  width: 38%;
+  left: 3%;
+  bottom: 18%;
   position: absolute;
-  width:38%;
-  left:3%;
-  bottom:18%;
 }
 
 
@@ -131,27 +146,27 @@ p {
 
 .box-voll-burger {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: absolute;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #E53B46;
+}
 
 /*Start*/
 
 .text-start {
-  width:50%;
-  position: absolute;
+  width: 50%;
   left: 18%;
   top: 38%;
+  position: absolute;
 }
 
-.start{
-  position: absolute;
-  width:25%;
+.start {
   right: 10%;
-  top:10%;
+  top: 10%;
+  position: absolute;
 }
 
 
@@ -162,17 +177,18 @@ p {
 /*Zange*/
 
 .text-zange {
-  width:43%;
-  position: absolute;
+  width: 45%;
   left: 18%;
   top: 5%;
+  font-size: 0.87rem;
+  position: absolute;
 }
 
 .zange{
-  position: absolute;
-  width:20%;
+  width: 20%;
   right: 15%;
-  bottom:10%;
+  bottom: 10%;
+  position: absolute;
 }
 
 
@@ -183,17 +199,17 @@ p {
 /*Ballon*/
 
 .text-ballon {
-  width:43%;
-  position: absolute;
+  width: 45%;
   left: 40%;
   top: 0;
+  position: absolute;
 }
 
 .ballon{
-  position: absolute;
-  width:17%;
+  width: 17%;
   right: 65%;
-  bottom:8%;
+  bottom: 8%;
+  position: absolute;
 }
 
 
@@ -204,17 +220,17 @@ p {
 /*Kopf*/
 
 .text-kopf {
-  width:43%;
-  position: absolute;
+  width: 43%;
   left: 8%;
   top: 0;
+  position: absolute;
 }
 
 .kopf{
-  position: absolute;
-  width:38%;
+  width: 38%;
   right: 15%;
-  top:0;
+  top: 0;
+  position: absolute;
 }
 
 
@@ -225,24 +241,23 @@ p {
 /*Person*/
 
 .text-person {
-  width:43%;
-  position: absolute;
+  width: 43%;
   left: 8%;
   top: 0;
+  position: absolute;
 }
 
-.person{
-  position: absolute;
-  width:38%;
+.person {
+  width: 38%;
   right: 10%;
-  bottom:10%;
+  bottom: 10%;
+  position: absolute;
 }
 
 
 .img-person img {
   width: 100%;
 }
-
 
 
 /*Audioplayer*/
