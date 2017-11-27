@@ -143,13 +143,18 @@ p.link a:hover span {
 
 /* === MAP – CANADA === */
 
+.nhl_wrapper {
+  display: flex;
+  margin-top: 127px;
+}
+
 .nhl_map {
   width: 50%;
-  margin-top: 127px;
+
   margin-bottom: 0;
   /*height: 677px;*/
   padding: 0;
-  background-color: #eee;
+  /*background-color: #eee;*/
   background-size: cover;
 }
 
@@ -548,12 +553,12 @@ p.link a:hover span {
 
 .header {
   margin-top: 127px;
-  background-image: url('../image/test.jpg');
+  /*background-image: url('../image/test.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /*background-color: tomato;
-  height: 80vh;
+  background-color: tomato;
+  /*height: 80vh;
   text-align: left;
   color: white;*/
 }
@@ -578,28 +583,32 @@ p.link a:hover span {
   width: 40%;
   float: left;
   margin-bottom: 200px;
-  color: tomato;
+  color: black;
 }
 
 .infos {
-  position: relative;
-  display: inline-block;
-  left: 53.5%;
-  top: -910px;
+  display: flex;
+  height: 50px;
+  width: 100%;
 }
 
-.infos h1 {
+.team_infos {
+  width: 50%;
+}
+
+.infos_team {
   font-family: 'Oswald', sans-serif;
-  font-size: 2.0em;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 50%;
 }
 
-.infos img {
-  width: 10%;
+.infos_logo {
   filter: grayscale(100%);
+  width: 50%;
 }
 
-.infos img:hover {
-  width: 20%;
+.infos_logo:hover {
   filter: grayscale(0%);
   transition: 0.2s;
 }

@@ -5,7 +5,6 @@ body{
 }
 
 
-
 /* Start Page */
 
 html {
@@ -91,13 +90,13 @@ h1 {
 }
 
 .background-1 {
-  background-color: blue;
+  background-color: #0000ff;
   padding-top: 20px;
   padding-bottom: 60px;
 }
 
 .background-2 {
-  background-color: blue;
+  background-color: #0000ff;
   padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -106,6 +105,12 @@ h1 {
   background-color: white;
   padding-top: 40px;
   padding-bottom: 210px;
+}
+
+.ibims {
+	color: #0000ff;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 #parent{
@@ -152,9 +157,10 @@ margin-right: auto;
 }
 
 .yolo:hover {
+  cursor: url("images/yolotext.png"),auto;
   background-image: url("images/yolo.gif");
-  cursor: url("images/yolo.gif"),auto;
 }
+
 
 .zombie {
   background-image: url("images/zombie.jpg");
@@ -218,12 +224,12 @@ margin-right: auto;
 }
 
 .harzen:hover {
-  cursor: url("images/herzentext.gif"),auto;
+  cursor: url("images/harzentext.gif"),auto;
   background-image: url("images/harzen.gif");
 }
 
 .article-text-info {
-  background-color: blue;
+  background-color: #0000ff;
   padding: 1rem 1.3rem;
   margin-top: 2rem;
   font-family: 'Arimo', sans-serif;
@@ -250,7 +256,7 @@ margin-right: auto;
 .article-teaser {
   display: flex;
   margin-top: 200px;
-  color: blue;
+  color: #0000ff;
 }
 
 .article-teaser:hover{
@@ -260,8 +266,6 @@ margin-right: auto;
 
 .article-teaser-image img {
   width: 150px;
-  margin-left: 700px;
-  margin-right: 2rem;
 }
 
 .article-graphic {
@@ -276,7 +280,7 @@ margin-right: auto;
 
 @keyframes fancy {
   to {
-    fill: blue;
+    fill: #0000ff;
     transform: scale(1.2);
   }
 }
@@ -314,6 +318,7 @@ margin-right: auto;
 	bottom: 0;
 	width: 100%;
 	opacity: 0.3;
+	margin-left: -2%;
 }
 
 .stage-headline {
@@ -330,4 +335,131 @@ margin-right: auto;
 	font-size: 1.5rem;
 	line-height: 0.5;
 	position: relative;
+}
+
+.button {
+/* NOTE: border, background, font-family, font-size, padding, border-radius*/
+background-color: yellow;
+font-family: "Agipo", sans-serif;
+font-size: 14px;
+border-color: yellow;
+padding: 30px;
+position: relative;
+}
+
+.button:hover {
+	background-color: #ff0000;
+	border-color: #ff0000;
+}
+
+.article-interactive {
+text-align: center;
+min-height: 50vh;
+background-color: black;
+display: flex;
+align-items: center;
+}
+
+.action {
+background: url(images/harzen.gif);
+}
+
+.face{
+background: #0000ff;
+width: 100%;
+min-height: 100vh;
+background-image: url(images/male-head.gif);
+background-repeat: no-repeat;
+background-size: 63%;
+background-position: center;
+}
+
+.header {
+	background-color: red;
+	padding: 1rem;
+	padding-left: 2rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 50pt;
+}
+
+.link {
+	height: 100%;
+	width: 25%;
+	position: absolute;
+	z-index: 3;
+}
+
+.link-harzen {
+	cursor: url("images/harzentext.gif"),auto;
+}
+
+.link-niveau {
+	cursor: url("images/niveautext.gif"),auto;
+}
+
+.link-swag {
+	cursor: url("images/swagtext.gif"),auto;
+}
+
+.link-yolo {
+	cursor: url("images/yolotext.gif"),auto;
+}
+
+.link-babo {
+	cursor: url("images/babotext.gif"),auto;
+}
+
+.link-fly {
+	cursor: url("images/flytext.gif"),auto;
+}
+
+.link-smombie {
+	cursor: url("images/smombie.gif"),auto;
+}
+
+.harzenpage {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("images/harzen.gif");
+	background-repeat: repeat;
+	background-size: 70px;
+	background-position: center;
+	position: absolute;
+	z-index: 1;
+}
+
+.info-text {
+	color: blue;
+	font-size: 3rem;
+	font-style: oblique;
+	width: 100%;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    color: red;
+    transform: scale(1.1);
+  }
+}
+
+[data-aos="wurst"] {
+	transform: rotate(0);
+	transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+	transform: rotate(180);
 }

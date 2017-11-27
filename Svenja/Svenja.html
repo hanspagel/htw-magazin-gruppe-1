@@ -4,11 +4,23 @@
     <meta charset="utf-8">
     <title>Traumberuf: Youtuber</title>
     <link rel="stylesheet" href="Svenja.css">
+
+    <script src="app.js">
+    </script>
+
+  <link rel="stylesheet" href="aos.css">
+  <script src="aos.js"></script>
   </head>
 
   <body>
 
-    <section class="article-image">
+    <header class="header">
+      <a href="../Startseite/index.html">
+        Techno
+      </a>
+    </header>
+
+    <section class="article-image" data-aos="hallo" data-aos-offset="500" data-aos-duration="10">
       <div class="article-inner-wide">
 
         <img src="YouTube.jpg" alt="YouTube Logo">
@@ -30,6 +42,12 @@
     </section>
 
     <section class="article-inner">
+
+    <section class="article-module article-interactive">
+      <div class= "article-inner">
+        <button class="button">Play</button>
+      </div>
+    </section>
 
       <div class="article-inner">
 
@@ -68,7 +86,9 @@
 
     </section>
 
-
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

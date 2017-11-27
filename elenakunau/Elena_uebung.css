@@ -167,3 +167,49 @@ h1 {
 body {
   margin: 0;
 }
+
+.button {
+  /* NOTE: border, background-color, font-family, font-size, padding */
+  border-radius: 0;
+  border: 5px solid black;
+  background-color: yellow;
+  font-family: Arimo, sans-serif;
+  font-size: 15px 30px;
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 0 0 black;
+  /* NOTE: das Bild gif png bis 100px Groß */
+  cursor: url(cursor.png), pointer ;
+}
+.button:focus {
+  outline: 2px dashed red;
+}
+
+.button:hover {
+  background-color: black;
+  color:yellow;
+}
+
+.article-interactive {
+  text-align: center;
+  /* NOTE: 50% von Brauser Größe */
+  min-height:50vh;
+  background-color:yellow;
+  display: flex;
+  align-items: center;
+}
+.action {
+  background: url(source.gif);
+  background-size: cover;
+}
+
+/* NOTE: stat fade in schreiben wurst */
+[data-aos="wurst"]{
+  filter: blur(200px);
+  transform:rotate(0);
+  transition-property: all;
+}
+
+[data-aos="wurst"].aos-animate{
+  filter:blur(0);
+  transform:rotate(180deg);
+}

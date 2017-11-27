@@ -5,8 +5,22 @@
     <title>blub</title>
     <link rel="stylesheet" href="tanya.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Montserrat:400,700|Ubuntu:400,700" rel="stylesheet">
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="aos.css">
+    <script src="aos.js"></script>
+
   </head>
   <body>
+
+    <header class="header">
+
+      <a href="../Startseite/index.html">Techno</a>
+
+
+    </header>
 
     <section class="article-module article-text">
 
@@ -24,7 +38,7 @@
 
     </section>
 
-    <section class="article-module article-image">
+    <section class="article-module article-image" data-aos="wurst" data-aos-offset="500" data-aos-duration="1000" data-aos-once="true">
       <div class="article-inner-wide">
         <img src="bilder/bild1.jpg" alt="Grace Jones Profilbild" />
       </div>
@@ -64,6 +78,14 @@
 
     </section>
 
+ <section class="article-module article-interactive">
+   <div class="article-inner">
+
+     <button class="button">Click Moi</button>
+
+   </div>
+
+ </section>
     <section class= "article-module article-graphic">
       <svg width="400" height="400">
 
@@ -117,6 +139,10 @@
 
     </section>
 
+  <script>
+    AOS.init();
+  </script>
 
-  </body>
+</body>
+
 </html>
