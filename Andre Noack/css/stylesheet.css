@@ -596,19 +596,19 @@ p.link a:hover span {
   width: 50%;
 }
 
-.infos_team {
+.team_detail {
   font-family: 'Oswald', sans-serif;
   font-size: 3.0em;
   font-weight: 800;
-  width: 50%;
+  width: 60%;
 }
 
-.infos_logo {
+.team_logo {
   filter: grayscale(100%);
   width: 50%;
 }
 
-.infos_logo:hover {
+.team_logo:hover {
   filter: grayscale(0%);
   transition: 0.2s;
 }
