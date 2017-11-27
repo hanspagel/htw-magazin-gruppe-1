@@ -4,6 +4,8 @@
   display: block;
   height: 100%;
   position: relative;
+  margin: 0;
+  padding: 0;
   }
 
 #metaball-video {
@@ -24,12 +26,6 @@
   width: 100%;
   opacity: 0.7;
 }
-
-.metaball-video{
-margin: 0;
-padding: 0;
-}
-
 
 .gehirn_überschrift {
   font-family: 'Teko';
