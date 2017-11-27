@@ -115,3 +115,30 @@ body{
   display: flex;
   align-items: center;
 }
+
+.header{
+  background-color:black;
+  padding:1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.header a{
+  color:white;
+  text-decoration:none;
+  font-family: "Thamoa", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+[data-aos="hallo"]{
+  transform: rotate(0);
+  transition-property: transform;
+}
+
+[data-aos="hallo"].aso-animate{
+  transform: rotate(180deg);
+}

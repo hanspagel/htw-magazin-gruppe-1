@@ -1,59 +1,51 @@
-.metaball-video{
-  width: 100%;
-  max-height: 1024px;
-  display: block;
-  height: 100%;
-  position: relative;
-  }
-
-#metaball-video {
-  width: 100%;
-  /*top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
-}
-
 .spirale_animation {
   position: relative;
   width: 100%;
+
   }
 
 #spirale_animation {
   width: 100%;
-}
-
-.metaball-video{
-margin: 0;
-padding: 0;
+  opacity: 0.7;
 }
 
 .gehirn_überschrift {
   font-family: 'Teko';
-	font-size: 224px;
+	font-size: 150px;
 	font-weight: 500;
 	color: #33495f;
+  /*text-shadow: 0px 0px 3px #F7F2E0,
+               0px 0px 5px #F7F2E0;*/
   margin: 0;
 }
 
 .grosse_zahl {
   font-family: 'Teko';
 	font-size: 150px;
-	font-weight: 500;
+	font-weight: 500px;
 	color: #33495f;
+  /*text-shadow: 0px 0px 5px #F7F2E0,
+               0px 0px 8px #F7F2E0;*/
   margin: 0;
+  padding: 0;
 }
 
 .subheadline {
-	font-family: 'Raleway',sans-serif;
-	font-size: 20px;
+	font-family: 'Raleway',bold;
+	font-size: 24px;
 	letter-spacing: 1.8px;
   line-height: 30px;
-	color: #FFFFFF;
+	color: #33495f;
   font-weight: 550;
-  opacity: 0.9;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
 }
 
+.subheadline h2 {
+  margin: 0;
+  padding: 0;
+}
 
 .info-gehirn-rechtsbündig {
   text-align: right;
@@ -65,10 +57,30 @@ padding: 0;
 }
 
 
-.gehirn_infografik{
+.gehirn_infografik {
   position: absolute;
-  top: 122px;
+  top: 20px;
   right: 105px;
   bottom: 0;
   left: 95px;
+}
+
+.infographic-1-info {
+  margin-bottom: 100px;
+}
+
+.infographic-2-info {
+  margin-bottom: 130px;
+}
+
+.infographic-3-info {
+  margin-bottom: 50px;
+}
+
+.infographic-4-info {
+  margin-bottom:60px;
+}
+
+.infographic-5-info {
+  margin-bottom: 0px;
 }

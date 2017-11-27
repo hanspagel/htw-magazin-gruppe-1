@@ -5,8 +5,21 @@
 		<title>Die besten Angelruten der Saison</title>
 		<link rel="stylesheet" href="Hans.css">
 		<link href="https://fonts.googleapis.com/css?family=Arimo:400,700|PT+Serif:400,700" rel="stylesheet">
+
+		<script src="jquery.js"></script>
+		<script src="app.js"></script>
+
+		<link rel="stylesheet" href="aos.css">
+		<script src="aos.js"></script>
+
 	</head>
 	<body>
+
+		<header class="header">
+			<a href="../Startseite/index.html">
+				Techno
+			</a>
+		</header>
 
 		<section class="article-module article-text">
 			<div class="article-inner">
@@ -26,13 +39,36 @@
 			</div>
 		</section>
 
-		<section class="article-module article-image">
+
+
+		<section class="article-module article-interactive">
+
+			<div class="article-inner">
+
+				<button class="button">Play</button>
+
+			</div>
+
+		</section>
+
+
+
+		<section
+			class="article-module article-image"
+			data-aos="wurst"
+			data-aos-offset="300"
+			data-aos-duration="1500"
+			data-aos-once="true"
+		>
 			<div class="article-inner-wide">
 
 				<img src="Hecht_Mueller.jpg" alt="Angeln mit Mäusen">
 
 			</div>
 		</section>
+
+
+
 
 		<section class="article-module article-text">
 			<div class="article-inner">
@@ -121,6 +157,10 @@
 
 			</div>
 		</section>
+
+		<script>
+	    AOS.init();
+	  </script>
 
 	</body>
 </html>
