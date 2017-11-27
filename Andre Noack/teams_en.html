@@ -5,8 +5,9 @@
 		<title>national hockey league&reg;</title>
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="css/stylesheet.css" rel="stylesheet" />
+		<link href="css/aos.css" rel="stylesheet">
+		<script href="js/aos.js"></script>
 		<script src="js/jquery.js"></script>
-		<script src="js/main.js"></script>
 		<!--<link href="js/script.js" rel="javascript" />-->
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
@@ -18,15 +19,18 @@
 
 		    $(".link a").click(function() {
 
+					$(".link img").attr("src", "image/nhl_city.svg");
+
 		      var team = $(this).data("team");
 
 		      $(".infos").hide();
 		      $(team).show();
 
+					$(this).find("img").attr("src", "image/nhl_city_red.svg");
+
 		    })
 
 		});
-
 
 		</script>
 
@@ -60,7 +64,7 @@
 		<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
 
 	    <div class="nhl_city_montreal">
-				<p class="link"><a href="#" data-team=".city_montreal"><img src="image/nhl_city.svg" alt=""><span>Montreal&nbsp;Canadiens</span></a></p>
+				<p class="link"><a href="#" data-team=".city_montreal"><img src="image/nhl_city.svg" alt=""><span>Montreal Canadiens</span></a></p>
 	    </div>
 
 	    <div class="nhl_city_ottawa">
@@ -88,7 +92,7 @@
 	    </div>
 
 			<div class="nhl_city_boston">
-				<p class="link"><a href="#" data-team=".city_boston"><img src="image/nhl_city.svg" alt=""><span>Boston&nbsp;Bruins</span></a></p>
+				<p class="link"><a href="#" data-team=".city_boston"><img src="image/nhl_city.svg" alt=""><span>Boston Bruins</span></a></p>
 			</div>
 
 			<div class="nhl_city_minneapolis">
@@ -100,15 +104,15 @@
 			</div>
 
 			<div class="nhl_city_newyork-1">
-				<p class="link"><a href="#" data-team=".city_newyork-1"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Rangers</span></a></p>
+				<p class="link"><a href="#" data-team=".city_newyork-1"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York Rangers</span></a></p>
 			</div>
 
 			<div class="nhl_city_newyork-2">
-				<p class="link"><a href="#" data-team=".city_newyork-2"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York&nbsp;Islanders</span></a></p>
+				<p class="link"><a href="#" data-team=".city_newyork-2"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;York Islanders</span></a></p>
 			</div>
 
 			<div class="nhl_city_newjersey">
-				<p class="link"><a href="#" data-team=".city_newjersey"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;Jersey&nbsp;Devils</span></a></p>
+				<p class="link"><a href="#" data-team=".city_newjersey"><img src="image/nhl_city.svg" alt=""><span>New&nbsp;Jersey Devils</span></a></p>
 			</div>
 
 	    <div class="nhl_city_detroit">
@@ -116,7 +120,7 @@
 	    </div>
 
 			<div class="nhl_city_philadelphia">
-	      <p class="link"><a href="#" data-team=".city_philadelphia"><img src="image/nhl_city.svg" alt=""><span>Philadelphia&nbsp;Flyers</span></a></p>
+	      <p class="link"><a href="#" data-team=".city_philadelphia"><img src="image/nhl_city.svg" alt=""><span>Philadelphia Flyers</span></a></p>
 	    </div>
 
 			<div class="nhl_city_pittsburgh">
@@ -188,57 +192,107 @@
 		<div class="team_infos">
 
 			<div class="infos city_montreal">
-				<div class="team_detail">MONTREAL&nbsp;CANADIENS</div>
-				<div class="team_logo">
-					<img src="image/Montreal_Canadiens.png" alt="">
+				<div class="infos_headline">
+					<div class="team_detail">MONTREAL&nbsp;CANADIENS</div>
+					<div class="team_logo">
+						<img src="image/Montreal_Canadiens.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL).</p><br>
+					<p>The club's official name is le Club de hockey Canadien. The team is frequently referred to in English and French as the Habs. French nicknames for the team include Les Canadiens (or Le Canadien), Le Bleu-Blanc-Rouge, La Sainte-Flanelle, Le Tricolore, Les Glorieux (or Nos Glorieux), Le CH, Le Grand Club and Les Habitants (from which "Habs" is derived).</p><br>
+					<p>Founded in 1909, the Canadiens are the longest continuously operating professional ice hockey team worldwide, and the only existing NHL club to predate the founding of the NHL. One of the oldest North American professional sports franchises, the Canadiens' history predates that of every other Canadian franchise outside football as well as every American franchise outside baseball and the National Football League's Arizona Cardinals. The franchise is one of the "Original Six" teams, a description used for the teams that made up the NHL from 1942 until the 1967 expansion. The team's championship season in 1992–93 was the last time a Canadian team won the Stanley Cup.</p><br>
+					<p>The Canadiens have won the Stanley Cup more times than any other franchise. They have won 24 Stanley Cups, 23 of them since the founding of the NHL and 22 of them since 1927, when NHL teams became the only ones to compete for the Stanley Cup. On a percentage basis, as of 2014, the franchise has won 25.3% of all Stanley Cup championships contested after the Challenge Cup era, making it the second most successful professional sports team of the traditional four major sports of Canada and the United States, behind only the Boston Celtics.</p><br>
+					<p>Since 1996, the Canadiens have played their home games at Bell Centre, originally known as Molson Centre. The team previously played at the Montreal Forum which housed the team for seven decades and all but their first two Stanley Cup championships.</p>
 				</div>
 			</div>
 
+
 			<div class="infos city_ottawa">
-				<div class="team_detail">OTTAWA&nbsp;SENATORS</div>
-				<div class="team_logo">
-					<img src="image/ottawa_senators.png" alt="">
+				<div class="infos_headline">
+					<div class="team_detail">OTTAWA&nbsp;SENATORS</div>
+					<div class="team_logo">
+						<img src="image/ottawa_senators.png" alt="">
+					</div>
+				</div>
+				<div class="test">
+					<p>The Ottawa Senators are a professional ice hockey team based in Ottawa, Ontario, Canada. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The Senators play their home games at the 17,373 seat Canadian Tire Centre which opened in 1996 as the Palladium.</p><br>
+					<p>Founded and established by Ottawa real estate developer Bruce Firestone, the team is the second NHL franchise to use the Ottawa Senators name. The original Ottawa Senators, founded in 1883, had a famed history, winning 11 Stanley Cups and playing in the NHL from 1917 until 1934. On December 6, 1990, after a two-year public campaign by Firestone, the NHL awarded a new franchise, which began play in the 1992–93 season. The current team owner is Eugene Melnyk, and in 2016, the franchise was valued by Forbes magazine at US$355 million.</p><br>
+					<p>The Senators have qualified for the Stanley Cup playoffs in 15 of the past 19 seasons; have won four division titles and, in 2003, the Presidents' Trophy; and have appeared in the 2007 Stanley Cup Finals. The club has been regularly represented in the top half in attendance in the NHL.</p>
 				</div>
 			</div>
 
 			<div class="infos city_toronto">
-				<div class="team_detail">TORONTO&nbsp;MAPLE&nbsp;LEAFS</div>
+				<div class="infos_headline">
+					<div class="team_detail">TORONTO&nbsp;MAPLE&nbsp;LEAFS</div>
 				<div class="team_logo">
 					<img src="image/toronto_maple_leafs.png" alt="">
 				</div>
 			</div>
+			<div class="test">
+				<p>The Toronto Maple Leafs (officially the Toronto Maple Leaf Hockey Club) are a professional ice hockey team based in Toronto, Ontario. They are members of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL). The club is owned by Maple Leaf Sports & Entertainment, Ltd. and are represented by Chairman Larry Tanenbaum. With an estimated worth of US $1.1 billion in 2016 according to Forbes, the Leafs are the third most valuable franchise in the NHL, after the Montreal Canadiens and the New York Rangers. The team's broadcasting rights are split between BCE Inc. and Rogers Communication. For their first 14 seasons, the club played their home games at the Mutual Street Arena, before moving to Maple Leaf Gardens in 1931. The club moved to their present home, the Air Canada Centre in February 1999.</p><br>
+				<p>The Maple Leafs were founded in 1917, operating simply as Toronto and known then as the Toronto Arenas. Under new ownership, the club was named the Toronto St. Patricks in 1919. In 1927 the club was purchased by Conn Smythe and renamed the Maple Leafs. A member of the "Original Six," the club was one of six NHL teams to have endured through the period of League retrenchment during the Great Depression. The club has won thirteen Stanley Cup championships, second only to the 24 championships of the Montreal Canadiens. The club's history includes two recognized dynasties, from 1947 to 1951; and from 1962 to 1967. Winning their last championship in 1967, the club's 50-season drought between championships is the longest current streak in the NHL.</p><br>
+				<p>The Maple Leafs have rivalries with three NHL franchises, the Detroit Red Wings, the Montreal Canadiens, and the Ottawa Senators. The club is affiliated with two minor league teams, the Toronto Marlies of the American Hockey League, and the Orlando Solar Bears of the ECHL.</p>
+			</div>
+			</div>
 
 			<div class="infos city_winnipeg">
+				<div class="infos_headline">
 				<div class="team_detail">WINNIPEG&nbsp;JETS</div>
 				<div class="team_logo">
 					<img src="image/winnipeg_jets.png" alt="">
 				</div>
 			</div>
+				<div class="test">
+					<p>TEST tshkhjglhluk</p>
+				</div>
+			</div>
 
 			<div class="infos city_edmonton">
+				<div class="infos_headline">
 				<div class="team_detail">EDMONTON&nbsp;OILERS</div>
 				<div class="team_logo">
 					<img src="image/edmonton_oilers.png" alt="">
 				</div>
 			</div>
+				<div class="test">
+					<p>TEST tshkhjglhluk</p>
+				</div>
+			</div>
 
 			<div class="infos city_calgary">
-				<div class="team_detail">CALGARY&nbsp;FLAMES</div>
+				<div class="infos_headline">
+					<div class="team_detail">CALGARY&nbsp;FLAMES</div>
 				<div class="team_logo">
 					<img src="image/calgary_flames.png" alt="">
 				</div>
 			</div>
+			<div class="test">
+				<p>TEST tshkhjglhluk</p>
+			</div>
+			</div>
 
 			<div class="infos city_vancouver">
-				<div class="team_detail">VANCOUVER&nbsp;CANUCKS</div>
+				<div class="infos_headline">
+					<div class="team_detail">VANCOUVER&nbsp;CANUCKS</div>
 				<div class="team_logo">
 					<img src="image/vancouver_canucks.png" alt="">
 				</div>
+			</div>
+				<div class="test">
+					<p>TEST tshkhjglhluk</p>
+				</div>
+			</div>
+
 			</div>
 
 		</div>
 
 	</div>
-
+<!--
+	<script>
+		AOS.init();
+  </script>
+-->
   </body>
 </html>
