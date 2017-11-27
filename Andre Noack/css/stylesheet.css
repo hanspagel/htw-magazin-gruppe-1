@@ -162,9 +162,7 @@ p.link a:active {
 .nhl_map {
   width: 50%;
   margin-bottom: 0;
-  /*height: 677px;*/
   padding: 0;
-  /*background-color: #eee;*/
   background-size: cover;
 }
 
@@ -612,11 +610,14 @@ p.link a:active {
   font-size: 3.0em;
   font-weight: 800;
   width: 80%;
+  display: block;
 }
 
 .team_logo {
   filter: grayscale(100%);
   width: 20%;
+  display: block;
+  text-align: justify;
 }
 
 .team_logo:hover {
