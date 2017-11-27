@@ -209,7 +209,34 @@ body {
 
 
 
+.header {
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
 
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 50px;
+}
+
+[data-aos="wurst"] {
+  filter: blur(1000px);
+  transform: rotate(180deg);
+  transition-property: all;
+}
+
+[data-aos="wurst"].aos-animate {
+  filter: blur(0);
+  transform: rotate(0);
+}
 
 
 
