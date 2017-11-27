@@ -87,10 +87,15 @@ function checkKey(e) {
 
 // convert vertical to horizontal scroll
 $(document).ready(function () {
-    $('.main').mousewheel(function(e, delta) {
-        this.scrollLeft -= (delta * 40);
+    $('.main').mousewheel(function(e) {
+        this.scrollLeft -= (e.originalEvent.deltaY * -1);
+        this.scrollLeft -= (e.originalEvent.deltaX * -1);
         e.preventDefault();
+        // console.log(e.originalEvent.deltaY);
     });
+    // $('.main').mousewheel(function(event) {
+    //     console.log(event.deltaX, event.deltaY, event.deltaFactor);
+    // });
 });
 
 // drag to scroll
