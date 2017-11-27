@@ -125,3 +125,38 @@ function scrollCard(direction) {
   }
 
 }
+
+//  bind arrow keys
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+        scrollCard("left");
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+        scrollCard("right");
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       scrollCard("left");
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       scrollCard("right");
+    }
+
+}
+
+// convert vertical to horizontal scroll
+$(document).ready(function () {
+    $('.main').mousewheel(function(e, delta) {
+        this.scrollLeft -= (delta * 40);
+        e.preventDefault();
+    });
+});

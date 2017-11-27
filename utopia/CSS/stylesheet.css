@@ -13,6 +13,10 @@ body{
 
 }
 
+.backgroundstars{
+  background-image: url(../images/background4.png);
+}
+
 .article-inner{
   max-width: 600px;
   margin-left: auto;
@@ -269,7 +273,7 @@ color:red
 
 .stars{
   position: absolute;
-  
+
 }
 
 .article-pic img{
