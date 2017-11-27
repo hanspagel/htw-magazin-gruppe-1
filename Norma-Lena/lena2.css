@@ -103,11 +103,6 @@ p:first-of-type {
   position: center;
 }
 
-.animated-cat {
-  animation: cat 3s infinite;
-  transform-origin: center;
-}
-
 @keyframes cat{
   to{
     transform: rotate(360deg);
@@ -175,6 +170,25 @@ body {
   background: url(source.gif);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.header {
+  background-color: #03040B;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  letter-spacing: 15px;
 }
 
 /* Kommentare unsichtbar einfügen */
