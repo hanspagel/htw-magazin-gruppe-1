@@ -2,27 +2,110 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <title>Überfischung 2.0</title>
+    <link rel="stylesheet" href="norma.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+
     <title>Überfischung der Weltmeere</title>
-    <link rel="stylesheet" href="norma.css"
-    <link  href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="norma.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <meta charset="utf-8">
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+
   </head>
 
 <!-- NOTE: Hauptteil beginnt -->
 
  <body>
-  <section>
-
-    <div class="article-inner">
-
+    <section class="article-text">
+      <div class="article-inner">
         <h1>
-          <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
-          Gesundheitscheck fuer die Meere
+          Gesundheitscheck für die Meere
         </h1>
-          <p>
-             Beutejäger, die ganz oben in der Nahrungskette stehen, sind ein Schlüsselindikator für die Gesundheit des Ökosystems. Ihre Populationen schwinden in beängstigendem Tempo. Von den großen Fischen, die viele von uns so gern essen, wie etwa Thunfisch, Schwertfisch, Marlin, Kabeljau, Heilbutt, Rochen und Flunder sind seit Beginn der industriellen Fischerei in den 1950er Jahren 90 Prozent der Bestände leer gefischt worden. Der Schwund an solchen "Top-Spezies" kann einen Wandel der gesamten Meeresumwelt verursachen, wenn kleine Plankton fressende Fischarten an die Stelle von kommerziell wertvollem Fisch treten. Es ist nicht auszuschließen, dass noch in diesem Jahrhundert Rekordernten von Quallen die von Menschen normalerweise verzehrten Fischarten ersetzen werden.<p>
-             Solche Veränderungen gefährden die Meere in ihrer Struktur und Funktion. Gleichzeitig sind damit auch diejenigen bedroht, deren Lebensgrundlage immer schon das Meer gewesen ist.</p>
-        </div>     
-    </p>
+        <p>
+          Beutejäger, die ganz oben in der Nahrungskette stehen, sind ein Schlüsselindikator für die Gesundheit des Ökosystems. Ihre Populationen schwinden in beängstigendem Tempo. Von den großen Fischen, die viele von uns so gern essen, wie etwa Thunfisch, Schwertfisch, Marlin, Kabeljau, Heilbutt, Rochen und Flunder sind seit Beginn der industriellen Fischerei in den 1950er Jahren 90 Prozent der Bestände leer gefischt worden.
+
+          Der Schwund an solchen "Top-Spezies" kann einen Wandel der gesamten Meeresumwelt verursachen, wenn kleine Plankton fressende Fischarten an die Stelle von kommerziell wertvollem Fisch treten. Es ist nicht auszuschließen, dass noch in diesem Jahrhundert Rekordernten von Quallen die von Menschen normalerweise verzehrten Fischarten ersetzen werden.
+        <p>
+      </div>
+    </section>
+
+    <section class="article-image">
+      <div class=article-inner-wide>
+        <img src="fische2.jpg">
+      </div>
+    </section>
+
+    <section class="article-module article-interactive">
+      <div class="article-inner">
+
+        <button class="button">Play</button>
+
+      </div>
+    </section>
+
+    <section class="article-text">
+      <div class="article-inner">
+        <p>
+          Solche Veränderungen gefährden die Meere in ihrer Struktur und Funktion. Gleichzeitig sind damit auch diejenigen bedroht, deren Lebensgrundlage immer schon das Meer gewesen ist.
+         </p>
+      </div>
+    </section>
+
+
+    <!-- NOTE: nneu erstellt am 06.11 /* -->
+
+    <section class="article-module article-graphic">
+
+      <svg width="400" height="400">
+
+        <rect width="100%" height="100%" fill="lightblue" />
+        <circle cx="200"cy="200" r="150" fill="grey" />
+        <ellipse class="animated-eye" cx="150" cy="200" rx="15" ry="20" fill="white" />
+        <ellipse class="animated-eye" cx="250" cy="200" rx="15" ry="20" fill="white" />
+        <line x1="200" y1="200" x2="200" y2="240" stroke="tomato" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 120 120 h 20 v -10 h 20 v -10"fill="none" stroke="black" stroke-width="10"
+         />
+         <path
+          stroke="tomato"
+          stroke-width="10"
+          stroke-linecap="round"
+          d="M 130 270 Q 200 330 270 270"
+          fill="none"
+         />
+
+      </svg>
+   </section>
+
+    <section class="article-module article-stage">
+      <div class="article-inner">
+        <h2 class="stage-headline">Lorem Ipsum dolor sit amet.</h2>
+        <h3 class="stage-subline">Das ist ein Blindtext</h3>
+
+      </div>
+    </section>
+
+    <section class="article-module article-related">
+      <div class="article-inner-wide">
+
+        <a href="../rollercoaster_tycoon/Phabea.html" class="article-teaser">
+
+          <div class="article-teaser-image">
+            <img src="../rollercoaster_tycoon/Logo.png" alt="Logo">
+          </div>
+
+          <div class="article-teaser-headline">
+            Sie möchten ein Imperium erschaffen?!?
+          </div>
+
+        </a>
+
+      </div>
+    </section>
+
   </body>
 </html>

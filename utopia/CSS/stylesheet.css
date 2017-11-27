@@ -2,15 +2,29 @@ html{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  color: #ffdeeb;
+  color: white;
+  opacity: 0.75;
 }
 
 body{
   background-color: #000000;
+  background-image: url(../images/background5.png);
+  background-attachment: fixed;
+
+}
+
+.backgroundstars{
+  background-image: url(../images/background4.png);
 }
 
 .article-inner{
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide{
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,7 +38,7 @@ h1{
   font-size: 3rem;
   font-variant: small-caps;
   margin-bottom: 1em;
-  color: #ffdeeb;
+  color: white;
 }
 
 h2{
@@ -33,11 +47,243 @@ h2{
   font-size: 1.5rem;
   font-variant: small-caps;
   margin-bottom: 1em;
-  color: #ffdeeb;
+  color: white;
 }
 
-p:first-of-type{
+/*p:first-of-type{
   font-size: 1.4rem;
-}
+}*/
 
 /*Ich bin ein Kommentar. Funktioniert so: CMD+Shift+7. Tadaa!*/
+
+.article-image img {
+  width: 100%;
+}
+
+/* NOTE: der erste Absatz im ersten Textmodul
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}*/
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-info {
+  background-color: magenta;
+  float: right;
+  width: 10rem;
+  padding: 0.6rem 1.3rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  border: 5px dashed yellow;
+  box-shadow: 10px 10px 20px 0 red;
+}
+
+.article-teaser{
+display: flex;
+text-decoration: none;
+color:red
+}
+
+.article-teaser:hover {
+  color: green;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  transform: rotate(180deg);
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: magenta;
+  transition: all 10s;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.mund {
+  animation: munddrehen 10s infinite;
+  transform-origin: center;
+
+}
+
+@keyframes munddrehen{
+  to {
+    transform: rotate(-360deg);
+  }
+
+  10%{
+    stroke: green;
+  }
+  30%{
+    stroke:turquoise;
+  }
+  50%{
+    stroke:blue;
+  }
+  70%{
+    stroke:violet;
+  }
+  90%{
+    stroke:pink;
+  }
+}
+.animated-dot {
+  animation: verschieben 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes verschieben{
+  25% {
+    transform: translate(370px, 0px)
+    fill:turquoise;
+  }
+  50% {
+    transform: translate(0px, 370px)
+    fill:green;
+  }
+  75% {
+    transform: translate(-370px, 0px)
+    fill:blue;
+  }
+  100% {
+    transform: translate(0px, -370px)
+  }
+}
+
+.article-stage {
+/*  background-image: url(../images/milkyway.jpg);*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  /*background: linear-gradient(0deg, black, transparent, black);*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.stage-headline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.thomas {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin-left: -320px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.thomas:hover {
+  filter: grayscale(0%);
+}
+
+.button {
+  background-color: #ffdeeb;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 0;
+  box-shadow: 7px 7px magenta;
+  cursor: url(../images/schluessel.png), pointer;
+
+}
+
+.button:hover{
+  background-color: magenta;
+  border: 2px dotted yellow;
+  box-shadow: 7px 7px yellow;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.article-interactive{
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  align-items:
+}
+
+.spacedonut{
+  background: url(../images/spacedonut.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.stars{
+  position: absolute;
+
+}
+
+.article-pic img{
+  width: 150%;
+  height: auto;
+  margin-left: -40%;
+}
+.article-pic2 img{
+  width: 120%;
+  height: auto;
+  margin-top: -150%;
+  margin-left: 50%;
+}

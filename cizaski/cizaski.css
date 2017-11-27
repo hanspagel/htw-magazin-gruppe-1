@@ -1,0 +1,39 @@
+html{
+  font-family: 'Karla';
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+  background-color: ivory;
+}
+
+/*Das ist eine Überschrift*/
+h1 {
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* Das ist der erste Absatz im Artikel */
+p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img {
+  max-width: 100%
+}
