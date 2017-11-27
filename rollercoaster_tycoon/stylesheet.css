@@ -177,9 +177,10 @@ p {
 /*Zange*/
 
 .text-zange {
-  width: 43%;
+  width: 45%;
   left: 18%;
   top: 5%;
+  font-size: 0.87rem;
   position: absolute;
 }
 
@@ -198,7 +199,7 @@ p {
 /*Ballon*/
 
 .text-ballon {
-  width: 43%;
+  width: 45%;
   left: 40%;
   top: 0;
   position: absolute;
