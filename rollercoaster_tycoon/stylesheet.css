@@ -8,7 +8,21 @@ vh ist viewport height, höhe des Browserfensters */
  cursor: url(pictures/ballon.png), pointer;
 }
 
+.header{
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right:0;
 
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+}
  /*landing-page*/
 
 
@@ -32,9 +46,9 @@ vh ist viewport height, höhe des Browserfensters */
 
 /*Allgemein*/
 
-.header{
+/*.header{
   left:0;
-}
+}*/
 
 .logo{
   margin-top:3%;
@@ -73,8 +87,6 @@ p {
   left:10%;
   top:13%;
   background-color: #FEBBBB;
-    -webkit-transition: height 0.7s;
-    -moz-transition: height 0.7s;
 }
 
 .box-outline {
