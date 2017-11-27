@@ -1,9 +1,9 @@
-function setup() {
+$(document).ready(function()  {
 
-}
+$(".button").click(function() {
 
-function draw() {
-  ellipse(50, 50, 100, 100);
+$(".article-interactive").addClass("action")
 
+})
 
-}
+})

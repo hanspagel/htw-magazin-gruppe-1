@@ -1,16 +1,4 @@
-.metaball-video{ display: block; height: 100%; }
-#metaball-video {
-	position: fixed;
-	top: 0; right: 0; bottom: 0; left: 0;
-	overflow: hidden;
-}
 
-#trailer > video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-}
 
 @media (min-aspect-ratio: 16/9) {
     #trailer > video { height: 300%; top: -100%; }
@@ -18,46 +6,45 @@
 @media (max-aspect-ratio: 16/9) {
     #trailer > video { width: 300%; left: -100%; }
 }
-/* Если есть поддержка object-fit (Chrome/Chrome для Android, Safari в iOS 8 и Opera), используем его: */
+
+/*Если есть поддержка object-fit (Chrome/Chrome для Android, Safari в iOS 8 и Opera), используем его: */
+
 @supports (object-fit: cover) {
     #trailer > video {
         top: 0; left: 0;
         width: 100%; height: 100%;
         object-fit: cover;
-    }
 }
-
-
 
 .header-kuenst {
   padding-left: 15%;
-font-family: Teko;
-height: 0;
-font-size: 80px;
-font-weight: 300;
-text-align: left;
-margin-bottom: 0;
-color: #f17571;
-margin-left: 300;
-top:50%;
-display: inline-block;
-box-sizing: border-box;
-  position: relative;
+	font-family: 'Teko';
+	height: 0;
+	font-size: 80px;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 0;
+	color: #f17571;
+	margin-left: 300;
+	top:50%;
+	display: inline-block;
+	box-sizing: border-box;
+  position: absolute;
   padding-right: 0;
 }
 
 .header-liche {
-	font-family: Teko;
-  height: 0;
-  margin-bottom: 0;
-	font-size: 80px;
-	font-weight: 300;
-	text-align: left;
-  top: 50%;
-	color: #33495f;
-  display: inline-block;
-  box-sizing: border-box;
-    position: relative;
+		font-family: 'Teko';
+	  height: 0;
+	  margin-bottom: 0;
+		font-size: 80px;
+		font-weight: 300;
+		text-align: left;
+	  top: 50%;
+		color: #33495f;
+	  display: inline-block;
+	  box-sizing: border-box;
+    position: absolute;
 }
 
 .header-inteligenz {
@@ -66,14 +53,14 @@ box-sizing: border-box;
   margin-top: 0px;
   top:80%;
   height: 180;
-	font-family: Teko;
+	font-family: 'Teko';
 	font-size: 80px;
 	font-weight: 300;
 	text-align: left;
 	color: #33495f;
   display: inline-block;
   box-sizing: border-box;
-    position: relative;
+  position: absolute;
 
 }
 .header-kuenst h1{
@@ -356,4 +343,55 @@ box-sizing: border-box;
     -webkit-transform: skewX(10deg) skewY(-10deg);
     transform: skewX(10deg) skewY(-10deg);
   }
+}
+
+
+
+
+
+
+
+.button {
+	/* NOTE: border, background-color, font-family, font-size, padding */
+
+	/* NOTE: Keine Rundung: */
+	border-radius: 5px;
+	border: 5px solid black;
+	background-color: yellow;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.2rem;
+	padding: 15px 30px;
+	box-shadow: 5px 5px 0 0 black;
+	cursor: pointer;
+
+}
+
+
+
+.button:hover {
+	background-color: black;
+	color: yellow;
+}
+
+.article-interactive {
+	text-align: center;
+	min-height: 50vh;
+	background-color: yellow;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.article-inner {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.action {
+	background: url(giphy-downsized.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+
+
 }
