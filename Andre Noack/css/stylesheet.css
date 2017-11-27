@@ -11,6 +11,14 @@ body, html {
   width: 100%;
 }
 
+/* NOTE: Media Queries */
+
+@media all and (max-width: 1000px) {
+  html, body {
+    font-size: 0.9em;
+  }
+}
+
 /* ––– VIDEO Landing Page ––– */
 
 video {
@@ -25,7 +33,6 @@ video {
 }
 
 .video-wrapper {
-
 }
 
 .text-video {
@@ -141,6 +148,10 @@ p.link a:hover span {
   margin-left: 5px;
 }
 
+p.link a:active {
+  color: red;
+}
+
 /* === MAP – CANADA === */
 
 .nhl_wrapper {
@@ -150,7 +161,6 @@ p.link a:hover span {
 
 .nhl_map {
   width: 50%;
-
   margin-bottom: 0;
   /*height: 677px;*/
   padding: 0;
@@ -586,9 +596,10 @@ p.link a:hover span {
   color: black;
 }
 
-.infos {
+.infos_headline {
   display: flex;
   height: 50px;
+  /*margin-top: 10px;*/
   width: 100%;
 }
 
@@ -596,27 +607,44 @@ p.link a:hover span {
   width: 50%;
 }
 
-.infos_team {
+.team_detail {
   font-family: 'Oswald', sans-serif;
   font-size: 3.0em;
   font-weight: 800;
-  width: 50%;
+  width: 80%;
 }
 
-.infos_logo {
+.team_logo {
   filter: grayscale(100%);
-  width: 50%;
+  width: 20%;
+  float: right;
 }
 
-.infos_logo:hover {
+.team_logo:hover {
   filter: grayscale(0%);
   transition: 0.2s;
 }
 
-/*.header-subline {
-  font-family: -apple-system, sans-serif;
-  font-size: 1.2em;
-  line-height: 0.6em;
-}*/
+.content_teams {
+  margin-top: 50px;
+}
 
-/* === Unterricht 06.11.2017 === */
+.test {
+  margin-top: 150px;
+  margin-right: 100px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+/*
+[data-aos="zoom"] {
+  filter: blur(100px);
+  transform: rotate(180deg);
+  transition-property: all;
+}
+
+[data-aos="zoom"].aos-animate {
+  filter: blur(0px);
+  transform: rotate(0deg);
+}
+*/
