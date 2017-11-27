@@ -39,3 +39,11 @@ body{
   margin-top: -100%;
   margin-left: 50%;
 }
+
+[data-aos="einhorn"] {
+  transform: scale(40%);
+}
+
+[data-aos="einhorn"].aos-animate {
+  transform: scale(100%);
+}
