@@ -7,8 +7,6 @@
     #trailer > video { width: 300%; left: -100%; }
 }
 
-/*Если есть поддержка object-fit (Chrome/Chrome для Android, Safari в iOS 8 и Opera), используем его: */
-
 @supports (object-fit: cover) {
     #trailer > video {
         top: 0; left: 0;
@@ -16,7 +14,7 @@
         object-fit: cover;
 }
 
-.header-kuenst {
+.header-kuenst h1 {
   padding-left: 15%;
 	font-family: 'Teko';
 	height: 0;
@@ -25,7 +23,7 @@
 	text-align: left;
 	margin-bottom: 0;
 	color: #f17571;
-	margin-left: 300;
+
 	top:50%;
 	display: inline-block;
 	box-sizing: border-box;
@@ -33,13 +31,14 @@
   padding-right: 0;
 }
 
-.header-liche {
+.header-liche h1 {
+  padding-left: 35%;
 		font-family: 'Teko';
 	  height: 0;
-	  margin-bottom: 0;
 		font-size: 80px;
 		font-weight: 300;
 		text-align: left;
+    margin-bottom: 0;
 	  top: 50%;
 		color: #33495f;
 	  display: inline-block;
@@ -47,11 +46,11 @@
     position: absolute;
 }
 
-.header-inteligenz {
+.header-inteligenz h1 {
   padding-left: 31%;
   height: 0;
   margin-top: 0px;
-  top:80%;
+  top:68%;
   height: 180;
 	font-family: 'Teko';
 	font-size: 80px;
@@ -63,20 +62,18 @@
   position: absolute;
 
 }
-.header-kuenst h1{
+.header-kuenst h1 {
   animation: move3 3s;
   -webkit-animation: move3 3s;
 }
 
-.header-liche h1{
-  margin-top: 0px;
+.header-liche h1 {
   animation: move2 3s;
   -webkit-animation: move2 3s;
 }
 
 .header-inteligenz h1{
 
-  margin-top: 0px;
   animation-name: move1;
   -webkit-animation-name: move1;
 
