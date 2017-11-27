@@ -8,7 +8,7 @@ Startseite für das HTW Techno Magazin.
 
 ## Built With
 
-* Vanilla JavaScript (!)
+* Vanilla JavaScript (!) except for scroll direction conversion using Jquery.
 
 ## Noteworthy
 
@@ -33,3 +33,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 * [Rachel Smith](http://rachsmith.com/)
 * [Miguel Pérez](https://about.me/miguel-perez)
 * [Paul Irish](www.paulirish.com)
+* [Johannes Koggdal](www.koggdal.com)

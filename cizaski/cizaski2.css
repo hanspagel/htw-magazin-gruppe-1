@@ -1,0 +1,55 @@
+html {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Slabo";
+}
+
+.article-header {
+  max-width: inherit;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-header-headline {
+  font-family: "League Spartan";
+  color: yellow;
+}
+
+.header-bg {
+  background-size: cover;
+  background-image: url(Download.jpeg);
+  background-position: center;
+}
+
+.article-header-image {
+  padding: 20px 20px 5px 20px;
+  text-align: center;
+}
+
+.article-header-image img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}

@@ -152,3 +152,10 @@ function checkKey(e) {
     }
 
 }
+
+// convert vertical to horizontal scroll
+(function () {
+
+	scrollConverter.deactivateAllScrolling();
+
+}());

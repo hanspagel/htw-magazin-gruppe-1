@@ -318,6 +318,7 @@ margin-right: auto;
 	bottom: 0;
 	width: 100%;
 	opacity: 0.3;
+	margin-left: -2%;
 }
 
 .stage-headline {
@@ -373,21 +374,92 @@ background-size: 63%;
 background-position: center;
 }
 
-
-
-.clickable {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
-  z-index: 5;
-	color:black;
+.header {
+	background-color: red;
+	padding: 1rem;
+	padding-left: 2rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 5;
 }
 
+.header a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 50pt;
+}
 
+.link {
+	height: 100%;
+	width: 25%;
+	position: absolute;
+	z-index: 3;
+}
+
+.link-harzen {
+	cursor: url("images/harzentext.gif"),auto;
+}
+
+.link-niveau {
+	cursor: url("images/niveautext.gif"),auto;
+}
+
+.link-swag {
+	cursor: url("images/swagtext.gif"),auto;
+}
+
+.link-yolo {
+	cursor: url("images/yolotext.gif"),auto;
+}
+
+.link-babo {
+	cursor: url("images/babotext.gif"),auto;
+}
+
+.link-fly {
+	cursor: url("images/flytext.gif"),auto;
+}
+
+.link-smombie {
+	cursor: url("images/smombie.gif"),auto;
+}
 
 .harzenpage {
-background-image: url(images/harzen.gif);
-background-repeat: repeat;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("images/harzen.gif");
+	background-repeat: repeat;
+	background-size: 70px;
+	background-position: center;
+	position: absolute;
+	z-index: 1;
+}
+
+.info-text {
+	color: blue;
+	font-size: 3rem;
+	font-style: oblique;
+	width: 100%;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    color: red;
+    transform: scale(1.1);
+  }
+}
+
+[data-aos="wurst"] {
+	transform: rotate(0);
+	transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+	transform: rotate(180);
 }
