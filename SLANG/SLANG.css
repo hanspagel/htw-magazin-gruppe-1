@@ -318,6 +318,7 @@ margin-right: auto;
 	bottom: 0;
 	width: 100%;
 	opacity: 0.3;
+	margin-left: -2%;
 }
 
 .stage-headline {
@@ -371,4 +372,27 @@ background-image: url(images/male-head.gif);
 background-repeat: no-repeat;
 background-size: 63%;
 background-position: center;
+}
+
+.header {
+	background-color: red;
+	padding: 1rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 50pt;
+}
+
+.link-harzen {
+	height: 100%;
+	width: 25%;
+	position: absolute;
+	z-index: 3;
+	cursor: url("images/harzentext.gif"),auto;
 }
