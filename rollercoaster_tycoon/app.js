@@ -1,7 +1,7 @@
 
 
-/*$(function(){
-var resizeBox= 750;
+$(function(){
+var resizeBox= 500;
 $(window).scroll(function() {
   var scroll = getCurrentScroll();
     if ( scroll >= resizeBox ) {
@@ -14,4 +14,4 @@ $(window).scroll(function() {
 function getCurrentScroll() {
   return window.pageYOffset || document.documentElement.scrollTop;
   }
-});*/
+});

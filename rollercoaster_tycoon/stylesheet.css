@@ -8,21 +8,6 @@ vh ist viewport height, höhe des Browserfensters */
  cursor: url(pictures/ballon.png), pointer;
 }
 
-/*.header{
-  background-color: black;
-  padding: 1rem;
-  position: fixed;
-  left: 0;
-  right:0;
-
-}
-
-.header a {
-  color: white;
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 20px;
-}*/
  /*landing-page*/
 
 
@@ -87,14 +72,15 @@ p {
   left:15%;
   top:13%;
   background-color: #FEBBBB;
+  -webkit-transition: 0.7s;
 }
 
 .box-outline {
-  width: 56%;
+  width: 50%;
   height:50%;
   position: fixed;
   border: 4px solid #EFE0E7;
-  right: 5%;
+  right: 13%;
   bottom:10%;
 }
 
@@ -143,7 +129,6 @@ p {
 .box-voll-burger {
   width: 35%;
   height:80%;
-  position: absolute;
   position: fixed;
   bottom:0;
   right: 10%;
