@@ -8,7 +8,7 @@ Startseite für das HTW Techno Magazin.
 
 ## Built With
 
-* Vanilla JavaScript (!)
+* Vanilla JavaScript (!) except for scroll direction conversion using Jquery.
 
 ## Noteworthy
 

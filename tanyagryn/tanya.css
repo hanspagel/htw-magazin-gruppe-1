@@ -192,3 +192,29 @@ body {
   background-position: center;
   background-size: 60%;
 }
+
+.header {
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 50px;
+}
+
+[data-aos="wurst"] {
+  transform: rotate(0);
+  transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+  transform: rotate(4000deg);
+}
