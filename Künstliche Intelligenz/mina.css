@@ -36,6 +36,8 @@ padding: 0;
 	font-size: 130px;
 	font-weight: 250px;
 	color: #33495f;
+  text-shadow: 0px 0px 3px #F7F2E0,
+               0px 0px 5px #F7F2E0;
   margin: 0;
 }
 
@@ -44,6 +46,8 @@ padding: 0;
 	font-size: 80px;
 	font-weight: 200px;
 	color: #33495f;
+  text-shadow: 0px 0px 5px #F7F2E0,
+               0px 0px 8px #F7F2E0;
   margin: 0;
   padding: 0;
 }
