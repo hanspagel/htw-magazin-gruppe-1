@@ -377,6 +377,7 @@ background-position: center;
 .header {
 	background-color: red;
 	padding: 1rem;
+	padding-left: 2rem;
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -424,10 +425,41 @@ background-position: center;
 	cursor: url("images/smombie.gif"),auto;
 }
 
-
-
 .harzenpage {
-	background-color: blue;
-width: 100%;
-height: 300%;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("images/harzen.gif");
+	background-repeat: repeat;
+	background-size: 70px;
+	background-position: center;
+	position: absolute;
+	z-index: 1;
+}
+
+.info-text {
+	color: blue;
+	font-size: 3rem;
+	font-style: oblique;
+	width: 100%;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: fancy 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    color: red;
+    transform: scale(1.1);
+  }
+}
+
+[data-aos="wurst"] {
+	transform: rotate(0);
+	transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+	transform: rotate(180);
 }
