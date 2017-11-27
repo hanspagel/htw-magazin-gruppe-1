@@ -423,3 +423,11 @@ background-position: center;
 .link-smombie {
 	cursor: url("images/smombie.gif"),auto;
 }
+
+
+
+.harzenpage {
+	background-color: blue;
+width: 100%;
+height: 300%;
+}
