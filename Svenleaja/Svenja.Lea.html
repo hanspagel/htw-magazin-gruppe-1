@@ -16,25 +16,53 @@
     <script src="jquery.js"></script>
     <script src="app.js"></script>
 
-
+    <link rel="stylesheet" href="aos.css">
+    <!-- NOTE: aos= animate and scroll -->
+    <script src="aos.js"></script>
   </head>
 
 
 
   <body>
 
+    <header class="header">
+      <a href="../Startseite/index.html">Techno</a>
+      <a href="yt"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+      <!-- NOTE: verlinkung zur nächsten magazinseite -->
+          <section class="article-module article-related">
+
+            <div class="article-inner-wide">
+              <a href="../cizaski/cizaski.html" class="article-teaser">
+
+                <div class="article-teaser-image">
+                  <img src="../cizaski/940x528.jpeg" alt="Klarträumen Bild">
+                </div>
+
+                <div class="article-teaser-headline">
+                  Wie man Klarträumen lernt
+                </div>
+
+              </a>
+            </div>
+
+          </section>
+
+    </header>
+
 <!-- NOTE: ankerpunkt für den nach oben button -->
-    <div class="ankerpunkt">
-          <a name="nachoben"></a>
-          <p>
-            unsichtbarer Ankerpunkt
-          </p>
-        </div>
+    <a name="nachoben"></a>
 
 <!-- NOTE: bild und text auf dem anfangsbild (stage=bild mit text drauf)-->
     <section class="article-module article-stage">
 
       <div class="article-inner">
+
+          <div class="youtube-link">
+            <a href="https://www.youtube.com/watch?v=GllzcaPXTeA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+          </div>
+
 
         <h2 class="stage-headline">
           Traumberuf Youtuber
@@ -91,7 +119,17 @@
       </div>
 
 <!-- NOTE: 2. bild in textformat eingepasst -->
-        <section class="article-module article-stage2">
+        <section class="article-module article-stage2"
+
+        data-aos="scrollanimation"
+
+        data-aos-offset="500"
+
+        data-aos-duration="1500"
+
+        data-aos-once="true"
+
+        >
 
           <div class="article-inner">
 
@@ -101,7 +139,7 @@
             </h2>
 
             <h2 class="stage-subline">
-              Jenny Marbles
+              Jenna Marbles
             </h2>
 
           </div>
@@ -213,29 +251,18 @@
     </section>
 
 
-<!-- NOTE: verlinkung zur nöchsten magazinseite -->
-    <section class="article-module article-related">
 
-      <div class="article-inner-wide">
-        <a href="../cizaski/cizaski.html" class="article-teaser">
-
-          <div class="article-teaser-image">
-            <img src="../cizaski/940x528.jpeg" alt="Klarträumen Bild">
-          </div>
-
-          <div class="article-teaser-headline">
-            Wie man Klarträumen lernt
-          </div>
-
-        </a>
-      </div>
-
-    </section>
 
 <!-- NOTE: nach oben button -->
     <div class="nachoben">
-        <a href="#nachoben"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
+        <a href="#nachoben"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+
       </div>
+
+
+      <script>
+        AOS.init();
+      </script>
 
   </body>
 </html>
