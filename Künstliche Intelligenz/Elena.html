@@ -14,9 +14,7 @@
     <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="mina.css">
     <link rel="stylesheet" href="../AnnaPermyakova/annap.css">
-
     <link rel='stylesheet' href='Mariya_KI.css'>
-    <link rel='stylesheet' href='js/particlesjs/demo/css/style.css'>
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
@@ -111,35 +109,57 @@
 
       <section class="article-page neuronen">
 
-          <div class="triangle-down-left">
-          </div>
+        <canvas id="myCanvas" width="1440px" height="1325px"></canvas>
 
-          <div class="base-element">
-            <div class="info">
-              <h1 style="font-size:18vw">NEURONEN</h1>
-              <p style="font-size:-2vw">Die Neuronen in unerem Hirn empfangen unentwegt elektrische Impulse von anderen Nervenzellen und schicken sie ihrerseits weiter. Die Signale erzeugen sie, indem sie die Spannung zwischen ihrem und ihrer Umgebung verändern.</p>
-            </div>
+        <script id="myCanvas">
+          var c = document.getElementById("myCanvas");
+          var ctx = c.getContext("2d");
+          ctx.moveTo(0,0);
+          ctx.lineTo(1440,250);
+          ctx.lineTo(1440,1440);
+          ctx.lineTo(0,1440);
+          ctx.lineTo(0,0);
+          ctx.fillStyle='#394a5c';
+          ctx.fill();
+        </script>
+
+
+        <div class="base-element">
+          <div class="neuronen-article">
+            <h1>NEURONEN</h1>
+            <p>Die Neuronen in unerem Hirn empfangen unentwegt elektrische Impulse von anderen Nervenzellen und schicken sie ihrerseits weiter. Die Signale erzeugen sie, indem sie die Spannung zwischen ihrem und ihrer Umgebung verändern.</p>
           </div>
+        </div>
 
       </section>
 
       <section class="article-page nest">
+
         <div class="particles-background">
           <div class="js-background" id="particles-js"></div>
         </div>
 
+        <script type="text/javascript" src="js/particlesjs/particles.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+          var update;
+          update = function() {
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+          }
+
+        </script>
+
+        <div class="nest-info-wraper">
+          <div class="nest-article">
+            <h1 class="nest-article-title">NEST</h1>
+            <p class="nest-article-subtitle">The Neural Simulation Technology Initiative</p>
+            <p class="nest-article-text">NEST ist eine Simulationssoftware für die Entwicklung neuronaler Netzwerkmodelle. Als größte Herausforderungen für die Simulation des menschlichen Gehirns sind die technologischen Grenzen um das Gehirn in seiner Gesamtheit nachbilden zu können. Die NEST-Simulation versucht, mit Hilfe von großmaßstäblichen Simulationen die Grenzen die in der Nachbildung von biologisch realistischen neuronalen Netze existieren zu überwinden.</p>
+          </div>
+        </div>
       </section>
-      <script type="text/javascript" src="js/particlesjs/particles.js"></script>
-      <script src="js/app.js"></script>
-      <script>
-    var update;
-    update = function() {
-      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-      }
-      requestAnimationFrame(update);
-    }
-  </script>
 
       <section class="article-ich-digital">
 
