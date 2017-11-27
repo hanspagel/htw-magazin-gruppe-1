@@ -151,11 +151,36 @@ function checkKey(e) {
        scrollCard("right");
     }
 
-}
+};
 
 // convert vertical to horizontal scroll
-(function () {
+$(document).ready(function () {
+    $('.main').mousewheel(function(e, delta) {
+        this.scrollLeft -= (delta * 40);
+        e.preventDefault();
+    });
+});
 
-	scrollConverter.deactivateAllScrolling();
+// drag to scroll
 
-}());
+var curYPos, curXPos, curDown;
+
+
+
+window.addEventListener('mousedown', function(e){
+  var windowc = document.getElementsByTagName("main")[0];
+  var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
+  curYPos = e.pageY;
+  curXPos = e.pageX;
+  curDown = true;
+  window.addEventListener('mousemove', function(e){
+    if(curDown){
+      windowc.scrollTo(scrollLeft + (curXPos - e.pageX), 0);
+      // console.log();
+    }
+  });
+});
+
+window.addEventListener('mouseup', function(e){
+  curDown = false;
+});
