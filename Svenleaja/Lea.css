@@ -198,7 +198,6 @@ h1 {
   /* NOTE: weiterführender link zu nächster website /position*/
 .article-teaser {
   margin-top: 100px;
-  display: flex;
   text-decoration: none;
   color: black;
 }
