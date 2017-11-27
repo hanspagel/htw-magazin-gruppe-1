@@ -117,7 +117,7 @@ p {
   top: 10%;
 }
 
-.burge {
+.burger {
   position: absolute;
   width: 38%;
   left: 3%;
@@ -137,6 +137,7 @@ p {
   bottom: 0;
   right: 10%;
   background-color: #E53B46;
+}
 
 /*Start*/
 
