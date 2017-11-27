@@ -6,6 +6,4 @@ $(".article-interactive").addClass("action")
 
 })
 
-
-
 })
