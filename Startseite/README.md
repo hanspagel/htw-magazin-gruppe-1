@@ -8,15 +8,17 @@ Startseite für das HTW Techno Magazin.
 
 ## Built With
 
-* Vanilla JavaScript
+* Vanilla JavaScript (!)
 
-## Tests
+## Noteworthy
 
-Describe and show how to run the tests with code examples.
+Diagonal scrolling.
+
+Jump between cards using buttons and / or arrow keys.
 
 ## Contributors
 
-* [**Yannic Scheffel**]()
+* [**Yannic Scheffel**](yannicnoelscheffel.org)
 
 * [**Janos Pauer**](https://janospauer.com)
 
@@ -28,5 +30,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 
 ## Acknowledgments
 
-* [Rachel Smith](@rachsmith)
+* [Rachel Smith](http://rachsmith.com/)
 * [Miguel Pérez](https://about.me/miguel-perez)
+* [Paul Irish](www.paulirish.com)
