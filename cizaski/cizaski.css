@@ -1,11 +1,13 @@
 html{
-  font-family: 'Karla';
+  font-family: 'TheMix';
   font-size: 18px;
   line-height: 1.6;
 }
 
 body {
   background-color: ivory;
+  margin: 0;
+  cursor: url("einhorn.png"), pointer;
 }
 
 /*Das ist eine Überschrift*/
@@ -17,8 +19,8 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* Das ist der erste Absatz im Artikel */
-p:first-of-type {
+/* Das ist der erste Absatz im ersten Artikelmodul */
+.article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
 }
 
@@ -36,4 +38,157 @@ p:first-of-type {
 
 .article-image img {
   max-width: 100%
+}
+
+/* Globale Moduleinstellungen /-eigenschaften */
+.article-module {
+  padding: 1.5rem 0;
+}
+
+/* Artikel Hintergrund */
+.article-bg {
+  background-image: url(dream.jpg);
+  background-size: cover;
+  background-position: center;
+  /* Hintergrundbild fixieren */
+  background-attachment: fixed;
+}
+
+/* Infokasten */
+.article-text-info {
+  background-color: lightblue;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: "League Spartan";
+  /* Versatz rechts; Versatz unten; Blur; Überfüllen */
+  box-shadow: 6px 6px 10px 0 grey;
+}
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: orange;
+}
+
+.article-teaser:hover{
+  color: purple;
+}
+
+.article-teaser-image img {
+  width: 300px;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: "League Spartan";
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 0.5s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    transform: scale(1.6);
+    fill: red;
+  }
+}
+
+.animated-face {
+  animation: drehen 5s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.article-stage {
+  background-image: url(lebowski.jpg);
+  min-heigth: 70vh;
+  background-position: top;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position:relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top:0;
+  width:100%;
+  bottom:0;
+  opacity:0.5;
+}
+
+.stage-headline {
+  font-family: "League Spartan";
+  font-size: 2rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+.stage-subheadline {
+  position: relative;
+}
+
+/* Button & Java Script */
+.button {
+
+  color: yellow;
+  font-size: 2rem;
+  padding: 1rem;
+  border-width: medium;
+  background-color: black;
+  border-radius: 20px;
+  font-family: "League Spartan";
+  box-shadow: 3px 3px 4px 2px grey;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: black;
+  border-color: yellow;
+  cursor: pointer;
+  cursor: url("einhorn_in.png"), pointer;
+
+}
+
+/* Link-Box */
+.button:focus {
+  outline: 3px solid grey;
+}
+
+/* Link-Box Beauty */
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+/* Java-Script */
+.action {
+  background:url("travolta.gif");
+  background-size: cover;
+  background-position: center;
 }

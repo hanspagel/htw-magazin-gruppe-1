@@ -1,0 +1,95 @@
+html {
+  font-family: "Arvo";
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: ;
+}
+
+body {
+  background-image:url("strasse.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  margin: 0;
+  background-color: ;
+}
+
+h1 {
+  font-family: "League Spartan";
+}
+
+.taxi-header {
+  max-width: inherit;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  position:relative;
+
+}
+
+.taxi-header::before {
+  content: "";
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  width:100%;
+  height: 200px;
+  bottom:0;
+  opacity:0.5;
+}
+
+.taxi-header-text {
+}
+
+.header-bg {
+  background-position: center;
+  background-image: url(header_test.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.taxi-inner:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.taxi-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  padding: 2rem;
+  background-image: url(papier23.jpeg);
+  background-size:800px;
+  background-repeat: repeat-y;
+  background-color: yellow;
+  box-shadow: 3px 3px 30px 2px black;
+
+}
+
+.taxi-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taxi-image img {
+  max-width: 100%;
+}
+
+.taxi-steckbrief {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+.taxi-steckbrief-image {
+  margin-right: 2rem;
+}
+
+.taxi-steckbrief-image img {
+  width: 100px;
+}
