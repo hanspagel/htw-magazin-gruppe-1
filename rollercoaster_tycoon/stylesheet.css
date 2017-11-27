@@ -1,5 +1,6 @@
 /* NOTE: rem nimmt oberste Schriftgröße als Beispiel
-vh ist viewport height, höhe des Browserfensters */
+vh ist viewport height, höhe des Browserfensters
+GitHub aos css */
 
 * {
  margin: 0px;
@@ -14,7 +15,6 @@ vh ist viewport height, höhe des Browserfensters */
   position: fixed;
   left: 0;
   right:0;
-
 }
 
 .header a {
@@ -161,7 +161,7 @@ p {
   left: 18%;
   top: 16%;
   position: absolute;
-  
+
 }
 
 .start {
@@ -189,6 +189,7 @@ p {
   width: 20%;
   right: 15%;
   bottom: 10%;
+  top: 10%;
   position: absolute;
 }
 
@@ -210,6 +211,7 @@ p {
   width: 17%;
   right: 65%;
   bottom: 8%;
+  top: 40%;
   position: absolute;
 }
 
