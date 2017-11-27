@@ -10,6 +10,23 @@ body {
   cursor: url("einhorn.png"), pointer;
 }
 
+.header {
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+}
+
+.header a {
+  font-family: "League Spartan";
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2rem;
+  text-transform: uppercase;
+}
+
 /*Das ist eine Überschrift*/
 h1 {
   font-family: 'Bree Serif', serif;
@@ -36,8 +53,15 @@ h1 {
   margin-right: auto;
 }
 
+
+/*.article-image {
+  font-size: 0;
+}*/
+
+
 .article-image img {
-  max-width: 100%
+  max-width: 100%;
+  display: block;
 }
 
 /* Globale Moduleinstellungen /-eigenschaften */
@@ -191,4 +215,15 @@ h1 {
   background:url("travolta.gif");
   background-size: cover;
   background-position: center;
+}
+
+[data-aos="wurst"] {
+  filter: blur(1000px);
+  transform: rotate(180deg);
+  transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+  filter: blur(0);
+  transform: rotate(0deg);
 }

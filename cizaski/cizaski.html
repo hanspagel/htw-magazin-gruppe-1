@@ -9,8 +9,19 @@
     <script src="jquery.js"></script>
     <script src="app.js"></script>
 
+    <link rel="stylesheet" href="aos.css">
+    <script src="aos.js"></script>
+
+
   </head>
+      <header class="header">
+        <a href="../Startseite/index.html">
+          Dude
+        </a>
+      </header>
+
     <body>
+
 
 <!--Text über Bild/-->
       <section class="article-module article-text">
@@ -46,9 +57,10 @@
 
 
 <!--Bild/-->
-      <section class="article-module article-image">
+      <section class="article-module article-image" data-aos="wurst">
 
         <div class="article-inner-wide">
+
           <img src="dream.jpg" alt="Fliegender Dude">
 
         </div>
@@ -141,6 +153,10 @@
 
       </section>
 
+      <script>
+        AOS.init();
+      </script>
 
     </body>
+
 </html>
