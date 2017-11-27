@@ -1,10 +1,11 @@
 html {font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       line-height: 1.4;
+      color: white;
 }
 
 body {
-    background: linear-gradient(to bottom, #87CEFA, #008B8B);
+    background: linear-gradient(to bottom, #011F27, #000506);
 }
 
 /* NOTE: Überschrift */
@@ -51,8 +52,70 @@ h1 {font-family:'Merriweather', serif;
   margin-bottom:  1rem;
   border: 2px dotted white;
   font-family:'Merriweather', serif;
+  font-weight: bold;
+  color: #000912;
   color: white;
+
 
 /* NOTE: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  transition: all 2s;
+}
+
+.article-teaser:hover {
+  color: blue;
+  transform: rotate(30deg);
+}
+
+.article-teaser-image img {
+  width: 10rem;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  font-family:'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: eyes 0.5s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes eyes {
+  to {
+    transform:scale(1.2);
+    fill: white;
+  }
+}
+
+.animated-face {
+  animation: drehen 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.article-interactive {
+  background: url(source.gif);
 }
