@@ -2,7 +2,10 @@
   <head>
     <meta charset='utf-8'>
     <link rel='stylesheet' href='Mariya_KI.css'>
+    <link rel='stylesheet' href='js/particlesjs/demo/css/style.css'>
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
   </head>
 
   <body>
@@ -12,10 +15,30 @@
         </div>
 
         <div class="base-element">
-
-          <h1>NEURONEN</h1>
-
+          <div class="info">
+            <h1 style="font-size:18vw">NEURONEN</h1>
+            <p style="font-size:-2vw">Die Neuronen in unerem Hirn empfangen unentwegt elektrische Impulse von anderen Nervenzellen und schicken sie ihrerseits weiter. Die Signale erzeugen sie, indem sie die Spannung zwischen ihrem und ihrer Umgebung verändern.</p>
+          </div>
         </div>
 
     </section>
+
+    <section class="article-page nest">
+      <div class="particles-background">
+        <div class="js-background" id="particles-js"></div>
+      </div>
+
+    </section>
+    <script type="text/javascript" src="js/particlesjs/particles.js"></script>
+    <script src="js/particlesjs/app.js"></script>
+    <script src="js/particlesjs/lib/stats.js"></script>
+    <script>
+  var update;
+  update = function() {
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  }
+</script>
   </body>
