@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .KI_seite {
 height: 800px;
 background-color: #DADADA;
@@ -33,14 +37,15 @@ background-color: #DADADA;
   width: 600px;
   margin: 0 0 0 0;
   vertical-align: middle;
+  font-size: 200px;
+
 }
 
 .article-ich-digital h1{
   font-family: 'Teko'; sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
-  font-size: 224px;
-  font-weight: 500;
+  font-size: 200px;
   color: #33495f;
   border-width: 3px;
   margin: 0;
@@ -53,12 +58,11 @@ background-color: #DADADA;
   margin: 0;
 }
 
+
 .header-right ul li{
   font-family: 'Teko'; sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
-  font-size: 224px;
-  font-weight: 500;
   color: #33495f;
   list-style: none;
   float: left;
@@ -135,4 +139,20 @@ animation-play-state:running ;
   height: 330px;
   margin-top: 73px;
   margin-left: 443px;
+}
+
+.info-gehirn-linksbündig .gehirn_überschrift {
+  animation-name: blur;
+  color: transparent;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function:ease-in-out;
+  text-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+@-webkit-keyframes blur {
+  from { text-shadow: 0 0 10px grey; color: transparent; }
+  to   { text-shadow: 0;color: #33495f;       }
+
 }
