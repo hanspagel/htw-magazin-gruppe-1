@@ -598,7 +598,7 @@ p.link a:active {
 
 .infos_headline {
   display: flex;
-  height: 50px;
+  height: 200px;
   /*margin-top: 10px;*/
   width: 100%;
 }
@@ -617,7 +617,6 @@ p.link a:active {
 .team_logo {
   filter: grayscale(100%);
   width: 20%;
-  float: right;
 }
 
 .team_logo:hover {
@@ -630,7 +629,6 @@ p.link a:active {
 }
 
 .test {
-  margin-top: 150px;
   margin-right: 100px;
   line-height: 1.5em;
   font-size: 1.1em;
