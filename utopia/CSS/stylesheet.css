@@ -262,24 +262,26 @@ color:red
 
 .article-interactive{
   text-align: center;
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
-  align-items:
+  align-items:center;
+
 }
 
-.spacedonut{
-  background: url(../images/spacedonut.gif);
+/*.spacedonut{
+  background: url(../images/door1.png);
   background-repeat: no-repeat;
   background-position: center;
 
-}
+
+}*/
 
 .stars{
   position: absolute;
 
 }
 
-.article-pic img{
+/*.article-pic img{
   width: 150%;
   height: auto;
   margin-left: -40%;
@@ -289,10 +291,30 @@ color:red
   height: auto;
   margin-top: -150%;
   margin-left: 50%;
+}*/
+
+/*.article-pic3 img{
+  width: 120%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+.article-pic3 {
+  background-image: url(../images/door1.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+  margin-left: -23%;
+  margin-top: -40%;
 }
 
 .header {
-  background-color: white;
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+  opacity: 0.7;
   padding: 0rem;
   position: fixed;
   left: 0;
@@ -315,4 +337,19 @@ color:red
 
 [data-aos="einhorn"].aos-animate {
   transform: rotate(180deg);
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+  outline: 1px solid slategrey;
 }
