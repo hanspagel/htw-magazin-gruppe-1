@@ -133,8 +133,9 @@ p {
   position: fixed;
   bottom:0;
   right: 10%;
-  background-color: #E53B46;
+  background-color: #E05A62;
 }
+
 /*Start*/
 
 .text-start {
@@ -154,6 +155,15 @@ p {
 
 .img-start img {
   width: 100%;
+}
+
+.box-voll-start {
+  width: 35%;
+  height:80%;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #FFF373;
 }
 
 /*Zange*/
@@ -179,6 +189,16 @@ p {
   width: 100%;
 }
 
+.box-voll-zange {
+  width: 35%;
+  height:80%;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #EDEDDF;
+}
+
+
 /*Ballon*/
 
 .text-ballon {
@@ -201,6 +221,15 @@ p {
   width: 100%;
 }
 
+.box-voll-ballon {
+  width: 35%;
+  height:80%;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #E80000;
+}
+
 /*Kopf*/
 
 .text-kopf {
@@ -220,6 +249,15 @@ p {
 
 .img-kopf img {
   width: 100%;
+}
+
+.box-voll-kopf {
+  width: 35%;
+  height:80%;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #FC9A6F;
 }
 
 /*Person*/
@@ -244,7 +282,14 @@ p {
   width: 100%;
 }
 
-
+.box-voll-person {
+  width: 35%;
+  height:80%;
+  position: fixed;
+  bottom:0;
+  right: 10%;
+  background-color: #F0A3AE;
+}
 
 /*Audioplayer*/
 
