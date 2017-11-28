@@ -37,3 +37,9 @@ function getCurrentScroll() {
   return window.pageYOffset || document.documentElement.scrollTop;
   }
 });
+
+
+var bqheight = document.getElementsByTagName("blockquote")[0].clientHeight;
+if (bqheight < 256 ){
+  $("blockquote").css("height",256+"px");
+}
