@@ -251,7 +251,7 @@ h1 {
   font-family: 'Libre Baskerville', serif;
   padding: 0.5rem;
   font-size: 1rem;
-  cursor: url(hello.gif), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
+  cursor: url(source.gif), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
 }
 
 .button:hover {
@@ -273,4 +273,4 @@ h1 {
 }
 
 .playdrücken {
-  background: url(hello.gif);
+  background: url(source.gif);
