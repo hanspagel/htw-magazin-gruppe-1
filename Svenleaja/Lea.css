@@ -100,6 +100,12 @@ h1 {
   margin-right: auto;
 }
 
+.article-inner-bild {
+  float:right;
+    width: 10%;
+    height: 10%;
+}
+
 .article-inner-wide {
   max-width: 4000px;
   margin-left: auto;
@@ -255,7 +261,7 @@ h1 {
 }
 
 .button:hover {
-  color: darkred;
+  color: #D4AF37;
 }
 
 /* NOTE: vh=browser höhe */
@@ -268,7 +274,7 @@ h1 {
 
 
 .article-interactive {
-  background: white;
+  background: url(werbebanner.jpg);
   background-size: cover;
 }
 
