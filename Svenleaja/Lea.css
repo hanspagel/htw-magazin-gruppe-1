@@ -98,12 +98,18 @@ h1 {
   max-width: 700px;
   margin-left:auto;
   margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.article-inner-bild img {
+    width: 700px;
 }
 
 .article-inner-bild {
-  float:right;
-    width: 10%;
-    height: 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .article-inner-wide {
@@ -123,7 +129,10 @@ h1 {
 .article-text-info {
   background-color: white;
   padding: 1.5rem;
-  margin-bottom: 1rem;
+  max-width: 700px;
+  margin-left:auto;
+  margin-right: auto;
+  color: black;
 
   /* box schatten: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0 darkgrey;
@@ -141,6 +150,7 @@ h1 {
   color: white;
   position: relative;
   margin-bottom: 75px;
+  margin-top: 75px;
 }
 
 
@@ -209,8 +219,8 @@ h1 {
 }
 
 .article-teaser:hover {
-  color: white;
-  transform: rotate(0.5deg);
+  color: gold;
+  transform: rotate(0.8deg);
 }
 
 /* bildgröße */
@@ -253,15 +263,17 @@ h1 {
 
 
 .button {
+  background-color: white;
   border-radius: 50;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Yantramanav', sans-serif;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
   cursor: url(source.gif), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
 }
 
 .button:hover {
-  color: #D4AF37;
+  color: #DB2823;
 }
 
 /* NOTE: vh=browser höhe */
