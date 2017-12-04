@@ -2,6 +2,7 @@
 
 body{
 	margin: 0;
+	overflow-x: hidden;
 }
 
 /* Start Page */
@@ -388,7 +389,6 @@ margin-right: auto;
 @media all and (min-width: 500px) {
 	.article-image {
 		display: flex;
-
 	}
 }
 
@@ -513,6 +513,18 @@ margin-right: auto;
 	background-position: center;
 }
 
+@media all and (max-width: 1200px) {
+	.face {
+		background-size: 90%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.face {
+		background-size: 140%;
+	}
+}
+
 .ibims-info {
 	text-align: right;
 	padding-right: 5%;
@@ -528,12 +540,20 @@ margin-right: auto;
 	padding-top: 3%;
 }
 
+@media all and (max-width: 600px) {
+	.ibims-info-1 {
+		padding-top:40%;
+		font-size: 4rem;
+	}
+}
+
 .header {
 	background-color: red;
 	padding: 1rem;
 	padding-left: 2rem;
 	position: fixed;
 	left: 0;
+	right: 0;
 	top: 0;
 	z-index: 5;
 }
