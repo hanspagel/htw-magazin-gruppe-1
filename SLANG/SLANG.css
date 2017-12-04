@@ -2,6 +2,7 @@
 
 body{
 	margin: 0;
+	overflow-x: hidden;
 }
 
 /* Start Page */
@@ -9,6 +10,17 @@ body{
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
+<<<<<<< HEAD
+line-height: 1.6; /* NOTE: this is always 160 procent */
+color: #0000ff;
+<<<<<<< HEAD
+background-color: yellow;
+=======
+background-color: white;
+>>>>>>> origin/master
+/*position: relative;*/
+/*padding: 50;*/
+=======
 color: white;
 background-color: white;
 }
@@ -21,6 +33,7 @@ html {
 
 p{
   line-height: 1.5;
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 }
 
 h1 {
@@ -114,7 +127,11 @@ h1 {
 .article-inner {
   max-width: 700px;
   margin-left: auto;
+<<<<<<< HEAD
+  margin-left: auto;
+=======
   margin-right: auto;
+>>>>>>> origin/master
 }
 
 @media all and (max-width: 750px) {
@@ -131,6 +148,29 @@ h1 {
 
 .article-inner-wide  {
   max-width: 1000px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  margin-left: auto;
+  margin-left: auto;
+}
+
+
+.article-image img {
+  max-width: 700px;
+
+}
+
+p {
+    margin: 0cm 2cm;
+}
+
+div {
+
+
+
+=======
+  float: left;
+=======
 }
 
 .article-stage  {
@@ -200,6 +240,7 @@ margin-right: auto;
     justify-content: center;
 		min-height: 100vh;
 		background-color: white;
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 }
 
 .Swag {
@@ -388,7 +429,6 @@ margin-right: auto;
 @media all and (min-width: 500px) {
 	.article-image {
 		display: flex;
-
 	}
 }
 
@@ -513,6 +553,18 @@ margin-right: auto;
 	background-position: center;
 }
 
+@media all and (max-width: 1200px) {
+	.face {
+		background-size: 90%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.face {
+		background-size: 140%;
+	}
+}
+
 .ibims-info {
 	text-align: right;
 	padding-right: 5%;
@@ -528,12 +580,20 @@ margin-right: auto;
 	padding-top: 3%;
 }
 
+@media all and (max-width: 600px) {
+	.ibims-info-1 {
+		padding-top:40%;
+		font-size: 4rem;
+	}
+}
+
 .header {
 	background-color: red;
 	padding: 1rem;
 	padding-left: 2rem;
 	position: fixed;
 	left: 0;
+	right: 0;
 	top: 0;
 	z-index: 5;
 }
@@ -634,9 +694,15 @@ margin-right: auto;
   transform-origin: center;
 }
 
+<<<<<<< HEAD
+.article-image img {
+  max-width: 700px
+>>>>>>> origin/master
+=======
 @keyframes fancy {
   to {
     color: red;
     transform: scale(1.1);
   }
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 }
