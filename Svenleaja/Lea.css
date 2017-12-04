@@ -32,6 +32,7 @@ h1 {
   font-size: 3.5rem;
 }
 
+
 .header {
   background-color: #DB2823;
   padding: 1rem;
@@ -247,9 +248,9 @@ h1 {
 
   /* NOTE: weiterführender link zu nächster website /position*/
 .article-teaser {
-  margin-top: 100px;
   text-decoration: none;
   color: black;
+  text-align: right;
 }
 
 .article-teaser:hover {
@@ -326,3 +327,16 @@ h1 {
 
 .playdrücken {
   background: url(source.gif);
+}
+
+
+[data-aos="drehen"] {
+    filter: blur(500px);
+    transform: rotate(180deg);
+    transition-property: all;
+  }
+
+[data-aos="drehen"].aos-animate {
+    filter: blur(0);
+    transform: rotate(0);
+  }

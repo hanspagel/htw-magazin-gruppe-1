@@ -2,20 +2,31 @@ html{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: grey;
+  color: white;
 }
 
 body{
-  background-color: #ffffff;
+  background-color: #0B4D60;
+linear-gradient:(#0B4D60, #051E28)
 }
 
 h1{
-  font-family: 'source sans';
+  font-family: 'open sans';
   font-weight: normal;
   letter-spacing: 0.1em;
   font-size: 2rem;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   margin-top: 2em;
+  text-align: center;
+}
+h3{
+  font-family: 'open sans';
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  text-align: center;
 }
 
 p:first-of-type {
@@ -103,16 +114,6 @@ p:first-of-type {
   position: center;
 }
 
-.animated-cat {
-  animation: cat 3s infinite;
-  transform-origin: center;
-}
-
-@keyframes cat{
-  to{
-    transform: rotate(360deg);
-  }
-}
 
 .article-inner-wide{
   max-width: 900px;
@@ -180,8 +181,8 @@ body {
   border: 5px solid blue;
 }
 
-.action{
-  
+.article-textleft{
+  textleft
 }
 
 /* Kommentare unsichtbar einfügen */
