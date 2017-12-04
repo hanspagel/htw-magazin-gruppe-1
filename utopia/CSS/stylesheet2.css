@@ -28,6 +28,10 @@ body{
   padding: 1.5rem 0;
 }
 
+.article-pic {
+  position: absolute;
+}
+
 .article-pic img{
   width: 150%;
   height: auto;
