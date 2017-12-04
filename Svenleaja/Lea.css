@@ -1,44 +1,348 @@
 html {
-font-size: 18px;
-line-height: 1.4;
+font-size: 19px;
+line-height: 1.3;
 }
+
+/* NOTE:
+@media all and (min-width: 800px) {
+
+html{
+  font-size: 20px;
+}
+}
+
+@media all and (min-width: 1200px) {
+
+html{
+  font-size: 20px;
+}
+}
+ */
 
 
 body {
   font-family: 'Yantramanav', sans-serif;
   background-color: white;
+  margin: 0;
 }
-
-/*Tastenkombination für kommentare: anmarkieren und dann: cmd, shift, 7 oder: n plus tab (note)*/
 
 h1 {
-  font-family: 'Neuton', serif;
-  font-weight: normal;
-  font-size: 2rem;
-  margin-bottom: 1em;
-
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 3.5rem;
 }
+
+
+.header {
+  background-color: #DB2823;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 30px;
+  z-index: 7;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  /*font-family:*/
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.youtube-link {
+  position: absolute;
+  z-index: 10;
+  font-size: 4.5rem;
+  top: 20%;
+  right: 20.5%;
+}
+
+.youtube-link a {
+  color: #DB2823;
+}
+
+
+
+
+/* NOTE: header bild */
+.article-stage {
+  background-image: url(bild4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align:center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* NOTE: beim scrollen farbveränderun des bildes */
+.article-stage::before {
+  content: 'i';
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.2;
+}
+
+/* NOTE: schriften auf bild */
+.stage-headline {
+  font-family: 'PT Serif';
+  font-size: 5rem;
+  position: relative;
+}
+
+.stage-subline {
+  font-family: "Yantramanav";
+  font-size: 1.5rem;
+  font-weight: normal;
+  position: relative;
+  z-index: -10;
+}
+
+
+.stage-headline-1 {
+  font-family: 'PT Serif';
+  font-size: 3rem;
+  position: relative;
+}
+
+
+.stage-subline-1 {
+  font-family: 'PT Serif';
+  font-size: 1.5rem;
+  font-weight: normal;
+  position: relative;
+}
+
 
 /* first of type: nur der erste Absatz wird verändert*/
-
-p:first-of-type {
-  font-size: 1.4rem
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.1rem
 }
 
-/* NOTE:  */
-
-
+/* NOTE: absatz text zentrierung */
 .article-inner {
   max-width: 700px;
   margin-left:auto;
   margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 <<<<<<< HEAD
 =======
 
+.article-inner-bild img {
+    width: 700px;
+}
 
-.article-image img{
-  margin-left: 300px;
+.article-inner-bild {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.article-inner-wide {
+  max-width: 4000px;
+  margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0 darkgrey;
+}
+
+.article-module {
+  padding: 25px 0;
+}
+
+/* NOTE: infobox */
+.article-text-info {
+  background-color: white;
+  padding: 1.5rem;
+  max-width: 700px;
+  margin-left:auto;
+  margin-right: auto;
+  color: black;
+
+  /* box schatten: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0 darkgrey;
+}
+
+.article-stage3 {
+  background-image: url(youtube_facts1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 30vh;
+  text-align:center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+
+
+/* NOTE: animation */
+/* augen Animation*/
+.animated-eye {
+  animation: augenvergrößern 0.5s infinite alternate;
+}
+@keyframes augenvergrößern {
+  to {
+    transform: scale(1.55 );
+    fill: darkred;
+    transform
+  }
+}
+/* Gesicht Animation*/
+.animated-face {
+  animation: drehen 1s infinite;
+  transform-origin: center;
+}
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* NOTE: 2.es bild  */
+.article-stage2 {
+  background-image: url(jenny_marbles.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 50vh;
+  text-align:center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.article-module-article-related {
+  max-width: 10px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img {
+  max-width: 100%;
+}
+
+
+
+  /* NOTE: weiterführender link zu nächster website /position*/
+.article-teaser {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+
+.article-teaser:hover {
+  color: #DB2823;
+  transform: rotate(0.8deg);
+}
+
+/* bildgröße */
+.article-teaser-image img {
+  width: 100px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+}
+
+/* NOTE: animation position */
+.article-graphic {
+  text-align: center;
+}
+
+
+/* NOTE: nach oben button */
+.nachoben {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nachoben a {
+  color: black;
+}
+.nachoben a:hover {
+  color: #910000
+}
+
+
+
+
+
+.button {
+  background-color: white;
+  border-radius: 50;
+  font-family: 'Yantramanav', sans-serif;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  cursor: url(source.gif), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
+}
+
+.button:hover {
+  color: #DB2823;
+}
+
+/* NOTE: vh=browser höhe */
+.article-interactive {
+  min-height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.article-interactive {
+  background: url(werbebanner.jpg);
+  background-size: cover;
+}
+
+.playdrücken {
+  background: url(source.gif);
+}
+
+
+[data-aos="drehen"] {
+    filter: blur(500px);
+    transform: rotate(180deg);
+    transition-property: all;
+  }
+
+[data-aos="drehen"].aos-animate {
+    filter: blur(0);
+    transform: rotate(0);
+  }
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1

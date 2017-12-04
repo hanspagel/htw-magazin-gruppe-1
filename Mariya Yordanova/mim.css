@@ -1,0 +1,216 @@
+html {
+  font-family:  'PT Serif', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* NOTE Comentieren: COMAND + Shift + 7 */
+h1 {
+  font-family:'Arimo', serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* NOTE Das ist der erste Absatz im Artikel */
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+
+.article-inner {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*NOTE betrift nur die Bilder im Artikel*/
+  /* 100% von div in section article-inner*/
+.article-inner img {
+max-width: 100%;
+}
+
+.article-image img{
+max-width: 100%;
+}
+
+.article-module {
+  background: 000;
+  /*NOTE Bei diesen padding wird das Bild bis zum Rand gebracht*/
+  /*NOTE Bei gleichen padding wird das Bild zentriert */
+  padding: 50px 50px 50px 50px;
+}
+
+/*NOTE rgba(0, 0, 0, 0.1)*/
+.article-text-info{
+  background-color: yellow;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5em;
+
+}
+
+.article-teaser {
+  display: flex;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  color: green;
+  transform: rotate(-3deg);
+}
+
+.article-teaser img {
+  width: 80%;
+  height: 80%;
+  padding: 50px 50px 50px 0px;
+}
+
+.article-teaser-image {
+  margin-right: 10rem;
+}
+
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Arimo', sans-serif;
+  transition: all 1s;
+}
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: fancy 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+  fill: grey;
+transform: scale(1.2);
+  }
+}
+
+@keyframes fancy {
+  0% {
+    fill: aqua;
+  }
+
+  25% {
+    fill: black;
+  }
+
+  50% {
+    fill: tomato;
+  }
+
+  75% {
+    fill: orange;
+  }
+}
+
+.animated-face {
+  animation:  drehen 10s infinite;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.article-stage {
+  background-image: url(wasser.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.stage-headline {
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+  border-radius: 0;
+  border: 2px solid black;
+  background-color: yellow;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  /* NOTE: border, background-color, font-family, font-size, padding */
+  cursor: pointer;
+  /* NOTE: cursor: url(cursor.png), pointer */
+}
+
+.button-2 {
+  border-radius: 0;
+  border: 2px solid black;
+  background-color: yellow;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 5px solid black;
+}
+
+button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: flex-end;
+}
+
+.action {
+  background: url(images/giphy.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  }

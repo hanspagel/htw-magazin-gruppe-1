@@ -61,12 +61,36 @@ section{
   width: 100%;
 }
 
-section{
+section {
   column-count: 2;
   column-gap: 50px;
   margin: auto;
   width: 800px;
 }
+
+blockquote {
+  font-size: 2em;
+  page-break-inside: avoid;
+  column-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  position: relative;
+}
+
+blockquote:before {
+  quotes: "\201D" "\201C" "\201D" "\201C";
+  color: tomato;
+  content: open-quote;
+  font-size: 7em;
+  margin-right: 0.25em;
+  vertical-align: 0.1em;
+  position: absolute;
+  z-index: -10;
+  left: -25px;
+  transform: translateY(-60px);
+}
+
 .h1box{
   margin: auto;
   width: 800px;
@@ -76,12 +100,59 @@ section{
   right: calc(50% - 500px);
 }
 
-p{
-  margin: 0px;
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+  height: 4px;
+  width: 4px;
+  margin: -2px 0 0 -2px;
+  border-radius: 100%;
+  background-color: tomato;
 }
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  background-color: rgb(100, 100, 100);
+}
+
+p{
+  margin: 0 0 0.5em 0;
+}
+
+.inlineimg{
+  width: 12px;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.unlock-slider {
+  background: #d1d1d1;
+  width: 300px;
+  height: 70px;
+  position: relative;
+  border-bottom-left-radius: 70%200px;
+  border-bottom-right-radius: 70%200px;
+  border-top-left-radius: 70%200px;
+  border-top-right-radius: 70%200px;
+}
+
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+.unlock-slider span.custom-handle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: tomato;
+  position: absolute;
+  z-index: 10;
+  top: -2%;
+}
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 
 @media all and (max-width: 780px) {
-  column-count: 1;
+  section{
+    column-count: 1;
+    width: 100%;
+    padding: 0 8px;
+  }
 }

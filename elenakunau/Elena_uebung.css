@@ -1,0 +1,228 @@
+  /*/Com + Schift+7 kommentieren*/
+html {
+  font-family: 'Comic Sans',sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+/* NOTE:  ab 800px wird geändert */
+@media all and (min-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+body {
+background-color: blue;
+}
+h1 {
+  font-weight: normal;
+  font-family: 'Arimo'; serif;
+  letter-spacing: 0.1em;
+  /*hälfte von font size in html wenn man in em schreibt*/
+  font-size: 2rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*nur der Erster Absatz größe ist*/
+/* NOTE:  */
+.artticle-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+.article-inner {
+  /* NOTE: maximale größe für article */
+  max-width: 700px;
+  /* NOTE: Abstand link und rechts gleich - mittig */
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-image img {
+/* NOTE: 100% vom Breite des Articles vom article inner */
+  max-width: 100%;
+}
+
+.article-inner-wide {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NOTE: Abstand zwischen Moduls */
+.article-module {
+  background-color: pink;
+  padding: 50px 0px;
+}
+.article-text-info {
+  background-color: yellow;
+  float: right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 20px 0 red;
+}
+<<<<<<< HEAD:elenakunau/Elena_uebung.css
+
+.article-teaser-image img {
+  width: 120px;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  color:green;
+  transform: rotate(180deg);
+
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+}
+
+.article-teaser{
+  display: flex;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.article-graphic {
+  text-align: center;
+
+}
+
+.animated-eye {
+  animation: fan 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fan {
+  to {
+    fill: blue;
+    transform: scale(1.2) translateX(200px);
+  }
+
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.button {
+  font-size: 16px;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.button-rounded {
+  border-radius: 5px;
+}
+
+.article-stage {
+  background-image: url(Brain_ChangesTheBrain_BG.jpg);
+  min-height: 70vh;
+  /* NOTE: max fläche ausfüllt  */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color:white;
+  /* NOTE: relative bezieht sich an diesem div */
+  position:relative;
+}
+
+.stage-headline {
+  font-family:'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  /* NOTE: relative - div kommt nach oben */
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+.article-stage::before {
+  /* NOTE: content brauchen wir aber können wir es löschen */
+  content: "Apfelkucken";
+  background: linear-gradient(0deg, black, transparent);
+  /* NOTE: absolute was und wo steht */
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width:100%;
+  opacity: 0.5;
+}
+body {
+  margin: 0;
+}
+
+.button {
+  /* NOTE: border, background-color, font-family, font-size, padding */
+  border-radius: 0;
+  border: 5px solid black;
+  background-color: yellow;
+  font-family: Arimo, sans-serif;
+  font-size: 15px 30px;
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 0 0 black;
+  /* NOTE: das Bild gif png bis 100px Groß */
+  cursor: url(cursor.png), pointer ;
+}
+.button:focus {
+  outline: 2px dashed red;
+}
+
+.button:hover {
+  background-color: black;
+  color:yellow;
+}
+
+.article-interactive {
+  text-align: center;
+  /* NOTE: 50% von Brauser Größe */
+  min-height:50vh;
+  background-color:yellow;
+  display: flex;
+  align-items: center;
+}
+.action {
+  background: url(source.gif);
+  background-size: cover;
+}
+
+/* NOTE: stat fade in schreiben wurst */
+[data-aos="wurst"]{
+  filter: blur(200px);
+  transform:rotate(0);
+  transition-property: all;
+}
+
+[data-aos="wurst"].aos-animate{
+  filter:blur(0);
+  transform:rotate(180deg);
+}

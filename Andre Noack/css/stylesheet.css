@@ -1,235 +1,649 @@
-.nck:after, ul li:after {
-  content: "";
-  display: table;
-  clear: both;
+* {
+  font-family: -apple-system, sans-serif;
 }
 
-.icon-nhl, .menu-icon-nhl {
-  background: none no-repeat transparent;
-  border: 0;
-  overflow: hidden;
-  text-indent: 120%;
-  white-space: nowrap;
-}
-
-.uilist {
+body, html {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-body {
-  position: relative;
-  margin: 0;
-  font-family: "Bitter", Georgia, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
+  font-size: 1.0em;
   color: #000;
   background-color: #fff;
+  width: 100%;
 }
 
-html {
-  font-size: 113%;
-}
+/* NOTE: Media Queries */
 
-.main-nav {
-  position: fixed;
-  z-index: 5000;
-}
-
-@media only screen and (min-width: 62.5em) { /* 62.5em = 1.000 px */
-  .main-nav {
-    position: relative;
-    z-index: 100;
+@media all and (max-width: 1000px) {
+  html, body {
+    font-size: 0.9em;
   }
 }
 
-.navbar {
-  position: fixed;
+/* ––– VIDEO Landing Page ––– */
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100.5%;
+  min-height: 100.5%;
+  width: auto;
+  height: auto;
+}
+
+.video-wrapper {
+}
+
+.text-video {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
   top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  padding: 0.28em;
-  background: #f9f9f9;
-}
-
-.menu-icon-nhl {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  background: black /*url(image/favicon.svg)*/;
-}
-
-.menu {
-  position: relative;
-  font-size: 0.8em;
-  font-family: sans-serif;
+  right: 0;
   text-align: center;
-  color: grey;
-  background: #f9f9f9;
+  padding-top: 16.5%;
+  font-size: 20em;
+  font-weight: 600;
+  color: white;
 }
 
-.menu-panel {
-  position: static;
-  box-shadow: none;
-  border-bottom: 0;
+.text-video a {
+  color: white;
+  text-decoration: none;
+  transition: none;
 }
 
-.menu-primary {
-  background: #f2f2f2;
-  padding: 0 10px;
-}
+/* ––– ENDE Landing Page ––– */
 
-.menu-secondary {
-  font-size: 1em;
-  padding: 0 10px;
-  line-height: 2.5em;
-}
-
-.menu-links {
-  margin: 0 -10px;
-  border-top: 1px solid red;
-  border-left: 1px solid red;
-}
-
-.menu-links > li {
-  float: left;
-  width: 50%;
-}
-
-.menu-links > li.more:hover {
-  display: block;
-}
-
-.menu-link {
-  display: block;
-  padding: 0 16px;
-  line-height: 3.5em;
-  vertical-align: middle;
+a {
+  text-decoration: none;
   color: inherit;
-  text-decoration: inherit;
 }
 
-.menu-link:hover {
-  color: cyan;
-  background: white;
+a:hover {
+  transition: 0.3s;
+  color: #aaa;
 }
 
-.main-nav {
-  position: relative;
-}
-
-/*.menu {
+.navi-wrapper {
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   text-align: left;
-}*/
+  background-color: #fff;
+}
 
-.menu-up {
+.navi {
+  color: black;
+  font-size: 1.6em;
+}
+
+.content-padding {
+  padding-top: 1.7em;
+  padding-bottom: 3.25em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.one {
+    width: 50%;
+    float: left;
+}
+
+.two {
+    width: 22%;
+    float: left;
+}
+
+.three {
+    width: 22%;
+    float: left;
+}
+
+.four-one {
+    width: 3%;
+    float: left;
+    text-align: right;
+}
+
+.four-two {
+    width: 3%;
+    float: left;
+    text-align: right;
+}
+
+.five {
+  width: 50%;
+  float: left;
+  color: rgba(255, 255, 255, 0);
+}
+
+/* MAP HOVER */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.link a:hover {
+  color:#fff;
+}
+
+p.link a:link span {
   display: none;
 }
 
-.menu-down {
-  display: block;
+p.link a:visited span {
+  display: none;
 }
 
-
-
-.menu-panel .menu-inner {
-  padding: 0 0 0 60px;
-}
-
-.menu-inner {
-  position: relative;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.menu-main, .menu-sub {
-  float: left;
-}
-
-.menu-primary, .menu-secondary {
-  padding: 0 15px;
-}
-
-.menu-links {
-  margin: 0;
-  border: 0;
-}
-
-.menu-links > li {
-  width: auto;
-  border: 0;
-}
-
-.menu-home {
-  display: block;
+p.link a:hover span {
   position: absolute;
-  top: 0.55rem;
-  left: 5px;
+  color: black;
+  display: inline-block;
+  margin-left: 5px;
 }
 
-.headline {
-  text-align: center;
-  margin-top: -200px;
+p.link a:active {
+  color: red;
 }
 
-.title {
-  font-family: sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-  letter-spacing: 1px;
-  color: white;
+/* === MAP – CANADA === */
+
+.nhl_wrapper {
+  display: flex;
+  margin-top: 127px;
 }
 
-.subtitle {
-  font-family: sans-serif;
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 1.6;
-  color: white;
+.nhl_map {
+  width: 50%;
+  margin-bottom: 0;
+  padding: 0;
+  background-size: cover;
 }
 
-.subtitle a {
-  text-decoration: underline;
-  color: white;
+.nhl_city_montreal {
+  position: absolute;
+  top: 500px;
+  left: 715px;
+  margin-top: 127px;
+}
+
+.nhl_city_montreal:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_ottawa {
+  position: absolute;
+  top: 520px;
+  left: 690px;
+  margin-top: 127px;
+}
+
+.nhl_city_ottawa:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_toronto {
+  position: absolute;
+  z-index: 1;
+  top: 545px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_toronto:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_winnipeg {
+  position: absolute;
+  top: 470px;
+  left: 450px;
+  margin-top: 127px;
+}
+
+.nhl_city_winnipeg:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_edmonton {
+  position: absolute;
+  top: 370px;
+  left: 285px;
+  margin-top: 127px;
+}
+
+.nhl_city_edmonton:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_calgary {
+  position: absolute;
+  top: 410px;
+  left: 260px;
+  margin-top: 127px;
+}
+
+.nhl_city_calgary:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_vancouver {
+  position: absolute;
+  top: 415px;
+  left: 175px;
+  margin-top: 127px;
+}
+
+.nhl_city_vancouver:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+/* === MAP – USA === */
+
+.nhl_city_boston {
+  position: absolute;
+  top: 545px;
+  left: 760px;
+  margin-top: 127px;
+}
+
+.nhl_city_boston:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_minneapolis {
+  position: absolute;
+  z-index: 1;
+  top: 550px;
+  left: 485px;
+  margin-top: 127px;
+}
+
+.nhl_city_minneapolis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_buffalo {
+  position: absolute;
+  z-index: 2;
+  top: 570px;
+  left: 680px;
+  margin-top: 127px;
+}
+
+.nhl_city_buffalo:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-1 {
+  position: absolute;
+  top: 571px;
+  left: 733px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newyork-2 {
+  position: absolute;
+  top: 581px;
+  left: 743px;
+  margin-top: 127px;
+}
+
+.nhl_city_newyork-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_newjersey {
+  position: absolute;
+  top: 584px;
+  left: 729px;
+  margin-top: 127px;
+}
+
+.nhl_city_newjersey:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_detroit {
+  position: absolute;
+  top: 594px;
+  left: 610px;
+  margin-top: 127px;
+}
+
+.nhl_city_detroit:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_chicago {
+  position: absolute;
+  z-index: 1;
+  top: 608px;
+  left: 551px;
+  margin-top: 127px;
+}
+
+.nhl_city_chicago:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_philadelphia {
+  position: absolute;
+  top: 610px;
+  left: 712px;
+  margin-top: 127px;
+}
+
+.nhl_city_philadelphia:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_pittsburgh {
+  position: absolute;
+  z-index: 1;
+  top: 619px;
+  left: 655px;
+  margin-top: 127px;
+}
+
+.nhl_city_pittsburgh:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_washington {
+  position: absolute;
+  top: 632px;
+  left: 699px;
+  margin-top: 127px;
+}
+
+.nhl_city_washington:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_columbus {
+  position: absolute;
+  z-index: 1;
+  top: 633px;
+  left: 620px;
+  margin-top: 127px;
+}
+
+.nhl_city_columbus:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_colorado {
+  position: absolute;
+  z-index: 1;
+  top: 630px;
+  left: 325px;
+  margin-top: 127px;
+}
+
+.nhl_city_colorado:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_sanjose {
+  position: absolute;
+  z-index: 1;
+  top: 605px;
+  left: 107px;
+  margin-top: 127px;
+}
+
+.nhl_city_sanjose:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_stlouis {
+  position: absolute;
+  z-index: 1;
+  top: 663px;
+  left: 525px;
+  margin-top: 127px;
+}
+
+.nhl_city_stlouis:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_vegas {
+  position: absolute;
+  top: 661px;
+  left: 175px;
+  margin-top: 127px;
+}
+
+.nhl_city_vegas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-1 {
+  position: absolute;
+  top: 680px;
+  left: 124px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-1:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_losangeles-2 {
+  position: absolute;
+  top: 690px;
+  left: 134px;
+  margin-top: 127px;
+}
+
+.nhl_city_losangeles-2:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_phoenix {
+  position: absolute;
+  top: 720px;
+  left: 204px;
+  margin-top: 127px;
+}
+
+.nhl_city_phoenix:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_nashville {
+  position: absolute;
+  top: 720px;
+  left: 565px;
+  margin-top: 127px;
+}
+
+.nhl_city_nashville:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_raleigh {
+  position: absolute;
+  top: 740px;
+  left: 668px;
+  margin-top: 127px;
+}
+
+.nhl_city_raleigh:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_dallas {
+  position: absolute;
+  top: 765px;
+  left: 430px;
+  margin-top: 127px;
+}
+
+.nhl_city_dallas:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_tampa {
+  position: absolute;
+  top: 845px;
+  left: 660px;
+  margin-top: 127px;
+}
+
+.nhl_city_tampa:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
+}
+
+.nhl_city_miami {
+  position: absolute;
+  top: 878px;
+  left: 692px;
+  margin-top: 127px;
+}
+
+.nhl_city_miami:hover {
+  transform: scale(1.6);
+  transition: 0.1s;
 }
 
 .text {
-  margin-top: 200px;
+  margin-top: 50px;
   text-align: left;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.4;
+  line-height: 1.5;
+  z-index: 100;
 }
 
-.headline .hl-content {
-  height: 800px;
+.header {
+  margin-top: 127px;
+  /*background-image: url('../image/test.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: tomato;
+  /*height: 80vh;
+  text-align: left;
+  color: white;*/
 }
 
-.headline .hl-content:before {
-  content: 'Test-1-2-3'; /* loeschen nicht vrgessen !!! */
-  position: absolute;
-  left: 0;
-  top: 0;
+.header-fr {
+  margin-top: 127px;
+  background-color: #1CBCD9;
+}
+
+.header-content {
+  color: black;
+  height: 677px;
+  padding-top: 200px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.header-headline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.0em;
+  line-height: 1.1em;
+  width: 40%;
+  float: left;
+  margin-bottom: 200px;
+  color: black;
+}
+
+.infos_headline {
+  display: flex;
+  height: 200px;
+  /*margin-top: 10px;*/
   width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: rgba(10, 10, 10, 0.15);
 }
 
-.headline .hl-content img {
-  /*position: absolute;*/
-  min-width: 100%;
-  min-height: 100%;
+.team_infos {
+  width: 50%;
 }
 
-.headline .hl-inner-wrapper {
-  position: absolute;
-  left: 50%;
-  bottom: 80px;
-  margin-top: 0;
+.team_detail {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
 }
+
+.team_logo {
+  filter: grayscale(100%);
+  width: 20%;
+  display: block;
+  text-align: justify;
+}
+
+.team_logo:hover {
+  filter: grayscale(0%);
+  transition: 0.2s;
+}
+
+.content_teams {
+  margin-top: 50px;
+}
+
+.information_team {
+  margin-right: 100px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+/*
+[data-aos="zoom"] {
+  filter: blur(100px);
+  transform: rotate(180deg);
+  transition-property: all;
+}
+
+[data-aos="zoom"].aos-animate {
+  filter: blur(0px);
+  transform: rotate(0deg);
+}
+*/

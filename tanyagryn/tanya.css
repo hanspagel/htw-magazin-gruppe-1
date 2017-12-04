@@ -57,9 +57,164 @@ h1 {
   color: white;
 }
 
-
-
-
-
-
 /* NOTE: text fließt nach rechts */
+
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color: red;
+}
+
+.article-teaser-image img {
+  width: 100px;
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  transition: all 0.3s;
+}
+
+
+.article-teaser:hover .article-teaser-headline {
+  color: pink;
+  transform: rotate(5deg);
+}
+
+.article-graphic {
+  text-align: center;
+}
+/* NOTE: animation: name , dauer, keyframes ´: bestimmtung  */
+
+.animated-eye {
+  animation: fancy 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill: red;
+    transform: scale(1.2) translateY(200px);
+  }
+}
+
+.animated-face {
+  animation: drehen 10s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* NOTE:   background-attachment: fixed - bild bewegt sich nicht)
+  */
+  /* NOTE:  flex -> wechsel in layout option */
+
+.article-stage {
+  background-image: url(bilder/bild2.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* NOTE: position absolute -> elemt ist frei verschiebbar  */
+/* NOTE: .article-stage:: before -> bedeutet Verlauf */
+
+.article-stage::before {
+  content: '';
+  background: linear-gradient(0deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+
+.stage-headline {
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 3rem;
+line-height: 1.2;
+position: relative;
+}
+
+.stage-subline {
+ font-weight: normal;
+ font-size: 1rem;
+ position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  border: 5px;
+  background-color: yellow;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0 0 black;
+  cursor: pointer;
+  cursor: url(bilder/bild7.png), pointer;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+.action {
+  background: url(bilder/action.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+
+.header {
+  background-color: black;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 50px;
+}
+
+[data-aos="wurst"] {
+  transform: rotate(0);
+  transition-property: transform;
+}
+
+[data-aos="wurst"].aos-animate {
+  transform: rotate(4000deg);
+}
