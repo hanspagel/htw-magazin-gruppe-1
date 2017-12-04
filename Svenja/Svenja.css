@@ -133,3 +133,12 @@ body{
   text-transform: uppercase;
   letter-spacing: 15px;
 }
+
+[data-aos="hallo"]{
+  transform: rotate(0);
+  transition-property: transform;
+}
+
+[data-aos="hallo"].aso-animate{
+  transform: rotate(180deg);
+}
