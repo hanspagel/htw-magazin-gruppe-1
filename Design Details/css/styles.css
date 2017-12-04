@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5 {
 	font-style: normal;
 	line-height: 1em;
 	padding: 0;
+<<<<<<< HEAD
+	margin: 1em 0;
+=======
 	margin: 0 0 1em 0;
+>>>>>>> origin/master
 }
 
 h2{
@@ -45,6 +49,15 @@ ul{
 
 main{
   margin: auto;
+<<<<<<< HEAD
+  width: 1200px;
+}
+
+section{
+  column-count: 2;
+}
+
+=======
   width: 100%;
 }
 
@@ -122,6 +135,9 @@ p{
   border-top-right-radius: 70%200px;
 }
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 .unlock-slider span.custom-handle {
   height: 70px;
   width: 70px;
@@ -131,6 +147,7 @@ p{
   z-index: 10;
   top: -2%;
 }
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 
 @media all and (max-width: 780px) {
   section{
