@@ -1,62 +1,40 @@
 #myCanvas {
-  width: 100%;
-  height: 1024px;
-}
-
-.article-page {
-  width: 100%;
-}
-
-.base-element {
-  width: 100%;
-  height: 1024px;
-  margin-top: -1024px;
-}
-
-.neuronen-article {
-
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .neuronen-article h1 {
   max-width: 100%;
-  position: absolute;
   width: 630px;
-  height: 145px;
-  font-family: Teko;
+  font-family: "Teko";
   font-weight: 550;
   font-size:18vw;
   color: #f17571;
   margin-left: 132px;
-  margin-top: 302px;
+  margin-bottom: 0px;
+  border: solid;
+  padding: 0px;
 }
 
 .neuronen-article p {
   max-width: 55%;
-  position: absolute;
   width: 735px;
-  height: 155px;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 19px;
   font-size:-2vw;
   line-height: 1.50;
   letter-spacing: 1px;
   text-align: left;
   color: #ffffff;
-  padding-left: 139px;
-  margin-top: 590px;
+  margin-left: 139px;
+  border: solid;
 }
-
-.neuronen {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.wraper {
-max-width: 100%;
+.article-neuronen {
+  background-color: #394a5c;
 }
 
 .js-background {
-background-color: #fffff;
 width: 100%;
 height: 1024px;
 position: relative;

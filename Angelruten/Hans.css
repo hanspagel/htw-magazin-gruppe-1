@@ -1,8 +1,16 @@
 /* NOTE: Schrifteinstellungen */
 html {
   font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.6;
+}
+
+@media all and (min-width: 800px) {
+
+  html {
+    font-size: 20px;
+  }
+
 }
 
 /* NOTE: Überschrift */
@@ -12,6 +20,12 @@ h1 {
   font-size: 2rem;
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+@media all and (min-width: 800px) {
+  h1 {
+    font-family: 'Comic Sans MS';
+  }
 }
 
 
@@ -238,7 +252,15 @@ body {
   transform: rotate(0);
 }
 
+.article-video {
+  height: 100vh;
+}
 
+.article-video video {
+  width: 1280px;
+  height: 720px;
+  object-fit: cover;
+}
 
 
 
