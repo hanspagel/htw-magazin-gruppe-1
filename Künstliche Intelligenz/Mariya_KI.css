@@ -30,8 +30,10 @@
   margin-left: 139px;
   border: solid;
 }
-.article-neuronen {
+
+.neuronen-article {
   background-color: #394a5c;
+    min-height: 100vh;
 }
 
 .js-background {
