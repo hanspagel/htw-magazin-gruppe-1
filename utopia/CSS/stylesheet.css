@@ -3,13 +3,21 @@ html{
   font-size: 18px;
   line-height: 1.4;
   color: white;
-  opacity: 0.75;
+  /*opacity: 0.75;*/
 }
 
 body{
   background-color: #000000;
-  background-image: url(../images/background1.png);
+  background-image: url(../images/background5.png);
   background-attachment: fixed;
+  padding: 0;
+
+}
+
+.backgroundstars{
+  background-image: url(../images/background4.png);
+  padding: 0;
+  opacity: 0.75;
 }
 
 .article-inner{
@@ -254,14 +262,100 @@ color:red
 
 .article-interactive{
   text-align: center;
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
-  align-items:
+  align-items:center;
+
 }
 
-.spacedonut{
-  background: url(../images/spacedonut.gif);
+/*.spacedonut{
+  background: url(../images/door1.png);
   background-repeat: no-repeat;
   background-position: center;
 
+
+}*/
+
+.stars{
+  position: absolute;
+
+}
+
+/*.article-pic img{
+  width: 150%;
+  height: auto;
+  margin-left: -40%;
+}
+.article-pic2 img{
+  width: 120%;
+  height: auto;
+  margin-top: -150%;
+  margin-left: 50%;
+}*/
+
+/*.article-pic3 img{
+  width: 120%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+.article-pic3 {
+  background-image: url(../images/door1.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+  margin-left: -23%;
+  margin-top: -40%;
+}
+
+.header {
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+  opacity: 0.7;
+  padding: 0rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 0;
+  z-index: 10;
+}
+
+.header a {
+  display: inline-block;
+  color: magenta;
+  text-decoration: none;
+  transform: rotate(270deg) translateX(-50px);
+}
+
+[data-aos="einhorn"] {
+  transform: rotate(0);
+}
+
+[data-aos="einhorn"].aos-animate {
+  transform: rotate(180deg);
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: none;
+}
+
+body::-webkit-scrollbar-track-piece{
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+}
+
+body::-webkit-scrollbar-thumb {
+background: transparent;
+  /*background: linear-gradient(#faade9, #fbe657, #58f6f8);*/
+  /*outline: 1px solid slategrey;*/
 }

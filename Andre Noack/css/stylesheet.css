@@ -11,6 +11,14 @@ body, html {
   width: 100%;
 }
 
+/* NOTE: Media Queries */
+
+@media all and (max-width: 1000px) {
+  html, body {
+    font-size: 0.9em;
+  }
+}
+
 /* ––– VIDEO Landing Page ––– */
 
 video {
@@ -25,7 +33,6 @@ video {
 }
 
 .video-wrapper {
-
 }
 
 .text-video {
@@ -141,15 +148,21 @@ p.link a:hover span {
   margin-left: 5px;
 }
 
+p.link a:active {
+  color: red;
+}
+
 /* === MAP – CANADA === */
+
+.nhl_wrapper {
+  display: flex;
+  margin-top: 127px;
+}
 
 .nhl_map {
   width: 50%;
-  margin-top: 127px;
   margin-bottom: 0;
-  /*height: 677px;*/
   padding: 0;
-  background-color: #eee;
   background-size: cover;
 }
 
@@ -548,12 +561,12 @@ p.link a:hover span {
 
 .header {
   margin-top: 127px;
-  background-image: url('../image/test.jpg');
+  /*background-image: url('../image/test.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /*background-color: tomato;
-  height: 80vh;
+  background-color: tomato;
+  /*height: 80vh;
   text-align: left;
   color: white;*/
 }
@@ -578,36 +591,59 @@ p.link a:hover span {
   width: 40%;
   float: left;
   margin-bottom: 200px;
-  color: tomato;
+  color: black;
 }
 
-.infos {
-  position: relative;
-  display: inline-block;
-  left: 53.5%;
-  top: -910px;
+.infos_headline {
+  display: flex;
+  height: 200px;
+  /*margin-top: 10px;*/
+  width: 100%;
 }
 
-.infos h1 {
+.team_infos {
+  width: 50%;
+}
+
+.team_detail {
   font-family: 'Oswald', sans-serif;
-  font-size: 2.0em;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
 }
 
-.infos img {
-  width: 10%;
+.team_logo {
   filter: grayscale(100%);
+  width: 20%;
+  display: block;
+  text-align: justify;
 }
 
-.infos img:hover {
-  width: 20%;
+.team_logo:hover {
   filter: grayscale(0%);
   transition: 0.2s;
 }
 
-/*.header-subline {
-  font-family: -apple-system, sans-serif;
-  font-size: 1.2em;
-  line-height: 0.6em;
-}*/
+.content_teams {
+  margin-top: 50px;
+}
 
-/* === Unterricht 06.11.2017 === */
+.information_team {
+  margin-right: 100px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+/*
+[data-aos="zoom"] {
+  filter: blur(100px);
+  transform: rotate(180deg);
+  transition-property: all;
+}
+
+[data-aos="zoom"].aos-animate {
+  filter: blur(0px);
+  transform: rotate(0deg);
+}
+*/
