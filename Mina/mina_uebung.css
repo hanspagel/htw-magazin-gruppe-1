@@ -1,3 +1,19 @@
+html{
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    line-height: 1.6;
+
+
+}
+
+@media all and (min-width: 800px) {
+
+  html{font-size: 20px;
+  }
+}
+
+
+
 .article-stage {
   background-image: url(pexels-photo-204693.jpeg);
   background-size: cover;

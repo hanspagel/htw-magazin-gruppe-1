@@ -9,8 +9,8 @@ GitHub aos css */
  cursor: url(pictures/ballon.png), pointer;
 }
 
- /*landing-page*/
 
+ /*landing-page*/
 
 .intro {
   animation: turn 4s infinite linear;
@@ -56,13 +56,13 @@ GitHub aos css */
 
 h1 {
   font-family: 'VT323', monospace;
-  font-size: 2.0em;
+  font-size: 1.6em;
   line-height: 1.4;
 }
 
 p {
   font-family: 'VT323', monospace;
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: 1.4;
 }
 
@@ -224,7 +224,7 @@ p {
   width: 50%;
   height:50%;
   position: fixed;
-  border: 4px solid #333333;
+  border: 4px solid #737373;
   right: 13%;
   bottom:10%;
 }
@@ -296,14 +296,14 @@ p {
   position: fixed;
   bottom:0;
   right: 10%;
-  background-color: #FC9A6F;
+  background-color: #E5F9FF;
 }
 
 .box-outline-kopf {
   width: 50%;
   height:50%;
   position: fixed;
-  border: 4px solid #FFA3A3;
+  border: 4px solid #222087;
   right: 13%;
   bottom:10%;
 }
@@ -336,7 +336,7 @@ p {
   position: fixed;
   bottom:0;
   right: 10%;
-  background-color: #F0A3AE;
+  background-color: #F5D09A;
 }
 
 .box-outline-person {
@@ -752,3 +752,17 @@ html.fp-enabled,
   font-family: 'VT323', monospace;
 }
 */
+@media all and (min-width: 800px){
+
+  h1 {
+    font-family: 'VT323', monospace;
+    font-size: 2.0em;
+    line-height: 1.4;
+  }
+
+  p {
+    font-family: 'VT323', monospace;
+    font-size: 1.6em;
+    line-height: 1.4;
+  }
+}
