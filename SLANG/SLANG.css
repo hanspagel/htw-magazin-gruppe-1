@@ -2,9 +2,7 @@
 
 body{
 	margin: 0;
-	margin-top: 59px;
 }
-
 
 /* Start Page */
 
@@ -26,11 +24,10 @@ color: white;
 background-color: white;
 }
 
-@media all and (min-width: 1200px) {
+@media all and (max-width: 900px) {
 html {
-	font-size: 20px;
+	font-size: 18px;
 }
-
 }
 
 p{
@@ -67,6 +64,12 @@ h1 {
 	color: red;
 }
 
+@media all and (max-width: 900px) {
+.word {
+	width: 80%;
+}
+}
+
 .spalte-1{
   width: 33.333%;
   height: 470px;
@@ -93,6 +96,18 @@ h1 {
 =======
   margin-right: auto;
 >>>>>>> origin/master
+}
+
+@media all and (max-width: 750px) {
+.article-inner {
+	max-width: 500px;
+}
+}
+
+@media all and (max-width: 550px) {
+.article-inner {
+	max-width: 300px;
+}
 }
 
 .article-inner-wide  {
@@ -170,8 +185,17 @@ margin-right: auto;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-  display: flex;
 }
+
+@media all and (min-width: 900px) {
+	#parent2 {
+		display: flex;
+	}
+}
+
+
+
+
 
 .flex-container {
     flex-direction: column;
@@ -196,6 +220,13 @@ margin-right: auto;
   background-image: url("images/Swag.gif");
 }
 
+@media all and (max-width: 500px) {
+	.Swag {
+		width: 75vw;
+	  height: 75vw;
+	}
+}
+
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
@@ -207,6 +238,13 @@ margin-right: auto;
 .yolo:hover {
   cursor: url("images/yolotext.png"),auto;
   background-image: url("images/yolo.gif");
+}
+
+@media all and (max-width: 500px) {
+	.yolo {
+		width: 75vw;
+	  height: 75vw;
+	}
 }
 
 .lauft {
@@ -222,7 +260,12 @@ margin-right: auto;
   background-image: url("images/lauft.gif");
 }
 
-
+@media all and (max-width: 500px) {
+	.lauft {
+		width: 75vw;
+	  height: 75vw;
+	}
+}
 
 .zombie {
   background-image: url("images/zombie.jpg");
@@ -235,6 +278,13 @@ margin-right: auto;
 .zombie:hover {
   cursor: url("images/smombie.gif"),auto;
   background-image: url("images/zombie.gif");
+}
+
+@media all and (max-width: 500px) {
+	.zombie {
+		width: 75vw;
+	  height: 75vw;
+	}
 }
 
 .Babo {
@@ -250,6 +300,13 @@ margin-right: auto;
   background-image: url("images/Babo.gif");
 }
 
+@media all and (max-width: 500px) {
+	.Babo {
+		width: 75vw;
+	  height: 75vw;
+	}
+}
+
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
@@ -261,6 +318,13 @@ margin-right: auto;
 .Niveaulimbo:hover {
   cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
+}
+
+@media all and (max-width: 500px) {
+	.Niveaulimbo {
+		width: 75vw;
+	  height: 75vw;
+	}
 }
 
 .fly-sein {
@@ -276,6 +340,13 @@ margin-right: auto;
   background-image: url("images/fly-sein.gif");
 }
 
+@media all and (max-width: 500px) {
+	.fly-sein {
+		width: 75vw;
+	  height: 75vw;
+		margin-bottom: 80px;
+	}
+}
 
 .harzen {
   background-image: url("images/harzen.jpg");
@@ -288,6 +359,14 @@ margin-right: auto;
 .harzen:hover {
   cursor: url("images/harzentext.gif"),auto;
   background-image: url("images/harzen.gif");
+}
+
+@media all and (max-width: 500px) {
+	.harzen {
+		margin-top: 80px;
+		width: 75vw;
+	  height: 75vw;
+	}
 }
 
 .article-text-info {
@@ -314,6 +393,7 @@ margin-right: auto;
 @media all and (min-width: 500px) {
 	.article-image {
 		display: flex;
+
 	}
 }
 

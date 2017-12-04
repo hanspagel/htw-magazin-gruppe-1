@@ -45,7 +45,10 @@ h1 {
   width: 100%;
   height: auto;
   z-index: 0;
-  padding-top: 0.5rem;
+
+  top: 0;
+
+
 }
 
 .regen {
@@ -63,7 +66,6 @@ h1 {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  background:
 }
 
 .Überschrift {
@@ -73,35 +75,30 @@ h1 {
   height: 141px;
   margin-left: auto;
   margin-right: auto;
-  top: 50px;
-  padding-bottom: 250px;
-
-
+  top: 250px;
+  position: relative;
+  z-index: 100;
 }
 
 .Überschrift:hover {
   background-image: url(cyberpunkon.png);
   background-repeat: no-repeat;
-  width: 400px;
-  height: 141px;
-
-
+  z-index: 100;
 }
 
 .text {
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
   color: white;
-
 }
 
-.ufo {
 
+
+.ufo {
   width: 200px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .ufo:hover {
@@ -109,13 +106,11 @@ h1 {
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
-
 }
 
 .article-interactive {
   text-align: center;
   min-height: 60vh;
-
   display: flex;
   align-items:center;
 }
@@ -124,7 +119,6 @@ h1 {
   background-image: url(boom.gif);
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 
