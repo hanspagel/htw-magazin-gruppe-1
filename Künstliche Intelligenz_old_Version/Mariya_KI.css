@@ -1,0 +1,109 @@
+#myCanvas {
+  width: 100%;
+  height: 1024px;
+}
+
+.article-page {
+  width: 100%;
+}
+
+.base-element {
+  width: 100%;
+  height: 1024px;
+  margin-top: -1024px;
+}
+
+.neuronen-article {
+
+}
+
+.neuronen-article h1 {
+  max-width: 100%;
+  position: absolute;
+  width: 630px;
+  height: 145px;
+  font-family: Teko;
+  font-weight: 550;
+  font-size:18vw;
+  color: #f17571;
+  margin-left: 132px;
+  margin-top: 302px;
+}
+
+.neuronen-article p {
+  max-width: 55%;
+  position: absolute;
+  width: 735px;
+  height: 155px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-size:-2vw;
+  line-height: 1.50;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 139px;
+  margin-top: 590px;
+}
+
+.neuronen {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wraper {
+max-width: 100%;
+}
+
+.js-background {
+background-color: #fffff;
+width: 100%;
+height: 1024px;
+position: relative;
+}
+
+.nest-info-wraper {
+  width: 100%;
+  height: 700px;
+  bottom: -1024px;
+}
+
+.nest-article-title {
+  max-width: 100%;
+  width: 357px;
+	height: 146px;
+	font-family: Teko;
+	font-size: 224px;
+	font-weight: 500;
+	text-align: center;
+	color: #f17571;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.nest-article-subtitle {
+  max-width: 100%;
+  width: 813px;
+	height: 41px;
+	font-family: Teko;
+	font-size: 35px;
+	text-align: center;
+	color: #f17571;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  padding-top: 110px;
+}
+
+.nest-article-text {
+  max-width: 100%;
+  width: 1164px;
+	height: 165px;
+	font-family: Raleway;
+	font-size: 24px;
+	line-height: 1.38;
+	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
