@@ -133,6 +133,9 @@ animation-play-state:running ;
   text-align: left;
 }
 
+.article-ich-digital{
+  min-height: 100vh;
+}
 .article-ich-digital p {
   font-family: 'Raleway',sans-serif;
   font-size: 24px;
