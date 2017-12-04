@@ -25,12 +25,16 @@ main{
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
+  /*perspective: 1000px;*/
 }
 .card-stack{
   white-space: nowrap;
   transform: rotate(-13deg);
   margin: auto 0px auto 80px;
   /*transition: 100ms;*/
+}
+.card-stack-3d {
+   /*transform:rotateY(10deg) rotateX(20deg);*/
 }
 section{
   display: inline-block;
@@ -45,6 +49,7 @@ h2{
   margin-top: 10px;
   margin-left: 10px;
   top: 0px;
+  z-index: 2000;
 }
 .card{
   vertical-align: top;
@@ -54,14 +59,16 @@ h2{
   background-color: tomato;
   border-radius: 3px;
   padding: 10px;
-  transition: 300ms ease;
+  transition: transform 300ms ease;
   box-shadow: 1px 2px 26px rgba(0,0,0,0.1);
+  z-index: 1;
 }
 section:last-child{
   margin-right: 800px;
 }
 .card:hover, .card:focus{
-  transform: translateY(-150px);
+  transform: translateY(-150px) scale(1.05);
+  /*z-index: 1000;*/
 }
 .info{
   overflow-y: hidden;
