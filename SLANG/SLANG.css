@@ -190,10 +190,6 @@ margin-right: auto;
 	}
 }
 
-
-
-
-
 .flex-container {
     flex-direction: column;
     display: flex;
@@ -201,6 +197,27 @@ margin-right: auto;
     justify-content: center;
 		min-height: 100vh;
 		background-color: white;
+}
+
+@media all and (max-width: 900px) {
+	.flex-container {
+		display: none;
+	}
+}
+
+.flex-container-1 {
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    justify-content: center;
+		min-height: 100vh;
+		background-color: white;
+}
+
+@media all and (max-width: 900px) {
+	.flex-container-1 {
+		display: flex;
+	}
 }
 
 .Swag {
@@ -216,10 +233,24 @@ margin-right: auto;
   background-image: url("images/Swag.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.Swag {
-		width: 75vw;
-	  height: 75vw;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Swag {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Swag {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -236,10 +267,24 @@ margin-right: auto;
   background-image: url("images/yolo.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.yolo {
-		width: 75vw;
-	  height: 75vw;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.yolo {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.yolo {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -256,10 +301,24 @@ margin-right: auto;
   background-image: url("images/lauft.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.lauft {
-		width: 75vw;
-	  height: 75vw;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.lauft {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.lauft {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -276,10 +335,24 @@ margin-right: auto;
   background-image: url("images/zombie.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
+	.zombie{
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
 	.zombie {
-		width: 75vw;
-	  height: 75vw;
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.zombie {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -296,10 +369,24 @@ margin-right: auto;
   background-image: url("images/Babo.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.Babo {
-		width: 75vw;
-	  height: 75vw;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Babo {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Babo {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -316,10 +403,27 @@ margin-right: auto;
   background-image: url("images/Niveaulimbo.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.Niveaulimbo {
-		width: 75vw;
-	  height: 75vw;
+		margin-top: 50px;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Niveaulimbo {
+		margin-top: 50px;
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Niveaulimbo {
+		margin-top: 0;
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -336,11 +440,24 @@ margin-right: auto;
   background-image: url("images/fly-sein.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.fly-sein {
-		width: 75vw;
-	  height: 75vw;
-		margin-bottom: 80px;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.fly-sein {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.fly-sein {
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -357,11 +474,27 @@ margin-right: auto;
   background-image: url("images/harzen.gif");
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 420px) {
 	.harzen {
-		margin-top: 80px;
-		width: 75vw;
-	  height: 75vw;
+		margin-top: 50px;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.harzen {
+		margin-top: 50px;
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.harzen {
+		margin-top: 0;
+		max-width: 20vw;
+	  max-height: 20vw;
 	}
 }
 
@@ -386,11 +519,11 @@ margin-right: auto;
   margin-right: auto;
 }
 
-@media all and (min-width: 500px) {
+
 	.article-image {
 		display: flex;
 	}
-}
+
 
 .article-teaser {
   display: flex;
@@ -509,8 +642,14 @@ margin-right: auto;
 	min-height: 100vh;
 	background-image: url(images/male-head.gif);
 	background-repeat: no-repeat;
-	background-size: 63%;
+	background-size: 65%;
 	background-position: center;
+}
+
+@media all and (min-width: 1600px) {
+	.face {
+		background-size: 55%;
+	}
 }
 
 @media all and (max-width: 1200px) {
@@ -540,10 +679,23 @@ margin-right: auto;
 	padding-top: 3%;
 }
 
+@media all and (max-width: 800px) {
+	.ibims-info-1 {
+		padding-top: 20%;
+		font-size: 5rem;
+	}
+}
+
 @media all and (max-width: 600px) {
 	.ibims-info-1 {
-		padding-top:40%;
+		padding-top: 20%;
 		font-size: 4rem;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.ibims-info {
+		padding-top: 50%;
 	}
 }
 
@@ -633,6 +785,10 @@ margin-right: auto;
 
 .babopage {
 	background-image: url("images/babo.gif");
+}
+
+.lauftpage {
+	background-image: url("images/lauft.gif");
 }
 
 .smombiepage {
