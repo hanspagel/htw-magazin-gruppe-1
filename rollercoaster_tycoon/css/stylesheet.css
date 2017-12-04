@@ -17,7 +17,7 @@ GitHub aos css */
   display: flex;
   align-items: center;
   height: 100vh;
-  cursor: url(pictures/ballon.png), pointer;
+  cursor: url(../pictures/ballon.png), pointer;
 }
 
 .intro img {
@@ -25,8 +25,8 @@ GitHub aos css */
 }
 
 @keyframes turn {
-  from {transform: rotateY(0deg)}
-  to {transform: rotateY(360deg)}
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
 }
 
 
@@ -71,7 +71,7 @@ p {
 /*Zuckerwatte*/
 
 .text-zuckerwatte {
-  width: 43%;
+  width: 40%;
   left: 13%;
   top: 30%;
   position: absolute;
@@ -135,7 +135,7 @@ p {
   height:70%;
   position: fixed;
   bottom:0;
-  right: 10%;
+  left: 15%;
   background-color: #E05A62;
 }
 
@@ -145,23 +145,23 @@ p {
   position: fixed;
   border: 4px solid #1C7A1C;
   right: 13%;
-  bottom:10%;
+  bottom:8%;
 }
 
 /*Start*/
 
 .text-start {
-  width: 40%;
-  left: 25%;
+  width: 23%;
+  left: 42%;
   top: 0%;
   position: absolute;
 
 }
 
 .start {
-  width: 24%;
-  right: 10%;
-  top: 8%;
+  width: 27%;
+  right: 8%;
+  bottom: 0%;
   position: absolute;
 }
 
@@ -171,7 +171,7 @@ p {
 }
 
 .box-voll-start {
-  width: 35%;
+  width: 25%;
   height:80%;
   position: fixed;
   bottom:0;
@@ -181,11 +181,11 @@ p {
 
 .box-outline-start {
   width: 60%;
-  height:36%;
+  height:34%;
   position: fixed;
   border: 4px solid #CA0100;
   right: 13%;
-  bottom:25%;
+  bottom:20%;
 }
 
 /*Zange*/
