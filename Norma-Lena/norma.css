@@ -2,41 +2,48 @@ html{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: white;
+  color: #4B4B4C;
 }
 
 body{
-  background-color: #0B4D60;
-linear-gradient:(#0B4D60, #051E28)
+  background-color: #ffffff;
 }
 
 h1{
-  font-family: 'open sans';
-  font-weight: normal;
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
   letter-spacing: 0.1em;
-  font-size: 2rem;
-  margin-bottom: 0.2em;
-  margin-top: 2em;
-  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+  margin-top: 5rem;
 }
-h3{
-  font-family: 'open sans';
-  font-weight: normal;
-  letter-spacing: 0.1em;
+
+h2{
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
   font-size: 1.3rem;
   margin-bottom: 1em;
-  margin-top: 0.5em;
-  text-align: center;
+  margin-top: 2em;
+  color: #000000;
+}
+
+.intro {
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
 p:first-of-type {
   font-size: ;
 }
 
-.article-inner{
+.article-inner {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 .article-image img {
@@ -95,17 +102,7 @@ p:first-of-type {
   color: white;
 }
 
-.animated-eye {
-  animation: fancy 0.6s infinite alternate;
-  transform-origin: center;
-}
 
-@keyframes fancy {
-  to {
-    transform: scale(1.2);
-    fill: pink;
-  }
-}
 
 .article-white {
   background-color: black;
@@ -120,11 +117,9 @@ p:first-of-type {
   margin-left: auto;
   margin-right: auto;
 }
-
-.article-stage {
-  background-image: url(fische_01.jpg);
-  min-height: 70vh;
-  background-size: cover;
+.article-stage2 {
+  min-height: 50vh;
+  background-size: 100%;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
@@ -132,6 +127,42 @@ p:first-of-type {
   align-items: center;
   color: white;
   position: relative;
+  transition: all 0.5s;
+}
+.article-stage2:hover {
+  background-size: 120%;
+}
+
+.article-stage {
+  min-height: 50vh;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.article-stage:hover {
+  background-size: 120%;
+}
+
+.stage-headline2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1.0;
+  position: relative;
+  color: #ffffff;
+  /*display: none;*/
+}
+.article-stage:hover .stage-headline2 {
+  /*display: block;*/
+  visibility: visible;
+  background-size: 120%;
 }
 
 .stage-headline {
@@ -140,12 +171,21 @@ p:first-of-type {
   font-size: 3rem;
   line-height: 1.0;
   position: relative;
+  color: #ffffff;
+  /*display: none;*/
+  visibility: hidden;
+}
+
+.article-stage:hover .stage-headline {
+  /*display: block;*/
+  visibility: visible;
 }
 
 .stage-subline {
-  font-weight: normal;
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
   position: relative;
+  line-height: 2rem;
 }
 
 .article-stage::before {
@@ -165,24 +205,66 @@ p:first-of-type {
 body {
   margin:0;
 }
+
 .article-interactive {
-  background: url(schnabel.gif);
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
-.button {
-  border: 5px solid yellow;
-  /* NOTE: border, background, border-radius: 0, font-family, font-size */
-
-  /* NOTE: png, gif, max. 100 px */
-  cursor: url(cursor.png), pointer;
+.source {
+  background: url(source.gif);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.button:hover {
-  border: 5px solid blue;
+.header {
+  background-color: #03040B;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 10;
 }
 
-.article-textleft{
-  textleft
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  letter-spacing: 15px;
+}
+
+.header-navi {
+  background-color: #B6F9FD;
+  opacity: 0.8;
+  outline-color:#03040B;
+  outline-style: solid;
+  outline-width: 0.5rem;
+  padding: 0.3rem;
+  position: fixed;
+  text-align: center;
+  z-index: 10;
+  margin: 1rem;
+}
+.header-navi a{
+  color: #03040B;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 10px;
+}
+
+.footer {
+  background-color: #03040B;S
+}
+
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 /* Kommentare unsichtbar einfügen */

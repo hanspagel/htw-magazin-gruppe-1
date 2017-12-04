@@ -5,6 +5,16 @@ html {
 }
 /* NOTE: das ist eine Überschrift */
 
+/* NOTE: responsiveness */
+@media all and (min-width: 800px) {
+
+  html {
+    font-size: 14px;
+
+  }
+}
+
+
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
