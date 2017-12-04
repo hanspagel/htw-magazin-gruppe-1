@@ -11,6 +11,14 @@ body, html {
   width: 100%;
 }
 
+/* NOTE: Media Queries */
+
+@media all and (max-width: 1000px) {
+  html, body {
+    font-size: 0.9em;
+  }
+}
+
 /* ––– VIDEO Landing Page ––– */
 
 video {
@@ -22,11 +30,9 @@ video {
   min-height: 100.5%;
   width: auto;
   height: auto;
-  z-index: 1;
 }
 
 .video-wrapper {
-
 }
 
 .text-video {
@@ -142,22 +148,28 @@ p.link a:hover span {
   margin-left: 5px;
 }
 
+p.link a:active {
+  color: red;
+}
+
 /* === MAP – CANADA === */
+
+.nhl_wrapper {
+  display: flex;
+  margin-top: 127px;
+}
 
 .nhl_map {
   width: 50%;
-  margin-top: 127px;
   margin-bottom: 0;
-  height: 677px;
   padding: 0;
-  /*background-color: #eee;*/
   background-size: cover;
 }
 
 .nhl_city_montreal {
   position: absolute;
-  top: 504px;
-  left: 716px;
+  top: 500px;
+  left: 715px;
   margin-top: 127px;
 }
 
@@ -168,7 +180,7 @@ p.link a:hover span {
 
 .nhl_city_ottawa {
   position: absolute;
-  top: 519px;
+  top: 520px;
   left: 690px;
   margin-top: 127px;
 }
@@ -181,7 +193,7 @@ p.link a:hover span {
 .nhl_city_toronto {
   position: absolute;
   z-index: 1;
-  top: 547px;
+  top: 545px;
   left: 660px;
   margin-top: 127px;
 }
@@ -193,8 +205,8 @@ p.link a:hover span {
 
 .nhl_city_winnipeg {
   position: absolute;
-  top: 473px;
-  left: 448px;
+  top: 470px;
+  left: 450px;
   margin-top: 127px;
 }
 
@@ -205,8 +217,8 @@ p.link a:hover span {
 
 .nhl_city_edmonton {
   position: absolute;
-  top: 372px;
-  left: 286px;
+  top: 370px;
+  left: 285px;
   margin-top: 127px;
 }
 
@@ -217,8 +229,8 @@ p.link a:hover span {
 
 .nhl_city_calgary {
   position: absolute;
-  top: 411px;
-  left: 259px;
+  top: 410px;
+  left: 260px;
   margin-top: 127px;
 }
 
@@ -230,7 +242,7 @@ p.link a:hover span {
 .nhl_city_vancouver {
   position: absolute;
   top: 415px;
-  left: 172px;
+  left: 175px;
   margin-top: 127px;
 }
 
@@ -257,7 +269,7 @@ p.link a:hover span {
   position: absolute;
   z-index: 1;
   top: 550px;
-  left: 483px;
+  left: 485px;
   margin-top: 127px;
 }
 
@@ -549,11 +561,12 @@ p.link a:hover span {
 
 .header {
   margin-top: 127px;
-  background-color: tomato;
-  /*background-image: url('../image/test.jpg');
+  /*background-image: url('../image/test.jpg');*/
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  background-attachment: fixed;
+  background-color: tomato;
+  /*height: 80vh;
   text-align: left;
   color: white;*/
 }
@@ -578,12 +591,59 @@ p.link a:hover span {
   width: 40%;
   float: left;
   margin-bottom: 200px;
+  color: black;
 }
 
-/*.header-subline {
-  font-family: -apple-system, sans-serif;
-  font-size: 1.2em;
-  line-height: 0.6em;
-}*/
+.infos_headline {
+  display: flex;
+  height: 200px;
+  /*margin-top: 10px;*/
+  width: 100%;
+}
 
-/* === Unterricht 06.11.2017 === */
+.team_infos {
+  width: 50%;
+}
+
+.team_detail {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
+}
+
+.team_logo {
+  filter: grayscale(100%);
+  width: 20%;
+  display: block;
+  text-align: justify;
+}
+
+.team_logo:hover {
+  filter: grayscale(0%);
+  transition: 0.2s;
+}
+
+.content_teams {
+  margin-top: 50px;
+}
+
+.information_team {
+  margin-right: 100px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+/*
+[data-aos="zoom"] {
+  filter: blur(100px);
+  transform: rotate(180deg);
+  transition-property: all;
+}
+
+[data-aos="zoom"].aos-animate {
+  filter: blur(0px);
+  transform: rotate(0deg);
+}
+*/

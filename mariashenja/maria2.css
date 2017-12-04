@@ -71,12 +71,11 @@ h1 {
   background-repeat: no-repeat;
   width: 400px;
   height: 141px;
-  margin-left: auto;
-  margin-right: auto;
   top: 50px;
   padding-bottom: 250px;
-
-
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .Überschrift:hover {
