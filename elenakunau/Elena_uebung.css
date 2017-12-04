@@ -1,9 +1,22 @@
   /*/Com + Schift+7 kommentieren*/
 html {
   font-family: 'Comic Sans',sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.4;
 }
+/* NOTE:  ab 800px wird geändert */
+@media all and (min-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 26px;
+  }
+}
+
 body {
 background-color: blue;
 }
@@ -200,4 +213,16 @@ body {
 .action {
   background: url(source.gif);
   background-size: cover;
+}
+
+/* NOTE: stat fade in schreiben wurst */
+[data-aos="wurst"]{
+  filter: blur(200px);
+  transform:rotate(0);
+  transition-property: all;
+}
+
+[data-aos="wurst"].aos-animate{
+  filter:blur(0);
+  transform:rotate(180deg);
 }
