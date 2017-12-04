@@ -10,17 +10,12 @@ body{
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
-<<<<<<< HEAD
 line-height: 1.6; /* NOTE: this is always 160 procent */
 color: #0000ff;
-<<<<<<< HEAD
 background-color: yellow;
-=======
 background-color: white;
->>>>>>> origin/master
 /*position: relative;*/
 /*padding: 50;*/
-=======
 color: white;
 background-color: white;
 }
@@ -33,7 +28,6 @@ html {
 
 p{
   line-height: 1.5;
->>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 }
 
 h1 {
@@ -127,11 +121,8 @@ h1 {
 .article-inner {
   max-width: 700px;
   margin-left: auto;
-<<<<<<< HEAD
   margin-left: auto;
-=======
   margin-right: auto;
->>>>>>> origin/master
 }
 
 @media all and (max-width: 750px) {
@@ -148,29 +139,12 @@ h1 {
 
 .article-inner-wide  {
   max-width: 1000px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin-left: auto;
   margin-left: auto;
 }
-
 
 .article-image img {
   max-width: 700px;
-
-}
-
-p {
-    margin: 0cm 2cm;
-}
-
-div {
-
-
-
-=======
-  float: left;
-=======
 }
 
 .article-stage  {
@@ -236,7 +210,6 @@ margin-right: auto;
     justify-content: center;
 		min-height: 100vh;
 		background-color: white;
->>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
 }
 
 @media all and (max-width: 900px) {
@@ -559,11 +532,9 @@ margin-right: auto;
   margin-right: auto;
 }
 
-
-	.article-image {
-		display: flex;
-	}
-
+.article-image {
+	display: flex;
+}
 
 .article-teaser {
   display: flex;
@@ -850,15 +821,8 @@ margin-right: auto;
   transform-origin: center;
 }
 
-<<<<<<< HEAD
-.article-image img {
-  max-width: 700px
->>>>>>> origin/master
-=======
 @keyframes fancy {
   to {
     color: red;
     transform: scale(1.1);
   }
->>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
-}
