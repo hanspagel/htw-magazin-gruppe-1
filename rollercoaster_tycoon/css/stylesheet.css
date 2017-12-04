@@ -17,7 +17,7 @@ GitHub aos css */
   display: flex;
   align-items: center;
   height: 100vh;
-  cursor: url(../pictures/ballon.png), pointer;
+  cursor: url(pictures/ballon.png), pointer;
 }
 
 .intro img {
@@ -25,21 +25,13 @@ GitHub aos css */
 }
 
 @keyframes turn {
-  from {transform: rotateY(0deg);}
-  to {transform: rotateY(360deg);}
+  from {transform: rotateY(0deg)}
+  to {transform: rotateY(360deg)}
 }
 
 
 /*Allgemein*/
 
-.header{
-  left:0;
-}
-
-.logo{
-  margin-top: 3%;
-  margin-left: 3%;
-}
 
 h6 {
 font-family: 'VT323', monospace;
@@ -53,7 +45,6 @@ font-size: 2.4em;
   min-height: 80vh;
 }
 
-
 h1 {
   font-family: 'VT323', monospace;
   font-size: 1.6em;
@@ -66,22 +57,20 @@ p {
   line-height: 1.4;
 }
 
-
-
 /*Zuckerwatte*/
 
 .text-zuckerwatte {
-  width: 40%;
+  width: 43%;
   left: 13%;
   position: absolute;
 }
 
-.zuckerwatte{
-  position: absolute;
+.zuckerwatte {
   width: 40%;
   right: 13%;
   bottom: 30%;
   top: 2%;
+  position: absolute;
 }
 
 .img-zuckerwatte img {
@@ -90,10 +79,10 @@ p {
 
 .box-voll {
   width: 50%;
-  height:55%;
+  height: 55%;
   position: fixed;
-  left:15%;
-  top:13%;
+  left: 15%;
+  top: 13%;
   background-color: #FEBBBB;
   -webkit-transition: 0.7s;
 }
@@ -124,67 +113,65 @@ p {
   position: absolute;
 }
 
-
 .img-burger img {
   width: 100%;
 }
 
 .box-voll-burger {
   width: 30%;
-  height:70%;
+  height: 70%;
   position: fixed;
-  bottom:0;
-  left: 15%;
+  bottom: 0;
+  right: 10%;
   background-color: #E05A62;
 }
 
 .box-outline-burger {
   width: 50%;
-  height:44%;
+  height: 44%;
   position: fixed;
   border: 4px solid #1C7A1C;
   right: 13%;
-  bottom:8%;
+  bottom: 10%;
 }
 
 /*Start*/
 
 .text-start {
-  width: 23%;
-  left: 42%;
+  width: 40%;
+  left: 25%;
   top: 0%;
   position: absolute;
 
 }
 
 .start {
-  width: 27%;
-  right: 8%;
-  bottom: 0%;
+  width: 24%;
+  right: 10%;
+  top: 8%;
   position: absolute;
 }
-
 
 .img-start img {
   width: 100%;
 }
 
 .box-voll-start {
-  width: 25%;
-  height:80%;
+  width: 35%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #FFF373;
 }
 
 .box-outline-start {
   width: 60%;
-  height:34%;
+  height: 36%;
   position: fixed;
   border: 4px solid #CA0100;
   right: 13%;
-  bottom:20%;
+  bottom: 25%;
 }
 
 /*Zange*/
@@ -197,7 +184,7 @@ p {
   position: absolute;
 }
 
-.zange{
+.zange {
   width: 20%;
   right: 15%;
   bottom: 10%;
@@ -205,27 +192,26 @@ p {
   position: absolute;
 }
 
-
 .img-zange img {
   width: 100%;
 }
 
 .box-voll-zange {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #EDEDDF;
 }
 
 .box-outline-zange {
   width: 50%;
-  height:50%;
+  height: 50%;
   position: fixed;
   border: 4px solid #737373;
   right: 13%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Ballon*/
@@ -237,7 +223,7 @@ p {
   position: absolute;
 }
 
-.ballon{
+.ballon {
   width: 17%;
   right: 65%;
   bottom: 8%;
@@ -245,27 +231,26 @@ p {
   position: absolute;
 }
 
-
 .img-ballon img {
   width: 100%;
 }
 
 .box-voll-ballon {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #E80000;
 }
 
 .box-outline-ballon {
   width: 50%;
-  height:50%;
+  height: 50%;
   position: fixed;
   border: 4px solid #C9C9C9;
   right: 13%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Kopf*/
@@ -277,13 +262,12 @@ p {
   position: absolute;
 }
 
-.kopf{
+.kopf {
   width: 38%;
   right: 15%;
   top: 0;
   position: absolute;
 }
-
 
 .img-kopf img {
   width: 100%;
@@ -291,20 +275,20 @@ p {
 
 .box-voll-kopf {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #E5F9FF;
 }
 
 .box-outline-kopf {
   width: 50%;
-  height:50%;
+  height: 50%;
   position: fixed;
   border: 4px solid #222087;
   right: 13%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Person*/
@@ -324,27 +308,26 @@ p {
   position: absolute;
 }
 
-
 .img-person img {
   width: 100%;
 }
 
 .box-voll-person {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #F5D09A;
 }
 
 .box-outline-person {
   width: 50%;
-  height:50%;
+  height: 50%;
   position: fixed;
   border: 4px solid #FFBD14;
   right: 13%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Audioplayer*/
@@ -357,9 +340,9 @@ p {
 
 .box-voll-audio {
   width: 35%;
-  height:80%;
+  height: 80%;
   position: fixed;
-  bottom:0;
+  bottom: 0;
   right: 10%;
   background-color: #FFF;
   opacity: 0.1;
@@ -367,16 +350,15 @@ p {
 
 .box-outline-audio {
   width: 50%;
-  height:50%;
+  height: 50%;
   position: fixed;
   border: 4px solid #FFF;
   opacity: 0.1;
   right: 13%;
-  bottom:10%;
+  bottom: 10%;
 }
 
 /*Artikelverknüpfung*/
-
 
 .article-teaser {
   display: flex;
