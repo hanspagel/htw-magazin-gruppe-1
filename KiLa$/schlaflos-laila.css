@@ -24,6 +24,7 @@ html {
   line-height: 1.1;
 }
 
+
 p {
   font-family: 'Space Mono';
   font-size: 20px;
@@ -422,4 +423,14 @@ h5 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* NOTE: Responsive Design */
+
+@media all and (min-width: 400px) {
+
+html {
+  font-size: 18px
+}
+
 }
