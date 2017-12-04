@@ -41,9 +41,9 @@ GitHub aos css */
   margin-left: 3%;
 }
 
-.logo-schrift-img {
-  width: 10%;
-  position: fixed;
+h6 {
+font-family: 'VT323', monospace;
+font-size: 2.4em;
 }
 
 .content {
@@ -73,17 +73,16 @@ p {
 .text-zuckerwatte {
   width: 43%;
   left: 13%;
-  top: 30%;
   position: absolute;
 }
 
 .zuckerwatte{
   position: absolute;
-  width:40%;
+  width: 40%;
   right: 13%;
-  bottom:30%;
+  bottom: 30%;
+  top: 2%;
 }
-
 
 .img-zuckerwatte img {
   width: 100%;
