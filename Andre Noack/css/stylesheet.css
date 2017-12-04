@@ -14,7 +14,7 @@ body, html {
 /* NOTE: Media Queries */
 
 @media all and (max-width: 1000px) {
-  html, body {
+  body, html {
     font-size: 0.9em;
   }
 }
@@ -33,6 +33,7 @@ video {
 }
 
 .video-wrapper {
+
 }
 
 .text-video {
@@ -70,6 +71,7 @@ a:hover {
 .navi-wrapper {
   position: fixed;
   z-index: 10;
+  height: 127px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -171,6 +173,7 @@ p.link a:active {
   top: 500px;
   left: 715px;
   margin-top: 127px;
+  z-index: 1;
 }
 
 .nhl_city_montreal:hover {
@@ -183,6 +186,7 @@ p.link a:active {
   top: 520px;
   left: 690px;
   margin-top: 127px;
+  z-index: 1;
 }
 
 .nhl_city_ottawa:hover {
