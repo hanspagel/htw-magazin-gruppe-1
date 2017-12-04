@@ -54,7 +54,20 @@ h1 {
 
 @media all and (max-width: 900px) {
 .word {
-	width: 80%;
+	width: 92.5%;
+	padding-left: 7.5%;
+}
+}
+
+@media all and (max-width: 900px) {
+.word:hover .description {
+	width: 90%;
+}
+}
+
+@media all and (max-width: 900px) {
+.description {
+	width: 100%;
 }
 }
 
@@ -64,16 +77,38 @@ h1 {
   background-color: white;
 }
 
+@media all and (max-width: 900px) {
+.spalte-1 {
+	width: 100%;
+	height: 100%;
+}
+}
+
 .spalte-2{
   width: 33.333%;
   height: 470px;
   background-color: white;
 }
 
+@media all and (max-width: 900px) {
+.spalte-2 {
+	width: 100%;
+	height: 100%;
+}
+}
+
 .spalte-3{
   width: 33.333%;
   height: 470px;
   background-color: white;
+}
+
+@media all and (max-width: 900px) {
+.spalte-3 {
+	width: 100%;
+	height: 100%;
+	margin-bottom: -160px;
+}
 }
 
 .article-inner {
@@ -126,8 +161,8 @@ h1 {
 
 .definitionen {
   background-color: white;
-  padding-top: 40px;
-  padding-bottom: 210px;
+  padding-top: 60px;
+  padding-bottom: 230px;
 }
 
 .ibims {
@@ -353,6 +388,7 @@ margin-right: auto;
 @media all and (min-width: 500px) {
 	.article-image {
 		display: flex;
+
 	}
 }
 
@@ -498,7 +534,6 @@ margin-right: auto;
 	padding-left: 2rem;
 	position: fixed;
 	left: 0;
-	right: 0;
 	top: 0;
 	z-index: 5;
 }
@@ -507,6 +542,12 @@ margin-right: auto;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 50pt;
+}
+
+@media all and (max-width: 600px) {
+	.header a {
+		letter-spacing: 30pt;
+	}
 }
 
 .link {
