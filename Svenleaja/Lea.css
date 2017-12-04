@@ -33,3 +33,12 @@ p:first-of-type {
   margin-left:auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
+=======
+
+
+.article-image img{
+  margin-left: 300px;
+  margin-right: auto;
+}
+>>>>>>> origin/master
