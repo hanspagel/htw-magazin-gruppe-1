@@ -161,6 +161,20 @@ margin-right: auto;
   background-image: url("images/yolo.gif");
 }
 
+.lauft {
+  background-image: url("images/lauft.png");
+  background-size: cover;
+	width: 20vw;
+  height: 20vw;
+  margin:auto;
+}
+
+.lauft:hover {
+  cursor: url("images/yolotext.png"),auto;
+  background-image: url("images/lauft.gif");
+}
+
+
 
 .zombie {
   background-image: url("images/zombie.jpg");
