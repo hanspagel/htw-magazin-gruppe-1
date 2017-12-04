@@ -388,6 +388,7 @@ margin-right: auto;
 @media all and (min-width: 500px) {
 	.article-image {
 		display: flex;
+
 	}
 }
 
