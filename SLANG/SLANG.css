@@ -14,6 +14,12 @@ color: white;
 background-color: white;
 }
 
+@media all and (max-width: 800px){
+	html {
+	font-size: 14px;
+	}
+}
+
 p{
   line-height: 1.5;
 }
