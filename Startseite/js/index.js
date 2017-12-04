@@ -18,7 +18,7 @@ window.onload = function() {
   var stackWidth = cardWidth * 15;
 
   // update position of square 1 ands when scroll event fires.
-  windowc.addEventListener('scroll', function() {
+  function adjust() {
     var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
     // var scrollPercent = scrollLeft/(stackWidth-window.innerWidth) || 0;
     var scrollPercent = scrollLeft/4105 || 0;
@@ -29,7 +29,7 @@ window.onload = function() {
 
 
     // show info for active card
-    var currentSlot = Math.floor(scrollLeft/scrollJump);
+    // var currentSlot = Math.floor(scrollLeft/scrollJump);
     // cards[currentSlot].focus();
 
     // console.log(currentSlot);
@@ -38,10 +38,123 @@ window.onload = function() {
     // if (document.body.scrollTop!=0) {
     //   document.body.scrollTop = 0;
     // }
-  });
+  };
+  var throttled = throttle(adjust, 10)
+  windowc.addEventListener('scroll', throttled);
 };
 
+// use buttons to jump between cards
+function scrollCard(direction) {
+  var windowc = document.getElementsByTagName("main")[0];
+  var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
+  var currentSlot = Math.floor(scrollLeft/scrollJump);
+  var lastSlot = (currentSlot-1)*scrollJump;
+  var nextSlot = (currentSlot+1)*scrollJump;
+  if (direction=="left") {
+    scrollToX(lastSlot, 1500, 'easeInOutQuint');
+  } else {
+    scrollToX(nextSlot, 1500, 'easeInOutQuint');
+  }
 
+}
+
+//  bind arrow keys
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+        scrollCard("left");
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+        scrollCard("right");
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       scrollCard("left");
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       scrollCard("right");
+    }
+
+};
+
+// convert vertical to horizontal scroll
+$(document).ready(function () {
+    $('.main').mousewheel(function(e) {
+        this.scrollLeft -= (e.originalEvent.deltaY * -1);
+        this.scrollLeft -= (e.originalEvent.deltaX * -1);
+        e.preventDefault();
+        // console.log(e.originalEvent.deltaY);
+    });
+    // $('.main').mousewheel(function(event) {
+    //     console.log(event.deltaX, event.deltaY, event.deltaFactor);
+    // });
+});
+
+// drag to scroll
+
+var curYPos, curXPos, curDown;
+
+
+
+window.addEventListener('mousedown', function(e){
+  var windowc = document.getElementsByTagName("main")[0];
+  var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
+  curYPos = e.pageY;
+  curXPos = e.pageX;
+  curDown = true;
+  window.addEventListener('mousemove', function(e){
+    if(curDown){
+      windowc.scrollTo(scrollLeft + (curXPos - e.pageX), 0);
+      // console.log();
+    }
+  });
+});
+
+window.addEventListener('mouseup', function(e){
+  curDown = false;
+});
+
+
+// throttle as seen in underscore.js
+function throttle(func, wait, options) {
+  var context, args, result;
+  var timeout = null;
+  var previous = 0;
+  if (!options) options = {};
+  var later = function() {
+    previous = options.leading === false ? 0 : Date.now();
+    timeout = null;
+    result = func.apply(context, args);
+    if (!timeout) context = args = null;
+  };
+  return function() {
+    var now = Date.now();
+    if (!previous && options.leading === false) previous = now;
+    var remaining = wait - (now - previous);
+    context = this;
+    args = arguments;
+    if (remaining <= 0 || remaining > wait) {
+      if (timeout) {
+        clearTimeout(timeout);
+        timeout = null;
+      }
+      previous = now;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    } else if (!timeout && options.trailing !== false) {
+      timeout = setTimeout(later, remaining);
+    }
+    return result;
+  };
+};
 
 // Scroll easing:
 
@@ -110,18 +223,3 @@ function scrollToX(scrollTargetX, speed, easing) {
 }
 
 // scroll it!
-
-// use buttons to jump between cards
-function scrollCard(direction) {
-  var windowc = document.getElementsByTagName("main")[0];
-  var scrollLeft = windowc.pageXOffset || windowc.scrollLeft;
-  var currentSlot = Math.floor(scrollLeft/scrollJump);
-  var lastSlot = (currentSlot-1)*scrollJump;
-  var nextSlot = (currentSlot+1)*scrollJump;
-  if (direction=="left") {
-    scrollToX(lastSlot, 1500, 'easeInOutQuint');
-  } else {
-    scrollToX(nextSlot, 1500, 'easeInOutQuint');
-  }
-
-}
