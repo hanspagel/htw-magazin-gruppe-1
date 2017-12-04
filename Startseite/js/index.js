@@ -4,10 +4,13 @@ var cards = document.getElementsByClassName("card");
 window.onload = function() {
 
   // random bg-colors for cards:
-  for (var i = 0; i < cards.length; i++) {
-    randomHue = Math.floor(Math.random() * 361);
-    cards[i].style.backgroundColor = "hsl("+ randomHue +",70%,60%)";
+  function randomColors(){
+    for (var i = 0; i < cards.length; i++) {
+      randomHue = Math.floor(Math.random() * 361);
+      cards[i].style.backgroundColor = "hsl("+ randomHue +",70%,60%)";
+    }
   }
+
 
 
   var windowc = document.getElementsByTagName("main")[0];
@@ -29,8 +32,11 @@ window.onload = function() {
 
 
     // show info for active card
-    // var currentSlot = Math.floor(scrollLeft/scrollJump);
+    var currentSlot = Math.floor(scrollLeft/scrollJump);
     // cards[currentSlot].focus();
+    if ((scrollLeft/scrollJump) === Math.floor(scrollLeft/scrollJump)){
+      cards[currentSlot+2].focus();
+    }
 
     // console.log(currentSlot);
 

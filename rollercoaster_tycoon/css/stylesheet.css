@@ -41,9 +41,9 @@ GitHub aos css */
   margin-left: 3%;
 }
 
-.logo-schrift-img {
-  width: 10%;
-  position: fixed;
+h6 {
+font-family: 'VT323', monospace;
+font-size: 2.4em;
 }
 
 .content {
@@ -73,17 +73,16 @@ p {
 .text-zuckerwatte {
   width: 43%;
   left: 13%;
-  top: 30%;
   position: absolute;
 }
 
 .zuckerwatte{
   position: absolute;
-  width:40%;
+  width: 40%;
   right: 13%;
-  bottom:30%;
+  bottom: 30%;
+  top: 2%;
 }
-
 
 .img-zuckerwatte img {
   width: 100%;
@@ -224,7 +223,7 @@ p {
   width: 50%;
   height:50%;
   position: fixed;
-  border: 4px solid #333333;
+  border: 4px solid #737373;
   right: 13%;
   bottom:10%;
 }
@@ -296,14 +295,14 @@ p {
   position: fixed;
   bottom:0;
   right: 10%;
-  background-color: #FC9A6F;
+  background-color: #E5F9FF;
 }
 
 .box-outline-kopf {
   width: 50%;
   height:50%;
   position: fixed;
-  border: 4px solid #FFA3A3;
+  border: 4px solid #222087;
   right: 13%;
   bottom:10%;
 }
@@ -336,7 +335,7 @@ p {
   position: fixed;
   bottom:0;
   right: 10%;
-  background-color: #F0A3AE;
+  background-color: #F5D09A;
 }
 
 .box-outline-person {
