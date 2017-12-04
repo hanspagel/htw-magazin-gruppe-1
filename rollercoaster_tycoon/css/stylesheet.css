@@ -9,7 +9,6 @@ GitHub aos css */
  cursor: url(pictures/ballon.png), pointer;
 }
 
-
  /*landing-page*/
 
 .intro {
@@ -29,9 +28,12 @@ GitHub aos css */
   to {transform: rotateY(360deg)}
 }
 
-
 /*Allgemein*/
 
+.logo {
+  margin-top: 2.5%;
+  margin-left: 3.5%;
+}
 
 h6 {
 font-family: 'VT323', monospace;
