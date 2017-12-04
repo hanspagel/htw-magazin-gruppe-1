@@ -1,0 +1,163 @@
+html {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+
+
+body {
+background: black;
+}
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 1em 0;
+  text-shadow: 0px 0px 25px  #ffffff;
+}
+
+.header {
+  background-color: #f89989;
+  padding: 0.5rem;
+  position: fixed;
+  left:0px;
+  right: 0px;
+  text-align: center;
+  top: 0;
+  z-index: 105;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.background img{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  padding-top: 0.5rem;
+}
+
+.regen {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.article {
+  position: relative;
+  z-index: 100;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background:
+}
+
+.Überschrift {
+  background-image: url(cyberpunkoff.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 141px;
+  top: 50px;
+  padding-bottom: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Überschrift:hover {
+  background-image: url(cyberpunkon.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 141px;
+
+
+}
+
+.text {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  color: white;
+
+}
+
+.ufo {
+
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ufo:hover {
+  background-image: url(ufoneonon.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 60vh;
+
+  display: flex;
+  align-items:center;
+}
+
+.action {
+  background-image: url(boom.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+.animated-rain4 {
+  animation: rain 0.4s infinite;
+  z-index: 5;
+}
+
+.animated-rain3 {
+  animation: rain 0.6s infinite;
+  z-index: 5;
+}
+
+.animated-rain2 {
+  animation: rain 1.9s infinite;
+  z-index: 5;
+}
+
+.animated-rain {
+  animation: rain 0.9s infinite;
+  z-index: 5;
+}
+
+.animated-rain5 {
+  animation: rain 0.9s infinite;
+  z-index: 5;
+}
+
+
+
+@keyframes rain {
+  to {
+    transform: translateY(1500px) translateX(140px);
+  }
+}

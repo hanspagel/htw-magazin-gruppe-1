@@ -37,13 +37,13 @@
   padding-left: 15%;
 	font-family: 'Teko';
 	height: 0;
-	font-size: 80px;
-	font-weight: 300;
+	font-size: 150px;
+	font-weight: 500;
 	text-align: left;
 	margin-bottom: 0;
 	color: #f17571;
 
-	top:50%;
+	top:30%;
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
@@ -54,11 +54,11 @@
   padding-left: 35%;
 		font-family: 'Teko';
 	  height: 0;
-		font-size: 80px;
-		font-weight: 300;
+		font-size: 150px;
+		font-weight: 500;
 		text-align: left;
     margin-bottom: 0;
-	  top: 50%;
+	  top: 30%;
 		color: #33495f;
 	  display: inline-block;
 	  box-sizing: border-box;
@@ -66,14 +66,14 @@
 }
 
 .header-inteligenz h1 {
-  padding-left: 31%;
+  padding-left: 35%;
   height: 0;
   margin-top: 0px;
-  top:68%;
+  top:45%;
   height: 180;
 	font-family: 'Teko';
-	font-size: 80px;
-	font-weight: 300;
+	font-size: 150px;
+	font-weight: 500;
 	text-align: left;
 	color: #33495f;
   display: inline-block;
