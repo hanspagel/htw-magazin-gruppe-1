@@ -146,6 +146,12 @@ animation-play-state:running ;
   margin-left: 443px;
 }
 
+@media all and (max-width: 1200px) {
+    .article-ich-digital p {
+    margin-left: 95px;
+    }
+}
+
 .info-gehirn-linksbündig .gehirn_überschrift {
   animation-name: blur;
   color: transparent;
@@ -160,4 +166,10 @@ animation-play-state:running ;
   from { text-shadow: 0 0 10px grey; color: transparent; }
   to   { text-shadow: 0;color: #33495f;       }
 
+}
+
+@media all and (max-width: 1200px) {
+    .article-text h3 {
+    margin-left: 93px;
+    }
 }
