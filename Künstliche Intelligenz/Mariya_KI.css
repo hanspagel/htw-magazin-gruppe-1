@@ -8,7 +8,8 @@
   max-width: 100%;
   width: 630px;
   font-family: "Teko";
-  font-weight: 550;
+  /* NOTE: man kann entweder 400 500 oder 600 schreiben */
+  font-weight: 500;
   font-size:18vw;
   color: #f17571;
   margin-left: 132px;
@@ -30,8 +31,10 @@
   margin-left: 139px;
   border: solid;
 }
-.article-neuronen {
+
+.neuronen-article {
   background-color: #394a5c;
+    min-height: 100vh;
 }
 
 .js-background {
@@ -50,7 +53,7 @@ position: relative;
   max-width: 100%;
   width: 357px;
 	height: 146px;
-	font-family: Teko;
+	font-family: "Teko";
 	font-size: 224px;
 	font-weight: 500;
 	text-align: center;
@@ -64,7 +67,7 @@ position: relative;
   max-width: 100%;
   width: 813px;
 	height: 41px;
-	font-family: Teko;
+	font-family: "Teko";
 	font-size: 35px;
 	text-align: center;
 	color: #f17571;
@@ -78,7 +81,7 @@ position: relative;
   max-width: 100%;
   width: 1164px;
 	height: 165px;
-	font-family: Raleway;
+	font-family: "Raleway";
 	font-size: 24px;
 	line-height: 1.38;
 	text-align: center;
