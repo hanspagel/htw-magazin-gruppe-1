@@ -9,6 +9,19 @@ body{
   background-color: #ffffff;
 }
 
+/*@media all and (min-width: 800px) {
+  html {
+    font-size: 24px;
+  }
+
+}
+
+@media all and (min-width: 800px) {
+  html {
+    font-family: Arial;
+  }
+}*/
+
 h1{
   text-transform: uppercase;
   font-family:'Open Sans', sans-serif;
@@ -153,7 +166,7 @@ p:first-of-type {
   line-height: 1.0;
   position: relative;
   color: #43F4FE;
-};
+}
 
 .stage-subline {
   font-weight: bold;
