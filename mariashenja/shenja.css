@@ -148,3 +148,20 @@ margin-right: 1rem;
   font-size: 1rem;
   position: relative;
 }
+
+@media all and (min-width:800px){
+
+html {
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+}
