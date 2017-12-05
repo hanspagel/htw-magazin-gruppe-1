@@ -3,23 +3,6 @@ font-size: 19px;
 line-height: 1.3;
 }
 
-/* NOTE:
-@media all and (min-width: 800px) {
-
-html{
-  font-size: 20px;
-}
-}
-
-@media all and (min-width: 1200px) {
-
-html{
-  font-size: 20px;
-}
-}
- */
-
-
 body {
   font-family: 'Yantramanav', sans-serif;
   background-color: white;
@@ -32,21 +15,20 @@ h1 {
   font-size: 3.5rem;
 }
 
-
 .header {
   background-color: #DB2823;
   padding: 1rem;
   position: fixed;
+  z-index: 10;
   left: 0;
   right: 0;
   height: 30px;
-
+  display: flex;
 }
 
-.header a {
+.header-logo {
   color: white;
   text-decoration: none;
-  /*font-family:*/
   text-transform: uppercase;
   letter-spacing: 20px;
 }
@@ -56,15 +38,11 @@ h1 {
   z-index: 10;
   font-size: 4.5rem;
   margin-left: 37%;
-  margin-top: 2%;
 }
 
 .youtube-link a {
   color: #DB2823;
 }
-
-
-
 
 /* NOTE: header bild */
 .article-stage {
@@ -79,6 +57,7 @@ h1 {
   color: white;
   position: relative;
   margin-bottom: 50px;
+  z-index: 10;
 }
 
 /* NOTE: beim scrollen farbveränderun des bildes */
@@ -97,6 +76,7 @@ h1 {
   font-family: 'PT Serif';
   font-size: 5.2rem;
   position: relative;
+  margin: 5px 0;
 }
 
 .stage-subline {
@@ -105,9 +85,9 @@ h1 {
   font-weight: normal;
   position: relative;
   margin-bottom: 50%;
+  margin-top: 5px;
   font-weight: bolder;
 }
-
 
 .stage-headline-1 {
   font-family: 'PT Serif';
@@ -115,14 +95,12 @@ h1 {
   position: relative;
 }
 
-
 .stage-subline-1 {
   font-family: 'PT Serif';
   font-size: 1.5rem;
   font-weight: normal;
   position: relative;
 }
-
 
 /* first of type: nur der erste Absatz wird verändert*/
 .article-text:first-of-type p:first-of-type {
@@ -140,11 +118,11 @@ h1 {
 
 .article-inner-bild img {
     width: 700px;
+    height: auto;
 }
 
 .article-inner-bild {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -152,9 +130,6 @@ h1 {
   max-width: 4000px;
   margin-left: auto;
   margin-right: auto;
-}
-  /* NOTE: rechts unten blur überfüllen farbe */
-  box-shadow: 10px 10px 10px 0 darkgrey;
 }
 
 .article-module {
@@ -175,10 +150,6 @@ h1 {
   box-shadow: 10px 10px 10px 0 darkgrey;
 }
 
-
-
-
-
 .article-stage3 {
   background-image: url(youtube_facts2.jpg);
   background-size: cover;
@@ -190,8 +161,6 @@ h1 {
   align-items: flex-end;
   color: white;
   position: relative;
-
-
 }
 
 .eco-system {
@@ -202,7 +171,6 @@ h1 {
   text-align: right;
   margin-right: 40px;
 }
-
 
 /* NOTE: 2.es bild  */
 .article-stage2 {
@@ -234,8 +202,6 @@ h1 {
   max-width: 100%;
 }
 
-
-
   /* NOTE: weiterführender link zu nächster website /position*/
 .article-teaser {
   text-decoration: none;
@@ -249,17 +215,14 @@ h1 {
 
 }
 
-/* bildgröße */
-.article-teaser-image img {
-  width: 100px;
-}
-
 .article-teaser-image {
   margin-right: 1rem;
 }
 
 .article-teaser-headline {
   align-self: center;
+  color: white;
+  margin-left: 700px;
 }
 
 /* NOTE: animation position */
@@ -280,13 +243,10 @@ h1 {
 .nachoben a {
   color: black;
 }
+
 .nachoben a:hover {
   color: #910000
 }
-
-
-
-
 
 .button {
   background-color: white;
@@ -296,7 +256,6 @@ h1 {
   font-size: 1.3rem;
   font-weight: bolder;
   cursor: url(euro2.png), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
-
 }
 
 .button:hover {
@@ -311,7 +270,6 @@ h1 {
   align-items: center;
 }
 
-
 .article-interactive {
   background: url(werbebanner.jpg);
   background-size: cover;
@@ -319,8 +277,10 @@ h1 {
 
 .playdrücken {
   background: url(source.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
 
 [data-aos="drehen"] {
     filter: blur(500px);
