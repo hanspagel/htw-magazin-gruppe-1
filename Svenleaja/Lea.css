@@ -115,6 +115,8 @@ h1 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
+<<<<<<< HEAD
+=======
 
 .article-inner-bild img {
     width: 700px;
@@ -131,6 +133,15 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 10px 10px 10px 0 darkgrey;
+}
+>>>>>>> dc6889cfe2d401799a5308885de038d9504026a2
 
 .article-module {
   padding: 25px 0;
@@ -292,3 +303,4 @@ h1 {
     filter: blur(0);
     transform: rotate(0);
   }
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
