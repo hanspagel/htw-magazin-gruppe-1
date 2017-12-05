@@ -534,6 +534,7 @@ p.link a:active {
   top: 845px;
   left: 660px;
   margin-top: 127px;
+  z-index: 1;
 }
 
 .nhl_city_tampa:hover {
