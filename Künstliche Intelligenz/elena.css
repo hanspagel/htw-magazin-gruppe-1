@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 /*
 .KI_seite {
@@ -126,11 +127,15 @@ animation-play-state:running ;
 .article-ich-digital h3 {
   font-family: 'Teko'; sans-serif;
   font-size: 35px;
+  font-weight: 500px;
   color: #000000;
   margin: 0px 0px 0px 443px;
   text-align: left;
 }
 
+.article-ich-digital{
+  min-height: 100vh;
+}
 .article-ich-digital p {
   font-family: 'Raleway',sans-serif;
   font-size: 24px;
@@ -139,6 +144,12 @@ animation-play-state:running ;
   height: 330px;
   margin-top: 73px;
   margin-left: 443px;
+}
+
+@media all and (max-width: 1200px) {
+    .article-ich-digital p {
+    margin-left: 95px;
+    }
 }
 
 .info-gehirn-linksbündig .gehirn_überschrift {
@@ -155,4 +166,10 @@ animation-play-state:running ;
   from { text-shadow: 0 0 10px grey; color: transparent; }
   to   { text-shadow: 0;color: #33495f;       }
 
+}
+
+@media all and (max-width: 1200px) {
+    .article-text h3 {
+    margin-left: 93px;
+    }
 }
