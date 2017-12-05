@@ -30,8 +30,6 @@ GitHub aos css */
 
 /*Allgemein*/
 
-<<<<<<< HEAD
-
 .logo{
   margin-top: 3%;
   margin-left: 3%;
@@ -40,13 +38,9 @@ GitHub aos css */
 
 .logo-schrift{
     position: fixed;
-    color: #F7A3A3;
-=======
-.logo {
-  margin-top: 2.5%;
-  margin-left: 3.5%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
+    color: #FEBBBB;
 }
+
 
 h6 {
 font-family: 'VT323', monospace;
@@ -75,27 +69,18 @@ p {
 /*Zuckerwatte*/
 
 .text-zuckerwatte {
-<<<<<<< HEAD
-  width: 40%;
-  left: 16%;
-  top:26%;
-=======
   width: 43%;
-  left: 13%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
+  left: 15%;
+  top: 30%;
   position: absolute;
 }
 
 .zuckerwatte {
   width: 40%;
   right: 13%;
-<<<<<<< HEAD
-  bottom: 20%;
-=======
   bottom: 30%;
-  top: 2%;
+  top: 0%;
   position: absolute;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
 }
 
 .img-zuckerwatte img {
@@ -134,7 +119,7 @@ p {
 .burger {
   width: 32%;
   left: 12%;
-  bottom: 18%;
+  bottom: 22%;
   position: absolute;
 }
 
@@ -168,17 +153,17 @@ p {
 /*Start*/
 
 .text-start {
-  width: 40%;
-  left: 25%;
-  top: 0%;
+  width: 23%;
+  right: 33%;
+  top: 8%;
   position: absolute;
 
 }
 
 .start {
   width: 24%;
-  right: 10%;
-  top: 8%;
+  right: 8%;
+  bottom: 0%;
   position: absolute;
 }
 
@@ -187,7 +172,7 @@ p {
 }
 
 .box-voll-start {
-  width: 35%;
+  width: 26%;
   height: 80%;
   position: fixed;
   bottom: 0;
@@ -219,18 +204,11 @@ p {
   position: absolute;
 }
 
-<<<<<<< HEAD
+
 .zange{
   width: 23%;
   right: 20%;
   top: 30%;
-=======
-.zange {
-  width: 20%;
-  right: 15%;
-  bottom: 10%;
-  top: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   position: absolute;
 }
 
@@ -239,38 +217,21 @@ p {
 }
 
 .box-voll-zange {
-<<<<<<< HEAD
   width: 27%;
   height:65%;
   position: fixed;
   top:5%;
   left:30%;
-=======
-  width: 35%;
-  height: 80%;
-  position: fixed;
-  bottom: 0;
-  right: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   background-color: #EDEDDF;
 }
 
 .box-outline-zange {
-<<<<<<< HEAD
   width: 30%;
   height:70%;
   position: fixed;
   border: 4px solid #737373;
   right: 20%;
   bottom:10%;
-=======
-  width: 50%;
-  height: 50%;
-  position: fixed;
-  border: 4px solid #737373;
-  right: 13%;
-  bottom: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
 }
 
 .logo-schrift-zange{
@@ -299,24 +260,15 @@ p {
 }
 
 .box-voll-ballon {
-<<<<<<< HEAD
   width: 30%;
   height:65%;
   position: fixed;
   top:30%;
   left: 35%;
-=======
-  width: 35%;
-  height: 80%;
-  position: fixed;
-  bottom: 0;
-  right: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   background-color: #E80000;
 }
 
 .box-outline-ballon {
-<<<<<<< HEAD
   width: 30%;
   height:70%;
   position: fixed;
@@ -328,14 +280,6 @@ p {
 .logo-schrift-ballon{
     position: fixed;
     color: #E80000;
-=======
-  width: 50%;
-  height: 50%;
-  position: fixed;
-  border: 4px solid #C9C9C9;
-  right: 13%;
-  bottom: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
 }
 
 /*Kopf*/
@@ -347,17 +291,10 @@ p {
   position: absolute;
 }
 
-<<<<<<< HEAD
 .kopf{
   width: 35%;
   left: 5%;
   bottom: 0%;
-=======
-.kopf {
-  width: 38%;
-  right: 15%;
-  top: 0;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   position: absolute;
 }
 
@@ -366,24 +303,16 @@ p {
 }
 
 .box-voll-kopf {
-<<<<<<< HEAD
   width: 32%;
   height:50%;
   position: fixed;
   top:13%;
-=======
-  width: 35%;
-  height: 80%;
-  position: fixed;
-  bottom: 0;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   right: 10%;
   background-color: #E5F9FF;
 }
 
 .box-outline-kopf {
   width: 50%;
-<<<<<<< HEAD
   height:47%;
   position: fixed;
   border: 4px solid #222087;
@@ -394,13 +323,6 @@ p {
 .logo-schrift-kopf{
     position: fixed;
     color: #222087;
-=======
-  height: 50%;
-  position: fixed;
-  border: 4px solid #222087;
-  right: 13%;
-  bottom: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
 }
 
 /*Person*/
@@ -424,24 +346,15 @@ p {
 }
 
 .box-voll-person {
-<<<<<<< HEAD
   width: 45%;
   height:50%;
   position: fixed;
   top:13%;
   right: 13%;
-=======
-  width: 35%;
-  height: 80%;
-  position: fixed;
-  bottom: 0;
-  right: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
   background-color: #F5D09A;
 }
 
 .box-outline-person {
-<<<<<<< HEAD
   width: 36%;
   height:70%;
   position: fixed;
@@ -453,14 +366,6 @@ p {
 .logo-schrift-person{
     position: fixed;
     color: #FFBD14;
-=======
-  width: 50%;
-  height: 50%;
-  position: fixed;
-  border: 4px solid #FFBD14;
-  right: 13%;
-  bottom: 10%;
->>>>>>> cffbc65042e82a51508079217516cf4a27bef740
 }
 
 /*Audioplayer*/
