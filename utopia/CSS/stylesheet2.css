@@ -1,0 +1,53 @@
+body{
+  background-color: #000000;
+  background-image: url(../images/background5.png);
+  background-attachment: fixed;
+  padding: 0;
+
+}
+
+.backgroundstars{
+  background-image: url(../images/background4.png);
+  padding: 0;
+  opacity: 0.75;
+}
+
+.stars{
+  position: absolute;
+
+}
+.article-inner{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-pic {
+  position: absolute;
+}
+
+.article-pic img{
+  width: 150%;
+  height: auto;
+  margin-left: -40%;
+}
+.article-pic2 img{
+  width: 120%;
+  height: auto;
+  margin-top: -100%;
+  margin-left: 50%;
+}
+
+[data-aos="einhorn"] {
+  transform: scale(40%);
+}
+
+[data-aos="einhorn"].aos-animate {
+  transform: scale(100%);
+}

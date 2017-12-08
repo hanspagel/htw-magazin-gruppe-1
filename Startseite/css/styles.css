@@ -1,3 +1,11 @@
+@import url("//hello.myfonts.net/count/34ddd2");
+
+@font-face {font-family: 'Boston-Bold';src: url('webfonts/34DDD2_4_0.eot');src: url('webfonts/34DDD2_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_4_0.woff2') format('woff2'),url('webfonts/34DDD2_4_0.woff') format('woff'),url('webfonts/34DDD2_4_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Boston-Heavy';src: url('webfonts/34DDD2_6_0.eot');src: url('webfonts/34DDD2_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_6_0.woff2') format('woff2'),url('webfonts/34DDD2_6_0.woff') format('woff'),url('webfonts/34DDD2_6_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Boston-Regular';src: url('webfonts/34DDD2_A_0.eot');src: url('webfonts/34DDD2_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34DDD2_A_0.woff2') format('woff2'),url('webfonts/34DDD2_A_0.woff') format('woff'),url('webfonts/34DDD2_A_0.ttf') format('truetype');}
+
 html{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -9,6 +17,7 @@ html{
 body{
   margin: 0px;
   overflow: hidden;
+  font-family: 'Boston-Regular';
 }
 header{
   position: fixed;
@@ -25,12 +34,16 @@ main{
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
+  /*perspective: 1000px;*/
 }
 .card-stack{
   white-space: nowrap;
   transform: rotate(-13deg);
   margin: auto 0px auto 80px;
   /*transition: 100ms;*/
+}
+.card-stack-3d {
+   /*transform:rotateY(10deg) rotateX(20deg);*/
 }
 section{
   display: inline-block;
@@ -41,34 +54,50 @@ section{
   margin-right: calc(30px - 5px);
 }
 h2{
-  position: absolute;
+  font-size: 17px;
+  font-family: 'Boston-Bold';
+  position: relative;
   margin-top: 10px;
   margin-left: 10px;
   top: 0px;
 }
+h1{
+  font-size: 41px;
+  font-family: 'Boston-Heavy';
+}
 .card{
   vertical-align: top;
   white-space: normal;
-  width: 100%;
-  height: 100%;
-  background-color: tomato;
-  border-radius: 3px;
-  padding: 10px;
-  transition: 300ms ease;
-  box-shadow: 1px 2px 26px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  height: 377px;
+  background-color: white;
+  border-radius: 1px;
+  border: solid 1px #B4B4B4;
+  /*padding: 10px;*/
+  transition: transform 300ms ease;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
 }
 section:last-child{
   margin-right: 800px;
 }
-.card:hover, .card:focus{
-  transform: translateY(-150px);
+.card:hover, .card:focus, .focus{
+  transform: translateY(-90px) scale(1.1);
+  /*z-index: 1000;*/
 }
-.info{
-  overflow-y: hidden;
-  max-height: 0px;
-  transition: 300ms ease;
-  /*-webkit-transition-delay: 30ms; /* Safari */
-  transition-delay: 30ms;*/
+:focus {
+  outline: none;
+}
+.card-content{
+  background-color: black;
+  flex-grow: 1;
+  padding: 10px;
+  align-items: flex-end;
+  display: flex;
+}
+a img {
+  display: block;
 }
 .card:hover .info, .card:focus .info {
   max-height: 120px;
@@ -100,8 +129,8 @@ a:hover {
 
 }
 h1, h2, h3, h4, h5 {
-	font-weight: normal;
-	font-style: normal;
+	/*font-weight: normal;*/
+	/*font-style: normal;*/
 	line-height: 1em;
 	padding: 0;
 	/*margin: 0 0 1em 0;*/

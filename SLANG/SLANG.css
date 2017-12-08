@@ -2,16 +2,28 @@
 
 body{
 	margin: 0;
+	overflow-x: hidden;
 }
-
 
 /* Start Page */
 
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
+line-height: 1.6; /* NOTE: this is always 160 procent */
+color: #0000ff;
+background-color: yellow;
+background-color: white;
+/*position: relative;*/
+/*padding: 50;*/
 color: white;
 background-color: white;
+}
+
+@media all and (max-width: 900px) {
+html {
+	font-size: 18px;
+}
 }
 
 p{
@@ -47,10 +59,36 @@ h1 {
 	color: red;
 }
 
+@media all and (max-width: 900px) {
+.word {
+	width: 92.5%;
+	padding-left: 7.5%;
+}
+}
+
+@media all and (max-width: 900px) {
+.word:hover .description {
+	width: 90%;
+}
+}
+
+@media all and (max-width: 900px) {
+.description {
+	width: 100%;
+}
+}
+
 .spalte-1{
   width: 33.333%;
   height: 470px;
   background-color: white;
+}
+
+@media all and (max-width: 900px) {
+.spalte-1 {
+	width: 100%;
+	height: 100%;
+}
 }
 
 .spalte-2{
@@ -59,20 +97,54 @@ h1 {
   background-color: white;
 }
 
+@media all and (max-width: 900px) {
+.spalte-2 {
+	width: 100%;
+	height: 100%;
+}
+}
+
 .spalte-3{
   width: 33.333%;
   height: 470px;
   background-color: white;
 }
 
+@media all and (max-width: 900px) {
+.spalte-3 {
+	width: 100%;
+	height: 100%;
+	margin-bottom: -160px;
+}
+}
+
 .article-inner {
   max-width: 700px;
+  margin-left: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media all and (max-width: 750px) {
+.article-inner {
+	max-width: 500px;
+}
+}
+
+@media all and (max-width: 550px) {
+.article-inner {
+	max-width: 300px;
+}
+}
+
 .article-inner-wide  {
   max-width: 1000px;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.article-image img {
+  max-width: 700px;
 }
 
 .article-stage  {
@@ -103,8 +175,8 @@ h1 {
 
 .definitionen {
   background-color: white;
-  padding-top: 40px;
-  padding-bottom: 210px;
+  padding-top: 60px;
+  padding-bottom: 230px;
 }
 
 .ibims {
@@ -123,7 +195,12 @@ margin-right: auto;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-  display: flex;
+}
+
+@media all and (min-width: 900px) {
+	#parent2 {
+		display: flex;
+	}
 }
 
 .flex-container {
@@ -133,6 +210,27 @@ margin-right: auto;
     justify-content: center;
 		min-height: 100vh;
 		background-color: white;
+}
+
+@media all and (max-width: 900px) {
+	.flex-container {
+		display: none;
+	}
+}
+
+.flex-container-1 {
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    justify-content: center;
+		min-height: 100vh;
+		background-color: white;
+}
+
+@media all and (max-width: 900px) {
+	.flex-container-1 {
+		display: flex;
+	}
 }
 
 .Swag {
@@ -148,6 +246,27 @@ margin-right: auto;
   background-image: url("images/Swag.gif");
 }
 
+@media all and (min-width: 420px) {
+	.Swag {
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Swag {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Swag {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
+}
+
 .yolo {
   background-image: url("images/yolo.jpg");
   background-size: cover;
@@ -161,6 +280,60 @@ margin-right: auto;
   background-image: url("images/yolo.gif");
 }
 
+@media all and (min-width: 420px) {
+	.yolo {
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.yolo {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.yolo {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
+}
+
+.lauft {
+  background-image: url("images/lauft.png");
+  background-size: cover;
+	width: 20vw;
+  height: 20vw;
+  margin:auto;
+}
+
+.lauft:hover {
+  cursor: url("images/yolotext.png"),auto;
+  background-image: url("images/lauft.gif");
+}
+
+@media all and (min-width: 420px) {
+	.lauft {
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.lauft {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.lauft {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
+}
 
 .zombie {
   background-image: url("images/zombie.jpg");
@@ -173,6 +346,27 @@ margin-right: auto;
 .zombie:hover {
   cursor: url("images/smombie.gif"),auto;
   background-image: url("images/zombie.gif");
+}
+
+@media all and (min-width: 420px) {
+	.zombie{
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.zombie {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.zombie {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
 }
 
 .Babo {
@@ -188,6 +382,27 @@ margin-right: auto;
   background-image: url("images/Babo.gif");
 }
 
+@media all and (min-width: 420px) {
+	.Babo {
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Babo {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Babo {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
+}
+
 .Niveaulimbo {
   background-image: url("images/Niveaulimbo.jpg");
   background-size: cover;
@@ -199,6 +414,30 @@ margin-right: auto;
 .Niveaulimbo:hover {
   cursor: url("images/niveautext.gif"),auto;
   background-image: url("images/Niveaulimbo.gif");
+}
+
+@media all and (min-width: 420px) {
+	.Niveaulimbo {
+		margin-top: 50px;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.Niveaulimbo {
+		margin-top: 50px;
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.Niveaulimbo {
+		margin-top: 0;
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
 }
 
 .fly-sein {
@@ -214,6 +453,26 @@ margin-right: auto;
   background-image: url("images/fly-sein.gif");
 }
 
+@media all and (min-width: 420px) {
+	.fly-sein {
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.fly-sein {
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.fly-sein {
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
+}
 
 .harzen {
   background-image: url("images/harzen.jpg");
@@ -226,6 +485,30 @@ margin-right: auto;
 .harzen:hover {
   cursor: url("images/harzentext.gif"),auto;
   background-image: url("images/harzen.gif");
+}
+
+@media all and (min-width: 420px) {
+	.harzen {
+		margin-top: 50px;
+		max-width: 180px;
+	  max-height: 180px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.harzen {
+		margin-top: 50px;
+		width: 45vw;
+	  height: 45vw;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.harzen {
+		margin-top: 0;
+		max-width: 20vw;
+	  max-height: 20vw;
+	}
 }
 
 .article-text-info {
@@ -250,7 +533,7 @@ margin-right: auto;
 }
 
 .article-image {
-    display: flex;
+	display: flex;
 }
 
 .article-teaser {
@@ -318,7 +601,7 @@ margin-right: auto;
 	bottom: 0;
 	width: 100%;
 	opacity: 0.3;
-	margin-left: -2%;
+	margin-left: -1.8%;
 }
 
 .stage-headline {
@@ -339,12 +622,12 @@ margin-right: auto;
 
 .button {
 /* NOTE: border, background, font-family, font-size, padding, border-radius*/
-background-color: yellow;
-font-family: "Agipo", sans-serif;
-font-size: 14px;
-border-color: yellow;
-padding: 30px;
-position: relative;
+	background-color: yellow;
+	font-family: "Agipo", sans-serif;
+	font-size: 14px;
+	border-color: yellow;
+	padding: 30px;
+	position: relative;
 }
 
 .button:hover {
@@ -353,25 +636,78 @@ position: relative;
 }
 
 .article-interactive {
-text-align: center;
-min-height: 50vh;
-background-color: black;
-display: flex;
-align-items: center;
+	text-align: center;
+	min-height: 50vh;
+	background-color: black;
+	display: flex;
+	align-items: center;
 }
 
 .action {
-background: url(images/harzen.gif);
+	background: url(images/harzen.gif);
 }
 
 .face{
-background: #0000ff;
-width: 100%;
-min-height: 100vh;
-background-image: url(images/male-head.gif);
-background-repeat: no-repeat;
-background-size: 63%;
-background-position: center;
+	background: #0000ff;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(images/male-head.gif);
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}
+
+@media all and (min-width: 1600px) {
+	.face {
+		background-size: 55%;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.face {
+		background-size: 90%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.face {
+		background-size: 140%;
+	}
+}
+
+.ibims-info {
+	text-align: right;
+	padding-right: 5%;
+	padding-top: 8%;
+	padding-bottom: 10%;
+	margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ibims-info-1 {
+	font-size: 6rem;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+@media all and (max-width: 800px) {
+	.ibims-info-1 {
+		padding-top: 20%;
+		font-size: 5rem;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.ibims-info-1 {
+		padding-top: 20%;
+		font-size: 4rem;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.ibims-info {
+		padding-top: 50%;
+	}
 }
 
 .header {
@@ -381,6 +717,7 @@ background-position: center;
 	position: fixed;
 	left: 0;
 	right: 0;
+	top: 0;
 	z-index: 5;
 }
 
@@ -388,6 +725,12 @@ background-position: center;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 50pt;
+}
+
+@media all and (max-width: 600px) {
+	.header a {
+		letter-spacing: 30pt;
+	}
 }
 
 .link {
@@ -410,7 +753,7 @@ background-position: center;
 }
 
 .link-yolo {
-	cursor: url("images/yolotext.gif"),auto;
+	cursor: url("images/yolotext.png"),auto;
 }
 
 .link-babo {
@@ -425,10 +768,9 @@ background-position: center;
 	cursor: url("images/smombie.gif"),auto;
 }
 
-.harzenpage {
+.page {
 	width: 100%;
 	min-height: 100vh;
-	background-image: url("images/harzen.gif");
 	background-repeat: repeat;
 	background-size: 70px;
 	background-position: center;
@@ -436,11 +778,42 @@ background-position: center;
 	z-index: 1;
 }
 
+.harzenpage {
+	background-image: url("images/harzen.gif");
+}
+
+.niveaupage {
+	background-image: url("images/niveaulimbo.gif");
+}
+
+.swagpage {
+	background-image: url("images/swag.gif");
+}
+
+.yolopage {
+	background-image: url("images/yolo.gif");
+}
+
+.babopage {
+	background-image: url("images/babo.gif");
+}
+
+.lauftpage {
+	background-image: url("images/lauft.gif");
+}
+
+.smombiepage {
+	background-image: url("images/zombie.gif");
+}
+
+.flypage {
+	background-image: url("images/fly-sein.gif");
+}
+
 .info-text {
 	color: blue;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-style: oblique;
-	width: 100%;
 	margin-left: 15%;
 	position: relative;
 	z-index: 2;
@@ -453,13 +826,3 @@ background-position: center;
     color: red;
     transform: scale(1.1);
   }
-}
-
-[data-aos="wurst"] {
-	transform: rotate(0);
-	transition-property: transform;
-}
-
-[data-aos="wurst"].aos-animate {
-	transform: rotate(180);
-}
