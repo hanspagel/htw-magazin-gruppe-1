@@ -1,6 +1,7 @@
 $(window).load(function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (window.screen.width > 780){
 			$('#fullpage').fullpage({
 				navigation: true,
@@ -87,6 +88,10 @@ $(window).load(function() {
 	$('#fullpage').fullpage({
 		navigation: true,
 >>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
+=======
+	$('#fullpage').fullpage({
+		navigation: true,
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
 	});
 
 // audio-slider custom
@@ -96,7 +101,10 @@ $(window).load(function() {
 // 	});
 // });
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bbe840845de586b7248b2af8560ac95e901c4b60
+=======
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
 =======
 >>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
 
