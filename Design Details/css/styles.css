@@ -2,7 +2,7 @@ html{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Boston-Regular', sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 1.4;
 }
 
@@ -65,7 +65,7 @@ section {
   column-count: 2;
   column-gap: 50px;
   margin: auto;
-  width: 800px;
+  width: 90vw;
 }
 
 blockquote {
@@ -93,7 +93,6 @@ blockquote:before {
 
 .h1box{
   margin: auto;
-  width: 800px;
 }
 
 #fp-nav.right{
@@ -152,7 +151,8 @@ p{
 @media all and (max-width: 780px) {
   section{
     column-count: 1;
-    width: 100%;
     padding: 0 8px;
+    font-size: 1em;
+    width: 90vw;
   }
 }
