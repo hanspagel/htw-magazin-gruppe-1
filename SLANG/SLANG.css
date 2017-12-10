@@ -941,9 +941,10 @@ margin-right: auto;
 }
 
 .info-smombie {
-	color: lime;
-	font-size: 2.5rem;
+	color: purple;
+	font-size: 2rem;
 	font-style: oblique;
+	margin-top: 10%;
 	margin-left: 15%;
 	position: relative;
 	z-index: 2;
@@ -953,7 +954,7 @@ margin-right: auto;
 
 @keyframes smombie {
 	 to {
-	   color: fuchsia;
+	   color: blue;
 	   transform: skewY(10deg);
 	 }
 }
