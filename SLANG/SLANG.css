@@ -826,3 +826,130 @@ margin-right: auto;
     color: red;
     transform: scale(1.1);
   }
+}
+
+.info-harzen {
+	color: blue;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: harzen 0.1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes harzen {
+  to {
+    color: red;
+    transform: scale(1.1);
+  }
+}
+
+.info-swag {
+	color: yellow;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: swag 0.2s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes swag {
+	 to {
+	   color: magenta;
+	   transform: rotate(10deg);
+	 }
+}
+
+.info-niveau {
+	color: blue;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: niveau 0.5s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes niveau {
+	 to {
+	   color: yellow;
+	   transform: rotateX(50deg);
+	 }
+}
+
+.info-yolo {
+	color: green;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: yolo 3s infinite;
+	transform-origin: center;
+}
+
+@keyframes yolo {
+	 to {
+	   color: red;
+	   transform: rotate(360deg);
+	 }
+}
+
+.info-babo {
+	color: blueviolet;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: babo 0.2s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes babo {
+	 to {
+	   color: cyan;
+	   transform: skewX(15deg);
+	 }
+}
+
+.info-lauft {
+	color: lime;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: lauft 0.2s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes lauft {
+	 to {
+	   color: fuchsia;
+	   transform: rotateY(50deg);
+	 }
+}
+
+.info-smombie {
+	color: lime;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: smombie 0.1s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes smombie {
+	 to {
+	   color: fuchsia;
+	   transform: skewY(10deg);
+	 }
+}
