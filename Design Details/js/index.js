@@ -1,4 +1,16 @@
 $(window).load(function() {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 0368eea... Revert "Moblie Compatibility Changes"
+		if (window.screen.width > 780){
+			$('#fullpage').fullpage({
+				navigation: true,
+			});
+	};
+=======
 	$('#fullpage').fullpage({
 <<<<<<< HEAD
 		//Navigation
@@ -75,6 +87,17 @@ $(window).load(function() {
 =======
 		navigation: true,
 >>>>>>> origin/master
+<<<<<<< HEAD
+=======
+	$('#fullpage').fullpage({
+		navigation: true,
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
+=======
+	$('#fullpage').fullpage({
+		navigation: true,
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
+=======
+>>>>>>> parent of 0368eea... Revert "Moblie Compatibility Changes"
 	});
 
 // audio-slider custom
@@ -83,15 +106,21 @@ $(window).load(function() {
 // 		$(".custom-handle").css("margin-left" === "event.pageX" + "px");
 // 	});
 // });
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbe840845de586b7248b2af8560ac95e901c4b60
+=======
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
+=======
+>>>>>>> parent of 40e6bf5... Moblie Compatibility Changes
+=======
+>>>>>>> bbe840845de586b7248b2af8560ac95e901c4b60
+>>>>>>> parent of 0368eea... Revert "Moblie Compatibility Changes"
 
 	var bqheight = document.getElementsByTagName("blockquote")[0].clientHeight;
 	if (bqheight < 256 ){
 		$("blockquote").css("height",256+"px");
 	}
-	// audio-slider with jquery-ui
-	var slider = $(".unlock-slider").slider({
-			 classes: {
-					 "ui-slider-handle": "custom-handle"}
-	 });
-	$(".unlock-slider").slider
+
 	 });

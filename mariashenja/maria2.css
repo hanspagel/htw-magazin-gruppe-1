@@ -162,3 +162,9 @@ h1 {
     transform: translateY(1500px) translateX(140px);
   }
 }
+
+.article-parallax {
+  width: 100%;
+  height: auto;
+  
+}

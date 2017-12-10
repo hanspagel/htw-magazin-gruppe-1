@@ -45,7 +45,6 @@ h1 {
   width: 100%;
   height: auto;
   z-index: 0;
-
   top: 0;
 
 
@@ -73,11 +72,13 @@ h1 {
   background-repeat: no-repeat;
   width: 400px;
   height: 141px;
-  margin-left: auto;
-  margin-right: auto;
   top: 250px;
-  position: relative;
+  padding-bottom: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
+
 }
 
 .Überschrift:hover {
@@ -87,7 +88,7 @@ h1 {
 }
 
 .text {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'VT323', monospace;
   font-weight: 400;
   color: white;
 }
@@ -114,6 +115,7 @@ h1 {
   display: flex;
   align-items:center;
 }
+
 
 .action {
   background-image: url(boom.gif);
