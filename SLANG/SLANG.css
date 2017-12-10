@@ -310,7 +310,7 @@ margin-right: auto;
 }
 
 .lauft:hover {
-  cursor: url("images/harzen.gif"),auto;
+  cursor: url("images/harzentext.gif"),auto;
   background-image: url("images/lauft.gif");
 }
 
@@ -758,6 +758,10 @@ margin-right: auto;
 
 .link-babo {
 	cursor: url("images/babotext.gif"),auto;
+}
+
+.link-lauft {
+	cursor: url("images/laufttext.gif"),auto;
 }
 
 .link-fly {
