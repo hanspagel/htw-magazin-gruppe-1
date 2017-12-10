@@ -3,23 +3,6 @@ font-size: 19px;
 line-height: 1.3;
 }
 
-/* NOTE:
-@media all and (min-width: 800px) {
-
-html{
-  font-size: 20px;
-}
-}
-
-@media all and (min-width: 1200px) {
-
-html{
-  font-size: 20px;
-}
-}
- */
-
-
 body {
   font-family: 'Yantramanav', sans-serif;
   background-color: white;
@@ -32,21 +15,20 @@ h1 {
   font-size: 3.5rem;
 }
 
-
 .header {
   background-color: #DB2823;
   padding: 1rem;
   position: fixed;
+  z-index: 10;
   left: 0;
   right: 0;
   height: 30px;
-  z-index: 7;
+  display: flex;
 }
 
-.header a {
+.header-logo {
   color: white;
   text-decoration: none;
-  /*font-family:*/
   text-transform: uppercase;
   letter-spacing: 20px;
 }
@@ -55,16 +37,12 @@ h1 {
   position: absolute;
   z-index: 10;
   font-size: 4.5rem;
-  top: 20%;
-  right: 20.5%;
+  margin-left: 37%;
 }
 
 .youtube-link a {
   color: #DB2823;
 }
-
-
-
 
 /* NOTE: header bild */
 .article-stage {
@@ -72,13 +50,14 @@ h1 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 70vh;
-  text-align:center;
+  min-height: 100vh;
+  text-align: center;
   display: flex;
   align-items: flex-end;
   color: white;
   position: relative;
   margin-bottom: 50px;
+  z-index: 10;
 }
 
 /* NOTE: beim scrollen farbveränderun des bildes */
@@ -95,18 +74,20 @@ h1 {
 /* NOTE: schriften auf bild */
 .stage-headline {
   font-family: 'PT Serif';
-  font-size: 5rem;
+  font-size: 5.2rem;
   position: relative;
+  margin: 5px 0;
 }
 
 .stage-subline {
-  font-family: "Yantramanav";
-  font-size: 1.5rem;
+  font-family: 'PT Serif';
+  font-size: 2.1rem;
   font-weight: normal;
   position: relative;
-  z-index: -10;
+  margin-bottom: 50%;
+  margin-top: 5px;
+  font-weight: bolder;
 }
-
 
 .stage-headline-1 {
   font-family: 'PT Serif';
@@ -114,14 +95,12 @@ h1 {
   position: relative;
 }
 
-
 .stage-subline-1 {
   font-family: 'PT Serif';
   font-size: 1.5rem;
   font-weight: normal;
   position: relative;
 }
-
 
 /* first of type: nur der erste Absatz wird verändert*/
 .article-text:first-of-type p:first-of-type {
@@ -139,11 +118,11 @@ h1 {
 
 .article-inner-bild img {
     width: 700px;
+    height: auto;
 }
 
 .article-inner-bild {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -151,9 +130,6 @@ h1 {
   max-width: 4000px;
   margin-left: auto;
   margin-right: auto;
-}
-  /* NOTE: rechts unten blur überfüllen farbe */
-  box-shadow: 10px 10px 10px 0 darkgrey;
 }
 
 .article-module {
@@ -168,13 +144,14 @@ h1 {
   margin-left:auto;
   margin-right: auto;
   color: black;
+  margin-bottom: 40px;
 
   /* box schatten: rechts unten blur überfüllen farbe */
   box-shadow: 10px 10px 10px 0 darkgrey;
 }
 
 .article-stage3 {
-  background-image: url(youtube_facts1.jpg);
+  background-image: url(youtube_facts2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -184,35 +161,16 @@ h1 {
   align-items: flex-end;
   color: white;
   position: relative;
-  margin-bottom: 75px;
-  margin-top: 75px;
 }
 
-
-
-/* NOTE: animation */
-/* augen Animation*/
-.animated-eye {
-  animation: augenvergrößern 0.5s infinite alternate;
+.eco-system {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: lighter;
+  font-size: 0.5rem;
+  margin-left: 20px;
+  text-align: right;
+  margin-right: 40px;
 }
-@keyframes augenvergrößern {
-  to {
-    transform: scale(1.55 );
-    fill: darkred;
-    transform
-  }
-}
-/* Gesicht Animation*/
-.animated-face {
-  animation: drehen 1s infinite;
-  transform-origin: center;
-}
-@keyframes drehen {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 /* NOTE: 2.es bild  */
 .article-stage2 {
@@ -244,8 +202,6 @@ h1 {
   max-width: 100%;
 }
 
-
-
   /* NOTE: weiterführender link zu nächster website /position*/
 .article-teaser {
   text-decoration: none;
@@ -256,11 +212,7 @@ h1 {
 .article-teaser:hover {
   color: #DB2823;
   transform: rotate(0.8deg);
-}
 
-/* bildgröße */
-.article-teaser-image img {
-  width: 100px;
 }
 
 .article-teaser-image {
@@ -269,6 +221,8 @@ h1 {
 
 .article-teaser-headline {
   align-self: center;
+  color: white;
+  margin-left: 700px;
 }
 
 /* NOTE: animation position */
@@ -289,13 +243,10 @@ h1 {
 .nachoben a {
   color: black;
 }
+
 .nachoben a:hover {
   color: #910000
 }
-
-
-
-
 
 .button {
   background-color: white;
@@ -304,7 +255,7 @@ h1 {
   padding: 0.5rem;
   font-size: 1.3rem;
   font-weight: bolder;
-  cursor: url(source.gif), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
+  cursor: url(euro2.png), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
 }
 
 .button:hover {
@@ -319,7 +270,6 @@ h1 {
   align-items: center;
 }
 
-
 .article-interactive {
   background: url(werbebanner.jpg);
   background-size: cover;
@@ -327,8 +277,10 @@ h1 {
 
 .playdrücken {
   background: url(source.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
 
 [data-aos="drehen"] {
     filter: blur(500px);
