@@ -941,20 +941,39 @@ margin-right: auto;
 }
 
 .info-smombie {
-	color: purple;
+	color: blue;
 	font-size: 2rem;
 	font-style: oblique;
 	margin-top: 10%;
 	margin-left: 15%;
 	position: relative;
 	z-index: 2;
-	animation: smombie 0.1s infinite alternate;
+	animation: smombie 0.2s infinite alternate;
 	transform-origin: center;
 }
 
 @keyframes smombie {
 	 to {
-	   color: blue;
+	   color: greenyellow;
 	   transform: skewY(10deg);
+	 }
+}
+
+.info-fly {
+	color: magenta;
+	font-size: 2.5rem;
+	font-style: oblique;
+	margin-top: 10%;
+	margin-left: 15%;
+	position: relative;
+	z-index: 2;
+	animation: fly 0.2s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes fly {
+	 to {
+	   color: black;
+	   transform: scale(0.6);
 	 }
 }
