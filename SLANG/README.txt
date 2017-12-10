@@ -1,9 +1,7 @@
-In unserem Artikel geht es um...
+In unserem Artikel geht es um das Jugendwort des Jahres 2017.
 
-Uns ist wichtig, dass...
+Uns war wichtig, dass man auf der Seite spielen und entdecken kann, dass wir neues lernen und dass die Seite interaktiv ist.
 
-Uns gefällt besonders...
+Uns gefallen besonders die Gif-Animationen, die trashigen Pop-Ups, das Jugendwörter-Ratespiel und das creepy Gesicht am Ende
 
-Namen
-
-mail@hanspagel.de
+Joanna Wilkans & Vincent Kapels

@@ -10,12 +10,10 @@ body{
 html {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 18px;
-line-height: 1.6; /* NOTE: this is always 160 procent */
+line-height: 1.6;
 color: #0000ff;
 background-color: yellow;
 background-color: white;
-/*position: relative;*/
-/*padding: 50;*/
 color: white;
 background-color: white;
 }
@@ -35,8 +33,8 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 1em;
   line-height: 1.6;
-  letter-spacing: 0.1em; /* NOTE: 1/10 of thikness of the font, dotyczy tylko naglowka */
-  font-size: 2rem; /* NOTE: 2 times more then font size, dotyczy calego dokumentu */
+  letter-spacing: 0.1em;
+  font-size: 2rem;
 }
 
 .word {
@@ -145,20 +143,6 @@ h1 {
 
 .article-image img {
   max-width: 700px;
-}
-
-.article-stage  {
-  color: #0000ff;
-  background-image: url("images/hej.jpg");
-  background-size: 100%;
-  padding: 30px;
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  position: relative;
 }
 
 .background-1 {
@@ -534,117 +518,6 @@ margin-right: auto;
 
 .article-image {
 	display: flex;
-}
-
-.article-teaser {
-  display: flex;
-  margin-top: 200px;
-  color: #0000ff;
-}
-
-.article-teaser:hover{
-  color: red;
-  transform: rotate(5deg);
-}
-
-.article-teaser-image img {
-  width: 150px;
-}
-
-.article-graphic {
-  text-align: center;
-	margin-top: 100px;
-}
-
-.animated-eye {
-  animation: fancy 0.1s infinite alternate;
-  transform-origin: center;
-}
-
-@keyframes fancy {
-  to {
-    fill: #0000ff;
-    transform: scale(1.2);
-  }
-}
-
-.animated-face {
-  animation: drehen 3s infinite;
-  transform-origin:center;
-}
-
-@keyframes drehen {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.article-stage {
-	margin-top: 100px;
-	min-height: 30vh;
-	background-image: url("images/sunrise.jpg");
-	background-size: cover;
-	background-position: top;
-	background-attachment: fixed;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	color: white;
-	position: relative;
-}
-
-.article-stage::before {
-	content: '';
-	background: linear-gradient(0deg, black, transparent);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-	opacity: 0.3;
-	margin-left: -1.8%;
-}
-
-.stage-headline {
-	font-family: "Arimo", serif;
-	font-weight: bold;
-	font-size: 2rem;
-	line-height: 1.4;
-	position: relative;
-}
-
-.stage-subline {
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: normal;
-	font-size: 1.5rem;
-	line-height: 0.5;
-	position: relative;
-}
-
-.button {
-/* NOTE: border, background, font-family, font-size, padding, border-radius*/
-	background-color: yellow;
-	font-family: "Agipo", sans-serif;
-	font-size: 14px;
-	border-color: yellow;
-	padding: 30px;
-	position: relative;
-}
-
-.button:hover {
-	background-color: #ff0000;
-	border-color: #ff0000;
-}
-
-.article-interactive {
-	text-align: center;
-	min-height: 50vh;
-	background-color: black;
-	display: flex;
-	align-items: center;
-}
-
-.action {
-	background: url(images/harzen.gif);
 }
 
 .face{
