@@ -142,15 +142,12 @@ animation-play-state:running ;
   line-height: 1.38;
   width: 735px;
   height: 330px;
+  float:left;
   margin-top: 73px;
   margin-left: 443px;
 }
 
-@media all and (max-width: 1200px) {
-    .article-ich-digital p {
-    margin-left: 95px;
-    }
-}
+
 
 .info-gehirn-linksbündig .gehirn_überschrift {
   animation-name: blur;
@@ -169,7 +166,38 @@ animation-play-state:running ;
 }
 
 @media all and (max-width: 1200px) {
+    .article-ich-digital p {
+    margin-left: 95px;
+    }
     .article-text h3 {
-    margin-left: 93px;
+    margin-left: 95px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .article-ich-digital p {
+    font-size: 18px;
+    margin-top: 20px;
+    
+    }
+    .article-text h3 {
+    font-size: 24px;
+    }
+    .header-wrap h1 {
+      font-size: 150px;
+    }
+    .header-wrap ul {
+      font-size: 150px;
+    }
+
+}
+
+@media all and (max-width: 375px) {
+    .article-text h3 {
+    font-size: 25px;
+    }
+    .article-ich-digital p {
+    font-size: 16px;
+
     }
 }
