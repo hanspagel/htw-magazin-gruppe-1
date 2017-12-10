@@ -1,6 +1,6 @@
 html {
-  font-size: 20px;
-  line-height: 1.4;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 
@@ -20,6 +20,22 @@ h1 {
   margin: 1em 0;
   text-shadow: 0px 0px 25px  #ffffff;
 }
+
+p {
+  padding-bottom: 0.8rem;
+}
+
+.text {
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  color: white;
+}
+
+.quote {
+  letter-spacing: 4px;
+  text-indent: 1.5rem;
+}
+
 
 .header {
   background-color: #f89989;
@@ -71,8 +87,7 @@ h1 {
   background-repeat: no-repeat;
   width: 400px;
   height: 141px;
-  top: 50px;
-  padding-bottom: 250px;
+  top: 225px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -88,12 +103,6 @@ h1 {
 
 }
 
-.text {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  color: white;
-
-}
 
 .ufo {
 
