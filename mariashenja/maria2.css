@@ -83,24 +83,43 @@ p {
 
 }
 
-.Überschrift {
-  background-image: url(cyberpunkoff.png);
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 141px;
-  top: 225px;
+/* NOTE: Überschrift Neon Sign "Cyberpunk" */
+
+.Überschrift-Neon-Off {
+  top: 10em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
 }
 
-.Überschrift:hover {
-  background-image: url(cyberpunkon.png);
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 141px;
+
+.Überschrift-Neon-On {
+  top: 10em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  opacity: 0;
 }
+
+.Überschrift-Neon-Off:hover {
+  opacity:0;
+}
+
+.Überschrift-Neon-On:hover {
+  opacity:1;
+}
+
+
+.Überschrift-Neon-Off img {
+  width: 100%;
+}
+
+.Überschrift-Neon-On img {
+  width: 100%;
+}
+
 
 
 .ufo {
