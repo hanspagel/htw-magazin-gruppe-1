@@ -3,8 +3,6 @@ html {
   line-height: 1.5;
 }
 
-
-
 body {
 background: black;
 }
@@ -39,7 +37,7 @@ p {
 
 
 .header {
-  background-color: #f89989;
+  background-color: #000000;
   padding: 0.5rem;
   position: fixed;
   left:0px;
@@ -58,7 +56,7 @@ p {
 }
 
 
-.background img{
+.background {
   width: 100%;
   height: auto;
   z-index: 0;
@@ -86,7 +84,7 @@ p {
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
 .Überschrift-Neon-Off {
-  top: 10em;
+  top: 25em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -95,7 +93,7 @@ p {
 
 
 .Überschrift-Neon-On {
-  top: 10em;
+  top: 25em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -120,7 +118,127 @@ p {
   width: 100%;
 }
 
+/* NOTE: Unterüberschrift Origins */
 
+.Origins-Off {
+  top: 22em;
+  position: absolute;
+  left: 20%;
+  z-index: 100;
+  -webkit-filter: blur(0.01rem);
+  -moz-filter: blur(0.01rem);
+  filter: blur(0.01rem);
+}
+
+.Origins-On {
+  top: 22em;
+  position: absolute;
+  left: 20%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.01rem);
+  -moz-filter: blur(0.01rem);
+  filter: blur(0.01rem);
+}
+
+.Origins-Off:hover {
+  opacity:0;
+}
+
+.Origins-On:hover {
+  opacity:1;
+}
+
+.Origins-Off img {
+  width: 80%;
+}
+
+.Origins-On img {
+  width: 80%;
+}
+
+/* NOTE: Unterüberschrift Definition */
+
+.Definition-Off {
+  top: 18em;
+  position: absolute;
+  left: 35%;
+  z-index: 100;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Definition-On {
+  top: 18em;
+  position: absolute;
+  left: 35%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Definition-Off:hover {
+  opacity:0;
+}
+
+.Definition-On:hover {
+  opacity:1;
+}
+
+.Definition-Off img {
+  width: 65%;
+}
+
+.Definition-On img {
+  width: 65%;
+}
+
+
+/* NOTE: Unterüberschrift When is Cyberpunk Now */
+
+.Now-Off {
+  top: 9em;
+  position: absolute;
+  right: 20%;
+  z-index: 100;
+  -webkit-filter: blur(0.04rem);
+  -moz-filter: blur(0.04rem);
+  filter: blur(0.04rem);
+}
+
+.Now-On {
+  top: 9em;
+  position: absolute;
+  right: 20%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.04rem);
+  -moz-filter: blur(0.04rem);
+  filter: blur(0.04rem);
+}
+
+.Now-Off:hover {
+  opacity:0;
+}
+
+.Now-On:hover {
+  opacity:1;
+}
+
+.Now-Off img {
+  width: 30%;
+}
+
+.Now-On img {
+  width: 30%;
+}
+
+
+
+/* NOTE: Icon */
 
 .ufo {
 
@@ -155,7 +273,7 @@ p {
 }
 
 
-
+/* NOTE: Regen Animation */
 
 .animated-rain4 {
   animation: rain 0.4s infinite;
