@@ -87,7 +87,7 @@ p {
   background-image: url(cyberpunkoff.png);
   background-repeat: no-repeat;
   width: 400px;
-  height: 141px;
+  height: 150px;
   top: 225px;
   position: absolute;
   left: 50%;
@@ -102,7 +102,24 @@ p {
   height: 141px;
 }
 
+.schild{
+  background-image: url(cyberpunkoff.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 150px;
+  top: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
 
+.schild:hover {
+  background-image: url(cyberpunkon.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 141px;
+}
 .ufo {
 
   width: 200px;
