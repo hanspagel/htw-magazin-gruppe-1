@@ -84,7 +84,7 @@ p {
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
 .Überschrift-Neon-Off {
-  top: 25em;
+  top: 28em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -93,7 +93,7 @@ p {
 
 
 .Überschrift-Neon-On {
-  top: 25em;
+  top: 28em;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -123,7 +123,7 @@ p {
 .Origins-Off {
   top: 22em;
   position: absolute;
-  left: 20%;
+  left: 25%;
   z-index: 100;
   -webkit-filter: blur(0.01rem);
   -moz-filter: blur(0.01rem);
@@ -133,7 +133,7 @@ p {
 .Origins-On {
   top: 22em;
   position: absolute;
-  left: 20%;
+  left: 25%;
   z-index: 100;
   opacity: 0;
   -webkit-filter: blur(0.01rem);
@@ -150,19 +150,19 @@ p {
 }
 
 .Origins-Off img {
-  width: 80%;
+  width: 65%;
 }
 
 .Origins-On img {
-  width: 80%;
+  width: 65%;
 }
 
 /* NOTE: Unterüberschrift Definition */
 
 .Definition-Off {
-  top: 18em;
+  top: 17em;
   position: absolute;
-  left: 35%;
+  left: 30%;
   z-index: 100;
   -webkit-filter: blur(0.03rem);
   -moz-filter: blur(0.03rem);
@@ -170,9 +170,9 @@ p {
 }
 
 .Definition-On {
-  top: 18em;
+  top: 17em;
   position: absolute;
-  left: 35%;
+  left: 30%;
   z-index: 100;
   opacity: 0;
   -webkit-filter: blur(0.03rem);
@@ -189,20 +189,60 @@ p {
 }
 
 .Definition-Off img {
-  width: 65%;
+  width: 40%;
 }
 
 .Definition-On img {
-  width: 65%;
+  width: 40%;
 }
+
+/* NOTE: Unterüberschrift Essence */
+
+.Essence-Off {
+  top: 13.5em;
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  -webkit-filter: blur(0.04rem);
+  -moz-filter: blur(0.04rem);
+  filter: blur(0.04rem);
+}
+
+.Essence-On {
+  top: 13.5em;
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.04rem);
+  -moz-filter: blur(0.04rem);
+  filter: blur(0.04rem);
+}
+
+.Essence-Off:hover {
+  opacity:0;
+}
+
+.Essence-On:hover {
+  opacity:1;
+}
+
+.Essence-Off img {
+  width: 30%;
+}
+
+.Essence-On img {
+  width: 30%;
+}
+
 
 
 /* NOTE: Unterüberschrift When is Cyberpunk Now */
 
 .Now-Off {
-  top: 9em;
+  top: 7em;
   position: absolute;
-  right: 20%;
+  right: 35%;
   z-index: 100;
   -webkit-filter: blur(0.04rem);
   -moz-filter: blur(0.04rem);
@@ -210,9 +250,9 @@ p {
 }
 
 .Now-On {
-  top: 9em;
+  top: 7em;
   position: absolute;
-  right: 20%;
+  right: 35%;
   z-index: 100;
   opacity: 0;
   -webkit-filter: blur(0.04rem);
@@ -229,11 +269,11 @@ p {
 }
 
 .Now-Off img {
-  width: 30%;
+  width: 25%;
 }
 
 .Now-On img {
-  width: 30%;
+  width: 25%;
 }
 
 
