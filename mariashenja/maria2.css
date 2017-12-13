@@ -299,8 +299,7 @@ p {
 
 .article-interactive {
   text-align: center;
-  min-height: 60vh;
-
+  min-height: 40vh;
   display: flex;
   align-items:center;
 }
@@ -312,6 +311,63 @@ p {
 
 }
 
+.Zeichen img {
+  width: 200px;
+
+}
+
+.Zeichen {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Zeichen:hover {
+  background-image: url(ZeichenNeon.png);
+  background-size: 200px;
+}
+
+.Auto img {
+  width: 200px;
+}
+
+.Auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Auto:hover {
+  background-image: url(AutoNeon.png);
+  background-size: 200px;
+}
+
+.Computer img {
+  width: 200px;
+}
+
+.Computer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Computer:hover {
+  background-image: url(ComputerNeon.png);
+  background-size: 200px;
+}
+
+.Gun img {
+  width: 200px;
+}
+
+.Gun {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Gun:hover {
+  background-image: url(GunNeon.png);
+  background-size: 200px;
+}
 
 /* NOTE: Regen Animation */
 
