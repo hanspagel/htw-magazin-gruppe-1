@@ -1,23 +1,44 @@
 
 
 .metaball-video{
-  width: 100%;
-  max-height: 1024px;
-  display: block;
+  /*width: 100%;*/
+  min-height: 100vh;
+  /*display: block;
   height: 100%;
   position: relative;
   margin: 0;
-  padding: 0;
-  }
+  padding: 0;*/
+}
 
 #metaball-video {
   width: 100%;
+  /*width: 1200px;*/
+  height: 600px;
+  object-fit: cover;
+  /*width: 100%;
+  min-height: 100vh;*/
   /*top: 0;
   right: 0;
   bottom: 0;
   left: 0;*/
 }
 
+/* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
+kann man löschen. Der Code wurde von Lena geschrieben.*/
+
+#metaball-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*
 @media (min-aspect-ratio: 16/9) {
     #trailer > video { height: 300%; top: -100%; }
 }
@@ -31,19 +52,19 @@
         width: 100%; height: 100%;
         object-fit: cover;
     }
-}
+}*/
 
 .header-kuenst h1 {
   padding-left: 15%;
 	font-family: 'Teko';
 	height: 0;
-	font-size: 80px;
-	font-weight: 300;
+	font-size: 150px;
+	font-weight: 500;
 	text-align: left;
 	margin-bottom: 0;
 	color: #f17571;
 
-	top:50%;
+	top:30%;
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
@@ -54,11 +75,11 @@
   padding-left: 35%;
 		font-family: 'Teko';
 	  height: 0;
-		font-size: 80px;
-		font-weight: 300;
+		font-size: 150px;
+		font-weight: 500;
 		text-align: left;
     margin-bottom: 0;
-	  top: 50%;
+	  top: 30%;
 		color: #33495f;
 	  display: inline-block;
 	  box-sizing: border-box;
@@ -66,14 +87,14 @@
 }
 
 .header-inteligenz h1 {
-  padding-left: 31%;
+  padding-left: 35%;
   height: 0;
   margin-top: 0px;
-  top:68%;
+  top:45%;
   height: 180;
 	font-family: 'Teko';
-	font-size: 80px;
-	font-weight: 300;
+	font-size: 150px;
+	font-weight: 500;
 	text-align: left;
 	color: #33495f;
   display: inline-block;

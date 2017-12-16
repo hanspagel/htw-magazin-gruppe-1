@@ -1,14 +1,27 @@
 .spirale_animation {
+  min-height: 100vh;
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
 
   }
 
 #spirale_animation {
   width: 100%;
-  opacity: 0.7;
+  object-fit: cover;
 }
 
+/* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
+kann man löschen. Der Code wurde von Lena geschrieben.*/
+
+#spirale_animation {
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+}
 .gehirn_überschrift {
   font-family: 'Teko';
 	font-size: 150px;

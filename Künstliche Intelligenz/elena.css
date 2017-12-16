@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 /*
 .KI_seite {
@@ -46,15 +47,17 @@ background-color: #DADADA;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
   font-size: 200px;
+  font-weight: 500;
   color: #33495f;
-  border-width: 3px;
+  /*border-width: 3px;*/
   margin: 0;
 }
 
 .header-right ul {
   /*height: 224px;*/
   transition-timing-function:ease;
-  border-width: 3px;
+  /*border-width: 3px;*/
+  padding: 0;
   margin: 0;
 }
 
@@ -126,20 +129,25 @@ animation-play-state:running ;
 .article-ich-digital h3 {
   font-family: 'Teko'; sans-serif;
   font-size: 35px;
+  font-weight: 500px;
   color: #000000;
   margin: 0px 0px 0px 443px;
   text-align: left;
 }
 
+.article-ich-digital{
+  min-height: 100vh;
+}
 .article-ich-digital p {
   font-family: 'Raleway',sans-serif;
   font-size: 24px;
   line-height: 1.38;
-  width: 735px;
   height: 330px;
-  margin-top: 73px;
-  margin-left: 443px;
+  float:left;
+  margin: 73px 60px 0 443px;
 }
+
+
 
 .info-gehirn-linksbündig .gehirn_überschrift {
   animation-name: blur;
@@ -155,4 +163,79 @@ animation-play-state:running ;
   from { text-shadow: 0 0 10px grey; color: transparent; }
   to   { text-shadow: 0;color: #33495f;       }
 
+}
+
+
+/* NOTE: Section "article-ich-digital" */
+
+@media all and (max-width: 1200px) {
+    .article-ich-digital p {
+    margin-left: 95px;
+    }
+    .article-text h3 {
+    margin-left: 95px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .article-ich-digital p {
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 1.5;
+    }
+    .article-text h3 {
+      font-size: 24px;
+    }
+    .header-wrap h1 {
+      font-size: 130px;
+    }
+    .header-wrap ul {
+      font-size: 130px;
+    }
+    .header-wrap {
+      height: 130px;
+      margin-bottom: 50px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .header-wrap h1 {
+      font-size: 100px;
+    }
+    .header-wrap ul {
+      font-size: 100px;
+    }
+    .article-text h3 {
+      font-size: 20px;
+    }
+    .article-ich-digital p {
+      font-size: 16px;
+    }
+    .header-wrap {
+      height: 100px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+    }
+    .article-ich-digital h3 {
+      margin-left: 50px;
+    }
+    .article-ich-digital p {
+      margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 420px) {
+  .header-wrap h1 {
+    font-size: 80px;
+  }
+  .header-wrap ul {
+    font-size: 80px;
+  }
+  .article-text h3 {
+    font-size: 16px;
+  }
+  .article-ich-digital p {
+    font-size: 14px;
+  }
 }

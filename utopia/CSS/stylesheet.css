@@ -1,9 +1,17 @@
 html{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.4;
   color: white;
   /*opacity: 0.75;*/
+}
+
+@media all and (min-width: 800px) {
+
+  html {
+    font-size: 20px;
+  }
+
 }
 
 body{
@@ -11,7 +19,6 @@ body{
   background-image: url(../images/background5.png);
   background-attachment: fixed;
   padding: 0;
-
 }
 
 .backgroundstars{
@@ -25,14 +32,6 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
-.article-inner-wide{
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*NOTE: Überschrift 1*/
 
 h1{
   font-family: 'Josefin Sans', sans-serif;
@@ -53,6 +52,7 @@ h2{
   color: white;
 }
 
+p:first-of-type{
 /*p:first-of-type{
   font-size: 1.4rem;
 }*/
@@ -67,6 +67,8 @@ h2{
 .article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
 }*/
+
+/*Ich bin ein Kommentar. Funktioniert so: CMD+Shift+7. Tadaa!*/
 
 .article-module {
   padding: 1.5rem 0;
@@ -128,7 +130,7 @@ color:red
   }
 }
 
-.animated-face {
+/*.animated-face {
   animation: drehen 10s infinite;
   transform-origin: center;
 }
@@ -187,7 +189,7 @@ color:red
   100% {
     transform: translate(0px, -370px)
   }
-}
+}*/
 
 .article-stage {
 /*  background-image: url(../images/milkyway.jpg);*/
@@ -230,7 +232,7 @@ color:red
   width: 300px;
   height: auto;
   position: absolute;
-  margin-left: -320px;
+  margin-left: -310px;
   filter: grayscale(100%);
   transition: filter 0.5s;
 }
@@ -238,6 +240,49 @@ color:red
 .thomas:hover {
   filter: grayscale(0%);
 }
+
+.henry {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  margin-left: 640px;
+  margin-top: -120px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.henry:hover {
+  filter: grayscale(0%);
+}
+
+.john {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  margin-left: -250px;
+  margin-top: -120px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.john:hover {
+  filter: grayscale(0%)
+}
+
+.hieronymus {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  margin-left: 640px;
+  margin-top: -50px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.hieronymus:hover {
+  filter: grayscale(0%);
+}
+
 
 .button {
   background-color: #ffdeeb;
@@ -272,13 +317,10 @@ color:red
   background: url(../images/door1.png);
   background-repeat: no-repeat;
   background-position: center;
-
-
 }*/
 
 .stars{
   position: absolute;
-
 }
 
 /*.article-pic img{
@@ -326,7 +368,7 @@ color:red
 
 .header a {
   display: inline-block;
-  color: magenta;
+  color: black;
   text-decoration: none;
   transform: rotate(270deg) translateX(-50px);
 }
@@ -356,6 +398,6 @@ body::-webkit-scrollbar-track-piece{
 
 body::-webkit-scrollbar-thumb {
 background: transparent;
-  /*background: linear-gradient(#faade9, #fbe657, #58f6f8);*/
-  /*outline: 1px solid slategrey;*/
+background: linear-gradient(#faade9, #fbe657, #58f6f8);
+outline: 1px solid slategrey;
 }

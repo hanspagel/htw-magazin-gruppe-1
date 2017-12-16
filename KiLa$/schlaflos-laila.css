@@ -24,6 +24,7 @@ html {
   line-height: 1.1;
 }
 
+
 p {
   font-family: 'Space Mono';
   font-size: 20px;
@@ -350,6 +351,50 @@ h5 {
   text-align:center;
 }
 
+
+.button {
+  border-radius: 0;
+  border: 5px solid black;
+  background-color: yellow;
+  font-family: '5darius_regular';
+  font-size: 1.2rem;
+  padding: 15px 30px;
+
+  box-shadow: 5px 5px 0 0 black;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 2px cyan;
+}
+
+.button:hover {
+  background-color: magenta;
+  color: cyan;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: cyan;
+  display:flex;
+  align-items: center;
+}
+
+.action {
+  background: url(giphy.gif);
+  background-size: cover;
+  /* NOTE: oder statt background-size: bg-repeat + bg-position */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info{
+  margin-top: 2rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+
 .animated-eye {
   animation: fancy 1s infinite alternate;
   transform-origin: center;
@@ -378,4 +423,14 @@ h5 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* NOTE: Responsive Design */
+
+@media all and (min-width: 400px) {
+
+html {
+  font-size: 18px
+}
+
 }
