@@ -1,5 +1,5 @@
 html{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alegreya', serif;
   font-size: 18px;
   line-height: 1.4;
   color: white;
@@ -39,7 +39,7 @@ body{
 /*NOTE: Überschrift 1*/
 
 h1{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alegreya', serif;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 3rem;
@@ -49,7 +49,7 @@ h1{
 }
 
 h2{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alegreya', serif;
   font-weight: 600;
   font-size: 1.5rem;
   font-variant: small-caps;
@@ -174,7 +174,7 @@ color:red
   width: 300px;
   height: auto;
   position: absolute;
-  margin-left: -320px;
+  margin-left: -310px;
   filter: grayscale(100%);
   transition: filter 0.5s;
 }
@@ -183,33 +183,20 @@ color:red
   filter: grayscale(0%);
 }
 
-.henry {
+.john {
   width: 250px;
   height: auto;
   position: absolute;
-  margin-left: 640px;
-  margin-top: -120px;
-  filter: grayscale(100%);
-  transition: filter 0.5s;
-}
-
-.henry:hover {
-  filter: grayscale(0%);
-}
-
-.john {
-  width: 200px;
-  height: auto;
-  position: absolute;
-  margin-left: -250px;
+  margin-left: -260px;
   margin-top: -120px;
   filter: grayscale(100%);
   transition: filter 0.5s;
 }
 
 .john:hover {
-  filter: grayscale(0%)
+  filter: grayscale(0%);
 }
+
 
 .hieronymus {
   width: 250px;
@@ -222,6 +209,34 @@ color:red
 }
 
 .hieronymus:hover {
+  filter: grayscale(0%);
+}
+
+.heinrich {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  margin-left: 640px;
+  margin-top: -90px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.lenin:hover {
+  filter: grayscale(0%);
+}
+
+.lenin {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  margin-left: -280px;
+  margin-top: -340px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+
+.heinrich:hover {
   filter: grayscale(0%);
 }
 
@@ -312,7 +327,7 @@ color:red
 
 .header a {
   display: inline-block;
-  color: magenta;
+  color: black;
   text-decoration: none;
   transform: rotate(270deg) translateX(-50px);
 }
