@@ -84,8 +84,68 @@ body{
   margin-left: 50%;
 }
 
+.blauemoschee img{
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 50%;
+}
 
+.bunteburg img{
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 40%;
+}
 
+.freiheitsturmgruen img{
+  width: 10%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 300%;
+}
+
+.halbkreisschloss img{
+  width: 170%;
+  height: auto;
+  margin-top: -10%;
+  margin-left: 65%;
+}
+
+.lilafels img{
+  width: 110%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 130%;
+}
+
+.lilafelsentempel img{
+  width: 120%;
+  height: auto;
+  margin-top: 0%;
+  margin-left: 20%;
+}
+
+.oldcitycastle img{
+  width: 200%;
+  height: auto;
+  margin-top: 35%;
+  margin-left: 20%;
+}
+
+.regenbogentempel img{
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+.schlossauffelsen img{
+  width: 70%;
+  height: auto;
+  margin-top: 0%;
+  margin-left: 90%;
+}
 
 [data-aos="einhorn"] {
   transform: scale(40%);
