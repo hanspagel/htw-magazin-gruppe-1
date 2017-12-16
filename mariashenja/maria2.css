@@ -17,7 +17,7 @@ h1 {
   font-size: 2rem;
   letter-spacing: 2px;
   margin: 1em 0;
-  text-shadow: 0px 0px 25px  #ffffff;
+  text-shadow: 0px 0px 25px  #5df3ee;
 }
 
 p {
@@ -30,10 +30,6 @@ p {
   color: white;
 }
 
-.quote {
-  letter-spacing: 4px;
-  text-indent: 1.5rem;
-}
 
 
 .header {
@@ -347,12 +343,7 @@ p {
   align-items:center;
 }
 
-.action {
-  background-image: url(boom.gif);
-  background-repeat: no-repeat;
-  background-position: center;
 
-}
 
 .Zeichen img {
   width: 200px;
@@ -411,6 +402,31 @@ p {
   background-image: url(GunNeon.png);
   background-size: 200px;
 }
+
+.Röhre img {
+  width: 50px;
+}
+
+
+
+.Röhre:hover {
+  background-image: url(NeonRöhre.png);
+  background-size: 50px;
+}
+
+
+.article-quote {
+  display: flex;
+  align-items: flex-start;
+}
+
+.quote {
+  padding:25px;
+
+}
+
+
+
 
 /* NOTE: Regen Animation */
 
