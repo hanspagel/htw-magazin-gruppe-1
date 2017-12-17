@@ -1,3 +1,6 @@
+
+
+
 html {
   font-size: 22px;
   line-height: 1.5;
@@ -32,6 +35,7 @@ p {
 
 
 
+
 .header {
   background-color: #000000;
   padding: 0.5rem;
@@ -59,19 +63,13 @@ p {
   padding-top: 0.5rem;
 }
 
-.regen {
-  z-index: 20;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+
 
 .article {
   position: relative;
   z-index: 100;
-  width: 700px;
+  max-width: 700px;
+  padding: 2rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -80,7 +78,7 @@ p {
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
 .Überschrift-Neon-Off {
-  top: 28em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -92,7 +90,7 @@ p {
 
 
 .Überschrift-Neon-On {
-  top: 28em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -430,6 +428,15 @@ p {
 
 /* NOTE: Regen Animation */
 
+.regen {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .animated-rain4 {
   animation: rain 0.4s infinite;
   z-index: 5;
@@ -451,7 +458,22 @@ p {
 }
 
 .animated-rain5 {
-  animation: rain 0.9s infinite;
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain6 {
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain7 {
+  animation: rain 1.5s infinite;
+  z-index: 5;
+}
+
+.animated-rain8 {
+  animation: rain 0.8s infinite;
   z-index: 5;
 }
 
@@ -466,5 +488,136 @@ p {
 .article-parallax {
   width: 100%;
   height: auto;
+
+}
+
+
+/* Responsive*/
+
+@media screen and (max-width: 900px) {
+
+.Überschrift-Neon-Off {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-On {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-Off img {
+  width: 100%;
+}
+
+.Überschrift-Neon-On img {
+  width: 100%;
+}
+
+.Origins-Off {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-On {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-Off img {
+  width: 50%;
+}
+
+.Origins-On img {
+  width: 50%;
+}
+
+.Definition-Off {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-On {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-Off img {
+  width: 60%;
+}
+
+.Definition-On img {
+  width: 60%;
+}
+
+.Essence-Off {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-On {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-Off img {
+  width: 70%;
+}
+
+.Essence-On img {
+  width: 70%;
+}
+
+.Now-Off {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-On {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-Off img {
+  width: 80%;
+}
+
+.Now-On img {
+  width: 80%;
+}
+
+
+.Exit-Off {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-On {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-Off img {
+  width: 20%;
+}
+
+.Exit-On img {
+  width: 20%;
+}
+
+h1 {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
 
 }
