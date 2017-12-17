@@ -19,9 +19,9 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
-  margin: 1em 0;
   text-shadow: 0px 0px 25px  #5df3ee;
 }
+
 
 p {
   padding-bottom: 0.8rem;
@@ -32,9 +32,6 @@ p {
   font-weight: 400;
   color: white;
 }
-
-
-
 
 .header {
   background-color: #000000;
@@ -62,7 +59,6 @@ p {
   z-index: 0;
   padding-top: 0.5rem;
 }
-
 
 
 .article {
@@ -317,88 +313,67 @@ p {
 
 /* NOTE: Icon */
 
-.ufo {
-
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.ufo:hover {
-  background-image: url(ufoneonon.png);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-
-}
 
 .article-interactive {
-  text-align: center;
-  min-height: 40vh;
   display: flex;
-  align-items:center;
+
 }
 
 
 
 .Zeichen img {
-  width: 200px;
+  max-width: 400px;
 
 }
 
 .Zeichen {
-  margin-left: auto;
-  margin-right: auto;
+
 
 }
 
 .Zeichen:hover {
-  background-image: url(ZeichenNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/ZeichenNeon.png);
+  background-size: 400px;
 }
 
 .Auto img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Auto {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Auto:hover {
-  background-image: url(AutoNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/AutoNeon.png);
+  background-size: 400px;
+
 }
 
 .Computer img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Computer {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Computer:hover {
-  background-image: url(ComputerNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/ComputerNeon.png);
+  background-size: 400px;
 }
 
 .Gun img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Gun {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Gun:hover {
-  background-image: url(GunNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/GunNeon.png);
+  background-size: 400px;
 }
 
 .Röhre img {
@@ -408,7 +383,7 @@ p {
 
 
 .Röhre:hover {
-  background-image: url(NeonRöhre.png);
+  background-image: url(Bilder/NeonRöhre.png);
   background-size: 50px;
 }
 
