@@ -8,13 +8,11 @@
   max-width: 100%;
   width: 630px;
   font-family: "Teko";
-  /* NOTE: man kann entweder 400 500 oder 600 schreiben */
   font-weight: 500;
   font-size:18vw;
   color: #f17571;
   margin-left: 132px;
   margin-bottom: 0px;
-  border: solid;
   padding: 0px;
 }
 
@@ -29,18 +27,17 @@
   text-align: left;
   color: #ffffff;
   margin-left: 139px;
-  border: solid;
 }
 
 .neuronen-article {
   background-color: #394a5c;
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .js-background {
-width: 100%;
-height: 1024px;
-position: relative;
+  width: 100%;
+  height: 1024px;
+  position: relative;
 }
 
 .nest-info-wraper {
