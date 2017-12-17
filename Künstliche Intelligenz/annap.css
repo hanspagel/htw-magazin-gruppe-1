@@ -27,7 +27,7 @@
 kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 #metaball-video {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
