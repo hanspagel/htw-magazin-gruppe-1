@@ -11,7 +11,7 @@ body, html {
   width: 100%;
 }
 
-/* NOTE: Media Queries */
+/* NOTE: Media Queries – Stichwort Responsive ! */
 
 @media all and (max-width: 1000px) {
   body, html {
@@ -32,7 +32,7 @@ video {
   height: auto;
 }
 
-.video-wrapper {
+.video-wrapper { /* BENÖTIGT ??? */
 
 }
 
@@ -154,7 +154,7 @@ p.link a:active {
   color: red;
 }
 
-/* === MAP – CANADA === */
+/* MAP HOVER – ENDE */
 
 .nhl_wrapper {
   display: flex;
@@ -254,8 +254,6 @@ p.link a:active {
   transform: scale(1.6);
   transition: 0.1s;
 }
-
-/* === MAP – USA === */
 
 .nhl_city_boston {
   position: absolute;
@@ -578,7 +576,7 @@ p.link a:active {
 
 .header-fr {
   margin-top: 127px;
-  background-color: #1CBCD9;
+  background-color: #1CBCD9; /* testen, welche farbe websicher an dieser stelle ist */
 }
 
 .header-content {
@@ -602,7 +600,6 @@ p.link a:active {
 .infos_headline {
   display: flex;
   height: 200px;
-  /*margin-top: 10px;*/
   width: 100%;
 }
 
