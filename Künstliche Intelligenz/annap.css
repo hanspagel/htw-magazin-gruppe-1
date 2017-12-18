@@ -56,7 +56,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 
 .header-kuenst h1 {
-  padding-left: 12%;
+  padding-left: 14%;
   /*padding-right: 5%;*/
 	font-family: 'Teko';
 	height: 0;
@@ -70,7 +70,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	box-sizing: border-box;
   position: absolute;
   /*padding-right: 10px;*/
-  border:solid;
 }
 
 .header-liche h1 {
