@@ -15,6 +15,7 @@
   /*width: 1200px;*/
   height: 600px;
   object-fit: cover;
+  overflow: hidden;
   /*width: 100%;
   min-height: 100vh;*/
   /*top: 0;
@@ -27,7 +28,7 @@
 kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 #metaball-video {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -54,8 +55,10 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     }
 }*/
 
+
 .header-kuenst h1 {
   padding-left: 15%;
+  /*padding-right: 5%;*/
 	font-family: 'Teko';
 	height: 0;
 	font-size: 150px;
@@ -63,12 +66,11 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	text-align: left;
 	margin-bottom: 0;
 	color: #f17571;
-
 	top:30%;
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
-  padding-right: 0;
+  /*padding-right: 10px;*/
 }
 
 .header-liche h1 {
@@ -84,6 +86,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	  display: inline-block;
 	  box-sizing: border-box;
     position: absolute;
+    margin-left: 0;
 }
 
 .header-inteligenz h1 {
@@ -219,12 +222,12 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     .header-inteligenz{
       padding-left: 15%
     }
-    #metaball-video{
+    /*#metaball-video{
       width: inherit;
       min-width: 100%;
       height: 100%;
       margin-left: -100%;
-    }
+    }*/
 
 }
 
@@ -427,6 +430,93 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	background: url(giphy-downsized.gif);
 	background-repeat: no-repeat;
 	background-position: center;
+}
 
 
+
+@media all and (max-width: 1450px) {
+    .header-kuenst h1 {
+    padding-left: 11%;
+    }
+}
+
+@media all and (max-width: 1360px) {
+    .header-kuenst h1 {
+    padding-left: 0%;
+    margin-left: 50px;
+    }
+    .header-liche h1 {
+      padding-left: 28%;
+    }
+    .header-inteligenz h1 {
+      padding-left: 28%;
+    }
+}
+
+@media all and (max-width: 1280px) {
+  .header-liche h1 {
+    padding-left: 35%;
+  }
+  .header-inteligenz h1 {
+    padding-left: 35%;
+  }
+}
+
+@media all and (max-width: 1115px) {
+  .header-liche h1 {
+    padding-left: 40%;
+  }
+  .header-inteligenz h1 {
+    padding-left: 5%;
+  }
+}
+
+@media all and (max-width: 925px) {
+  .header-liche h1 {
+    padding-left: 45%;
+  }
+
+}
+
+@media all and (max-width: 800px) {
+    .header-kuenst h1 {
+    font-size: 130px;
+    }
+    .header-liche h1 {
+      font-size: 130px;
+    }
+    .header-inteligenz h1 {
+    font-size: 130px;
+    }
+}
+
+@media all and (max-width: 700px) {
+  .header-liche h1 {
+    padding-left: 55%;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+    .header-kuenst h1 {
+    font-size: 100px;
+    }
+    .header-liche h1 {
+      font-size: 100px;
+    }
+    .header-inteligenz h1 {
+    font-size: 100px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .header-kuenst h1 {
+    font-size: 80px;
+    }
+    .header-liche h1 {
+      font-size: 80px;
+    }
+    .header-inteligenz h1 {
+    font-size: 80px;
+    }
 }

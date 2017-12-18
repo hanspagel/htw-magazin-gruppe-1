@@ -1,3 +1,6 @@
+
+
+
 html {
   font-size: 22px;
   line-height: 1.5;
@@ -16,9 +19,9 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
-  margin: 1em 0;
-  text-shadow: 0px 0px 25px  #ffffff;
+  text-shadow: 0px 0px 25px  #5df3ee;
 }
+
 
 p {
   padding-bottom: 0.8rem;
@@ -29,12 +32,6 @@ p {
   font-weight: 400;
   color: white;
 }
-
-.quote {
-  letter-spacing: 4px;
-  text-indent: 1.5rem;
-}
-
 
 .header {
   background-color: #000000;
@@ -63,19 +60,12 @@ p {
   padding-top: 0.5rem;
 }
 
-.regen {
-  z-index: 20;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
 .article {
   position: relative;
   z-index: 100;
-  width: 700px;
+  max-width: 700px;
+  padding: 2rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -84,21 +74,27 @@ p {
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
 .Überschrift-Neon-Off {
-  top: 25em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 
 .Überschrift-Neon-On {
-  top: 25em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
   opacity: 0;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 .Überschrift-Neon-Off:hover {
@@ -123,22 +119,22 @@ p {
 .Origins-Off {
   top: 22em;
   position: absolute;
-  left: 20%;
+  left: 25%;
   z-index: 100;
-  -webkit-filter: blur(0.01rem);
-  -moz-filter: blur(0.01rem);
-  filter: blur(0.01rem);
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 .Origins-On {
   top: 22em;
   position: absolute;
-  left: 20%;
+  left: 25%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.01rem);
-  -moz-filter: blur(0.01rem);
-  filter: blur(0.01rem);
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 .Origins-Off:hover {
@@ -150,19 +146,19 @@ p {
 }
 
 .Origins-Off img {
-  width: 80%;
+  width: 65%;
 }
 
 .Origins-On img {
-  width: 80%;
+  width: 65%;
 }
 
 /* NOTE: Unterüberschrift Definition */
 
 .Definition-Off {
-  top: 18em;
+  top: 17em;
   position: absolute;
-  left: 35%;
+  left: 30%;
   z-index: 100;
   -webkit-filter: blur(0.03rem);
   -moz-filter: blur(0.03rem);
@@ -170,9 +166,9 @@ p {
 }
 
 .Definition-On {
-  top: 18em;
+  top: 17em;
   position: absolute;
-  left: 35%;
+  left: 30%;
   z-index: 100;
   opacity: 0;
   -webkit-filter: blur(0.03rem);
@@ -189,35 +185,75 @@ p {
 }
 
 .Definition-Off img {
-  width: 65%;
+  width: 40%;
 }
 
 .Definition-On img {
-  width: 65%;
+  width: 40%;
 }
+
+/* NOTE: Unterüberschrift Essence */
+
+.Essence-Off {
+  top: 13.5em;
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Essence-On {
+  top: 13.5em;
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Essence-Off:hover {
+  opacity:0;
+}
+
+.Essence-On:hover {
+  opacity:1;
+}
+
+.Essence-Off img {
+  width: 30%;
+}
+
+.Essence-On img {
+  width: 30%;
+}
+
 
 
 /* NOTE: Unterüberschrift When is Cyberpunk Now */
 
 .Now-Off {
-  top: 9em;
+  top: 7em;
   position: absolute;
-  right: 20%;
+  right: 35%;
   z-index: 100;
-  -webkit-filter: blur(0.04rem);
-  -moz-filter: blur(0.04rem);
-  filter: blur(0.04rem);
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 .Now-On {
-  top: 9em;
+  top: 7em;
   position: absolute;
-  right: 20%;
+  right: 35%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.04rem);
-  -moz-filter: blur(0.04rem);
-  filter: blur(0.04rem);
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
 }
 
 .Now-Off:hover {
@@ -229,51 +265,152 @@ p {
 }
 
 .Now-Off img {
-  width: 30%;
+  width: 25%;
 }
 
 .Now-On img {
-  width: 30%;
+  width: 25%;
 }
 
+/* NOTE: Exit Sign */
 
+.Exit-Off {
+  top: 32em;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Exit-On {
+  top: 32em;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  -webkit-filter: blur(0.03rem);
+  -moz-filter: blur(0.03rem);
+  filter: blur(0.03rem);
+}
+
+.Exit-Off:hover {
+  opacity:0;
+}
+
+.Exit-On:hover {
+  opacity:1;
+}
+
+.Exit-Off img {
+  width: 25%;
+}
+
+.Exit-On img {
+  width: 25%;
+}
 
 /* NOTE: Icon */
 
-.ufo {
-
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.ufo:hover {
-  background-image: url(ufoneonon.png);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-
-}
 
 .article-interactive {
-  text-align: center;
-  min-height: 60vh;
-
   display: flex;
-  align-items:center;
-}
-
-.action {
-  background-image: url(boom.gif);
-  background-repeat: no-repeat;
-  background-position: center;
 
 }
+
+
+
+.Zeichen img {
+  max-width: 400px;
+
+}
+
+.Zeichen {
+
+
+}
+
+.Zeichen:hover {
+  background-image: url(Bilder/ZeichenNeon.png);
+  background-size: 400px;
+}
+
+.Auto img {
+  max-width: 400px;
+}
+
+.Auto {
+
+}
+
+.Auto:hover {
+  background-image: url(Bilder/AutoNeon.png);
+  background-size: 400px;
+
+}
+
+.Computer img {
+  max-width: 400px;
+}
+
+.Computer {
+
+}
+
+.Computer:hover {
+  background-image: url(Bilder/ComputerNeon.png);
+  background-size: 400px;
+}
+
+.Gun img {
+  max-width: 400px;
+}
+
+.Gun {
+
+}
+
+.Gun:hover {
+  background-image: url(Bilder/GunNeon.png);
+  background-size: 400px;
+}
+
+.Röhre img {
+  width: 50px;
+}
+
+
+
+.Röhre:hover {
+  background-image: url(Bilder/NeonRöhre.png);
+  background-size: 50px;
+}
+
+
+.article-quote {
+  display: flex;
+  align-items: flex-start;
+}
+
+.quote {
+  padding:25px;
+
+}
+
+
 
 
 /* NOTE: Regen Animation */
+
+.regen {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 .animated-rain4 {
   animation: rain 0.4s infinite;
@@ -296,7 +433,22 @@ p {
 }
 
 .animated-rain5 {
-  animation: rain 0.9s infinite;
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain6 {
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain7 {
+  animation: rain 1.5s infinite;
+  z-index: 5;
+}
+
+.animated-rain8 {
+  animation: rain 0.8s infinite;
   z-index: 5;
 }
 
@@ -311,5 +463,136 @@ p {
 .article-parallax {
   width: 100%;
   height: auto;
+
+}
+
+
+/* Responsive*/
+
+@media screen and (max-width: 900px) {
+
+.Überschrift-Neon-Off {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-On {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-Off img {
+  width: 100%;
+}
+
+.Überschrift-Neon-On img {
+  width: 100%;
+}
+
+.Origins-Off {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-On {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-Off img {
+  width: 50%;
+}
+
+.Origins-On img {
+  width: 50%;
+}
+
+.Definition-Off {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-On {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-Off img {
+  width: 60%;
+}
+
+.Definition-On img {
+  width: 60%;
+}
+
+.Essence-Off {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-On {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-Off img {
+  width: 70%;
+}
+
+.Essence-On img {
+  width: 70%;
+}
+
+.Now-Off {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-On {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-Off img {
+  width: 80%;
+}
+
+.Now-On img {
+  width: 80%;
+}
+
+
+.Exit-Off {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-On {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-Off img {
+  width: 20%;
+}
+
+.Exit-On img {
+  width: 20%;
+}
+
+h1 {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
 
 }

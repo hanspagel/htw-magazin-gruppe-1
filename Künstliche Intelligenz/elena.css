@@ -43,10 +43,10 @@ background-color: #DADADA;
 }
 
 .article-ich-digital h1{
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
-  font-size: 200px;
+  font-size: 224px;
   font-weight: 500;
   color: #33495f;
   /*border-width: 3px;*/
@@ -54,6 +54,8 @@ background-color: #DADADA;
 }
 
 .header-right ul {
+  font-size: 224px;
+  font-weight: 500;
   /*height: 224px;*/
   transition-timing-function:ease;
   /*border-width: 3px;*/
@@ -63,7 +65,7 @@ background-color: #DADADA;
 
 
 .header-right ul li{
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
   color: #33495f;
@@ -127,9 +129,9 @@ animation-play-state:running ;
 }
 
 .article-ich-digital h3 {
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 35px;
-  font-weight: 500px;
+  font-weight: 400;
   color: #000000;
   margin: 0px 0px 0px 443px;
   text-align: left;
@@ -166,7 +168,25 @@ animation-play-state:running ;
 }
 
 
-/* NOTE: Section "article-ich-digital" */
+
+
+@media all and (max-width: 2048px) {
+    .article-ich-digital p {
+    margin-right: 500px;
+    }
+}
+
+@media all and (max-width: 1800px) {
+    .article-ich-digital p {
+    margin-right: 300px;
+    }
+}
+
+@media all and (max-width: 1450px) {
+    .article-ich-digital p {
+    margin-right: 60px;
+    }
+}
 
 @media all and (max-width: 1200px) {
     .article-ich-digital p {
@@ -177,7 +197,20 @@ animation-play-state:running ;
     }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
+
+    .header-wrap h1 {
+      font-size: 200px;
+    }
+    .header-wrap ul {
+      font-size: 200px;
+    }
+    .header-wrap {
+
+
+}
+
+@media all and (max-width: 860px) {
     .article-ich-digital p {
       font-size: 18px;
       margin-top: 20px;
