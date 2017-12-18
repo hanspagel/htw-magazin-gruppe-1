@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to Utopia</title>
-    <link rel="stylesheet" href="CSS/stylesheet2.css">
+    <link rel="stylesheet" href="css/stylesheet2.css">
     <script src="jquery.js" charset="utf-8"></script>
     <script src="jquery.stellar.js" charset="utf-8"></script>
+    <link rel="stylesheet2" href="css/aos.css">
+    <script src="aos.js"></script>
+
+
   </head>
 
   <body>
@@ -16,7 +20,7 @@
 
 
 
-      <section class="article-module rosaschloss" data-aos="einhorn"
+      <section class="article-module rosaschloss" data-aos="zoom-in"
         data-aos-offset="50px"
         data-aos-duration="500">
 
@@ -183,7 +187,7 @@
 
       </section>
 
-      <section class="article-module schlossauffelsen">
+      <section class="article-module schlossauffelsen" data-aos="zoom-in">
 
         <div class="article-inner">
 
@@ -195,6 +199,17 @@
       </section>
 
   </section>
+
+  <script>
+  			AOS.init({
+  				easing: 'ease-out-back',
+  				duration: 1000
+  			});
+  		</script>
+
+  <!--<script>
+      AOS.init();
+  </script>-->
 
   <script>
     $(window).stellar();
