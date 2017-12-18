@@ -101,7 +101,81 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   margin-bottom: 0px;
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 2048px) {
+
+  .infographic-1-info {
+    margin-bottom: 300px;
+  }
+  .infographic-2-info {
+    margin-bottom: 300px;
+  }
+  .infographic-3-info {
+    margin-bottom: 300px;
+  }
+  .infographic-4-info {
+    margin-bottom: 300px;
+  }
+  .infographic-5-info {
+    margin-bottom: 300px;
+  }
+}
+
+@media all and (max-width: 1850px) {
+
+  .infographic-1-info {
+    margin-bottom: 250px;
+  }
+  .infographic-2-info {
+    margin-bottom: 250px;
+  }
+  .infographic-3-info {
+    margin-bottom: 250px;
+  }
+  .infographic-4-info {
+    margin-bottom: 250px;
+  }
+  .infographic-5-info {
+    margin-bottom: 250px;
+  }
+}
+
+@media all and (max-width: 1700px) {
+
+  .infographic-1-info {
+    margin-bottom: 200px;
+  }
+  .infographic-2-info {
+    margin-bottom: 200px;
+  }
+  .infographic-3-info {
+    margin-bottom: 200px;
+  }
+  .infographic-4-info {
+    margin-bottom: 200px;
+  }
+  .infographic-5-info {
+    margin-bottom: 200px;
+  }
+}
+@media all and (max-width: 1600px) {
+
+  .infographic-1-info {
+    margin-bottom: 150px;
+  }
+  .infographic-2-info {
+    margin-bottom: 150px;
+  }
+  .infographic-3-info {
+    margin-bottom: 150px;
+  }
+  .infographic-4-info {
+    margin-bottom: 150px;
+  }
+  .infographic-5-info {
+    margin-bottom: 150px;
+  }
+}
+@media all and (max-width: 1400px) {
 
   .infographic-1-info {
     margin-bottom: 50px;
