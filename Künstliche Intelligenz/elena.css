@@ -168,7 +168,25 @@ animation-play-state:running ;
 }
 
 
-/* NOTE: Section "article-ich-digital" */
+
+
+@media all and (max-width: 2048px) {
+    .article-ich-digital p {
+    margin-right: 500px;
+    }
+}
+
+@media all and (max-width: 1800px) {
+    .article-ich-digital p {
+    margin-right: 300px;
+    }
+}
+
+@media all and (max-width: 1450px) {
+    .article-ich-digital p {
+    margin-right: 60px;
+    }
+}
 
 @media all and (max-width: 1200px) {
     .article-ich-digital p {
@@ -179,7 +197,20 @@ animation-play-state:running ;
     }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
+
+    .header-wrap h1 {
+      font-size: 200px;
+    }
+    .header-wrap ul {
+      font-size: 200px;
+    }
+    .header-wrap {
+
+
+}
+
+@media all and (max-width: 860px) {
     .article-ich-digital p {
       font-size: 18px;
       margin-top: 20px;
