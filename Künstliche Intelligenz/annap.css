@@ -54,8 +54,10 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     }
 }*/
 
+
 .header-kuenst h1 {
-  padding-left: 15%;
+  padding-left: 12%;
+  /*padding-right: 5%;*/
 	font-family: 'Teko';
 	height: 0;
 	font-size: 150px;
@@ -63,12 +65,12 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	text-align: left;
 	margin-bottom: 0;
 	color: #f17571;
-
 	top:30%;
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
-  padding-right: 0;
+  /*padding-right: 10px;*/
+  border:solid;
 }
 
 .header-liche h1 {
@@ -84,6 +86,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	  display: inline-block;
 	  box-sizing: border-box;
     position: absolute;
+    margin-left: 0;
 }
 
 .header-inteligenz h1 {
@@ -219,12 +222,12 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     .header-inteligenz{
       padding-left: 15%
     }
-    #metaball-video{
+    /*#metaball-video{
       width: inherit;
       min-width: 100%;
       height: 100%;
       margin-left: -100%;
-    }
+    }*/
 
 }
 
@@ -427,6 +430,25 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	background: url(giphy-downsized.gif);
 	background-repeat: no-repeat;
 	background-position: center;
+}
 
+@media all and (max-width: 1300px) {
+    .header-kuenst h1 {
+    padding-left: 0%;
+    }
 
+}
+
+@media all and (max-width: 800px) {
+    .header-kuenst h1 {
+    font-size: 130px;
+    padding-right: 50px;
+    }
+    .header-liche h1 {
+      font-size: 130px;
+      padding-left: 50px;
+    }
+    .header-inteligenz h1 {
+    font-size: 130px;
+    }
 }
