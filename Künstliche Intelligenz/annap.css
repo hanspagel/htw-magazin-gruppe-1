@@ -15,6 +15,7 @@
   /*width: 1200px;*/
   height: 600px;
   object-fit: cover;
+  overflow: hidden;
   /*width: 100%;
   min-height: 100vh;*/
   /*top: 0;
@@ -56,7 +57,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 
 .header-kuenst h1 {
-  padding-left: 14%;
+  padding-left: 15%;
   /*padding-right: 5%;*/
 	font-family: 'Teko';
 	height: 0;
@@ -431,23 +432,89 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	background-position: center;
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1450px) {
+    .header-kuenst h1 {
+    padding-left: 11%;
+    }
+}
+
+@media all and (max-width: 1360px) {
     .header-kuenst h1 {
     padding-left: 0%;
+    margin-left: 50px;
     }
+    .header-liche h1 {
+      padding-left: 28%;
+    }
+    .header-inteligenz h1 {
+      padding-left: 28%;
+    }
+}
+
+@media all and (max-width: 1280px) {
+  .header-liche h1 {
+    padding-left: 35%;
+  }
+  .header-inteligenz h1 {
+    padding-left: 35%;
+  }
+}
+
+@media all and (max-width: 1115px) {
+  .header-liche h1 {
+    padding-left: 40%;
+  }
+  .header-inteligenz h1 {
+    padding-left: 5%;
+  }
+}
+
+@media all and (max-width: 925px) {
+  .header-liche h1 {
+    padding-left: 45%;
+  }
 
 }
 
 @media all and (max-width: 800px) {
     .header-kuenst h1 {
     font-size: 130px;
-    padding-right: 50px;
     }
     .header-liche h1 {
       font-size: 130px;
-      padding-left: 50px;
     }
     .header-inteligenz h1 {
     font-size: 130px;
+    }
+}
+
+@media all and (max-width: 700px) {
+  .header-liche h1 {
+    padding-left: 55%;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+    .header-kuenst h1 {
+    font-size: 100px;
+    }
+    .header-liche h1 {
+      font-size: 100px;
+    }
+    .header-inteligenz h1 {
+    font-size: 100px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .header-kuenst h1 {
+    font-size: 80px;
+    }
+    .header-liche h1 {
+      font-size: 80px;
+    }
+    .header-inteligenz h1 {
+    font-size: 80px;
     }
 }

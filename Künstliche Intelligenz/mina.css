@@ -21,6 +21,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   width: auto;
   height: auto;
   background-size: cover;
+  overflow: hidden;
 }
 .gehirn_überschrift {
   font-family: 'Teko';
@@ -98,4 +99,58 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 .infographic-5-info {
   margin-bottom: 0px;
+}
+
+@media all and (max-width: 1300px) {
+  .info-gehirn-rechtsbündig {
+    /*text-align: left;
+  }*/
+}
+  .infographic-1-info {
+    margin-bottom: 10px;
+  }
+  .infographic-2-info {
+    margin-bottom: 10px;
+  }
+  .infographic-3-info {
+    margin-bottom: 10px;
+  }
+  .infographic-4-info {
+    margin-bottom: 10px;
+  }
+  .infographic-5-info {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 800px) {
+    .subheadline {
+      font-size: 18px;
+
+    }
+
+    .grosse_zahl {
+      font-size: 130px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .grosse_zahl {
+      font-size: 100px;
+    }
+
+    .subheadline {
+      font-size: 16px;
+    }
+
+}
+
+@media all and (max-width: 420px) {
+  .grosse_zahl {
+    font-size: 80px;
+  }
+  .subheadline {
+    font-size: 14px;
+  }
 }
