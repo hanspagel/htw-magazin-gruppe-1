@@ -9,7 +9,7 @@
   width: 630px;
   font-family: "Teko";
   font-weight: 500;
-  font-size:18vw;
+  font-size:224px;
   color: #f17571;
   margin-left: 132px;
   margin-bottom: 0px;
@@ -27,6 +27,39 @@
   text-align: left;
   color: #ffffff;
   margin-left: 139px;
+}
+
+@media all and (max-width: 1200px) {
+  .neuronen-article h1  {
+  margin-left: 95px;
+  font-size: 200px;
+  }
+
+    .neuronen-article p {
+    margin-left: 95px;
+    font-size: 22px;
+    max-width: 85%;
+    width: 680px;
+    margin-left: 100px;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+  .neuronen-article h1  {
+  margin-left: 95px;
+  font-size: 130px;
+  }
+
+    .neuronen-article p {
+    margin-left: 95px;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 58%;
+    width: 680px;
+    margin-left: 100px;
+    }
+
 }
 
 .neuronen-article {
