@@ -14,24 +14,28 @@ background: black;
   margin: 0;
 }
 
-h1 {
-  font-family: 'Spectral SC', capiserif;
-  font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  text-shadow: 0px 0px 25px  #5df3ee;
-}
-
-
 p {
   padding-bottom: 0.8rem;
+  font-family: 'Poppins',  monospace;
+  font-weight: 400;
+  color: #FF00FF;
 }
 
 .text {
-  font-family: 'VT323', monospace;
-  font-weight: 400;
-  color: white;
+  width: 500px;
 }
+
+.einleitung p{
+  font-size: 1.2rem;
+}
+
+.article-einleitung {
+  max-width: 900px;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .header {
   background-color: #000000;
@@ -64,7 +68,7 @@ p {
 .article {
   position: relative;
   z-index: 100;
-  max-width: 700px;
+  width: 700px;
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -73,42 +77,16 @@ p {
 
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
-.Überschrift-Neon-Off {
-  top: 28rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
-}
 
 
 .Überschrift-Neon-On {
-  top: 28rem;
+  top: 10%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
-.Überschrift-Neon-Off:hover {
-  opacity:0;
-}
-
-.Überschrift-Neon-On:hover {
-  opacity:1;
-}
-
-
-.Überschrift-Neon-Off img {
-  width: 100%;
-}
 
 .Überschrift-Neon-On img {
   width: 100%;
@@ -117,24 +95,18 @@ p {
 /* NOTE: Unterüberschrift Origins */
 
 .Origins-Off {
-  top: 22em;
+  top: 73%;
   position: absolute;
-  left: 25%;
+  left: 14%;
   z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Origins-On {
-  top: 22em;
+  top: 73%;
   position: absolute;
-  left: 25%;
+  left: 14%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Origins-Off:hover {
@@ -146,34 +118,28 @@ p {
 }
 
 .Origins-Off img {
-  width: 65%;
+  width: 120%;
 }
 
 .Origins-On img {
-  width: 65%;
+  width: 120%;
 }
 
 /* NOTE: Unterüberschrift Definition */
 
 .Definition-Off {
-  top: 17em;
+  top: 73%;
   position: absolute;
-  left: 30%;
+  left: 60%;
   z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Definition-On {
-  top: 17em;
+  top: 73%;
   position: absolute;
-  left: 30%;
+  left: 60%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Definition-Off:hover {
@@ -185,34 +151,28 @@ p {
 }
 
 .Definition-Off img {
-  width: 40%;
+  width: 100%;
 }
 
 .Definition-On img {
-  width: 40%;
+  width: 100%;
 }
 
 /* NOTE: Unterüberschrift Essence */
 
 .Essence-Off {
-  top: 13.5em;
+  top: 70%;
   position: absolute;
-  right: 10%;
+  left: 34%;
   z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Essence-On {
-  top: 13.5em;
+  top: 70%;
   position: absolute;
-  right: 10%;
+  left: 34%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Essence-Off:hover {
@@ -224,11 +184,11 @@ p {
 }
 
 .Essence-Off img {
-  width: 30%;
+  width: 60%;
 }
 
 .Essence-On img {
-  width: 30%;
+  width: 60%;
 }
 
 
@@ -236,24 +196,18 @@ p {
 /* NOTE: Unterüberschrift When is Cyberpunk Now */
 
 .Now-Off {
-  top: 7em;
+  top: 73%;
   position: absolute;
-  right: 35%;
+  right: 45%;
   z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Now-On {
-  top: 7em;
+  top: 73%;
   position: absolute;
-  right: 35%;
+  right: 45%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Now-Off:hover {
@@ -265,34 +219,29 @@ p {
 }
 
 .Now-Off img {
-  width: 25%;
+  width: 100%;
 }
 
 .Now-On img {
-  width: 25%;
+  width: 100%;
 }
 
 /* NOTE: Exit Sign */
 
 .Exit-Off {
-  top: 32em;
+  bottom: 20%;
   position: absolute;
-  right: 0;
+  right: 5%;
   z-index: 100;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
 }
 
 .Exit-On {
-  top: 32em;
+  bottom: 20%;
   position: absolute;
-  right: 0;
+  right: 5%;
   z-index: 100;
   opacity: 0;
-  -webkit-filter: blur(0.03rem);
-  -moz-filter: blur(0.03rem);
-  filter: blur(0.03rem);
+
 }
 
 .Exit-Off:hover {
@@ -304,98 +253,71 @@ p {
 }
 
 .Exit-Off img {
-  width: 25%;
+  width: 40%;
 }
 
 .Exit-On img {
-  width: 25%;
+  width: 40%;
 }
 
 /* NOTE: Icon */
 
-
-.article-interactive {
-  display: flex;
-
-}
-
-
-
-.Zeichen img {
-  max-width: 400px;
-
-}
-
-.Zeichen {
-
-
-}
-
-.Zeichen:hover {
-  background-image: url(Bilder/ZeichenNeon.png);
-  background-size: 400px;
-}
-
-.Auto img {
-  max-width: 400px;
-}
-
-.Auto {
-
-}
-
-.Auto:hover {
-  background-image: url(Bilder/AutoNeon.png);
-  background-size: 400px;
-
-}
-
-.Computer img {
-  max-width: 400px;
-}
-
-.Computer {
-
-}
-
-.Computer:hover {
-  background-image: url(Bilder/ComputerNeon.png);
-  background-size: 400px;
-}
-
-.Gun img {
-  max-width: 400px;
-}
-
-.Gun {
-
-}
-
-.Gun:hover {
+.hintergrundbildorigins {
   background-image: url(Bilder/GunNeon.png);
-  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+  opacity: 0.9;
 }
+
+.hintergrundbilddefinition {
+  background-image: url(Bilder/ComputerNeon2.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1500px;
+  opacity: 0.9;
+}
+
+
+
+.hintergrundbildessence{
+  background-image: url(Bilder/AutoNeon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+  opacity: 0.9;
+}
+
+
+
+.hintergrundbildnow {
+  background-image: url(Bilder/ZeichenNeon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+  opacity: 0.9;
+}
+
+
+/* NOTE: Zitate Hervorhebungen */
+
 
 .Röhre img {
   width: 50px;
+  z-index:100;
 }
 
-
-
-.Röhre:hover {
-  background-image: url(Bilder/NeonRöhre.png);
-  background-size: 50px;
+.Röhre {
+  z-index: 100;
 }
-
 
 .article-quote {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .quote {
   padding:25px;
-
 }
 
 
@@ -410,6 +332,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
+
 }
 
 .animated-rain4 {
@@ -423,27 +346,27 @@ p {
 }
 
 .animated-rain2 {
-  animation: rain 1.9s infinite;
-  z-index: 5;
-}
-
-.animated-rain {
   animation: rain 0.9s infinite;
   z-index: 5;
 }
 
+.animated-rain {
+  animation: rain 0.1s infinite;
+  z-index: 5;
+}
+
 .animated-rain5 {
-  animation: rain 1.3s infinite;
+  animation: rain 0.1s infinite;
   z-index: 5;
 }
 
 .animated-rain6 {
-  animation: rain 1.3s infinite;
+  animation: rain 0.3s infinite;
   z-index: 5;
 }
 
 .animated-rain7 {
-  animation: rain 1.5s infinite;
+  animation: rain 0.5s infinite;
   z-index: 5;
 }
 
@@ -458,6 +381,11 @@ p {
   to {
     transform: translateY(1500px) translateX(140px);
   }
+}
+
+
+.background {
+  padding-top: 32%;
 }
 
 .article-parallax {
