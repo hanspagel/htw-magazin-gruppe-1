@@ -640,7 +640,33 @@ p.link a:active {
   font-size: 1.1em;
 }
 
-/*
+.one_graphic {
+  width: 50%;
+  float: left;
+  height: 1300px;
+  background-color: tomato;
+}
+
+.one_text {
+  margin-top: 127px;
+}
+
+.one_text_headline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
+}
+
+.one_text_information {
+  /*width: 660px;
+  height: 700px;
+  overflow: scroll;*/
+  margin-right: 300px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
 
 [data-aos="zoom"] {
   filter: blur(100px);
@@ -652,5 +678,3 @@ p.link a:active {
   filter: blur(0px);
   transform: rotate(0deg);
 }
-
-*/
