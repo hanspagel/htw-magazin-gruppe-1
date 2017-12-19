@@ -147,10 +147,10 @@ body{
   margin-left: 90%;
 }
 
-[data-aos="einhorn"] {
-  transform: scale(40%);
+[data-aos="zoom-in"] {
+  transform: opacity(0%);
 }
 
-[data-aos="einhorn"].aos-animate {
-  transform: scale(100%);
+[data-aos="zoom-in"].aos-animate {
+  transform: opacity(100%);
 }
