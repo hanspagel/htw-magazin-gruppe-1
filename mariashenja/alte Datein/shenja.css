@@ -1,0 +1,176 @@
+html{
+  font-family: "Poiret One";
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+body {
+background-color: lightblue;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+
+}
+
+/*blablablabla*/
+
+<<<<<<< HEAD
+p:first-of-type {
+  font-size: 1.4rem;
+}
+=======
+.article-text:first-of-type p:first-of-type {
+  font-size: 1.4rem;
+}
+.article-module {
+ padding: 1.5rem; 0;
+}
+.article-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 1.2rem;
+}
+>>>>>>> origin/master
+
+.article-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+<<<<<<< HEAD
+=======
+}
+.article-text-info {
+  background-color: yellow;
+  float:right;
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  margin: 1em;
+  border: 10px double black;
+  box-shadow: 10px 10px 5px 0 rgba(255, 0, 0, 0.5);
+>>>>>>> origin/master
+}
+.article-teaser {
+  display: flex;
+  text-decoration: none;
+  color:red;
+
+}
+.article-teaser-image img{
+  width: 120px;
+
+}
+.article-teaser-image{
+
+margin-right: 1rem;
+}
+  .article-teaser-headline{
+    align-self: center;
+      transition: all 1s;
+
+  }
+  .article-teaser:hover {
+    color:green;
+    transform: rotate(-3deg);
+  }
+
+  .article-graphic {
+    text-align: center;
+  }
+
+
+
+.animated-eye {
+  animation: fancy 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes fancy {
+  to {
+    fill:red
+  }
+
+  25% {
+    fill: green;
+  }
+
+  50%{
+    fill:red;
+  }
+}
+
+.article-stage {
+  background-image: url(wasser.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(90deg, black, transparent);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.3;
+}
+
+
+
+.stage-headline {
+
+  font-family: 'Arimo';
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.1;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1rem;
+  position: relative;
+}
+
+@media all and (min-width:800px){
+
+html {
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+}

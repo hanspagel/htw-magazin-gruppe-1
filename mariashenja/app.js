@@ -1,8 +1,12 @@
 $(document).ready(function() {
 
-  $(".button").click(function() {
-    $(".article-interactive").toggleClass("action")
-  })
+  $(".einausblenden").click(function() {
+    $(".action").toggle("slow")
+
+    })
+
+
+
 
     $(window).mousemove(function(event) {
     var offsetX = 40 / $(document).width() * event.pageX;

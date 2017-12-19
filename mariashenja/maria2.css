@@ -1,3 +1,6 @@
+
+
+
 html {
   font-size: 22px;
   line-height: 1.5;
@@ -16,9 +19,9 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 2px;
-  margin: 1em 0;
-  text-shadow: 0px 0px 25px  #ffffff;
+  text-shadow: 0px 0px 25px  #5df3ee;
 }
+
 
 p {
   padding-bottom: 0.8rem;
@@ -29,12 +32,6 @@ p {
   font-weight: 400;
   color: white;
 }
-
-.quote {
-  letter-spacing: 4px;
-  text-indent: 1.5rem;
-}
-
 
 .header {
   background-color: #000000;
@@ -63,19 +60,12 @@ p {
   padding-top: 0.5rem;
 }
 
-.regen {
-  z-index: 20;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
 .article {
   position: relative;
   z-index: 100;
-  width: 700px;
+  max-width: 700px;
+  padding: 2rem;
   margin-left: auto;
   margin-right: auto;
 
@@ -84,7 +74,7 @@ p {
 /* NOTE: Überschrift Neon Sign "Cyberpunk" */
 
 .Überschrift-Neon-Off {
-  top: 28em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -96,7 +86,7 @@ p {
 
 
 .Überschrift-Neon-On {
-  top: 28em;
+  top: 28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -323,96 +313,104 @@ p {
 
 /* NOTE: Icon */
 
-.ufo {
-
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.ufo:hover {
-  background-image: url(ufoneonon.png);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-
-}
 
 .article-interactive {
-  text-align: center;
-  min-height: 40vh;
   display: flex;
-  align-items:center;
-}
-
-.action {
-  background-image: url(boom.gif);
-  background-repeat: no-repeat;
-  background-position: center;
 
 }
+
+
 
 .Zeichen img {
-  width: 200px;
+  max-width: 400px;
 
 }
 
 .Zeichen {
-  margin-left: auto;
-  margin-right: auto;
+
 
 }
 
 .Zeichen:hover {
-  background-image: url(ZeichenNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/ZeichenNeon.png);
+  background-size: 400px;
 }
 
 .Auto img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Auto {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Auto:hover {
-  background-image: url(AutoNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/AutoNeon.png);
+  background-size: 400px;
+
 }
 
 .Computer img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Computer {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Computer:hover {
-  background-image: url(ComputerNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/ComputerNeon.png);
+  background-size: 400px;
 }
 
 .Gun img {
-  width: 200px;
+  max-width: 400px;
 }
 
 .Gun {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .Gun:hover {
-  background-image: url(GunNeon.png);
-  background-size: 200px;
+  background-image: url(Bilder/GunNeon.png);
+  background-size: 400px;
 }
 
+.Röhre img {
+  width: 50px;
+}
+
+
+
+.Röhre:hover {
+  background-image: url(Bilder/NeonRöhre.png);
+  background-size: 50px;
+}
+
+
+.article-quote {
+  display: flex;
+  align-items: flex-start;
+}
+
+.quote {
+  padding:25px;
+
+}
+
+
+
+
 /* NOTE: Regen Animation */
+
+.regen {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 .animated-rain4 {
   animation: rain 0.4s infinite;
@@ -435,7 +433,22 @@ p {
 }
 
 .animated-rain5 {
-  animation: rain 0.9s infinite;
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain6 {
+  animation: rain 1.3s infinite;
+  z-index: 5;
+}
+
+.animated-rain7 {
+  animation: rain 1.5s infinite;
+  z-index: 5;
+}
+
+.animated-rain8 {
+  animation: rain 0.8s infinite;
   z-index: 5;
 }
 
@@ -450,5 +463,136 @@ p {
 .article-parallax {
   width: 100%;
   height: auto;
+
+}
+
+
+/* Responsive*/
+
+@media screen and (max-width: 900px) {
+
+.Überschrift-Neon-Off {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-On {
+  top: 30%;
+  z-index: 105;
+}
+
+.Überschrift-Neon-Off img {
+  width: 100%;
+}
+
+.Überschrift-Neon-On img {
+  width: 100%;
+}
+
+.Origins-Off {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-On {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-18%);
+}
+
+.Origins-Off img {
+  width: 50%;
+}
+
+.Origins-On img {
+  width: 50%;
+}
+
+.Definition-Off {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-On {
+  top: 20%;
+  left:50%;
+  transform: translateX(-16%);
+}
+
+.Definition-Off img {
+  width: 60%;
+}
+
+.Definition-On img {
+  width: 60%;
+}
+
+.Essence-Off {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-On {
+  top: 15%;
+  left:50%;
+  transform: translateX(-25%);
+}
+
+.Essence-Off img {
+  width: 70%;
+}
+
+.Essence-On img {
+  width: 70%;
+}
+
+.Now-Off {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-On {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.Now-Off img {
+  width: 80%;
+}
+
+.Now-On img {
+  width: 80%;
+}
+
+
+.Exit-Off {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-On {
+  top: 5%;
+  left:50%;
+  transform: translateX(-15%);
+}
+
+.Exit-Off img {
+  width: 20%;
+}
+
+.Exit-On img {
+  width: 20%;
+}
+
+h1 {
+  font-size: 1rem;
+  padding-top: 2rem;
+}
 
 }
