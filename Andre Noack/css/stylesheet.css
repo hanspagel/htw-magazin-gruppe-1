@@ -640,7 +640,240 @@ p.link a:active {
   font-size: 1.1em;
 }
 
-/*
+.one_graphic_1 {
+  /*padding-left: 2.75%;
+  padding-right: 2.75%;*/
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 500px;
+  background-color: tomato;
+  /*background-image: url('../image/test.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_2 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 2em;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_3 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 540px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_4 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 150px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_5 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 200px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_6 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 250px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_7 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 420px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_1_fr {
+  /*padding-left: 2.75%;
+  padding-right: 2.75%;*/
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 500px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/test.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_2_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 130px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_3_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 580px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_4_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 200px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_5_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 670px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_6_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 250px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_7_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 30px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  margin-bottom: 420px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_text_1 {
+  margin-top: 127px;
+}
+
+.one_text_headline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
+}
+
+.one_text_information {
+  /*width: 660px;
+  height: 700px;
+  overflow: scroll;*/
+  margin-right: 200px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
 
 [data-aos="zoom"] {
   filter: blur(100px);
@@ -652,5 +885,3 @@ p.link a:active {
   filter: blur(0px);
   transform: rotate(0deg);
 }
-
-*/
