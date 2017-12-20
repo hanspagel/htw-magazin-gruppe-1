@@ -632,7 +632,7 @@ p.link a:active {
 }
 
 .information_team {
-  width: 660px;
+  width: 800px;
   height: 700px;
   overflow: scroll;
   margin-right: 300px;
@@ -874,7 +874,7 @@ p.link a:active {
 }
 
 .one_text_information {
-  width: 660px;
+  width: 800px;
   /*height: 700px;
   overflow: scroll;*/
   margin-right: 10%;
