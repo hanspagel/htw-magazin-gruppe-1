@@ -641,10 +641,16 @@ p.link a:active {
 }
 
 .one_graphic {
-  width: 50%;
+  /*padding-left: 2.75%;
+  padding-right: 2.75%;*/
+  width: 44.5%;
   float: left;
   height: 1300px;
-  background-color: tomato;
+  margin-top: 17px;
+  margin-left: 2.75%;
+  margin-right: 2.75%;
+  /*background-color: tomato;*/
+  background-image: url('../image/test.jpg');
 }
 
 .one_text {
@@ -663,7 +669,7 @@ p.link a:active {
   /*width: 660px;
   height: 700px;
   overflow: scroll;*/
-  margin-right: 300px;
+  margin-right: 200px;
   line-height: 1.5em;
   font-size: 1.1em;
 }
