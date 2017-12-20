@@ -16,7 +16,7 @@ background: black;
 
 p {
   padding-bottom: 0.8rem;
-  font-family: 'Poppins',  monospace;
+  font-family: 'Cutive Mono',  monospace;
   font-weight: 400;
   color: #FF00FF;
 }
@@ -263,15 +263,15 @@ p {
 /* NOTE: Icon */
 
 .hintergrundbildorigins {
-  background-image: url(Bilder/GunNeon.png);
+  background-image: url(Bilder/ComputerNeon.gif);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 800px;
+  background-position: top;
+  background-size: 1500px;
   opacity: 0.9;
 }
 
 .hintergrundbilddefinition {
-  background-image: url(Bilder/ComputerNeon2.png);
+  background-image: url(Bilder/zeichenneon.gif);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 1500px;
@@ -280,21 +280,24 @@ p {
 
 
 
+
 .hintergrundbildessence{
-  background-image: url(Bilder/AutoNeon.png);
+  background-image: url(Bilder/autoneon.gif);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 800px;
+  background-position: 50% 11%;
+  background-size: 1500px;
   opacity: 0.9;
+  
+
 }
 
 
 
 .hintergrundbildnow {
-  background-image: url(Bilder/ZeichenNeon.png);
+  background-image: url(Bilder/gunneon.gif);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 800px;
+  background-position: top;
+  background-size: 1500px;
   opacity: 0.9;
 }
 
