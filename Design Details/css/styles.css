@@ -61,10 +61,10 @@ section.image {
 
 figure {
   width: 100vw;
+  margin-left: 0;
 }
 
 img {
-  float: right;
   width: 100%;
   overflow: hidden;
 }
