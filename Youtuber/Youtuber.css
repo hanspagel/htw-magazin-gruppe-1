@@ -46,7 +46,7 @@ h1 {
 
 /* NOTE: header bild */
 .article-stage {
-  background-image: url(bild4.jpg);
+  background-image: url(landschaft.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -151,7 +151,7 @@ h1 {
 }
 
 .article-stage3 {
-  background-image: url(youtube_facts2.jpg);
+  background-image: url(youtube_facts.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -255,7 +255,7 @@ h1 {
   padding: 0.5rem;
   font-size: 1.3rem;
   font-weight: bolder;
-  cursor: url(euro2.png), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
+  cursor: url(eurozeichen.png), pointer; /*  geht nur mit giv oder png und darf nicht größer als 128px sein */
 }
 
 .button:hover {
@@ -276,7 +276,7 @@ h1 {
 }
 
 .playdrücken {
-  background: url(source.gif);
+  background: url(make_money.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
