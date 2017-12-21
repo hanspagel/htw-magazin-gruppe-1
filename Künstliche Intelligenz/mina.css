@@ -1,15 +1,15 @@
 .spirale_animation {
-  min-height: 100vh;
   position: relative;
-  /*width: 100%;*/
+  width: 100%;
 
   }
 
 #spirale_animation {
   width: 100%;
-  object-fit: cover;
+  opacity: 0.7;
 }
 
+<<<<<<< HEAD
 /* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
 kann man löschen. Der Code wurde von Lena geschrieben.*/
 
@@ -23,6 +23,8 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   background-size: cover;
   overflow: hidden;
 }
+=======
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 .gehirn_überschrift {
   font-family: 'Teko';
 	font-size: 150px;

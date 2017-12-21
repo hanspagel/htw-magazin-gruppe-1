@@ -2,9 +2,11 @@
 
 
 html {
-  font-size: 22px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.4;
 }
+
+
 
 body {
 background: black;
@@ -14,6 +16,7 @@ background: black;
   margin: 0;
 }
 
+<<<<<<< HEAD
 p {
   padding-bottom: 0.8rem;
   font-family: 'Cutive Mono',  monospace;
@@ -37,8 +40,18 @@ p {
 }
 
 
+=======
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 1em 0;
+  text-shadow: 0px 0px 25px  #ffffff;
+}
+
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 .header {
-  background-color: #000000;
+  background-color: #f89989;
   padding: 0.5rem;
   position: fixed;
   left:0px;
@@ -57,7 +70,7 @@ p {
 }
 
 
-.background {
+.background img{
   width: 100%;
   height: auto;
   z-index: 0;
@@ -72,6 +85,7 @@ p {
   padding: 2rem;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
 
 }
 
@@ -81,10 +95,23 @@ p {
 
 .Überschrift-Neon-On {
   top: 10%;
+=======
+  background:
+}
+
+.Überschrift {
+  background-image: url(cyberpunkoff.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 141px;
+  top: 50px;
+  padding-bottom: 250px;
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
+<<<<<<< HEAD
 }
 
 
@@ -243,15 +270,20 @@ p {
   opacity: 0;
 
 }
-
-.Exit-Off:hover {
-  opacity:0;
+=======
 }
 
-.Exit-On:hover {
-  opacity:1;
+.Überschrift:hover {
+  background-image: url(cyberpunkon.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 141px;
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
+
+
 }
 
+<<<<<<< HEAD
 .Exit-Off img {
   width: 40%;
 }
@@ -268,6 +300,22 @@ p {
   background-position: top;
   background-size: 1500px;
   opacity: 0.9;
+=======
+.text {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  color: white;
+
+}
+
+.ufo {
+
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 }
 
 .hintergrundbilddefinition {
@@ -278,9 +326,20 @@ p {
   opacity: 0.9;
 }
 
+<<<<<<< HEAD
+=======
+.article-interactive {
+  text-align: center;
+  min-height: 60vh;
+
+  display: flex;
+  align-items:center;
+}
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 
 
 
+<<<<<<< HEAD
 .hintergrundbildessence{
   background-image: url(Bilder/autoneon.gif);
   background-repeat: no-repeat;
@@ -327,6 +386,10 @@ p {
 
 
 /* NOTE: Regen Animation */
+=======
+
+
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 
 .regen {
   z-index: 20;
@@ -385,6 +448,7 @@ p {
     transform: translateY(1500px) translateX(140px);
   }
 }
+<<<<<<< HEAD
 
 
 .background {
@@ -527,3 +591,5 @@ h1 {
 }
 
 }
+=======
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
