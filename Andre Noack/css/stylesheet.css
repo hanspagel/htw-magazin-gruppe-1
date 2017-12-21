@@ -891,3 +891,9 @@ p.link a:active {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.note_1 {
+  background-image: url('../image/note.jpg');
+  width: 775px;
+  height: 816px;
+}
