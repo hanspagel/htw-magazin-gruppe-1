@@ -753,7 +753,7 @@ p.link a:active {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 2.75%;
-  margin-bottom: 420px;
+  margin-bottom: 380px;
   background-color: tomato;
   /*background-image: url('../image/montreal_canadiens.png');*/
   background-size: cover;
@@ -858,6 +858,7 @@ p.link a:active {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 2.75%;
+  margin-bottom: 380px;
   background-color: #1CBCD9;
   /*background-image: url('../image/montreal_canadiens.png');*/
   background-size: cover;
@@ -875,8 +876,6 @@ p.link a:active {
 
 .one_text_information {
   width: 800px;
-  /*height: 700px;
-  overflow: scroll;*/
   margin-right: 10%;
   line-height: 1.5em;
   font-size: 1.1em;
@@ -891,15 +890,4 @@ p.link a:active {
 .one_text_information p {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-[data-aos="zoom"] {
-  filter: blur(100px);
-  transform: rotate(180deg);
-  transition-property: all;
-}
-
-[data-aos="zoom"].aos-animate {
-  filter: blur(0px);
-  transform: rotate(0deg);
 }
