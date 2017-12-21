@@ -1,3 +1,5 @@
+
+
 $(function(){
 $(window).scroll(function() {
   var scroll = getCurrentScroll();
@@ -9,27 +11,28 @@ $(window).scroll(function() {
     else if ( (4200 >= scroll) && (scroll >= 3600) ) {
       changeClass('person');
     }
-    else if ( (3600 >= scroll) && (scroll >= 2900) ) {
+    else if ( (3600 >= scroll) && (scroll >= 3000) ) {
       changeClass('kopf');
     }
-    else if ( (2900 >= scroll) && (scroll >= 2300) ) {
+    else if ( (3000 >= scroll) && (scroll >= 2500) ) {
       changeClass('ballon');
     }
-    else if ( (2300 >= scroll) && (scroll >= 1800) ) {
+    else if ( (2500 >= scroll) && (scroll >= 2000) ) {
       changeClass('zange');
     }
-    else if ( (1800 >= scroll) && (scroll >= 1000) ) {
+    else if ( (2000 >= scroll) && (scroll >= 1100) ) {
       changeClass('start');
     }
-    else if ( (1000 >= scroll) && (scroll >= 500) ) {
+    else if ( (1100 >= scroll) && (scroll >= 500) ) {
       changeClass('burger');
 
     }
     else if ( scroll <=  500 ) {
       changeClass('zuckerwatte');
     }
-});
 
+
+});
 function getCurrentScroll() {
   return window.pageYOffset || document.documentElement.scrollTop;
   }
