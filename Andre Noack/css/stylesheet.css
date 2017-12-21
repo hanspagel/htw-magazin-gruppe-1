@@ -897,29 +897,3 @@ p.link a:active {
   width: 775px;
   height: 816px;
 }
-
-#eins {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
-}
-
-#bild_work {
-  flex-direction: row;
-  margin-bottom: 40px;
-}
-
-#bild_text {
-	position: fixed;
-	display: none;
-  background-color: transparent;
-}
-
-#bild_text p {
-  font-size: 15px;
-  letter-spacing: 0.2em;
-  line-height: 1.5;
-  font-weight: normal;
-  background-color: rgba(255,255,255,0);
-  text-align: left;
-}
