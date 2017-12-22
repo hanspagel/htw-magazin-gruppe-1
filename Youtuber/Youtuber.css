@@ -26,6 +26,15 @@ h1 {
   display: flex;
 }
 
+.brand {
+  width: 50%;
+}
+
+.navigation {
+  width: 50%;
+  text-align: right;
+}
+
 .header-logo {
   color: white;
   text-decoration: none;
