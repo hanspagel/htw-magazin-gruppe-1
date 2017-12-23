@@ -1,0 +1,40 @@
+<svg width="19" height="21" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5228 -380)">
+<g id="Group">
+<g id="Object">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="TB_skipback30seconds_2x Copy">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="matrix(-1 0 0 1 5246.67 380)"/>
+</g>
+</mask>
+<g id="TB_skipback30seconds_2x Copy" mask="url(#mask0_alpha)">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 5246.67 380)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Object">
+<mask id="mask1_alpha" mask-type="alpha">
+<g id="TB_skipback30seconds_2x Copy">
+<use xlink:href="#path1_fill" fill="url(#pattern1)" transform="translate(5232 388)"/>
+</g>
+</mask>
+<g id="TB_skipback30seconds_2x Copy" mask="url(#mask1_alpha)">
+<use xlink:href="#path1_fill" transform="translate(5232 388)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.0285714 0 0 0.0263158 0 0)"/>
+</pattern>
+<pattern id="pattern1" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1" transform="matrix(0.05 0 0 0.0769231 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 18.6667 0L 18.6667 20.2667L 0 20.2667L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 11 0L 11 6.93333L 0 6.93333L 0 0Z"/>
+<image id="image0" width="35" height="38" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAmCAYAAABOFCLqAAAAAXNSR0IArs4c6QAAAhhJREFUWAnNk4F1gkAQRE0qsAQ6CB1kS7AESrAEOrAESrAEkgq0A9OBdpD8ybv1rSgG9ZDse8Mue3czwwKz2e1RcqQF1jna1+9sy3dbQ/WdYGSPmuJS39ezZoNtA1xQWT3hUp92/phDuQLRhNdtT1/mdMZA1ug+tRsZmne4qYEe6uEQSQMuibc9/TV9mYhn9twvQJYwWLoC6vX1WZqVoAHRlO6zTUnfgpMbtULkl/q/i1xkagP8nOoshuA5kptuQriohV4so+GshiTS93R9fZ2pgE9orcbUESe0nNqM9FugCe3BtUmyPH4USPjrqseX+1vBX9e/m071t/fxd6yR0OtSnr3qMmF8Jm1TntrMNpnRHzX5XyUD/lfZ1JM5pMn8Jpk5OosLU9RTT+bkmWXmK3Us5WemqLmVmW1Sf3umi6RVpqxv5yAzJ/96WnxWek9CHy5YUPhHvPDmE/I86FZRb5MW2tgcua6TpgYhY8eoqHw6duyOVxRQ74E0G3AWPp0dKydOz3Y+3lhDISMyVICzMDraIGjzWLGE2HXqayJa9I3NtY13rlWBvx3CIRPRUK5XFieiT2IwbzS046CBe6PgYAv8AW8y4qKrQCCiBhgYGgUbuxwyNXgiXSGjsQMy49C9RBbAgEdJYaAGenrfr7wHS5AlRCQTUWBILRMyPgfZYwGjyDegz4xMN6ACN5l44cAjIbEyEXyRhbvjB+lI3INNqH1XAAAAAElFTkSuQmCC"/>
+<image id="image1" width="20" height="13" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAAXNSR0IArs4c6QAAARxJREFUOBF1kQF1wzAMRNMhKARDKASPQSEYQiGUQcYgEAYhZVAIGYNBaO87uixPa++980knyVbaYVhxliziI/grbWLGUcYkug+dxZO4oSqiwCXfQQ9U5Xsw7BoxM+RoETvcVCNHLiKNI0mgSfGgN2LjJbxJ2kGxruF2kjO4NSlm++zJ6j8NPlu+BA/cRZqqaDCA12yEFik+9OYKV7iAnm2mWk0+qefqx4uirVHBvxddfKf5wk81wi+xiFyacUxGzlP5L/XvaGdWwKdNNkKb1J/cLZJF3L9EzJ8AjaaAXryTCOjzw1N3dMwijYs4BhnCu4p7eJg6c8zQR17EDl6jSMGk4SpmsFHu5RFvPBx2E0UxBLd+vj+4mEt+gpIVT/EAX7vZfYZXAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
