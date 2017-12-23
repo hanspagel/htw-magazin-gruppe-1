@@ -2,8 +2,9 @@ html{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Boston-Regular', sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -22,11 +23,7 @@ h1, h2, h3, h4, h5 {
 	font-style: normal;
 	line-height: 1em;
 	padding: 0;
-<<<<<<< HEAD
-	margin: 1em 0;
-=======
 	margin: 0 0 1em 0;
->>>>>>> origin/master
 }
 
 h2{
@@ -39,9 +36,6 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
-
-}
 
 ul{
   margin: 0px;
@@ -49,15 +43,6 @@ ul{
 
 main{
   margin: auto;
-<<<<<<< HEAD
-  width: 1200px;
-}
-
-section{
-  column-count: 2;
-}
-
-=======
   width: 100%;
 }
 
@@ -65,21 +50,48 @@ section {
   column-count: 2;
   column-gap: 50px;
   margin: auto;
-  width: 800px;
+  width: 62vw;
+}
+
+section.image {
+  column-count: 1;
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  width: 100vw;
+  margin-left: 0;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+figcaption {
+  float: right;
+  font-style: italic;
+  margin-top: 1em;
+  color: tomato;
 }
 
 blockquote {
-  font-size: 2em;
+  float: right;
+  position: relative;
+  font-size: 2.5em;
   page-break-inside: avoid;
   column-break-inside: avoid;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
-  position: relative;
+  font-style: italic;
+  margin: 0;
 }
 
 blockquote:before {
-  quotes: "\201D" "\201C" "\201D" "\201C";
+  quotes: "\201C" "\201C" "\201C" "\201C";
+  width: 100%;
   color: tomato;
   content: open-quote;
   font-size: 7em;
@@ -87,13 +99,16 @@ blockquote:before {
   vertical-align: 0.1em;
   position: absolute;
   z-index: -10;
-  left: -25px;
-  transform: translateY(-60px);
+  transform: translate(-.2em,-.2em);
+  opacity: .5;
 }
 
-.h1box{
-  margin: auto;
-  width: 800px;
+h1 {
+  font-size: 1.5em;
+}
+
+section.h1 {
+  margin-bottom: 1em;
 }
 
 #fp-nav.right{
@@ -120,39 +135,119 @@ p{
   width: 12px;
 }
 
-.slider-wrapper {
+.responsive-quote{
+  height: 370px;
+}
+
+/*audio player*/
+
+.ui-progressbar {
+    background: grey;
+}
+
+.ui-progressbar-value {
+    background: tomato;
+}
+
+ img.cover {
+   width: 100%;
+   overflow: hidden;
+ }
+
+.audio-container {
+  width: 350px;
+  height: 100%;
   position: relative;
 }
 
-.unlock-slider {
-  background: #d1d1d1;
-  width: 300px;
-  height: 70px;
-  position: relative;
-  border-bottom-left-radius: 70%200px;
-  border-bottom-right-radius: 70%200px;
-  border-top-left-radius: 70%200px;
-  border-top-right-radius: 70%200px;
+.player-nav {
+transform: translateY(-30px);
+display: flex;
+flex-flow: row nowrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
 }
 
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
-.unlock-slider span.custom-handle {
-  height: 70px;
-  width: 70px;
+.button {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: tomato;
-  position: absolute;
-  z-index: 10;
-  top: -2%;
 }
->>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
+
+#play {
+  width: 70px;
+  height: 70px;
+  margin: 0 20px 0 20px;
+  position: relative;
+}
+
+.icon.play {
+  width: 26px;
+  height: 26px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-width: 13px 0px 13px 26px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.play:hover {
+  border-color: transparent transparent transparent #FFB2A4;
+}
+
+.icon.pause {
+  margin-left: 21px;
+  width: 20px;
+  height: 26px;
+  border-style: solid;
+  border-width: 0px 0px 0px 20px;
+  border-style: double;
+  border-color: #ffffff;
+}
+
+.pause:hover {
+  border-color: transparent transparent transparent #FFB2A4;
+}
+
+.icon {
+  position: absolute;
+  margin: auto;
+  left: 3px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 0;
+  background: transparent;
+  transition: 100ms all ease;
+  will-change: border-width;
+  cursor: pointer;
+}
+
+.gradient {
+  background: #ff6347; /* Old browsers */
+  background: -webkit-linear-gradient(bottom left, #ff6347 0%, #ff6347 48%, #ff7f68 100%);
+  background: -o-linear-gradient(bottom left, #ff6347 0%, #ff6347 48%, #ff7f68 100%);
+  background: linear-gradient(to top right, #ff6347 0%, #ff6347 48%, #ff7f68 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 
 @media all and (max-width: 780px) {
   section{
-    column-count: 1;
-    width: 100%;
+    column-count: auto;
     padding: 0 8px;
+    font-size: 1em;
+    width: 100%;
+    column-gap: 0;
+    width: 90%;
+  }
+  .section {
+    width: 100%;
+  }
+  blockquote {
+    margin: 1em 0 1em 0;
+    width: 90%;
+  }
+  body {
+    margin-top: 2em;
   }
 }

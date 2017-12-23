@@ -1,0 +1,338 @@
+html{
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  /*opacity: 0.75;*/
+}
+@media all and (min-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+}
+body{
+  background-image: url(../images/background5.png);
+  background-attachment: fixed;
+
+}
+
+.backgroundstars{
+  background: url(../images/background4.png);
+  padding: 0;
+  opacity: 0.75;
+}
+
+.article-inner{
+  max-width: 700px;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+/*NOTE: Überschrift 1*/
+
+h1{
+  font-family: 'Alegreya', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  font-variant: small-caps;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  color: white;
+}
+
+h2{
+  font-family: 'Alegreya', serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  margin-bottom: 1em;
+  color: white;
+}
+
+/*Ich bin ein Kommentar. Funktioniert so: CMD+Shift+7. Tadaa!*/
+
+.article-module {
+  padding: 1.5rem 0;
+}
+
+.article-text-person {
+  position: fixed;
+  background-color: magenta;
+  width: 10rem;
+  padding: 0.6rem 1.3rem;
+  margin-top: -70%;
+  margin-left: 73%;
+  border: 5px dashed yellow;
+  box-shadow: 10px 10px 20px 0 red;
+}
+
+/*.article-teaser{
+display: flex;
+text-decoration: none;
+color:red
+}
+
+.article-teaser:hover {
+  color: green;
+}
+
+.article-teaser:hover .article-teaser-headline {
+  transform: rotate(180deg);
+}
+
+.article-teaser-image {
+  margin-right: 1rem;
+}
+
+.article-teaser-image img{
+  width: 120px;
+}
+
+.article-teaser-headline {
+  align-self: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: magenta;
+  transition: all 10s;
+}*/
+
+.rollercoaster{
+  margin-bottom: 20px;
+  margin-left: -10px;
+  margin-top: 50px;
+}
+
+.teaser{
+  text-decoration: none;
+}
+
+.teaser-image img{
+  width: 75px;
+}
+
+.teaser-headline{
+  color:transparent;
+}
+
+.rollercoaster teaser-image:hover{
+  color:white;
+}
+
+
+
+
+
+
+
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye  {
+  animation: mega 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes mega {
+  to {
+    fill: magenta;
+    transform: scale(1, 0.2) translateY(200px);
+  }
+}
+
+
+.article-stage {
+/*  background-image: url(../images/milkyway.jpg);*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  /*background: linear-gradient(0deg, black, transparent, black);*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.stage-headline {
+  font-family: 'Alegreya', serif;;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-weight: normal;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.article-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: transparent;
+  font-family: 'Alegreya', serif;;
+  font-size: 18px;
+  color: transparent;
+  border: none;
+  /*border-radius: 0;*/
+  /*box-shadow: 7px 7px magenta;*/
+  cursor: url(../images/schluessel.png), pointer;
+
+}
+
+.button:hover{
+  /*background-color: magenta;
+  border: 2px dotted yellow;
+  box-shadow: 7px 7px yellow;*/
+  color: #ef83d8 ;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.article-interactive{
+  text-align: center;
+  min-height: 60vh;
+  display: flex;
+  align-items:center;
+
+}
+
+/*.spacedonut{
+  background: url(../images/door1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+
+.stars{
+  position: absolute;
+
+}
+
+/*.article-pic img{
+  width: 150%;
+  height: auto;
+  margin-left: -40%;
+}
+.article-pic2 img{
+  width: 120%;
+  height: auto;
+  margin-top: -150%;
+  margin-left: 50%;
+}*/
+
+/*.article-pic3 img{
+  width: 120%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+.article-pic3 {
+  background-image: url(../images/door1.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+  margin-left: -23%;
+  margin-top: -40%;
+}
+
+.header {
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+  opacity: 0.7;
+  padding: 0rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 0;
+  z-index: 10;
+}
+
+.header a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 5px;
+  transform: rotate(270deg) translateX(-50px);
+}
+
+[data-aos="einhorn"] {
+  transform: rotate(0);
+}
+
+[data-aos="einhorn"].aos-animate {
+  transform: rotate(180deg);
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: none;
+}
+
+body::-webkit-scrollbar-track-piece{
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+}
+
+body::-webkit-scrollbar-thumb {
+background: transparent;
+background: linear-gradient(#faade9, #fbe657, #58f6f8);
+outline: 1px solid slategrey;
+}
+
+/*body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#faade9, #fbe657, #58f6f8);
+  outline: 1px solid slategrey;
+}*/
+
+.read-on{
+  color: magenta;
+  max-width: 700px;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 4rem;
+  padding: 0.6rem 1.3rem;
+  border: 5px magenta;
+  box-shadow: 10px 10px 20px 0 magenta;
+}
+
+.frame{
+  position: fixed;
+  margin-top: -115%;
+  margin-left: 60%;
+  height: 10px;
+  width: auto;
+}

@@ -1,17 +1,4 @@
 <!DOCTYPE html>
-
-<!--
-mail@hanspagel.de : für Fragen; *.txt mit Infos schreiben
-
-Domain Factory;
-All-inkl.com;
-Studentenrabatt – Recherche ?
-CyperDuck – ftp-Server
-Semplice ($ 90.00)
-php – Recherche !
-get kirby
--->
-
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -21,12 +8,13 @@ get kirby
 		<link href="css/aos.css" rel="stylesheet">
 		<script href="js/aos.js"></script>
 		<script src="js/jquery.js"></script>
-		<!--<link href="js/script.js" rel="javascript" />-->
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 		<script>
 
 		$(document).ready(function() {
+
+				$(".note_1").show();
 
 		    $(".infos").hide();
 
@@ -36,6 +24,7 @@ get kirby
 
 		      var team = $(this).data("team");
 
+					$(".note_1").hide();
 		      $(".infos").hide();
 		      $(team).show();
 
@@ -59,7 +48,7 @@ get kirby
 				<a href="teams_en.html">teams</a>
 			</div>
 			<div class="three">
-				<a href="#">information</a>
+				<a href="information_en.html">information</a>
 			</div>
 			<div class="four-one">
 				<a href="teams_en.html">en</a>
@@ -72,7 +61,8 @@ get kirby
 
 	<div class="nhl_wrapper">
 
-		<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
+	<div class="nhl_map">
+		<img src="image/nhl_map.svg" alt="#" />
 
 	    <div class="nhl_city_montreal">
 				<p class="link"><a href="#" data-team=".city_montreal"><img src="image/nhl_city.svg" alt=""><span>Montreal Canadiens</span></a></p>
@@ -201,6 +191,8 @@ get kirby
 		</div>
 
 		<div class="team_infos">
+
+			<div class="note_1"></div>
 
 			<div class="infos city_montreal">
 				<div class="infos_headline">
@@ -632,10 +624,10 @@ get kirby
 		</div>
 
 	</div>
-<!--
+
 	<script>
 		AOS.init();
-  </script>
--->
+	</script>
+
   </body>
 </html>

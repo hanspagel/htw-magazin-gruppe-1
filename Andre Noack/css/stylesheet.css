@@ -8,10 +8,10 @@ body, html {
   font-size: 1.0em;
   color: #000;
   background-color: #fff;
-  width: 100%;
+
 }
 
-/* NOTE: Media Queries */
+/* NOTE: Media Queries – Stichwort Responsive ! */
 
 @media all and (max-width: 1000px) {
   body, html {
@@ -32,7 +32,7 @@ video {
   height: auto;
 }
 
-.video-wrapper {
+.video-wrapper { /* BENÖTIGT ??? */
 
 }
 
@@ -154,7 +154,7 @@ p.link a:active {
   color: red;
 }
 
-/* === MAP – CANADA === */
+/* MAP HOVER – ENDE */
 
 .nhl_wrapper {
   display: flex;
@@ -254,8 +254,6 @@ p.link a:active {
   transform: scale(1.6);
   transition: 0.1s;
 }
-
-/* === MAP – USA === */
 
 .nhl_city_boston {
   position: absolute;
@@ -566,14 +564,10 @@ p.link a:active {
 
 .header {
   margin-top: 127px;
-  /*background-image: url('../image/test.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-color: tomato;
-  /*height: 80vh;
-  text-align: left;
-  color: white;*/
 }
 
 .header-fr {
@@ -602,7 +596,6 @@ p.link a:active {
 .infos_headline {
   display: flex;
   height: 200px;
-  /*margin-top: 10px;*/
   width: 100%;
 }
 
@@ -635,7 +628,7 @@ p.link a:active {
 }
 
 .information_team {
-  width: 660px;
+  width: 800px;
   height: 700px;
   overflow: scroll;
   margin-right: 300px;
@@ -643,17 +636,288 @@ p.link a:active {
   font-size: 1.1em;
 }
 
-/*
-
-[data-aos="zoom"] {
-  filter: blur(100px);
-  transform: rotate(180deg);
-  transition-property: all;
+.one_graphic_1 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/test.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-[data-aos="zoom"].aos-animate {
-  filter: blur(0px);
-  transform: rotate(0deg);
+.one_text_1 {
+  margin-top: 127px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-*/
+.one_graphic_2 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.one_graphic_3 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_4 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_5 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_6 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_7 {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  margin-bottom: 380px;
+  background-color: tomato;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_1_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/test.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_2_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.one_graphic_3_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_4_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_5_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_6_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_graphic_7_fr {
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  margin-bottom: 380px;
+  background-color: #1CBCD9;
+  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.one_text_headline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
+}
+
+.one_text_information {
+  width: 800px;
+  margin-right: 10%;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.one_text_information p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.note_1 {
+  background-image: url('../image/note.jpg');
+  width: 775px;
+  height: 816px;
+}
+
+.button {
+  font-size: 0.6em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.action {
+  background: url(../image/giphy.gif);
+  background-position: center;
+  background-size: 100%;
+}
+
+.button:hover {
+  color: white;
+}
+
+.giphy {
+  background-color: tomato;
+}
+
+.giphy-fr {
+  background-color: #1CBCD9;
+}

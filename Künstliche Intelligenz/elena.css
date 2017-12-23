@@ -43,16 +43,23 @@ background-color: #DADADA;
 }
 
 .article-ich-digital h1{
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
+<<<<<<< HEAD
+  font-size: 224px;
+  font-weight: 500;
+=======
   font-size: 200px;
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
   color: #33495f;
   border-width: 3px;
   margin: 0;
 }
 
 .header-right ul {
+  font-size: 224px;
+  font-weight: 500;
   /*height: 224px;*/
   transition-timing-function:ease;
   border-width: 3px;
@@ -61,7 +68,7 @@ background-color: #DADADA;
 
 
 .header-right ul li{
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   /*hälfte von font size in html wenn man in em schreibt*/
   color: #33495f;
@@ -125,9 +132,9 @@ animation-play-state:running ;
 }
 
 .article-ich-digital h3 {
-  font-family: 'Teko'; sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 35px;
-  font-weight: 500px;
+  font-weight: 400;
   color: #000000;
   margin: 0px 0px 0px 443px;
   text-align: left;
@@ -168,7 +175,82 @@ animation-play-state:running ;
 
 }
 
+<<<<<<< HEAD
+
+
+
+@media all and (max-width: 2048px) {
+    .article-ich-digital p {
+    margin-right: 500px;
+    }
+}
+
+@media all and (max-width: 1800px) {
+    .article-ich-digital p {
+    margin-right: 300px;
+    }
+}
+
+@media all and (max-width: 1450px) {
+    .article-ich-digital p {
+    margin-right: 60px;
+    }
+}
+
 @media all and (max-width: 1200px) {
+    .article-ich-digital p {
+    margin-left: 95px;
+    }
+    .article-text h3 {
+    margin-left: 95px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    .header-wrap h1 {
+      font-size: 200px;
+    }
+    .header-wrap ul {
+      font-size: 200px;
+    }
+    .header-wrap {
+
+
+}
+
+@media all and (max-width: 860px) {
+    .article-ich-digital p {
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 1.5;
+    }
+    .article-text h3 {
+      font-size: 24px;
+    }
+    .header-wrap h1 {
+      font-size: 130px;
+    }
+    .header-wrap ul {
+      font-size: 130px;
+    }
+    .header-wrap {
+      height: 130px;
+      margin-bottom: 50px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .header-wrap h1 {
+      font-size: 100px;
+    }
+    .header-wrap ul {
+      font-size: 100px;
+    }
+=======
+@media all and (max-width: 1200px) {
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
     .article-text h3 {
     margin-left: 93px;
     }

@@ -44,10 +44,22 @@ body{
   margin-left: 50%;
 }
 
-[data-aos="einhorn"] {
-  transform: scale(40%);
+<<<<<<< HEAD
+.schlossauffelsen img{
+  width: 70%;
+  height: auto;
+  margin-top: 0%;
+  margin-left: 90%;
 }
 
-[data-aos="einhorn"].aos-animate {
-  transform: scale(100%);
+[data-aos="zoom-in"] {
+  transform: opacity(0%);
+=======
+[data-aos="einhorn"] {
+  transform: scale(40%);
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
+}
+
+[data-aos="zoom-in"].aos-animate {
+  transform: opacity(100%);
 }

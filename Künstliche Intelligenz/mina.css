@@ -9,6 +9,22 @@
   opacity: 0.7;
 }
 
+<<<<<<< HEAD
+/* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
+kann man löschen. Der Code wurde von Lena geschrieben.*/
+
+#spirale_animation {
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+=======
+>>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
 .gehirn_überschrift {
   font-family: 'Teko';
 	font-size: 150px;
@@ -22,21 +38,23 @@
 .grosse_zahl {
   font-family: 'Teko';
 	font-size: 150px;
-	font-weight: 500px;
+	font-weight: 600;
 	color: #33495f;
   /*text-shadow: 0px 0px 5px #F7F2E0,
                0px 0px 8px #F7F2E0;*/
   margin: 0;
   padding: 0;
+    line-height: 1.0;
 }
 
 .subheadline {
-	font-family: 'Raleway',bold;
+	font-family: 'Raleway';
 	font-size: 24px;
-	letter-spacing: 1.8px;
+  font-weight: 100;
+	letter-spacing: 1.38;
   line-height: 30px;
 	color: #33495f;
-  font-weight: 550;
+  font-weight: 500;
   opacity: 0.7;
   margin: 0;
   padding: 0;
@@ -59,28 +77,207 @@
 
 .gehirn_infografik {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 105px;
   bottom: 0;
   left: 95px;
 }
 
 .infographic-1-info {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .infographic-2-info {
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .infographic-3-info {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .infographic-4-info {
-  margin-bottom:60px;
+  margin-bottom: 200px;
 }
 
 .infographic-5-info {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+@media all and (max-width: 2048px) {
+
+  .infographic-1-info {
+    margin-bottom: 300px;
+  }
+  .infographic-2-info {
+    margin-bottom: 300px;
+  }
+  .infographic-3-info {
+    margin-bottom: 300px;
+  }
+  .infographic-4-info {
+    margin-bottom: 300px;
+  }
+  .infographic-5-info {
+    margin-bottom: 300px;
+  }
+}
+
+@media all and (max-width: 1850px) {
+
+  .infographic-1-info {
+    margin-bottom: 250px;
+  }
+  .infographic-2-info {
+    margin-bottom: 250px;
+  }
+  .infographic-3-info {
+    margin-bottom: 250px;
+  }
+  .infographic-4-info {
+    margin-bottom: 250px;
+  }
+  .infographic-5-info {
+    margin-bottom: 250px;
+  }
+}
+
+@media all and (max-width: 1700px) {
+
+  .infographic-1-info {
+    margin-bottom: 200px;
+  }
+  .infographic-2-info {
+    margin-bottom: 200px;
+  }
+  .infographic-3-info {
+    margin-bottom: 200px;
+  }
+  .infographic-4-info {
+    margin-bottom: 200px;
+  }
+  .infographic-5-info {
+    margin-bottom: 200px;
+  }
+}
+@media all and (max-width: 1600px) {
+
+  .infographic-1-info {
+    margin-bottom: 150px;
+  }
+  .infographic-2-info {
+    margin-bottom: 150px;
+  }
+  .infographic-3-info {
+    margin-bottom: 150px;
+  }
+  .infographic-4-info {
+    margin-bottom: 150px;
+  }
+  .infographic-5-info {
+    margin-bottom: 150px;
+  }
+}
+@media all and (max-width: 1400px) {
+
+  .infographic-1-info {
+    margin-bottom: 50px;
+  }
+  .infographic-2-info {
+    margin-bottom: 50px;
+  }
+  .infographic-3-info {
+    margin-bottom: 50px;
+  }
+  .infographic-4-info {
+    margin-bottom: 50px;
+  }
+  .infographic-5-info {
+    margin-bottom: 50px;
+  }
+}
+
+
+@media all and (max-width: 1200px) {
+
+  .infographic-1-info {
+    margin-bottom: 20px;
+  }
+  .infographic-2-info {
+    margin-bottom: 20px;
+  }
+  .infographic-3-info {
+    margin-bottom: 20px;
+  }
+  .infographic-4-info {
+    margin-bottom: 20px;
+  }
+  .infographic-5-info {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+
+  .infographic-1-info {
+    margin-bottom: 10px;
+  }
+  .infographic-2-info {
+    margin-bottom: 10px;
+  }
+  .infographic-3-info {
+    margin-bottom: 10px;
+  }
+  .infographic-4-info {
+    margin-bottom: 10px;
+  }
+  .infographic-5-info {
+    margin-bottom: 10px;
+  }
+  .grosse_zahl {
+    font-size: 130px;
+  }
+    .subheadline {
+      font-size: 18px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .grosse_zahl {
+      font-size: 80px;
+    }
+
+    .info-gehirn-rechtsbündig {
+      text-align: left;
+    }
+    .infographic-1-info {
+      margin-bottom: 40px;
+    }
+    .infographic-2-info {
+      margin-bottom: 40px;
+    }
+    .infographic-3-info {
+      margin-bottom: 40px;
+    }
+    .infographic-4-info {
+      margin-bottom: 40px;
+    }
+    .infographic-5-info {
+      margin-bottom: 40px;
+    }
+    .subheadline {
+        font-size: 18px;
+      }
+  }
+
+
+@media all and (max-width: 460px) {
+  .gehirn_überschrift {
+    font-size: 100px;
+  }
+  .grosse_zahl {
+    font-size: 80px;
+  }
+  .subheadline {
+    font-size: 14px;
+  }
 }
