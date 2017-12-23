@@ -38,3 +38,12 @@ iframe {
   height: 100%;
   border: none;
 }
+.arrows-cont{
+  display: inline-block;
+  position: absolute;
+  right: 120px;
+  top: 35px;
+}
+a{
+  display: inline-block;
+}
