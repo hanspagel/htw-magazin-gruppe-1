@@ -36,9 +36,9 @@ function getTime(t) {
 }
 
 function getProgressBarClickInfo(progress_bar, e) {
-    var offset = progress_bar.position();
-    var x = e.pageX - offset.left; // or e.offsetX (less support, though)
-    var y = e.pageY - offset.top;  // or e.offsetY
+    var offset = document.getElementById("progressbar").getBoundingClientRect();
+    var x = e.pageX - offset.x; // or e.offsetX (less support, though)
+    var y = e.pageY - offset.y;  // or e.offsetY
     var max = progress_bar.progressbar("option", "max");
     var value = x * max / progress_bar.width();
 
@@ -60,7 +60,9 @@ play_button.click(function() {
     $(this).toggleClass("fa-pause", player.paused);
 });
 
-
+$('#play').click(function() {
+	$('.icon').toggleClass('pause');
+});
 
 
 

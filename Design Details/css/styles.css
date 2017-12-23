@@ -151,26 +151,22 @@ p{
 /*audio player*/
 
 .ui-progressbar {
-    background: grey;
+    background: rgb(180,180,180)!important;
 }
 
 .ui-progressbar-value {
-    background: tomato;
+    background: tomato!important;
 }
 
 #progressbar {
     height: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
     border: none;
-}
-
-#progressbar {
-    width: 150px;
 }
 
 
 #time{
-  /*display: none;*/
+  display: none;
 }
  img.cover {
    width: 100%;
