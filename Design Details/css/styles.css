@@ -158,6 +158,20 @@ p{
     background: tomato;
 }
 
+#progressbar {
+    height: 10px;
+    border-radius: 0px;
+    border: none;
+}
+
+#progressbar {
+    width: 150px;
+}
+
+
+#time{
+  /*display: none;*/
+}
  img.cover {
    width: 100%;
    overflow: hidden;
@@ -184,10 +198,7 @@ align-items: center;
   height: 40px;
   border-radius: 50%;
   position: relative;
-}
-.buttoncont{
-  width: 40px;
-  height: 40px;
+  cursor: pointer;
 }
 
 #play {
