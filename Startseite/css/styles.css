@@ -111,6 +111,13 @@ footer{
   padding: 60px;
 }
 
+.arrows{
+  cursor: pointer;
+}
+#arrow-right{
+  margin-bottom: 7px;
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: white;
     background: black;
