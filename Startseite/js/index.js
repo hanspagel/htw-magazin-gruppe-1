@@ -2,6 +2,7 @@ var scrollJump = 303;
 var cards = document.getElementsByClassName("card");
 
 window.onload = function() {
+  cards[0].focus();
 
   // random bg-colors for cards:
   function randomColors(){
@@ -35,7 +36,7 @@ window.onload = function() {
     var currentSlot = Math.floor(scrollLeft/scrollJump);
     // cards[currentSlot].focus();
     if ((scrollLeft/scrollJump) === Math.floor(scrollLeft/scrollJump)){
-      cards[currentSlot+2].focus();
+      cards[currentSlot].focus();
     }
 
     // console.log(currentSlot);
