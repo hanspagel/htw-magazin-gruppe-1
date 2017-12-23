@@ -82,7 +82,10 @@ h1{
 section:last-child{
   margin-right: 800px;
 }
-.card:hover, .card:focus, .focus{
+section:first-child{
+  margin-left: 300px;
+}
+.card:focus, .focus{
   transform: translateY(-90px) scale(1.1);
   /*z-index: 1000;*/
 }
@@ -109,6 +112,13 @@ footer{
   right:0px;
   bottom: 0px;
   padding: 60px;
+}
+
+.arrows{
+  cursor: pointer;
+}
+#arrow-right{
+  margin-bottom: 7px;
 }
 
 ::-moz-selection { /* Code for Firefox */

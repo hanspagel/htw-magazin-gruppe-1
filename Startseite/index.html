@@ -36,7 +36,7 @@
           <div class="card c1" tabindex="1">
             <h2>national hockey league</h2>
             <div class="card-content" style="background: url('images/i1.png') no-repeat center center; background-size: cover;">
-              <a href="">
+              <a class="transition" href="articles/andre.html">
                 <img src="images/rect.svg" alt="Zum Artikel">
               </a>
             </div>
@@ -185,7 +185,8 @@
       </article>
     </main>
     <footer>
-      <button onclick="scrollCard('left')"><</button> <button onclick="scrollCard('right')">></button>
+      <img src="images/arrow-back.svg" class="arrows" alt="<" onclick="scrollCard('left')">
+      <img src="images/arrow-next.svg" class="arrows" id="arrow-right" alt=">" onclick="scrollCard('right')">
     </footer>
   </body>
 </html>

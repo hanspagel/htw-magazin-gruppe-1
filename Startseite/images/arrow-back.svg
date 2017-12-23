@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="21px" viewBox="0 0 26 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-back" transform="translate(13.313152, 11.313152) scale(-1, 1) translate(-13.313152, -11.313152) translate(1.313152, -0.686848)">
+            <g id="Filled_Icons" transform="translate(11.000000, 11.000000) rotate(-31.000000) translate(-11.000000, -11.000000) translate(1.000000, 1.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M19.855,6.056 L14.855,1.018 C14.713,0.875 14.498,0.83 14.31,0.909 C14.122,0.985 14,1.168 14,1.37 L14,9.789 L4.998,0.745 C4.904,0.65 4.776,0.598 4.644,0.598 L4.643,0.598 C4.51,0.598 4.383,0.651 4.29,0.744 L0.754,4.279 C0.66,4.373 0.607,4.5 0.607,4.633 C0.607,4.766 0.66,4.894 0.754,4.987 L9.79,14 L1.454,14 C1.252,14 1.07,14.121 0.993,14.308 C0.915,14.494 0.957,14.708 1.099,14.852 L6.049,19.852 C6.142,19.946 6.27,20 6.403,20 L19.5,20 C19.776,20 20,19.776 20,19.5 L20,6.408 C20,6.276 19.948,6.149 19.855,6.056 Z" id="Shape"></path>
+            </g>
+            <g id="Frames-24px">
+                <rect id="Rectangle-path" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
