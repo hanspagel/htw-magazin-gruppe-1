@@ -48,11 +48,16 @@ function getProgressBarClickInfo(progress_bar, e) {
 progress_bar.progressbar({
     value : player.currentTime,
 });
+var progress_bar_val = $( ".ui-progressbar-value" );
+progress_bar_val.after( "<div class='ui-progressbar-value-after' ></div>" );
 
 progress_bar.click(function(e) {
     var info = getProgressBarClickInfo($(this), e);
     player.currentTime = player.duration / info.max * info.value;
+		$( ".ui-progressbar-value-after" ).css('left', (info.value / info.max * 100)+"%");
+
 });
+
 
 play_button.click(function() {
     player[player.paused ? 'play' : 'pause']();
@@ -63,7 +68,6 @@ play_button.click(function() {
 $('#play').click(function() {
 	$('.icon').toggleClass('pause');
 });
-
 
 
 
