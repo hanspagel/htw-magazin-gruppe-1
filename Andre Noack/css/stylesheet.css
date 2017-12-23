@@ -166,6 +166,9 @@ p.link a:active {
   margin-bottom: 0;
   padding: 0;
   background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .nhl_city_montreal {
@@ -577,8 +580,8 @@ p.link a:active {
 
 .header-content {
   color: black;
-  height: 677px;
-  padding-top: 200px;
+  height: 687px;
+  padding-top: 190px;
   font-size: 2.5em;
   font-weight: 700;
 }
@@ -636,7 +639,7 @@ p.link a:active {
   font-size: 1.1em;
 }
 
-.one_graphic_1 {
+/*.one_graphic_1 {
   width: 44.5%;
   float: left;
   height: 615px;
@@ -644,7 +647,7 @@ p.link a:active {
   margin-left: 50px;
   margin-right: 2.75%;
   background-color: tomato;
-  /*background-image: url('../image/test.jpg');*/
+  background-image: url('../image/test.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -654,7 +657,7 @@ p.link a:active {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
+}*/
 
 .one_text_1 {
   margin-top: 127px;
@@ -674,16 +677,10 @@ p.link a:active {
   margin-left: 50px;
   margin-right: 2.75%;
   background-color: tomato;
-  /*background-image: url('../image/montreal_canadiens.png');*/
+  background-image: url('../image/montreal_canadiens.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .one_graphic_3 {
@@ -920,4 +917,95 @@ p.link a:active {
 
 .giphy-fr {
   background-color: #1CBCD9;
+}
+
+.map_text {
+	position: fixed;
+	display: none;
+  background-color: transparent;
+}
+
+.bild_text p {
+  color: red;
+  font-size: 0.8em;
+  letter-spacing: 0.19em;
+  line-height: 1.5;
+  font-weight: normal;
+  background-color: rgba(255,255,255,0);
+  text-align: left;
+}
+
+.hover {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: tomato;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover img {
+	max-width: 100%;
+}
+
+.hover .hover-layer_bottom {
+	display: block;
+}
+
+.hover .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover:hover .hover-layer_top,
+.hover.active .hover-layer_top {
+	opacity: 1;
+}
+
+.hover .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover:hover .hover-layer_slideup,
+.hover.active .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
 }
