@@ -8,7 +8,7 @@ body, html {
   font-size: 1.0em;
   color: #000;
   background-color: #fff;
-  width: 100%;
+
 }
 
 /* NOTE: Media Queries – Stichwort Responsive ! */
@@ -564,19 +564,15 @@ p.link a:active {
 
 .header {
   margin-top: 127px;
-  /*background-image: url('../image/test.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-color: tomato;
-  /*height: 80vh;
-  text-align: left;
-  color: white;*/
 }
 
 .header-fr {
   margin-top: 127px;
-  background-color: #1CBCD9; /* testen, welche farbe websicher an dieser stelle ist */
+  background-color: #1CBCD9;
 }
 
 .header-content {
@@ -595,21 +591,6 @@ p.link a:active {
   float: left;
   margin-bottom: 200px;
   color: black;
-}
-
-.click {
-  padding: 0px;
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  cursor: pointer;
-  font-size: 0.6em;
-  line-height: 1.1em;
-  font-weight: 700;
-  font-family: 'Oswald', sans-serif;
-}
-
-.click:hover {
-  color: white;
 }
 
 .infos_headline {
@@ -911,4 +892,32 @@ p.link a:active {
   background-image: url('../image/note.jpg');
   width: 775px;
   height: 816px;
+}
+
+.button {
+  font-size: 0.6em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.action {
+  background: url(../image/giphy.gif);
+  background-position: center;
+  background-size: 100%;
+}
+
+.button:hover {
+  color: white;
+}
+
+.giphy {
+  background-color: tomato;
+}
+
+.giphy-fr {
+  background-color: #1CBCD9;
 }
