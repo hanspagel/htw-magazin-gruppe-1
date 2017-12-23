@@ -597,6 +597,21 @@ p.link a:active {
   color: black;
 }
 
+.click {
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 0.6em;
+  line-height: 1.1em;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+
+.click:hover {
+  color: white;
+}
+
 .infos_headline {
   display: flex;
   height: 200px;
