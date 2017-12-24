@@ -32,7 +32,7 @@ video {
   height: auto;
 }
 
-.video-wrapper { /* BENÖTIGT ??? */
+.video-wrapper {
 
 }
 
@@ -744,9 +744,7 @@ p.link a:active {
 /* HOVER 01 */
 
 .hover_1 {
-  /*background-size: 100%;*/
   background-position: center;
-  /*background-attachment: fixed;*/
 	position: relative;
 	overflow: hidden;
   width: 44.5%;
@@ -811,7 +809,6 @@ p.link a:active {
 
 .hover_2 {
   background-position: center;
-  /*background-attachment: fixed;*/
 	position: relative;
 	overflow: hidden;
   width: 44.5%;
@@ -876,7 +873,6 @@ p.link a:active {
 
 .hover_3 {
   background-position: center;
-  /*background-attachment: fixed;*/
 	position: relative;
 	overflow: hidden;
   width: 44.5%;
@@ -941,7 +937,6 @@ p.link a:active {
 
 .hover_4 {
   background-position: center;
-  /*background-attachment: fixed;*/
 	position: relative;
 	overflow: hidden;
   width: 44.5%;
@@ -1006,7 +1001,6 @@ p.link a:active {
 
 .hover_5 {
   background-position: center;
-  /*background-attachment: fixed;*/
   position: relative;
   overflow: hidden;
   width: 44.5%;
@@ -1071,7 +1065,6 @@ p.link a:active {
 
 .hover_6 {
   background-position: center;
-  /*background-attachment: fixed;*/
   position: relative;
   overflow: hidden;
   width: 44.5%;
@@ -1136,7 +1129,6 @@ p.link a:active {
 
 .hover_7 {
   background-position: center;
-  /*background-attachment: fixed;*/
   position: relative;
   overflow: hidden;
   width: 44.5%;
