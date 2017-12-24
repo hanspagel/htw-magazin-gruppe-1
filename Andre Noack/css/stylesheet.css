@@ -704,6 +704,7 @@ p.link a:active {
   cursor: pointer;
   border: none;
   padding: 0;
+  transition: 0.3s
 }
 
 .action {
