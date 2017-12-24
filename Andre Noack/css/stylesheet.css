@@ -1233,19 +1233,17 @@ p.link a:active {
 /* HOVER 07 */
 
 .hover_7 {
-  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
+  /*background-attachment: fixed;*/
+  position: relative;
+  overflow: hidden;
   width: 44.5%;
   float: left;
   height: 615px;
   margin-top: 17px;
   margin-left: 50px;
   margin-right: 2.75%;
-  background-color: blue;
-  /*background-image: url('../image/01.jpg');*/
+  background-image: url('../image/07.jpg');
 }
 
 .hover_7 .hover-layer_top {
