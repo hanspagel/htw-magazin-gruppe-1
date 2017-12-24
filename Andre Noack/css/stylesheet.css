@@ -935,7 +935,9 @@ p.link a:active {
   text-align: left;
 }
 
-.hover {
+/* HOVER 01 */
+
+.hover_1 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -951,15 +953,7 @@ p.link a:active {
   /*background-image: url('../image/test.jpg');*/
 }
 
-.hover img {
-	max-width: 100%;
-}
-
-.hover .hover-layer_bottom {
-	display: block;
-}
-
-.hover .hover-layer_top {
+.hover_1 .hover-layer_top {
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -977,12 +971,11 @@ p.link a:active {
 	transition: all 0.4s ease-in-out 0s;
 }
 
-.hover:hover .hover-layer_top,
-.hover.active .hover-layer_top {
+.hover_1:hover .hover-layer_top, .hover-layer_top {
 	opacity: 1;
 }
 
-.hover .hover-text {
+.hover_1 .hover-text {
 	text-align: center;
 	font-size: 18px;
 	display: inline-block;
@@ -995,15 +988,416 @@ p.link a:active {
 	transform: translate(-50%, -50%);
 }
 
-.hover .hover-layer_slideup {
+.hover_1 .hover-layer_slideup {
 	-moz-transform: translateY(100%);
 	-webkit-transform: translateY(100%);
 	-ms-transform: translateY(100%);
 	transform: translateY(100%);
 }
 
-.hover:hover .hover-layer_slideup,
-.hover.active .hover-layer_slideup {
+.hover_1:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 02 */
+
+.hover_2 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: cyan;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_2 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_2:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_2 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_2 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_2:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 03 */
+
+.hover_3 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: green;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_3 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_3:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_3 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_3 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_3:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 04 */
+
+.hover_4 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: orange;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_4 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_4:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_4 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_4 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_4:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 05 */
+
+.hover_5 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: purple;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_5 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_5:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_5 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_5 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_5:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 06 */
+
+.hover_6 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: yellow;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_6 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_6:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_6 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_6 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_6:hover .hover-layer_slideup, .hover-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* HOVER 07 */
+
+.hover_7 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-color: blue;
+  /*background-image: url('../image/test.jpg');*/
+}
+
+.hover_7 .hover-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hover_7:hover .hover-layer_top, .hover-layer_top {
+	opacity: 1;
+}
+
+.hover_7 .hover-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hover_7 .hover-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hover_7:hover .hover-layer_slideup, .hover-layer_slideup {
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
 	-ms-transform: translateY(0);
