@@ -1103,19 +1103,18 @@ p.link a:active {
 /* HOVER 05 */
 
 .hover_5 {
-  background-size: 105%;
-    background-position: center;
-    background-attachment: fixed;
-  	position: relative;
-  	overflow: hidden;
-    width: 44.5%;
-    float: left;
-    height: 615px;
-    margin-top: 17px;
-    margin-left: 50px;
-    margin-right: 2.75%;
-    background-image: url('../image/giphy_05.gif');
-  }
+  background-position: center;
+  /*background-attachment: fixed;*/
+  position: relative;
+  overflow: hidden;
+  width: 44.5%;
+  float: left;
+  height: 615px;
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 2.75%;
+  background-image: url('../image/05.jpg');
+}
 
 .hover_5 .hover-layer_top {
 	opacity: 0;
@@ -1169,19 +1168,17 @@ p.link a:active {
 /* HOVER 06 */
 
 .hover_6 {
-  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
+  /*background-attachment: fixed;*/
+  position: relative;
+  overflow: hidden;
   width: 44.5%;
   float: left;
   height: 615px;
   margin-top: 17px;
   margin-left: 50px;
   margin-right: 2.75%;
-  background-color: yellow;
-  /*background-image: url('../image/test.jpg');*/
+  background-image: url('../image/06.jpg');
 }
 
 .hover_6 .hover-layer_top {
