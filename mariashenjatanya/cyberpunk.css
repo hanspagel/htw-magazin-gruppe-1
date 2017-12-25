@@ -286,7 +286,7 @@ p {
   background-position: 50% 10%;
   background-size: 1500px;
   opacity: 0.9;
-  
+
 }
 
 
@@ -400,7 +400,88 @@ p {
 
 @media screen and (max-width: 900px) {
 
-.Überschrift-Neon-Off {
+.Origins-Off {
+  opacity: 0;
+}
+
+.Origins-On {
+  opacity: 0;
+}
+
+.Origins-Off img {
+  opacity: 0;
+}
+
+.Origins-On img {
+  opacity: 0;
+}
+
+.Definition-Off {
+  opacity: 0;
+}
+
+.Definition-On {
+  opacity: 0;
+}
+
+.Definition-Off img {
+  opacity: 0;
+}
+
+.Definition-On img {
+  opacity: 0;
+}
+
+.Essence-Off {
+  opacity: 0;
+}
+
+.Essence-On {
+  opacity: 0;
+}
+
+.Essence-Off img {
+  opacity: 0;
+}
+
+.Essence-On img {
+  opacity: 0;
+}
+
+
+.Now-Off {
+  opacity: 0;
+}
+
+.Now-On {
+  opacity: 0;
+}
+
+.Now-Off img {
+  opacity: 0;
+}
+
+.Now-On img {
+  opacity: 0;
+}
+
+.Exit-Off {
+  opacity: 0;
+}
+
+.Exit-On {
+  opacity: 0;
+}
+
+.Exit-Off img {
+  opacity: 0;
+}
+
+.Exit-On img {
+  opacity: 0;
+}
+
+/* .Überschrift-Neon-Off {
   top: 30%;
   z-index: 105;
 }
@@ -517,7 +598,7 @@ p {
 
 .Exit-On img {
   width: 20%;
-}
+}*/
 
 h1 {
   font-size: 1rem;
