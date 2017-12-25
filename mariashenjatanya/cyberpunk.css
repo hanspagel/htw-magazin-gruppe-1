@@ -265,7 +265,7 @@ p {
 .hintergrundbildorigins {
   background-image: url(Bilder/ComputerNeon.gif);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: 1500px;
   opacity: 0.9;
 }
@@ -283,10 +283,10 @@ p {
 .hintergrundbildessence{
   background-image: url(Bilder/autoneon.gif);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 10%;
   background-size: 1500px;
   opacity: 0.9;
-  padding-bottom: 100px;
+  
 }
 
 
@@ -294,7 +294,7 @@ p {
 .hintergrundbildnow {
   background-image: url(Bilder/gunneon.gif);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: 1500px;
   opacity: 0.9;
 }
