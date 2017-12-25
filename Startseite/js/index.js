@@ -220,7 +220,7 @@ function scrollToX(scrollTargetX, speed, easing) {
 
             windowc.scrollTo(scrollX + ((scrollTargetX - scrollX) * t), 0);
         } else {
-            console.log('scroll done');
+            // console.log('scroll done');
             windowc.scrollTo(scrollTargetX, 0);
         }
     }
