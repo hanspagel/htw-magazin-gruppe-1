@@ -34,12 +34,20 @@ main{
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
+  -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
   /*perspective: 1000px;*/
 }
 .card-stack{
   white-space: nowrap;
   transform: rotate(-13deg);
   margin: auto 0px auto 80px;
+  cursor: ew-resize;
   /*transition: 100ms;*/
 }
 .card-stack-3d {
