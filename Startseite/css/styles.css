@@ -158,6 +158,50 @@ p{
 }
 
 
-@media all and (max-width: 780px) {
-
+@media all and (max-width: 640px) {
+  body {
+    padding: 8px!important;
+  }
+  html, body, main {
+    overflow: auto!important;
+  }
+  header {
+    /* position: relative; */
+    z-index: -100;
+    top: 0;
+    left: 0;
+    padding: 8px;
+  }
+  header p {
+    width: 100%;
+  }
+  main {
+    z-index: 100;
+    margin: 0;
+    margin-top: 220px;
+    height: auto;
+    width: auto;
+    display: block;
+    background-color: white;
+  }
+  .card-stack {
+    white-space: normal;
+    transform: none;
+    margin: auto;
+  }
+  .card{
+    height: 100%;
+  }
+  .card:focus {
+transform: none;
+  }
+  section {
+    margin-bottom: 20px;
+    margin-right: 0!important;
+    margin-left: 0!important;
+    width: 100%;
+  }
+  footer{
+    display: none;
+  }
 }
