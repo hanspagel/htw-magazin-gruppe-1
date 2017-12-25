@@ -24,6 +24,10 @@ body, html {
   top: 0px;
 }
 
+header img:hover {
+  transform: scale(1.2);
+}
+
 main {
   position: absolute;
   top: 80px;
