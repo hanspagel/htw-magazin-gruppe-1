@@ -193,7 +193,7 @@ p{
     height: 100%;
   }
   .card:focus {
-transform: none;
+    transform: none;
   }
   section {
     margin-bottom: 20px;

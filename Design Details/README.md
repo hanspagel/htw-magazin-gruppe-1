@@ -1,6 +1,6 @@
-# Startseite
+# Design Details
 
-Startseite für das HTW Techno Magazin.
+Artikel über den gleichnamigen Podcast.
 
 ## Dozent
 
@@ -8,15 +8,17 @@ Startseite für das HTW Techno Magazin.
 
 ## Built With
 
-* Vanilla JavaScript for the most part.
+* fullpage.js
 
 ## Noteworthy
 
-Diagonal scrolling.
+Fullpage.
 
-Jump between cards using buttons and / or arrow keys.
+Custom audio player.
 
 Kind of responsive.
+
+Fette block quotes.
 
 ## Contributors
 
@@ -32,8 +34,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 
 ## Acknowledgments
 
-* [Rachel Smith](http://rachsmith.com/)
-* [Miguel Pérez](https://about.me/miguel-perez)
-* [Paul Irish](www.paulirish.com)
-* [Johannes Koggdal](www.koggdal.com)
-* [Josh Parrett](https://codepen.io/JTParrett/)
+* [alvarotrigo](https://twitter.com/imac2)
+* [Michael Gaskill](https://github.com/mgaskill)
