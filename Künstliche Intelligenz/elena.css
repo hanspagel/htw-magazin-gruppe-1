@@ -2,18 +2,21 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 /*
 .KI_seite {
 height: 800px;
 background-color: #DADADA;
+}
+*/
 
-  }*/
+
 .header-wrap {
   border-width: 3px;
   margin-top: 80px;
   margin-bottom: 49px;
   margin-left: 95px;
-  /*border: solid;*/
+  /* border: solid; */
   width: 1000px;
   height: 224px;
   display: inline-block;
@@ -45,13 +48,10 @@ background-color: #DADADA;
 .article-ich-digital h1{
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
-  /*hälfte von font size in html wenn man in em schreibt*/
-<<<<<<< HEAD
+  /* hälfte von font size in html wenn man in em schreibt */
   font-size: 224px;
   font-weight: 500;
-=======
   font-size: 200px;
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
   color: #33495f;
   border-width: 3px;
   margin: 0;
@@ -70,7 +70,7 @@ background-color: #DADADA;
 .header-right ul li{
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
-  /*hälfte von font size in html wenn man in em schreibt*/
+  /* hälfte von font size in html wenn man in em schreibt */
   color: #33495f;
   list-style: none;
   float: left;
@@ -140,9 +140,10 @@ animation-play-state:running ;
   text-align: left;
 }
 
-.article-ich-digital{
+.article-ich-digital {
   min-height: 100vh;
 }
+
 .article-ich-digital p {
   font-family: 'Raleway',sans-serif;
   font-size: 24px;
@@ -171,11 +172,9 @@ animation-play-state:running ;
 
 @-webkit-keyframes blur {
   from { text-shadow: 0 0 10px grey; color: transparent; }
-  to   { text-shadow: 0;color: #33495f;       }
+  to   { text-shadow: 0;color: #33495f; }
 
 }
-
-<<<<<<< HEAD
 
 
 
@@ -250,7 +249,6 @@ animation-play-state:running ;
     }
 =======
 @media all and (max-width: 1200px) {
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
     .article-text h3 {
     margin-left: 93px;
     }
