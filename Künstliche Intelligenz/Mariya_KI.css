@@ -11,7 +11,7 @@
   font-weight: 500;
   font-size:224px;
   color: #f17571;
-  margin-left: 132px;
+  margin-right: 105px;
   margin-bottom: 0px;
   padding: 0px;
 }
@@ -24,9 +24,10 @@
   font-size: 24px;
   line-height: 1.38;
   letter-spacing: 1px;
-  text-align: left;
   color: #ffffff;
-  margin-left: 139px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 @media all and (max-width: 1200px) {
