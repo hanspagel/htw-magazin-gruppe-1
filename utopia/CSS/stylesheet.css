@@ -19,6 +19,7 @@ body{
   background-image: url(../images/background5.png);
   background-attachment: fixed;
   padding: 0;
+
 }
 
 .backgroundstars{
@@ -32,6 +33,8 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+/*NOTE: Überschrift 1*/
 
 h1{
   font-family: 'Josefin Sans', sans-serif;
@@ -52,7 +55,9 @@ h2{
   color: white;
 }
 
+<<<<<<< HEAD
 p:first-of-type{
+=======
 /*p:first-of-type{
   font-size: 1.4rem;
 }*/
@@ -65,11 +70,13 @@ p:first-of-type{
 
 /* NOTE: der erste Absatz im ersten Textmodul
 .article-text:first-of-type p:first-of-type {
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1
   font-size: 1.4rem;
 }*/
 
+<<<<<<< HEAD
 /*Ich bin ein Kommentar. Funktioniert so: CMD+Shift+7. Tadaa!*/
-
+=======
 .article-module {
   padding: 1.5rem 0;
 }
@@ -130,7 +137,7 @@ color:red
   }
 }
 
-/*.animated-face {
+.animated-face {
   animation: drehen 10s infinite;
   transform-origin: center;
 }
@@ -189,7 +196,7 @@ color:red
   100% {
     transform: translate(0px, -370px)
   }
-}*/
+}
 
 .article-stage {
 /*  background-image: url(../images/milkyway.jpg);*/
@@ -317,10 +324,13 @@ color:red
   background: url(../images/door1.png);
   background-repeat: no-repeat;
   background-position: center;
+
+
 }*/
 
 .stars{
   position: absolute;
+
 }
 
 /*.article-pic img{
@@ -398,6 +408,7 @@ body::-webkit-scrollbar-track-piece{
 
 body::-webkit-scrollbar-thumb {
 background: transparent;
-background: linear-gradient(#faade9, #fbe657, #58f6f8);
-outline: 1px solid slategrey;
+  /*background: linear-gradient(#faade9, #fbe657, #58f6f8);*/
+  /*outline: 1px solid slategrey;*/
 }
+>>>>>>> dbd3de62af85c5e45c167b6d8ac113f02252edd1

@@ -1,0 +1,53 @@
+@keyframes adjustheader {
+  from {
+    height: 200px;
+    top:60px;
+  }
+  to {
+    height: 80px;
+    top:0px;
+  }
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+
+.article-header {
+  position: relative;
+  /* height: 200px; */
+  animation: 500ms ease-out 0s 1 adjustheader;
+  /* background-color: white; */
+  top: 0px;
+}
+
+header img:hover {
+  transform: scale(1.2);
+}
+
+main {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.arrows-cont{
+  display: inline-block;
+  position: absolute;
+  right: 120px;
+  top: 35px;
+}
+a{
+  display: inline-block;
+}

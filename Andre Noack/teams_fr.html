@@ -8,12 +8,13 @@
 		<link href="css/aos.css" rel="stylesheet">
 		<script href="js/aos.js"></script>
 		<script src="js/jquery.js"></script>
-		<!--<link href="js/script.js" rel="javascript" />-->
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 		<script>
 
 		$(document).ready(function() {
+
+				$(".note_1_fr").show();
 
 		    $(".infos").hide();
 
@@ -23,10 +24,11 @@
 
 		      var team = $(this).data("team");
 
+					$(".note_1_fr").hide();
 		      $(".infos").hide();
 		      $(team).show();
 
-					$(this).find("img").attr("src", "image/nhl_city_red.png");
+					$(this).find("img").attr("src", "image/nhl_city_red.svg");
 
 		    })
 
@@ -59,7 +61,11 @@
 
 	<div class="nhl_wrapper">
 
-		<div class="nhl_map"><img src="image/nhl_map.svg" alt="">
+	<div class="nhl_map">
+		<img src="image/nhl_map.svg" alt="#" oncontextmenu="return false" />
+			<article class="map_text">
+				<p>Cliquez sur les buttons pour plus d’information</p>
+			</article>
 
 			<div class="nhl_city_montreal">
 				<p class="link"><a href="#" data-team=".city_montreal"><img src="image/nhl_city.svg" alt=""><span>Canadiens de&nbsp;Montréal</span></a></p>
@@ -146,7 +152,7 @@
 			</div>
 
 			<div class="nhl_city_stlouis">
-				<p class="link"><a href="#" data-team=".city_stlouis"><img src="image/nhl_city.svg" alt=""><span>Blues&nbsp;de&nbsp;Saint-Louis</span></a></p>
+				<p class="link"><a href="#" data-team=".city_stlouis"><img src="image/nhl_city.svg" alt=""><span>Blues&nbsp;de Saint&minus;Louis</span></a></p>
 			</div>
 
 			<div class="nhl_city_vegas">
@@ -188,6 +194,8 @@
 		</div>
 
 		<div class="team_infos">
+
+		<div class="note_1_fr"></div>
 
 			<div class="infos city_montreal">
 				<div class="infos_headline">
