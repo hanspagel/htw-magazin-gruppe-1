@@ -2,18 +2,10 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-/*
-.KI_seite {
-height: 800px;
-background-color: #DADADA;
 
-  }*/
 .header-wrap {
   border-width: 3px;
-  margin-top: 80px;
-  margin-bottom: 49px;
-  margin-left: 95px;
-  /*border: solid;*/
+  margin: 80px 0px 49px 95px;
   width: 1000px;
   height: 224px;
   display: inline-block;
@@ -25,7 +17,7 @@ background-color: #DADADA;
 .header-left {
   display: inline-block;
   box-sizing: border-box;
-  position: relative;‚
+  position: relative;
   width: 279px;
   margin: 0 0 0 0;
   vertical-align: middle;
@@ -43,34 +35,26 @@ background-color: #DADADA;
 }
 
 .article-ich-digital h1{
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   text-transform: uppercase;
-  /*hälfte von font size in html wenn man in em schreibt*/
-<<<<<<< HEAD
   font-size: 224px;
   font-weight: 500;
-=======
-  font-size: 200px;
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
   color: #33495f;
-  border-width: 3px;
   margin: 0;
 }
 
 .header-right ul {
   font-size: 224px;
   font-weight: 500;
-  /*height: 224px;*/
   transition-timing-function:ease;
-  border-width: 3px;
+  padding: 0;
   margin: 0;
 }
 
 
 .header-right ul li{
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   text-transform: uppercase;
-  /*hälfte von font size in html wenn man in em schreibt*/
   color: #33495f;
   list-style: none;
   float: left;
@@ -132,7 +116,7 @@ animation-play-state:running ;
 }
 
 .article-ich-digital h3 {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 35px;
   font-weight: 400;
   color: #000000;
@@ -143,21 +127,16 @@ animation-play-state:running ;
 .article-ich-digital{
   min-height: 100vh;
 }
+
 .article-ich-digital p {
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway",sans-serif;
   font-size: 24px;
   line-height: 1.38;
-  width: 735px;
   height: 330px;
-  margin-top: 73px;
-  margin-left: 443px;
+  float:left;
+  margin: 73px 60px 0 443px;
 }
 
-@media all and (max-width: 1200px) {
-    .article-ich-digital p {
-    margin-left: 95px;
-    }
-}
 
 .info-gehirn-linksbündig .gehirn_überschrift {
   animation-name: blur;
@@ -174,10 +153,6 @@ animation-play-state:running ;
   to   { text-shadow: 0;color: #33495f;       }
 
 }
-
-<<<<<<< HEAD
-
-
 
 @media all and (max-width: 2048px) {
     .article-ich-digital p {
@@ -248,10 +223,36 @@ animation-play-state:running ;
     .header-wrap ul {
       font-size: 100px;
     }
-=======
-@media all and (max-width: 1200px) {
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
     .article-text h3 {
-    margin-left: 93px;
+      font-size: 20px;
     }
+    .article-ich-digital p {
+      font-size: 16px;
+    }
+    .header-wrap {
+      height: 100px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+    }
+    .article-ich-digital h3 {
+      margin-left: 50px;
+    }
+    .article-ich-digital p {
+      margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 420px) {
+  .header-wrap h1 {
+    font-size: 80px;
+  }
+  .header-wrap ul {
+    font-size: 80px;
+  }
+  .article-text h3 {
+    font-size: 16px;
+  }
+  .article-ich-digital p {
+    font-size: 14px;
+  }
 }

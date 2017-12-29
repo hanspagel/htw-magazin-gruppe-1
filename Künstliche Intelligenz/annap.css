@@ -1,37 +1,12 @@
-
-
 .metaball-video{
-  width: 100%;
-  max-height: 1024px;
-  display: block;
-  height: 100%;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  }
+  min-height: 100vh;
+}
 
 #metaball-video {
   width: 100%;
-<<<<<<< HEAD
-  /*width: 1200px;*/
   height: 600px;
   object-fit: cover;
   overflow: hidden;
-  /*width: 100%;
-  min-height: 100vh;*/
-=======
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
-  /*top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
-}
-
-<<<<<<< HEAD
-/* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
-kann man löschen. Der Code wurde von Lena geschrieben.*/
-
-#metaball-video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,29 +18,9 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   transform: translateX(-50%) translateY(-50%);
 }
 
-/*
-=======
->>>>>>> parent of fe45853... Merge branch 'master' of https://github.com/hanspagel/htw-magazin-gruppe-1
-@media (min-aspect-ratio: 16/9) {
-    #trailer > video { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-    #trailer > video { width: 300%; left: -100%; }
-}
-
-@supports (object-fit: cover) {
-    #trailer > video {
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        object-fit: cover;
-    }
-}
-
-
 .header-kuenst h1 {
   padding-left: 15%;
-  /*padding-right: 5%;*/
-	font-family: 'Teko';
+	font-family: "Teko", sans-serif;
 	height: 0;
 	font-size: 150px;
 	font-weight: 500;
@@ -76,12 +31,11 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
-  /*padding-right: 10px;*/
 }
 
 .header-liche h1 {
   padding-left: 35%;
-		font-family: 'Teko';
+		font-family: "Teko", sans-serif;
 	  height: 0;
 		font-size: 150px;
 		font-weight: 500;
@@ -101,7 +55,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   margin-top: 0px;
   top:45%;
   height: 180;
-	font-family: 'Teko';
+	font-family: "Teko", sans-serif;
 	font-size: 150px;
 	font-weight: 500;
 	text-align: left;
@@ -109,8 +63,8 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   display: inline-block;
   box-sizing: border-box;
   position: absolute;
-
 }
+
 .header-kuenst h1 {
   animation: move3 3s;
   -webkit-animation: move3 3s;
@@ -130,9 +84,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 
   animation-duration: 4s;
   -webkit-animation-duration: 4s;
-
 }
-
 
 @keyframes move1 {
   0%{
@@ -140,10 +92,11 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     margin-top: 100%;
     width: 300%;
   }
+
   25% {
     opacity: 0;
-
   }
+
   450%{
     opacity: 1
   }
@@ -152,8 +105,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     opacity: 1;
     margin-top: 0%;
     width: 100%;
-
-
   }
 }
 
@@ -218,9 +169,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   }
 }
 
-
-
-
 @media only screen and (max-width: 550px) {
     h1 {
       font-size: 0.8em;
@@ -228,13 +176,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     .header-inteligenz{
       padding-left: 15%
     }
-    /*#metaball-video{
-      width: inherit;
-      min-width: 100%;
-      height: 100%;
-      margin-left: -100%;
-    }*/
-
 }
 
 
@@ -392,15 +333,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 }
 
 
-
-
-
-
-
 .button {
-	/* NOTE: border, background-color, font-family, font-size, padding */
-
-	/* NOTE: Keine Rundung: */
 	border-radius: 5px;
 	border: 5px solid black;
 	background-color: yellow;
@@ -409,7 +342,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	padding: 15px 30px;
 	box-shadow: 5px 5px 0 0 black;
 	cursor: pointer;
-
 }
 
 .button:hover {
@@ -423,8 +355,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	background-color: yellow;
 	display: flex;
 	align-items: center;
-
-
 }
 
 .article-inner {
@@ -439,17 +369,16 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 }
 
 
-
 @media all and (max-width: 1450px) {
     .header-kuenst h1 {
-    padding-left: 11%;
+      padding-left: 11%;
     }
 }
 
 @media all and (max-width: 1360px) {
     .header-kuenst h1 {
-    padding-left: 0%;
-    margin-left: 50px;
+      padding-left: 0%;
+      margin-left: 50px;
     }
     .header-liche h1 {
       padding-left: 28%;
@@ -481,18 +410,17 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   .header-liche h1 {
     padding-left: 45%;
   }
-
 }
 
 @media all and (max-width: 800px) {
     .header-kuenst h1 {
-    font-size: 130px;
+      font-size: 130px;
     }
     .header-liche h1 {
       font-size: 130px;
     }
     .header-inteligenz h1 {
-    font-size: 130px;
+      font-size: 130px;
     }
 }
 
@@ -500,29 +428,28 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   .header-liche h1 {
     padding-left: 55%;
   }
-
 }
 
 @media all and (max-width: 600px) {
     .header-kuenst h1 {
-    font-size: 100px;
+      font-size: 100px;
     }
     .header-liche h1 {
       font-size: 100px;
     }
     .header-inteligenz h1 {
-    font-size: 100px;
+      font-size: 100px;
     }
 }
 
 @media all and (max-width: 420px) {
     .header-kuenst h1 {
-    font-size: 80px;
+      font-size: 80px;
     }
     .header-liche h1 {
       font-size: 80px;
     }
     .header-inteligenz h1 {
-    font-size: 80px;
+      font-size: 80px;
     }
 }

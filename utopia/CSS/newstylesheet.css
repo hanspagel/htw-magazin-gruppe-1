@@ -58,13 +58,31 @@ h2{
 
 .article-text-person {
   position: fixed;
+  text-align: center;
   background-color: magenta;
   width: 10rem;
   padding: 0.6rem 1.3rem;
-  margin-top: -70%;
-  margin-left: 73%;
+  margin-top: -62%;
+  margin-left: 70%;
   border: 5px dashed yellow;
   box-shadow: 10px 10px 20px 0 red;
+}
+
+.portrait{
+  position: fixed;
+  width: 19%;
+  height: 38%;
+  margin-top: -92%;
+  margin-left: 68%;
+  border: 5px dashed yellow;
+  box-shadow: 10px 10px 20px 0 red;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -50%;
+
 }
 
 /*.article-teaser{
@@ -329,10 +347,10 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 10px 10px 20px 0 magenta;
 }
 
-.frame{
+.frame img{
   position: fixed;
-  margin-top: -115%;
-  margin-left: 60%;
-  height: 10px;
+  margin-top: -95%;
+  margin-left: 65%;
+  height: 50%;
   width: auto;
 }

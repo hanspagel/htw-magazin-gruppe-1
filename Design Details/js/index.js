@@ -11,6 +11,8 @@ $(window).load(function() {
 
 var audio_player = $(".audio-player");
 var play_button = $('#play');
+var plus_button = $('#plus30sec');
+var min_button = $('#min30sec');
 var progress_bar = $("#progressbar");
 var player = document.getElementById('player');
 var duration = 0;
@@ -28,6 +30,7 @@ player.volume = 0.75;
 player.addEventListener("timeupdate", function() {
     progress_bar.progressbar('value', player.currentTime);
     time.text(getTime(player.currentTime));
+		$( ".ui-progressbar-value-after" ).css('left', (player.currentTime / player.duration * 100)+"%");
 }, false);
 
 function getTime(t) {
@@ -63,6 +66,21 @@ play_button.click(function() {
     player[player.paused ? 'play' : 'pause']();
     $(this).toggleClass("fa-play", !player.paused);
     $(this).toggleClass("fa-pause", player.paused);
+});
+
+plus_button.click(function() {
+	var remainingtime = player.duration - player.currentTime;
+	if (remainingtime >= 30) {
+		player.currentTime += 30;
+	}
+	$( ".ui-progressbar-value-after" ).css('left', (player.currentTime / player.duration * 100)+"%");
+});
+
+min_button.click(function() {
+	if (player.currentTime >= 30) {
+		player.currentTime -= 30;
+	}
+	$( ".ui-progressbar-value-after" ).css('left', (player.currentTime / player.duration * 100)+"%")
 });
 
 $('#play').click(function() {
