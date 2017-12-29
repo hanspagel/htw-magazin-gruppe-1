@@ -23,7 +23,7 @@ Navigation mit Links zu den einzelnen Unterseiten.
 Einbindung eines GIF’s, dass mit einem Button verknüpft ist.
 
 TEAMS/ÉQUIPES
-Karte mit Hover-Buttons. Buttons stehen für Stadt mit Eishockeyteam. Buttons vergrößern sich bei Hover. Name des Teams erscheint. Durch Klick erscheint Information zum jeweiligen Team + Button färbt sich rot, damit man das Team geografisch zuordnen kann. Logo der Teams in oberer Ecke in Schwarz-Weiß. Färbt sich bei Hover. Informationen erscheinen auf der rechten Seite. Text kann geschellt werden in der Box.
+Karte mit Hover-Buttons. Buttons stehen für Stadt mit Eishockeyteam. Buttons vergrößern sich bei Hover. Name des Teams erscheint. Durch Klick erscheint Information zum jeweiligen Team + Button färbt sich rot, damit man das Team geografisch zuordnen kann. Logo der Teams in oberer Ecke in Schwarz-Weiß. Färbt sich bei Hover. Informationen erscheinen auf der rechten Seite. Text kann in der Box geschellt werden (wenn Text bestimmten Umfang hat).
 
 INFORMATION
 Page mit Informationen über die NHL (z. B. Geschichte). Einbindung von AOS (fade-up). Bilder wurden zu den einzelnen Angaben eingefügt. Informationen des Bildes erscheinen bei Hover (slide-up-information).
