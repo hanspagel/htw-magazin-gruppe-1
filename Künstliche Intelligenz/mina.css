@@ -1,12 +1,13 @@
 .spirale_animation {
+  min-height: 100vh;
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
 
   }
 
 #spirale_animation {
   width: 100%;
-  opacity: 0.7;
+  object-fit: cover;
 }
 
 /* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
@@ -22,7 +23,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   background-size: cover;
   overflow: hidden;
 }
-
 .gehirn_überschrift {
   font-family: 'Teko';
 	font-size: 150px;
@@ -38,11 +38,11 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	font-size: 150px;
 	font-weight: 600;
 	color: #33495f;
-  /*text-shadow: 0px 0px 5px #F7F2E0;
-  text-shadow: 0px 0px 8px #F7F2E0;*/
+  /*text-shadow: 0px 0px 5px #F7F2E0,
+               0px 0px 8px #F7F2E0;*/
   margin: 0;
   padding: 0;
-  line-height: 1.0;
+    line-height: 1.0;
 }
 
 .subheadline {

@@ -1,14 +1,14 @@
 
 
-.metaball-video {
-  width: 100%;
-  max-height: 1024px;
-  display: block;
+.metaball-video{
+  /*width: 100%;*/
+  min-height: 100vh;
+  /*display: block;
   height: 100%;
   position: relative;
   margin: 0;
-  padding: 0;
-  }
+  padding: 0;*/
+}
 
 #metaball-video {
   width: 100%;
@@ -16,25 +16,27 @@
   height: 600px;
   object-fit: cover;
   overflow: hidden;
-  width: 100%;
-  /* min-height: 100vh;
-  top: 0;
+  /*width: 100%;
+  min-height: 100vh;*/
+  /*top: 0;
   right: 0;
   bottom: 0;
-  left: 0; */
+  left: 0;*/
 }
 
 /* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
 kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 #metaball-video {
-  position: relative;
-  /* top: 50%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  z-index: 1000;
-  transform: translateX(-50%) translateY(-50%); */
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /*
@@ -51,12 +53,12 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
         width: 100%; height: 100%;
         object-fit: cover;
     }
-}
-*/
+}*/
+
 
 .header-kuenst h1 {
   padding-left: 15%;
-  /* padding-right: 5%; */
+  /*padding-right: 5%;*/
 	font-family: 'Teko';
 	height: 0;
 	font-size: 150px;
@@ -68,23 +70,23 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	display: inline-block;
 	box-sizing: border-box;
   position: absolute;
-  /* padding-right: 10px; */
+  /*padding-right: 10px;*/
 }
 
 .header-liche h1 {
   padding-left: 35%;
-	font-family: 'Teko';
-  height: 0;
-	font-size: 150px;
-	font-weight: 500;
-	text-align: left;
-  margin-bottom: 0;
-  top: 30%;
-	color: #33495f;
-  display: inline-block;
-  box-sizing: border-box;
-  position: absolute;
-  margin-left: 0;
+		font-family: 'Teko';
+	  height: 0;
+		font-size: 150px;
+		font-weight: 500;
+		text-align: left;
+    margin-bottom: 0;
+	  top: 30%;
+		color: #33495f;
+	  display: inline-block;
+	  box-sizing: border-box;
+    position: absolute;
+    margin-left: 0;
 }
 
 .header-inteligenz h1 {
@@ -114,11 +116,15 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 }
 
 .header-inteligenz h1{
+
   animation-name: move1;
   -webkit-animation-name: move1;
+
   opacity: 1;
+
   animation-duration: 4s;
   -webkit-animation-duration: 4s;
+
 }
 
 
@@ -205,6 +211,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     width: 100%;
   }
 }
+
 
 
 
@@ -410,6 +417,8 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 	background-color: yellow;
 	display: flex;
 	align-items: center;
+
+
 }
 
 .article-inner {
@@ -470,21 +479,22 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 }
 
 @media all and (max-width: 800px) {
-  .header-kuenst h1 {
+    .header-kuenst h1 {
     font-size: 130px;
-  }
-  .header-liche h1 {
+    }
+    .header-liche h1 {
+      font-size: 130px;
+    }
+    .header-inteligenz h1 {
     font-size: 130px;
-  }
-  .header-inteligenz h1 {
-    font-size: 130px;
-  }
+    }
 }
 
 @media all and (max-width: 700px) {
   .header-liche h1 {
     padding-left: 55%;
   }
+
 }
 
 @media all and (max-width: 600px) {

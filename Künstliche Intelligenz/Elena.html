@@ -26,8 +26,8 @@
 
         <div class="KI_seite">
 
-          <div id="metaball-video" class="metaball-video">
-            <video id="metaball-video" preload="auto" autoplay="true" loop="loop" muted="muted" >
+          <div class="metaball-video">
+            <video id="metaball-video" preload="auto" autoplay="true" loop="loop" muted="muted">
               <source src="metaball.mp4" type="video/mp4">
             </video>
           </div>
@@ -103,14 +103,14 @@
             </div>
           </div>
 
-          <canvas id="myCanvas" width="2048px" height="301px" min-width:"420px" max-width:"2048px"></canvas>
+          <canvas id="myCanvas" width="1440px" height="301px"></canvas>
           <script id="myCanvas">
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
             ctx.moveTo(0,0);
-            ctx.lineTo(2048,250);
-            ctx.lineTo(2048,2048);
-            ctx.lineTo(0,2048);
+            ctx.lineTo(1440,250);
+            ctx.lineTo(1440,1440);
+            ctx.lineTo(0,1440);
             ctx.lineTo(0,0);
             ctx.fillStyle='#394a5c';
             ctx.fill();
