@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="CSS/aos.css">
     <script src="aos.js"></script>
 
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
@@ -40,6 +42,7 @@
           <h1>A Utopia<br>
           for a Dystopian Age</h1>
 
+
           <p>The term “utopia” was coined 500 years ago. By conjoining the Greek adverb “ou” (“not”) and the noun “topos” (“place”) the English humanist and politician Thomas More conceived of a place that is not — literally a “nowhere” or “noplace.” More’s learned readers would also have recognized another pun. The pronunciation of “utopia” can just as well be associated with “eu-topia,” which in Greek means “happy place.” Happiness, More might have suggested, is something we can only imagine. And yet imagining it, as philosophers, artists and politicians have done ever since, is far from pointless.</p>
 
           <p>More was no doubt a joker. “Utopia,” his fictional travelogue about an island of plenty and equality, is told by a character whose name, Hythloday, yet another playful conjoining of Greek words, signifies something like “nonsense peddler.” Although More comes across as being quite fond of his noplace, he occasionally interrupts the narrative by warning against the islanders’ rejection of private property. Living under the reign of the autocratic Henry VIII, and being a prominent social figure, More might not have wanted to rock the boat too much.<p/>
@@ -57,11 +60,20 @@
 
       <section class="article-module article-text">
 
+        <div class="portrait">
+          <img src="images/thomasM.png" alt="portraitpic">
+
+        </div>
+
         <div class="frame">
 
           <img src="images/rahmen.png" alt="Rahmenbedingung">
 
         </div>
+
+
+
+
 
         <div class="article-text-person">
           Thomas More
@@ -138,6 +150,12 @@
 
   <script>
     $(window).stellar();
+  </script>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.portrait', { distance: '0px', origin: top, opacity: 0, duration: 2000 });
+
   </script>
 
   </body>
