@@ -68,6 +68,23 @@ h2{
   box-shadow: 10px 10px 20px 0 red;
 }
 
+.portrait{
+  position: fixed;
+  width: 19%;
+  height: 38%;
+  margin-top: -92%;
+  margin-left: 68%;
+  border: 5px dashed yellow;
+  box-shadow: 10px 10px 20px 0 red;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -50%;
+
+}
+
 /*.article-teaser{
 display: flex;
 text-decoration: none;
