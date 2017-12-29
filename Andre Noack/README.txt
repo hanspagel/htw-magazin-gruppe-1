@@ -46,9 +46,13 @@ https://en.wikipedia.org/wiki/National_Hockey_League
 https://fr.wikipedia.org/wiki/Ligue_nationale_de_hockey
 
 Pictures + GIF’s:
+https://giphy.com
 https://en.wikipedia.org/wiki/National_Hockey_League
 https://fr.wikipedia.org/wiki/Ligue_nationale_de_hockey
-https://giphy.com
+https://www.nhl.com/news/nhl-expansion-history/c-281005106
+https://www.si.com/nhl/photos/2015/04/03/classic-photos-bernie-parent
+http://www.post-gazette.com/sports/penguins/2017/06/11/predators-stanley-cup-final-game-7-nhl-playoffs/stories/201706110207
+http://www.theathletic.com/193386/2017/12/22/comment-glen-gulutzan-a-aide-jordie-benn-a-faire-son-chemin-vers-la-lnh/
 
 
 ===
