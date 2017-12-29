@@ -98,14 +98,14 @@ p {
 .Origins-Off {
   top: 73%;
   position: absolute;
-  left: 14%;
+  left: 10%;
   z-index: 100;
 }
 
 .Origins-On {
   top: 73%;
   position: absolute;
-  left: 14%;
+  left: 10%;
   z-index: 100;
   opacity: 0;
 }
@@ -162,16 +162,16 @@ p {
 /* NOTE: Unterüberschrift Essence */
 
 .Essence-Off {
-  top: 70%;
+  top: 65%;
   position: absolute;
-  left: 34%;
+  left: 30%;
   z-index: 100;
 }
 
 .Essence-On {
-  top: 70%;
+  top: 65%;
   position: absolute;
-  left: 34%;
+  left: 30%;
   z-index: 100;
   opacity: 0;
 }
