@@ -10,6 +10,24 @@ Eine kartographische Darstellung mit Informationen zu den einzelnen Teams + der 
 Alles in allem soll dieses Projekt einen groben Überblick über Eishockey in Nordamerika geben. Es soll einem dieses Thema näher bringen, da es für Europäer relativ unbekanntes ist.
 
 
+LANDING PAGE
+Page mit Video im Hintergrund, dass in Dauerschleife läuft. Zwei Links mit Zugang zur englischen und Französischen Seite.
+
+INDEX
+Navigation mit Links zu den einzelnen Unterseiten.
+Einbindung eines GIF’s, dass mit einem Button verknüpft ist.
+
+TEAMS/ÉQUIPES
+Karte mit Hover-Buttons. Buttons stehen für Stadt mit Eishockeyteam. Buttons vergrößern sich bei Hover. Name des Teams erscheint. Durch Klick erscheint Information zum jeweiligen Team + Button färbt sich rot, damit man das Team geografisch zuordnen kann. Logo der Teams in oberer Ecke in Schwarz-Weiß. Färbt sich bei Hover.
+
+INFORMATION
+Page mit Informationen über die NHL (z. B. Geschichte). Einbindung von AOS (fade-up). Bilder wurden zu den einzelnen Angaben eingefügt. Informationen des Bildes erscheinen bei Hover (slide-up-information).
+Verlinkung beim Punkt Team zu der Team-Seite mit der Karte. Überschriften mit zwei Ebenen.
+
+ALLGEMEIN:
+An jeder Stelle kann man zur Englischen bzw. Französischen Version wechseln.
+
+
 === 
 
 
