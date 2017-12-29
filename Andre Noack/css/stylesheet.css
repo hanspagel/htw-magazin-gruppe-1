@@ -56,6 +56,15 @@ video {
   transition: none;
 }
 
+.text-video a:hover {
+  color: grey;
+}
+
+.text-video a span {
+  font-size: 40%;
+  vertical-align: text-top;
+}
+
 /* ––– ENDE Landing Page ––– */
 
 a {
