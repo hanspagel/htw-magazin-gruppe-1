@@ -8,6 +8,7 @@ html {
 
 body {
 background: black;
+
 }
 
 * {
@@ -229,18 +230,20 @@ p {
 /* NOTE: Exit Sign */
 
 .Exit-Off {
-  bottom: 20%;
+  top: 73%;
   position: absolute;
   right: 5%;
   z-index: 100;
+  width: 150px;
 }
 
 .Exit-On {
-  bottom: 20%;
+  top: 73%;
   position: absolute;
   right: 5%;
   z-index: 100;
   opacity: 0;
+  width: 150px;
 
 }
 
@@ -253,11 +256,13 @@ p {
 }
 
 .Exit-Off img {
-  width: 40%;
+  width: 100%;
+  height: auto;
 }
 
 .Exit-On img {
-  width: 40%;
+  width: 100%;
+  height: auto;
 }
 
 /* NOTE: Icon */
