@@ -658,12 +658,38 @@ p.link a:active {
   flex-wrap: wrap;
 }
 
-.one_text_headline {
+.one_text_headline_en {
   font-family: 'Oswald', sans-serif;
   font-size: 3.0em;
   font-weight: 800;
   width: 80%;
   display: block;
+}
+
+.one_text_headline_en a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+}
+
+.one_text_headline_en a:hover {
+  color: tomato;
+}
+
+.one_text_headline_fr {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0em;
+  font-weight: 800;
+  width: 80%;
+  display: block;
+}
+
+.one_text_headline_fr a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+}
+
+.one_text_headline_fr a:hover {
+  color: #1CBCD9;
 }
 
 .one_text_information {

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900|Teko:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <meta name="viewport" content="with=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="elena.css">
     <link rel="stylesheet" href="aos.css">
@@ -103,14 +103,14 @@
             </div>
           </div>
 
-          <canvas id="myCanvas" width="1440px" height="301px"></canvas>
+          <canvas id="myCanvas" width="2048px" height="301px" min-width:"420px" max-width:"2048px"></canvas>
           <script id="myCanvas">
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
             ctx.moveTo(0,0);
-            ctx.lineTo(1440,250);
-            ctx.lineTo(1440,1440);
-            ctx.lineTo(0,1440);
+            ctx.lineTo(2048,250);
+            ctx.lineTo(2048,2048);
+            ctx.lineTo(0,2048);
             ctx.lineTo(0,0);
             ctx.fillStyle='#394a5c';
             ctx.fill();
