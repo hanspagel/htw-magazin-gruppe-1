@@ -131,14 +131,14 @@ p {
 .Definition-Off {
   top: 73%;
   position: absolute;
-  left: 60%;
+  left: 57%;
   z-index: 100;
 }
 
 .Definition-On {
   top: 73%;
   position: absolute;
-  left: 60%;
+  left: 57%;
   z-index: 100;
   opacity: 0;
 }
