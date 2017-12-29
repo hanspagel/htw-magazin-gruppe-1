@@ -189,8 +189,6 @@ animation-play-state:running ;
     .header-wrap ul {
       font-size: 200px;
     }
-    .header-wrap {
-
 
 }
 
@@ -213,7 +211,9 @@ animation-play-state:running ;
       height: 130px;
       margin-bottom: 50px;
     }
-
+    .header-left {
+      width: 170px;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -240,6 +240,9 @@ animation-play-state:running ;
     .article-ich-digital p {
       margin-left: 50px;
     }
+    .header-left {
+      width: 130px;
+    }
 }
 
 @media all and (max-width: 420px) {
@@ -250,9 +253,12 @@ animation-play-state:running ;
     font-size: 80px;
   }
   .article-text h3 {
-    font-size: 16px;
+    font-size: 25px;
   }
   .article-ich-digital p {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .header-left {
+    width: 100px;
   }
 }

@@ -1,1 +1,34 @@
-In unseren Artikel gehts um das Thema Künstliche Inteligenz.
+Gruppenarbeit: Elena Kunau, Anna Permyakova, Mariya Yordanova, Minna Klein
+
+In unseren Artikel gehts um das Thema Künstliche Intelligenz.
+
+Für uns war es wichtig mit Animation und Interaktive Elementen uns zu beschäftigen. Darüber hinaus wollten wir Videos in unsere Webseite integrieren. Die Videos haben wir in 3d Programm gemacht. 
+
+
+Ausgangspunkt für die Displaygröße war 1440px. Unsere Webseite ist Responsive. Wir haben mehrere Aufmerksamkeit auf die kleinere Displaygröße gelenkt. Einige Sections wurden auch für die größere Displays angepasst.
+
+1. Section 
+Künstliche Intelligenz
+
+Im diesen Section war für uns wichtig mit Animation zu experimentieren. Das Wort "Künstliche Intelligenz" wurde animiert. 
+
+2. Section 
+Gehirn
+
+Der Überschrift "Gehirn" hat blur Animation. Hier haben wir die Möglichkeit fade-in on scroll ausprobiert (Informative Teil).
+
+3. Section
+Neuronen 
+
+Hier gibt es fade-left on scroll (Überschrift und Paragraph) und canvas element (Blau diagonale Hintergrund). Canvas geht weg, wenn das Display ist größer als 1440px. 
+
+4. Section
+Nest
+
+Hier haben wir mit particle ausprobiert. Wenn man die Maustaste bewegt, werden die Linien und Punkten in der Hintergrund reagieren. 
+
+5. Section
+Ich, digital 
+
+Hier gibt es fade-left on scroll (Überschrift, Unterüberschrift und Paragraph) und eine versteckte Animation (hover das Wort "Digital") 
+
