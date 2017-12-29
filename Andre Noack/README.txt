@@ -2,8 +2,12 @@ THE WORLD NEEDS MORE HOCKEY | LE MONDE S’OUVRE SUR LE HOCKEY
 (Die Welt braucht mehr Hockey)
 
 In meinem Projekt habe ich mich mit der National Hockey League (frz. Ligue National de Hockey) beschäftigt.
-Ich entschied mich für dieses Thema, da ich es Interessant finde (Hockey ist in Nordamerika fast wie eine Religion) und ich ein zweisprachiges Projekt machen wollte (viele, umfangreiche Texte, hohe Konzentration + Herausforderung, nicht den Überblick zu verlieren).
-Eine kartographische Darstellung mit Informationen zu den einzelnen Teams + der Geschichte der NHL (LNH) wurde eingefügt. Die Karte Nordamerikas wurde von mir selbst erstellt.
+
+Ich entschied mich für dieses Thema, da es mein Interessant weckte (Hockey ist in Nordamerika fast wie eine Religion) und ich ein zweisprachiges Projekt machen wollte (viele, umfangreiche Texte, hohe Konzentration + Herausforderung, nicht den Überblick zu verlieren) (außerdem ist Deutsch etwas langweilig).
+
+Eine kartographische Darstellung mit Informationen zu den einzelnen Teams + der Geschichte der NHL wurde eingefügt. Die Karte Nordamerikas wurde von mir selbst erstellt.
+
+Alles in allem soll dieses Projekt einen groben Überblick über Eishockey in Nordamerika geben. Es soll einem dieses Thema näher bringen, da es für Europäer relativ unbekanntes ist.
 
 
 === 
