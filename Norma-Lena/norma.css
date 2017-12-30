@@ -30,6 +30,23 @@ h2{
   color: #000000;
 }
 
+
+
+.article-subline{
+  text-transform: uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 8rem;
+  margin-left: 1rem;
+  margin-bottom:  1rem;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  position: absolute;
+  text-emphasis-position: below;s
+  color: #ffffff;
+}
+
 .intro {
   font-weight: bold;
   margin-top: 1rem;
@@ -82,6 +99,13 @@ p:first-of-type {
   color: blue;
   transform: rotate(30deg);
 }
+/* NOTE: Versuch3 */
+.article-teaser3:hover {
+  color: white;
+  transform: sink(11%);
+}
+
+/* NOTE: Versuch Ende */
 
 .article-teaser-image img {
   width: 10rem;
@@ -144,6 +168,11 @@ p:first-of-type {
   color: white;
   position: relative;
   transition: all 0.5s;
+}
+
+.iframe {
+  align-items: center;
+  position: relative;
 }
 
 .article-stage:hover {
