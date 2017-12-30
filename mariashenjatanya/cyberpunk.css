@@ -134,7 +134,11 @@ p {
 .Definition-Off {
   top: 73%;
   position: absolute;
+<<<<<<< HEAD:mariashenja/maria2.css
+  left: 80%;
+=======
   left: 57%;
+>>>>>>> af030b5c2af85f3d454e27a8d46e400f406fb789:mariashenjatanya/cyberpunk.css
   z-index: 100;
 }
 
@@ -345,7 +349,7 @@ p {
 }
 
 .animated-rain4 {
-  animation: rain 0.4s infinite;
+  animation: rain 0.1s infinite;
   z-index: 5;
 }
 
@@ -355,7 +359,7 @@ p {
 }
 
 .animated-rain2 {
-  animation: rain 0.9s infinite;
+  animation: rain 0.3s infinite;
   z-index: 5;
 }
 
@@ -365,22 +369,22 @@ p {
 }
 
 .animated-rain5 {
-  animation: rain 0.1s infinite;
-  z-index: 5;
-}
-
-.animated-rain6 {
   animation: rain 0.3s infinite;
   z-index: 5;
 }
 
+.animated-rain6 {
+  animation: rain 0.1s infinite;
+  z-index: 5;
+}
+
 .animated-rain7 {
-  animation: rain 0.5s infinite;
+  animation: rain 0.2s infinite;
   z-index: 5;
 }
 
 .animated-rain8 {
-  animation: rain 0.8s infinite;
+  animation: rain 0.3s infinite;
   z-index: 5;
 }
 
