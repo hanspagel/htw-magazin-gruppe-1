@@ -1,0 +1,23 @@
+<svg width="19" height="21" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Object</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5068 -380)">
+<g id="Object">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="TB_skipback30seconds_2x">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(5068 380)"/>
+</g>
+</mask>
+<g id="TB_skipback30seconds_2x" mask="url(#mask0_alpha)">
+<use xlink:href="#path0_fill" transform="translate(5068 380)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.0285714 0 0 0.0263158 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 18.6667 0L 18.6667 20.2667L 0 20.2667L 0 0Z"/>
+<image id="image0" width="35" height="38" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAmCAYAAABOFCLqAAAAAXNSR0IArs4c6QAAAutJREFUWAnFkg2R2zAQha+dAjgIhmAIKoOUgSEEghmkDAwhEFwGgeBjkDJovy+jzegUO3VyvumbednV21/JeXl5HC0lI0xV6ZJepW137Gn1JzNhAz3OnB7xTW2i2wnGQK2anNORt8crLQ+wXCL8cUF3OWsS3BT1rWORtXZimx56qQ/DJgOcGz4u6Ed0lyhrzpx3cBMkutQD1JZ0Qi8tHGC5lOfNXsn/QjRP+MLmc/olyI9LnWDU6W+yEH2uzZOHAjE0FVrplgtvupBDlm63pFvTwXiho8L/RvlC+/+9jPNH6Aud4b2XJPz5aBgRn6t/dpxN2pXF5t5DfK6HX2dH1wnGbWzQwRo++QAjTzvCuQs0RV6HvwqJLJu6wDEzhiXOJRwcMX1rPGsbWMN+xrWrYFMLUpG9z9qh0LqsmRsv4UtNWR+wNaKPy66CjVOV6dmh5YC4ZalZ1kFz5wamHDPu4g/D5U7QBgkGHKbWhZBtg1WX1pZwgYilb2VkhW9h4AfOrzhg42ZvhaZbniMnUn6Ho/0Kr5uVgRX+gZx2Rd7qFJd5BN9Jlj9hA12oRn37+lznvztPnHyd/p3670P8byJzxLHPEEK2HVZd1kgIEbssfcyCdg4mT7C8of45E3NBx6+56i0U5p2g+gBr7BGi5hK7EaqKMRdM2EOmA23SwxIx2Lh11pjnuYE1jgjGtRc0/CrIHazRIowwcrQ272GNV4Q694RmjxrmRs+uDFpgwEZLaAikTMxdOCjBBi6hJxDLmH9FhxeBdFU/z2lo7es6c4A3iNeZiLzb9Cbz48KRFi7iQg28QUIxQZr8WdjTOOb094YYjMThXuKTsa7oP67p4RLlQlt9svJF/Eus7lsuNFGY4LNoKBxhXPChRWLooWhgowEmuBYNiXUPl1r9IvWghDBBlwl6dsgOJhhocRLsobePfO0Z7uEmsJFLlAPW+C7h4q9wc+zoaPMTXFrGpQfYwYeW+ELBR+CwNjd4w8qn8RdMuUCEHrewNgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

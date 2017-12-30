@@ -8,13 +8,15 @@ Startseite für das HTW Techno Magazin.
 
 ## Built With
 
-* Vanilla JavaScript (!) except for scroll direction conversion using Jquery.
+* Vanilla JavaScript for the most part.
 
 ## Noteworthy
 
 Diagonal scrolling.
 
 Jump between cards using buttons and / or arrow keys.
+
+Kind of responsive.
 
 ## Contributors
 

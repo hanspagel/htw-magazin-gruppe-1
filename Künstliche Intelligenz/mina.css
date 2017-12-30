@@ -1,19 +1,11 @@
 .spirale_animation {
   min-height: 100vh;
   position: relative;
-  /*width: 100%;*/
-
   }
 
 #spirale_animation {
   width: 100%;
   object-fit: cover;
-}
-
-/* NOTE: Ein Beispiel für den Code, der gut mit Responsive funktioniert. Wenn man eine andere Variante findet,
-kann man löschen. Der Code wurde von Lena geschrieben.*/
-
-#spirale_animation {
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -23,30 +15,27 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
   background-size: cover;
   overflow: hidden;
 }
+
 .gehirn_überschrift {
-  font-family: 'Teko';
+  font-family: "Teko", sans-serif;
 	font-size: 150px;
 	font-weight: 500;
 	color: #33495f;
-  /*text-shadow: 0px 0px 3px #F7F2E0,
-               0px 0px 5px #F7F2E0;*/
   margin: 0;
 }
 
 .grosse_zahl {
-  font-family: 'Teko';
+  font-family: "Teko", sans-serif;
 	font-size: 150px;
 	font-weight: 600;
 	color: #33495f;
-  /*text-shadow: 0px 0px 5px #F7F2E0,
-               0px 0px 8px #F7F2E0;*/
   margin: 0;
   padding: 0;
-    line-height: 1.0;
+  line-height: 1.0;
 }
 
 .subheadline {
-	font-family: 'Raleway';
+	font-family: "Raleway", sans-serif;
 	font-size: 24px;
   font-weight: 100;
 	letter-spacing: 1.38;
@@ -65,7 +54,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
 
 .info-gehirn-rechtsbündig {
   text-align: right;
-
 }
 
 .info-gehirn-linksbündig{
@@ -157,6 +145,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     margin-bottom: 200px;
   }
 }
+
 @media all and (max-width: 1600px) {
 
   .infographic-1-info {
@@ -175,6 +164,7 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     margin-bottom: 150px;
   }
 }
+
 @media all and (max-width: 1400px) {
 
   .infographic-1-info {
@@ -276,6 +266,6 @@ kann man löschen. Der Code wurde von Lena geschrieben.*/
     font-size: 80px;
   }
   .subheadline {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
