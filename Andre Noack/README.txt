@@ -3,7 +3,7 @@ THE WORLD NEEDS MORE HOCKEY | LE MONDE S’OUVRE SUR LE HOCKEY
 
 ALLGEMEIN
 
-In meinem Projekt habe ich mich mit der National Hockey League (frz. Ligue National de Hockey) beschäftigt.
+In meinem Projekt habe ich mich mit der National Hockey League (frz. Ligue Nationale de Hockey) beschäftigt.
 
 Ich entschied mich für dieses Thema, da es mein Interessant weckte (Hockey ist in Nordamerika fast wie eine Religion) und ich ein zweisprachiges Projekt machen wollte (viele, umfangreiche Texte, hohe Konzentration + Herausforderung, nicht den Überblick zu verlieren) (außerdem ist Deutsch etwas langweilig).
 
@@ -20,10 +20,11 @@ Page mit Video im Hintergrund, dass in Dauerschleife läuft. Zwei Links mit Zuga
 
 INDEX
 Navigation mit Links zu den einzelnen Unterseiten.
-Einbindung eines GIF’s, dass mit einem Button verknüpft ist.
+Einbindung eines GIF’s, dass mit einem Button verknüpft ist (das GIF steht für INDEED).
 
 TEAMS/ÉQUIPES
 Karte mit Hover-Buttons. Buttons stehen für Stadt mit Eishockeyteam. Buttons vergrößern sich bei Hover. Name des Teams erscheint. Durch Klick erscheint Information zum jeweiligen Team + Button färbt sich rot, damit man das Team geografisch zuordnen kann. Logo der Teams in oberer Ecke in Schwarz-Weiß. Färbt sich bei Hover. Informationen erscheinen auf der rechten Seite. Text kann in der Box gescrolt werden (wenn Text bestimmten Umfang hat).
+(Diese Seite ist nicht Respnosiv)
 
 INFORMATION
 Page mit Informationen über die NHL (z. B. Geschichte). Einbindung von AOS (fade-up). Bilder wurden zu den einzelnen Angaben eingefügt. Informationen des Bildes erscheinen bei Hover (slide-up-information).
