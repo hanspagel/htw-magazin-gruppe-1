@@ -10,7 +10,6 @@ Ebenso die Idee, dass man durchs Klicken auf den "Wenn ein Nutzer auf Werbung kl
 
 Im Ernst, solche interaktiven Spielereien, die den Besucher der Seite in die Informationen mit einbinden, sollte es viel häufiger geben.
 
-Hans, dein Unterricht war richtig gut, vielen Dank an dieser Stelle von uns!
+Hans, dein Unterricht war richtig gut, vielen Dank an dieser Stelle!
 
-Made by
 Lea Gleisberg und Svenja Schulz

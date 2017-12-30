@@ -1,31 +1,30 @@
 Gruppenarbeit: Elena Kunau, Anna Permyakova, Mariya Yordanova, Minna Klein
 
-In unseren Artikel gehts um das Thema Künstliche Intelligenz.
+Artikel behandelt das Thema Künstliche Intelligenz.
 
-Für uns war es wichtig mit Animation und Interaktive Elementen uns zu beschäftigen. Darüber hinaus wollten wir Videos in unsere Webseite integrieren. Die Videos haben wir in 3d Programm gemacht. 
+In diesem Website-Projekt wollten wir Animationen, interaktive Elemente und Videos verwenden. Die Videos haben wir mit Hilfe eines 3D-Programm gemacht. 
 
-
-Ausgangspunkt für die Displaygröße war 1440px. Unsere Webseite ist Responsive. Wir haben mehrere Aufmerksamkeit auf die kleinere Displaygröße gelenkt. Einige Sections wurden auch für die größere Displays angepasst.
+Ausgangspunkt für die Displaygröße war 1440px. Unsere Webseite ist Responsive. Unser Hauptaugenmerk lag jedoch auf kleinere Displaygrößen. Einige Sections wurden auch für die größere Displays angepasst.
 
 1. Section 
 Künstliche Intelligenz
 
-Im diesen Section war für uns wichtig mit Animation zu experimentieren. Das Wort "Künstliche Intelligenz" wurde animiert. 
+Im dieser Section stand das experimentieren mit Animationen im Mittelpunkt. Das Wort "Künstliche Intelligenz" wurde animiert. 
 
 2. Section 
 Gehirn
 
-Der Überschrift "Gehirn" hat blur Animation. Hier haben wir die Möglichkeit fade-in on scroll ausprobiert (Informative Teil).
+Die Überschrift "Gehirn" wurde mit einem Blur-Effekt animiert. Hier haben wir die Technik fade-in on scroll ausprobiert (Informative Teil).
 
 3. Section
 Neuronen 
 
-Hier gibt es fade-left on scroll (Überschrift und Paragraph) und canvas element (Blau diagonale Hintergrund). Canvas geht weg, wenn das Display ist größer als 1440px. 
+Der Hintergrund des Artikels Neuronen besteht aus insgesamt zwei Teilen. Dererste Teil stellt eine ungerade Form dar, die mit Hilfe von Canvas erstellt wurde#myCanvas. Die Basis des Neuronen Teilbereiches mit class base-elementbesteht aus einen Rechteck, in der sich die Informationen der Section befindet.Der Oberteil des Neuronen Bereiches ist im oberen Teilbereich, Section mit class article-page-article-gehirn positioniert. Überschrift und Fließtextsind mit Hilfe von Margins positioniert. Hier gibt es fade-left on scroll (Überschrift und Paragraph). Canvas geht weg, wenn das Display größer ist als 1440px. 
 
 4. Section
 Nest
 
-Hier haben wir mit particle ausprobiert. Wenn man die Maustaste bewegt, werden die Linien und Punkten in der Hintergrund reagieren. 
+Teilbereich Nest besteht aus vier Objekten. Einen Hintergrund und drei Textobjekten. DerHintergrund ist ein aktiver Teil, mit dem man interagieren kann. Die Basis derSection ist mit Hilfe von Java Script Bibliotheken hergestellt worden. Die MolekularStruktur der Hintergründe reagiert auf auf die Mausbewegung.  
 
 5. Section
 Ich, digital 
