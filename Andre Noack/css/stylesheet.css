@@ -56,6 +56,15 @@ video {
   transition: none;
 }
 
+.text-video a:hover {
+  color: grey;
+}
+
+.text-video a span {
+  font-size: 40%;
+  vertical-align: text-top;
+}
+
 /* ––– ENDE Landing Page ––– */
 
 a {
@@ -163,17 +172,18 @@ p.link a:active {
 
 .nhl_map {
   width: 50%;
+  height: 100%;
   margin-bottom: 0;
   padding: 0;
-  background-size: cover;
+  /*background-size: cover;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: row;*/
 }
 
 .nhl_city_montreal {
   position: absolute;
-  top: 500px;
+  top: 510px;
   left: 715px;
   margin-top: 127px;
   z-index: 1;
@@ -186,7 +196,7 @@ p.link a:active {
 
 .nhl_city_ottawa {
   position: absolute;
-  top: 520px;
+  top: 530px;
   left: 690px;
   margin-top: 127px;
   z-index: 1;
@@ -200,7 +210,7 @@ p.link a:active {
 .nhl_city_toronto {
   position: absolute;
   z-index: 1;
-  top: 545px;
+  top: 555px;
   left: 660px;
   margin-top: 127px;
 }
@@ -212,7 +222,7 @@ p.link a:active {
 
 .nhl_city_winnipeg {
   position: absolute;
-  top: 470px;
+  top: 480px;
   left: 450px;
   margin-top: 127px;
 }
@@ -224,7 +234,7 @@ p.link a:active {
 
 .nhl_city_edmonton {
   position: absolute;
-  top: 370px;
+  top: 380px;
   left: 285px;
   margin-top: 127px;
 }
@@ -236,7 +246,7 @@ p.link a:active {
 
 .nhl_city_calgary {
   position: absolute;
-  top: 410px;
+  top: 420px;
   left: 260px;
   margin-top: 127px;
 }
@@ -248,7 +258,7 @@ p.link a:active {
 
 .nhl_city_vancouver {
   position: absolute;
-  top: 415px;
+  top: 425px;
   left: 175px;
   margin-top: 127px;
 }
@@ -260,7 +270,7 @@ p.link a:active {
 
 .nhl_city_boston {
   position: absolute;
-  top: 545px;
+  top: 555px;
   left: 760px;
   margin-top: 127px;
 }
@@ -273,7 +283,7 @@ p.link a:active {
 .nhl_city_minneapolis {
   position: absolute;
   z-index: 1;
-  top: 550px;
+  top: 560px;
   left: 485px;
   margin-top: 127px;
 }
@@ -286,7 +296,7 @@ p.link a:active {
 .nhl_city_buffalo {
   position: absolute;
   z-index: 2;
-  top: 570px;
+  top: 580px;
   left: 680px;
   margin-top: 127px;
 }
@@ -298,7 +308,7 @@ p.link a:active {
 
 .nhl_city_newyork-1 {
   position: absolute;
-  top: 571px;
+  top: 581px;
   left: 733px;
   margin-top: 127px;
 }
@@ -310,7 +320,7 @@ p.link a:active {
 
 .nhl_city_newyork-2 {
   position: absolute;
-  top: 581px;
+  top: 591px;
   left: 743px;
   margin-top: 127px;
 }
@@ -322,7 +332,7 @@ p.link a:active {
 
 .nhl_city_newjersey {
   position: absolute;
-  top: 584px;
+  top: 594px;
   left: 729px;
   margin-top: 127px;
 }
@@ -334,7 +344,7 @@ p.link a:active {
 
 .nhl_city_detroit {
   position: absolute;
-  top: 594px;
+  top: 604px;
   left: 610px;
   margin-top: 127px;
 }
@@ -347,7 +357,7 @@ p.link a:active {
 .nhl_city_chicago {
   position: absolute;
   z-index: 1;
-  top: 608px;
+  top: 618px;
   left: 551px;
   margin-top: 127px;
 }
@@ -359,7 +369,7 @@ p.link a:active {
 
 .nhl_city_philadelphia {
   position: absolute;
-  top: 610px;
+  top: 620px;
   left: 712px;
   margin-top: 127px;
 }
@@ -372,7 +382,7 @@ p.link a:active {
 .nhl_city_pittsburgh {
   position: absolute;
   z-index: 1;
-  top: 619px;
+  top: 629px;
   left: 655px;
   margin-top: 127px;
 }
@@ -384,7 +394,7 @@ p.link a:active {
 
 .nhl_city_washington {
   position: absolute;
-  top: 632px;
+  top: 642px;
   left: 699px;
   margin-top: 127px;
 }
@@ -397,7 +407,7 @@ p.link a:active {
 .nhl_city_columbus {
   position: absolute;
   z-index: 1;
-  top: 633px;
+  top: 643px;
   left: 620px;
   margin-top: 127px;
 }
@@ -410,7 +420,7 @@ p.link a:active {
 .nhl_city_colorado {
   position: absolute;
   z-index: 1;
-  top: 630px;
+  top: 640px;
   left: 325px;
   margin-top: 127px;
 }
@@ -423,7 +433,7 @@ p.link a:active {
 .nhl_city_sanjose {
   position: absolute;
   z-index: 1;
-  top: 605px;
+  top: 615px;
   left: 107px;
   margin-top: 127px;
 }
@@ -436,7 +446,7 @@ p.link a:active {
 .nhl_city_stlouis {
   position: absolute;
   z-index: 1;
-  top: 663px;
+  top: 673px;
   left: 525px;
   margin-top: 127px;
 }
@@ -448,7 +458,7 @@ p.link a:active {
 
 .nhl_city_vegas {
   position: absolute;
-  top: 661px;
+  top: 671px;
   left: 175px;
   margin-top: 127px;
 }
@@ -460,7 +470,7 @@ p.link a:active {
 
 .nhl_city_losangeles-1 {
   position: absolute;
-  top: 680px;
+  top: 690px;
   left: 124px;
   margin-top: 127px;
 }
@@ -472,7 +482,7 @@ p.link a:active {
 
 .nhl_city_losangeles-2 {
   position: absolute;
-  top: 690px;
+  top: 700px;
   left: 134px;
   margin-top: 127px;
 }
@@ -484,7 +494,7 @@ p.link a:active {
 
 .nhl_city_phoenix {
   position: absolute;
-  top: 720px;
+  top: 730px;
   left: 204px;
   margin-top: 127px;
 }
@@ -496,7 +506,7 @@ p.link a:active {
 
 .nhl_city_nashville {
   position: absolute;
-  top: 720px;
+  top: 730px;
   left: 565px;
   margin-top: 127px;
 }
@@ -508,7 +518,7 @@ p.link a:active {
 
 .nhl_city_raleigh {
   position: absolute;
-  top: 740px;
+  top: 750px;
   left: 668px;
   margin-top: 127px;
 }
@@ -520,7 +530,7 @@ p.link a:active {
 
 .nhl_city_dallas {
   position: absolute;
-  top: 765px;
+  top: 775px;
   left: 430px;
   margin-top: 127px;
 }
@@ -532,7 +542,7 @@ p.link a:active {
 
 .nhl_city_tampa {
   position: absolute;
-  top: 845px;
+  top: 855px;
   left: 660px;
   margin-top: 127px;
   z-index: 1;
@@ -545,7 +555,7 @@ p.link a:active {
 
 .nhl_city_miami {
   position: absolute;
-  top: 878px;
+  top: 888px;
   left: 692px;
   margin-top: 127px;
 }
@@ -776,7 +786,7 @@ p.link a:active {
   width: 44.5%;
   float: left;
   height: 615px;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-left: 50px;
   margin-right: 2.75%;
   background-image: url('../image/01.jpg');
@@ -968,7 +978,7 @@ p.link a:active {
   width: 44.5%;
   float: left;
   height: 615px;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-left: 50px;
   margin-right: 2.75%;
   background-image: url('../image/04.jpg');
@@ -1032,7 +1042,7 @@ p.link a:active {
   width: 44.5%;
   float: left;
   height: 615px;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-left: 50px;
   margin-right: 2.75%;
   background-image: url('../image/05.jpg');
@@ -1096,7 +1106,7 @@ p.link a:active {
   width: 44.5%;
   float: left;
   height: 615px;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-left: 50px;
   margin-right: 2.75%;
   background-image: url('../image/06.jpg');
@@ -1160,7 +1170,7 @@ p.link a:active {
   width: 44.5%;
   float: left;
   height: 615px;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-left: 50px;
   margin-right: 2.75%;
   background-image: url('../image/07.jpg');

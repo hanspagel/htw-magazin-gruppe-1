@@ -26,6 +26,10 @@ h1 {
   display: flex;
 }
 
+.header a {
+  color: white;
+}
+
 .brand {
   width: 50%;
 }
