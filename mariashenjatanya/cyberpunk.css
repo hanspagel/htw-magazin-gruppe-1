@@ -10,6 +10,9 @@ body {
 background: black;
 
 }
+audio {
+   display:none;
+}
 
 * {
   margin: 0;
