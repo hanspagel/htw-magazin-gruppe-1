@@ -1,0 +1,249 @@
+@media screen {
+
+* {
+  box-sizing: border-box;
+}
+
+::selection{
+  background: #00ffff;
+  color: yellow;
+}
+
+body.dark{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background:#161616;
+  color: #fff;
+  font-size: 15px;
+  line-height: 23px;
+  min-height: 2000px;
+}
+
+body.noise{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 23px;
+  background:url(../img/bg.png) repeat fixed;
+  min-height: 2000px;
+  color: #fff;
+  min-height: min-content;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-size: 10vw;
+  line-height: 100vh;
+  text-shadow: 1px -2px 6px, 1px -2px 12px, 1px -6px 16px;
+  height: 100vh;
+  -webkit-animation: glitch 3s steps(100) infinite;
+    animation: glitch 3s steps(100) infinite;
+    transform: scale(1) 3s infinite;
+    transform-origin: center;
+}
+
+
+p {
+  color: #fff;
+}
+
+
+.hover01 figure {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.hover01 figure img {
+  height: auto;
+  width: 100%;
+  -webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s linear;
+transition: .3s linear;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .hover01 div {
+  	position: relative;
+  	width: 100%;
+  	height: auto;
+  	padding: 0;
+  }
+  .hover01 div:before {
+  content: "I need to sleep";
+  text-transform: uppercase;
+  font-size: 2.6em;
+  line-height: 1em;
+  position: absolute;
+  top:48%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  }
+}
+@media only screen and (min-width: 801px) {
+  .hover01 div {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .hover01 div:before {
+  content: "I need to sleep, I can't get no sleep";
+  text-transform: uppercase;
+  font-size: 2.6em;
+  line-height: 1em;
+  position: absolute;
+  top:48%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hover01 div {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .hover01 div:before {
+  content: "I need to sleep, I can't get no sleep";
+  text-transform: uppercase;
+  font-size: 3.6em;
+  line-height: 1em;
+  position: absolute;
+  top:48%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .hover01 div {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .hover01 div:before {
+  content: "I need to sleep, I can't get no sleep";
+  text-transform: uppercase;
+  font-size: 5em;
+  line-height: 1em;
+  position: absolute;
+  top:48%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  }
+}
+
+
+
+
+.activebox{
+  padding: 1em 2em;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.2em;
+  border-radius: 2px;
+  border: 3px double yellow;
+  position: relative;
+  box-shadow: -1px 0px 30px 1px magenta;
+  margin-top: 10px;
+}
+
+.activebox p:first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.artikel{
+
+
+}
+.artikel p:nth-child(1){
+  text-transform: uppercase;
+  border-bottom: 1px solid #00ffff;
+  padding-bottom: 10px;
+  color: #00ffff;
+  font-size: 1.2em;
+}
+.artikel p:nth-child(2){
+
+}
+.artikel p:nth-child(3){
+
+  font-size: 0.8em;
+}
+
+.seperator {
+  position: relative;
+  margin: 50px 0;
+  padding: 0px 0;
+}
+
+/*--------------Brain------------------*/
+
+
+/*--------------Parallax------------------*/
+
+
+#bubbles1, #bubbles2,#bubbles3{
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ position: fixed;
+ z-index: -1;
+ -webkit-transform: scale(1);
+transform: scale(1);
+}
+
+#bubbles1{
+ background: url(../img/pill1.png) 95% 90% no-repeat;
+}
+#bubbles2{
+ background: url(../img/pill2.png) 5% 50%  no-repeat;
+}
+#bubbles3{
+    background: url(../img/pill3.png) 71% -19px no-repeat;
+}
+
+
+.meds-cont{
+  position: relative;
+}
+
+.scrollblock {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+}
