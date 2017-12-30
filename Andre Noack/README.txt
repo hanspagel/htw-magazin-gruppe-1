@@ -1,3 +1,11 @@
+Published Site:
+https://nckbrlyn.github.io/htw-magazin-hockey/
+(https://nckbrlyn.github.io/htw-magazin-hockey/index.html)
+
+
+===
+
+
 THE WORLD NEEDS MORE HOCKEY | LE MONDE S’OUVRE SUR LE HOCKEY
 (Die Welt braucht mehr Hockey)
 
