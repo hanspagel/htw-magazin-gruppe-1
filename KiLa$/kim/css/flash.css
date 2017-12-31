@@ -63,12 +63,6 @@
   box-sizing: none;
   pointer-events: none;}
 
-.monster {
-  left: 0;
-  bottom: 0;
-  width: 108px;
-  height: 96px;
-  position: fixed; }
 
 .monsterHide {
   display: none; }

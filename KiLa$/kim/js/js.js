@@ -58,7 +58,7 @@ window.onload = function() {
 
 // Flashlight
 var holeSize = 100; // size of the black hole.
-var rotationDistance = 200; // distance of black hole from canvas center.
+var rotationDistance = 250; // distance of black hole from canvas center.
 var rotationSpeed = 1; // speed of black hole rotation.
 var spawnCount = 20;  // the amount of stars to spawn every frame.
 var rotationStep = 37;
