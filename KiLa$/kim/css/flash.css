@@ -1,0 +1,74 @@
+.html {
+  width: 100%;
+  overflow: none;
+  position: relative;
+}
+
+.lightSwitch {
+  position: fixed;
+  top: 20px;
+  z-index: 33;
+  left: 20px;
+  background-color: #222;
+  height: 43px;
+  cursor: pointer;
+  width: 90px;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s; }
+
+.turntOff {
+  background: silver; }
+
+.toggle {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  top: 10px;
+  left: 12px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #fff; }
+
+.off:before {
+  content: "ON";
+  position: absolute;
+  font-family: sans-serif;
+  top: 0px;
+  left: 38px;
+  color: #fff;}
+
+.on {
+  left: 57px;
+  background: #000; }
+
+.on:before {
+  content: "OFF";
+  color: #000;
+  position: absolute;
+  left: -44px;
+  top: 0px;
+  -webkit-animation: fadeIn 0.3s;
+  letter-spacing: 2px;}
+
+.show {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 228, 181, 0.1);
+  border-radius: 50%;
+  box-sizing: none;
+  pointer-events: none;}
+
+.monster {
+  left: 0;
+  bottom: 0;
+  width: 108px;
+  height: 96px;
+  position: fixed; }
+
+.monsterHide {
+  display: none; }

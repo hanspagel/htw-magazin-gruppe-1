@@ -1,3 +1,11 @@
+Published Site: https://github.com/nckbrlyn/htw-magazin-hockey
+https://nckbrlyn.github.io/htw-magazin-hockey/
+(https://nckbrlyn.github.io/htw-magazin-hockey/index.html)
+
+
+===
+
+
 THE WORLD NEEDS MORE HOCKEY | LE MONDE S’OUVRE SUR LE HOCKEY
 (Die Welt braucht mehr Hockey)
 
@@ -24,7 +32,6 @@ Einbindung eines GIF’s, dass mit einem Button verknüpft ist (das GIF steht f�
 
 TEAMS/ÉQUIPES
 Karte mit Hover-Buttons. Buttons stehen für Stadt mit Eishockeyteam. Buttons vergrößern sich bei Hover. Name des Teams erscheint. Durch Klick erscheint Information zum jeweiligen Team + Button färbt sich rot, damit man das Team geografisch zuordnen kann. Logo der Teams in oberer Ecke in Schwarz-Weiß. Färbt sich bei Hover. Informationen erscheinen auf der rechten Seite. Text kann in der Box gescrolt werden (wenn Text bestimmten Umfang hat).
-(Diese Seite ist nicht Respnosiv)
 
 INFORMATION
 Page mit Informationen über die NHL (z. B. Geschichte). Einbindung von AOS (fade-up). Bilder wurden zu den einzelnen Angaben eingefügt. Informationen des Bildes erscheinen bei Hover (slide-up-information).
@@ -32,6 +39,8 @@ Verlinkung beim Punkt Team zu der Team-Seite mit der Karte. Überschriften mit z
 
 SPRACHE:
 An jeder Stelle kann man zur Englischen bzw. Französischen Version wechseln.
+
+Diese Publikation ist nicht Respnosiv (bis auf die Unterseite Information)
 
 
 === 
