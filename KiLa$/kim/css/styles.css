@@ -270,14 +270,13 @@ p {
 
 .button {
   border-radius: 0;
-  border: 5px solid black;
+  border: 2px solid #1b1b1b;
   background-color: yellow;
   font-family: 'Cutive Mono', monospace;
-  font-size: 1.2rem;
-  padding: 15px 30px;
+  font-size: 1.5rem;
+  padding: 15px 35px;
+  font-weight: bold;
   margin: 0 auto;
-
-  box-shadow: 5px 5px 0 0 black;
   cursor: pointer;
 }
 
@@ -286,8 +285,7 @@ p {
 }
 
 .button:hover {
-  background-color: magenta;
-  color: cyan;
+    background: none;
 }
 
 .article-interactive {
