@@ -18,6 +18,7 @@
     <script src="js.js"></script>
 
     <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/rainbow.js"></script>
   	<script type="text/javascript" src="js/ScrollMagic.js"></script>
   	<script type="text/javascript" src="js/animation.gsap.js"></script>
     <script type="text/javascript" src="js/debug.addIndicators.js"></script>
@@ -122,7 +123,7 @@
 
 
 
-    <div class="container">
+    <div class="container text">
         <div class="row">
           <div class="col-6">
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -133,8 +134,16 @@
   		</div>
     </div>
 
+    <section class= "article-interactive">
+        <button class="button">PLAY</button>
+    </section>
 
 
+<script type="text/javascript">
+$(".button").click(function() {
+  $(".article-interactive").toggleClass("action")
+})
+</script>
 
 
 
