@@ -361,6 +361,9 @@ color: yellow;
     background-repeat: no-repeat;
     background-position: center;
 }
+.action .button{
+    background: none;
+}
 
 
 
