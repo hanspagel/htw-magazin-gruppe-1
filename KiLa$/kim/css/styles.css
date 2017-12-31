@@ -247,15 +247,27 @@ transform: scale(1.1);
   transition: 300ms;
 }
 
+/* Text */
 
 .artikel a.headline{
   text-transform: uppercase;
-  border-bottom: 1px solid #00ffff;
-  padding-bottom: 10px;
+  margin-bottom: 40px;
   color: #00ffff;
-  font-size: 1.4em;
+font-size: 2em;
   text-decoration: none;
   display: block;
+  position: relative;
+      letter-spacing: 3px;
+}
+
+.artikel a.headline:after{
+  width: 37px;
+  background: magenta;
+  height: 3px;
+  content: "";
+  position: absolute;
+  bottom: -21px;
+  left: 0;
 }
 
 .artikel a.readmore:hover{
@@ -286,6 +298,32 @@ opacity: 0.5;
 .text {
   margin: 80px auto;
 }
+
+/* Poem */
+.poem  p.hightlight{
+font-size: 1rem;
+position: relative;
+margin-bottom: 40px;
+color: yellow;
+    letter-spacing: 3px;
+}
+.poem  p.hightlight span{
+  display: block;
+  font-size: 2em;
+  text-transform: uppercase;padding-bottom: 10px;
+
+}
+
+.poem  p.hightlight:after{
+  width: 37px;
+  background: magenta;
+  height: 3px;
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
 
 /*--------------Play Button------------------*/
 
