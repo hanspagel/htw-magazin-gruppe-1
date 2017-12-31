@@ -1,58 +1,56 @@
-window.onload = function() {
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
 
-  var canvas = document.createElement("canvas"),
-    c = canvas.getContext("2d"),
-    particles = {},
-    particleIndex = 0;
-  particleNum = 10;
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
 
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-
-  document.body.appendChild(canvas);
-
-  function Particle() {
-    this.x = canvas.width / 12;
-    this.y = canvas.height / 12;
-    this.vx = Math.random() * 1000;
-    this.vy = Math.random() * 1000;
-    this.gravity = 0.3;
-    particleIndex++;
-    particles[particleIndex] = this;
-    this.id = particleIndex;
-    this.life = 0;
-    this.maxLife = Math.random() * 50 + 50;
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  Particle.prototype.draw = function() {
-    this.x += this.vx;
-    this.y += this.vy;
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-    if (Math.random() < 0.1) {
-      this.vx = Math.random() * 10 - 5;
-      this.vy = Math.random() * 10 - 5;
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
-
-    this.life++;
-    if (this.life >= this.maxLife) {
-      delete particles[this.id];
-    }
-    c.fillStyle = "rgba(255,255,255,1)";
-    c.fillRect(this.x, this.y, 10, 10);
-  };
-
-  setInterval(function() {
-    c.globalCompositeOperation = "source-over";
-    c.fillStyle = "rgba(0,0,0,0.2)";
-    c.fillRect(0, 0, canvas.width, canvas.height);
-
-    for (var i = 0; i < particleNum; i++) {
-      new Particle();
-    }
-    c.globalCompositeOperation = "lighter";
-    for (var i in particles) {
-      particles[i].draw();
-    }
-  }, 30);
-
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
 };
