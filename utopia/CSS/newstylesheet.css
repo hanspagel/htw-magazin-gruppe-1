@@ -76,7 +76,10 @@ h2{
   margin-left: 68%;
   border: 5px dashed yellow;
   box-shadow: 10px 10px 20px 0 red;
+
 }
+
+
 
 .portrait img {
   width: 100%;
@@ -84,6 +87,16 @@ h2{
   margin-bottom: -50%;
 
 }
+
+.frame img{
+  position: fixed;
+  margin-top: -95%;
+  margin-left: 65%;
+  height: 50%;
+  width: auto;
+}
+
+
 
 /*.article-teaser{
 display: flex;
@@ -294,6 +307,7 @@ color:red
   font-weight: bold;
   letter-spacing: 5px;
   transform: rotate(270deg) translateX(-50px);
+  margin: -10px;
 }
 
 [data-aos="einhorn"] {
@@ -345,12 +359,4 @@ body::-webkit-scrollbar-thumb {
   padding: 0.6rem 1.3rem;
   border: 5px magenta;
   box-shadow: 10px 10px 20px 0 magenta;
-}
-
-.frame img{
-  position: fixed;
-  margin-top: -95%;
-  margin-left: 65%;
-  height: 50%;
-  width: auto;
 }
