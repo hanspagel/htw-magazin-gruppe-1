@@ -70,12 +70,12 @@ h2{
 
 .portrait{
   position: fixed;
-  width: 19%;
-  height: 38%;
+  width: 17%;
+  height: 33%;
   margin-top: -92%;
-  margin-left: 68%;
+  margin-left: 72%;
   border: 5px dashed yellow;
-  box-shadow: 10px 10px 20px 0 red;
+  /* box-shadow: 10px 10px 20px 0 red; */
 
 }
 
@@ -91,8 +91,8 @@ h2{
 .frame img{
   position: fixed;
   margin-top: -95%;
-  margin-left: 65%;
-  height: 50%;
+  margin-left: 69%;
+  height: 45%;
   width: auto;
 }
 

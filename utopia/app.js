@@ -15,29 +15,30 @@
 // })
 
 //
-// $(document).ready(function() {
-//   $(window).scroll(funtion() {
-//     var scroll = getCurrentScroll();
-//
-//     if ( (3000 >= scroll) && (scroll >= 2500) ) {
-//       $('#profilepic').attr('src', 'images/Lenin.png');
-//     }
-//     else if ( (2500 >= scroll) && (scroll >= 2000) ) {
-//       $('#profilepic').attr('src', 'images/ErnstBloch.png');
-//     }
-//     else if ( (700 >= scroll) && (scroll >= 400) ) {
-//       $('#profilepic').attr('src', 'images/Obama.png');
-//     }
-//     else if ( (400 >= scroll) && (scroll >= 200) ) {
-//       $('#profilepic').attr('src', 'images/ThomasMorus_sw.png');
-//     }
-//     else if ( scroll <= 200 ) {
-//       $('#profilepic').attr('src', 'images/thomasM.png');
-//     }
-//   });
-//
-// function getCurrentScroll() {
-//   return window.pageYOffset ||
-//   document.documentElement.scrollTop;
-//   }
-// });
+$(document).ready(function() {
+
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+
+    if ( (2000 >= scroll) && (scroll >= 1000) ) {
+      $('#profilepic').attr('src', 'images/lenin_b.png');
+    }
+    else if ( (1000 >= scroll) && (scroll >= 800) ) {
+      $('#profilepic').attr('src', 'images/hiero_g.png');
+    }
+    else if ( (800 >= scroll) && (scroll >= 550) ) {
+      $('#profilepic').attr('src', 'images/jlennon_y.png');
+    }
+    else if ( (550 >= scroll) && (scroll >= 250) ) {
+      $('#profilepic').attr('src', 'images/henry8_o.png');
+    }
+    else if ( scroll <= 250 ) {
+      $('#profilepic').attr('src', 'images/tmore_l.png');
+    }
+  });
+
+function getCurrentScroll() {
+  return window.pageYOffset ||
+  document.documentElement.scrollTop;
+  }
+});
