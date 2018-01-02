@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   padding: 0;
   color: white;
+  opacity: 0.75;
 
 }
 
@@ -13,10 +14,41 @@ body{
   opacity: 0.75;
 }
 
-.stars{
-  position: absolute;
+.allcontent{
+  width: 100%;
+  height: 6000px;
+}
+
+.leftcastle{
+  position:fixed;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  margin-left: -450px;
+  top: 100px;
 
 }
+
+.leftcastle img {
+  width: 100%;
+  height: auto;
+}
+
+.rightcastle{
+  position:fixed;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  margin-left: -150px;
+  top: 100px;
+}
+
+.rightcastle img {
+  width: 100%;
+  height: auto;
+}
+
+/*
 .article-inner{
   max-width: 600px;
   margin-left: auto;
@@ -27,7 +59,7 @@ body{
 .article-module {
   padding: 1.5rem 0;
   position: fixed;
-}
+} */
 
 /*.article-pic {
   position: fixed;
@@ -36,7 +68,7 @@ body{
   position: fixed;
 }*/
 
-.rosaschloss img{
+/* .rosaschloss img{
   width: 170%;
   height: auto;
   margin-left: 20%;
@@ -146,7 +178,7 @@ body{
   height: auto;
   margin-top: 0%;
   margin-left: 90%;
-}
+} */
 
 [data-aos="zoom-in"] {
   transform: opacity(0%);
@@ -154,4 +186,8 @@ body{
 
 [data-aos="zoom-in"].aos-animate {
   transform: opacity(100%);
+}
+
+body::-webkit-scrollbar {
+    width: 0em;
 }

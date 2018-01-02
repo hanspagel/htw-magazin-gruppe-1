@@ -5,23 +5,39 @@
     <title>Welcome to Utopia</title>
     <link rel="stylesheet" href="CSS/stylesheet2.css">
     <script src="jquery.js" charset="utf-8"></script>
+    <script src="appun.js"></script>
     <script src="jquery.stellar.js" charset="utf-8"></script>
     <link rel="stylesheet2" href="CSS/aos.css">
     <script src="aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 
   </head>
 
   <body>
 
-    <section class="backgroundstars">
+    <section class="backgroundstars" data-stellar-background-ratio="0.3">
+
+      <section class="allcontent">
+
       Lalalala
 
+        <div class="leftcastle">
+          <img id="left" src="images/gruenerturm21.png" alt="left castle">
+
+        </div>
+
+        <div class= "rightcastle">
+          <img id="right" src="images/rosaschloss21.png" alt="right castle">
+
+        </div>
 
 
 
 
-      <section class="article-module rosaschloss" data-aos="zoom-in">
+
+
+      <!-- <section class="article-module rosaschloss" data-aos="zoom-in">
 
         <section class="article-module article-pic" data-aos="einhorn" data-aos-offset="50px"
         data-aos-duration="500">
@@ -36,7 +52,7 @@
 
       </section>
 
-      <section class="article-module article-pic2">
+      <section class="article-module gruenerturm">
 
         <div class="article-inner">
 
@@ -47,7 +63,7 @@
 
       </section>
 
-      <section class="article-module article-pic" data-stellar-ratio="2">
+      <section class="article-module gruenebergburg" data-stellar-ratio="2">
 
         <div class="article-inner">
 
@@ -57,7 +73,8 @@
 
 
       </section>
-      <section class="article-module article-pic2">
+
+      <section class="article-module buntezwillinge">
 
         <div class="article-inner">
 
@@ -67,7 +84,8 @@
 
 
       </section>
-      <section class="article-module article-pic">
+
+      <section class="article-module gruenrotenadel">
 
         <div class="article-inner">
 
@@ -77,7 +95,8 @@
 
 
       </section>
-      <section class="article-module article-pic2">
+
+      <section class="article-module lilaqualle">
 
         <div class="article-inner">
 
@@ -87,7 +106,8 @@
 
 
       </section>
-      <section class="article-module article-pic">
+
+      <section class="article-module gelbesschiff">
 
         <div class="article-inner">
 
@@ -120,7 +140,7 @@
 
       </section>
 
-      <section class="article-module freiheitsturm">
+      <section class="article-module freiheitsturmgruen">
 
         <div class="article-inner">
 
@@ -195,20 +215,24 @@
         </div>
 
 
-      </section>
+      </section> -->
+
+    </section>
 
     </section>
 
   <script>
-  			AOS.init({
-  				easing: 'ease-out-back',
-  				duration: 1000
-  			});
-  		</script>
+		AOS.init();
+	</script>
 
   <!--<script>
       AOS.init();
   </script>-->
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.rightcastle', { distance: '0px', origin: top, opacity: 0, duration: 2000});
+  </script>
 
   <script>
     $(window).stellar();
