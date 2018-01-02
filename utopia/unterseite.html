@@ -16,18 +16,19 @@
 
   <body>
 
-    <section class="backgroundstars" data-stellar-background-ratio="0.3">
+    <section class="backgroundstars" data-stellar-background-ratio="0.2">
 
       <section class="allcontent">
 
       Lalalala
 
-        <div class="leftcastle">
+        <div class="leftcastle" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+
           <img id="left" src="images/gruenerturm21.png" alt="left castle">
 
         </div>
 
-        <div class= "rightcastle">
+        <div class= "rightcastle" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <img id="right" src="images/rosaschloss21.png" alt="right castle">
 
         </div>
@@ -231,7 +232,8 @@
 
   <script>
     window.sr = ScrollReveal();
-    sr.reveal('.rightcastle', { distance: '0px', origin: top, opacity: 0, duration: 2000});
+    sr.reveal('.rightcastle', { distance: '0px', origin: top, opacity: 0, duration: 4000});
+    sr.reveal('.leftcastle', { distance: '0px', origin: top, opacity: 0, duration: 2000});
   </script>
 
   <script>
