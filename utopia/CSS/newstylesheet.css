@@ -1,15 +1,22 @@
 html{
   font-family: 'Alegreya', serif;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
   color: white;
   /*opacity: 0.75;*/
 }
-@media all and (min-width: 800px) {
+@media all and (min-width: 1300px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .article-inner{
+    max-width: 700px;
+    margin-left: 16%;
+    margin-right: auto;
   }
 }
+
 body{
   background-image: url(../images/background5.png);
   background-attachment: fixed;
@@ -24,7 +31,7 @@ body{
 
 .article-inner{
   max-width: 700px;
-  margin-left: 20%;
+  margin-left: 16%;
   margin-right: auto;
 }
 
@@ -54,49 +61,57 @@ h2{
 
 .article-module {
   padding: 1.5rem 0;
+
 }
 
-.article-text-person {
+.bigportrait {
   position: fixed;
-  text-align: center;
-  background-color: magenta;
-  width: 10rem;
-  padding: 0.6rem 1.3rem;
-  margin-top: -62%;
-  margin-left: 70%;
-  border: 5px dashed yellow;
-  box-shadow: 10px 10px 20px 0 red;
+  width: 300px;
+  height: 400px;
+  right: 100px;
+  top: 30%;
+  /* border: 5px dashed blue; */
+  padding: 0;
 }
 
 .portrait{
   position: fixed;
-  width: 17%;
-  height: 33%;
-  margin-top: -92%;
-  margin-left: 72%;
-  border: 5px dashed yellow;
+  width:inherit;
+  height: auto;
+  /* margin-top: -92%;
+  margin-left: 72%; */
+  /* border: 5px dashed yellow; */
   /* box-shadow: 10px 10px 20px 0 red; */
-
 }
-
-
-
 .portrait img {
   width: 100%;
   height: auto;
-  margin-bottom: -50%;
-
 }
 
-.frame img{
+.frame {
   position: fixed;
-  margin-top: -95%;
-  margin-left: 69%;
-  height: 45%;
-  width: auto;
+  width:inherit;
+  height: auto;
+}
+.frame img {
+  width: 130%;
+  height: auto;
+  margin-left: -15%;
+  margin-top: -15%;
 }
 
+.article-text-person {
+  position: fixed;
+  text-align:center;
+  /* color: gold;
+  font-family: 'Great Vibes', cursive; */
+  font-size: 25px;
+  font-variant: small-caps;
+  /* background-color: magenta; */
+  width: inherit;
+  margin-top: 400px;
 
+}
 
 /*.article-teaser{
 display: flex;
@@ -128,12 +143,49 @@ color:red
 }*/
 
 .rollercoaster{
-  margin-bottom: 20px;
-  margin-left: -10px;
-  margin-top: 50px;
+  position: fixed;
+  width: 40px;
+  height: 70px;
+  left: 22px;
+  bottom: 20px;
+  /* border: 5px dashed blue; */
+  padding: 0;
+  /* background: url(../images/lighthouse.png); */
+
 }
 
-.teaser{
+.linkpic{
+  /* width:100%; */
+  /* height: auto; */
+  /* margin-top: -50px; */
+}
+.linkpic img {
+  width: 90%;
+  height: auto;
+  transform: rotate(-270deg) translateY(-50px);
+}
+
+.linktext{
+  position: fixed;
+  /* width:inherit; */
+  height: auto;
+  /* transform: rotate(-270deg); */
+  font-weight: normal;
+  font-size: 16px;
+  text-align:center;
+  letter-spacing: normal;
+  transform: rotate(-270deg) translateY(-130px) translateX(-10px);
+  display:inline;
+}
+
+a.nextarticle:link { color: transparent; }
+a.nextarticle:visited { color: transparent;}
+a.nextarticle:hover { color: black;}
+
+
+
+
+/* .teaser{
   text-decoration: none;
 }
 
@@ -147,13 +199,7 @@ color:red
 
 .rollercoaster teaser-image:hover{
   color:white;
-}
-
-
-
-
-
-
+} */
 
 
 .article-graphic {
@@ -224,6 +270,7 @@ color:red
   /*border-radius: 0;*/
   /*box-shadow: 7px 7px magenta;*/
   cursor: url(../images/schluessel.png), pointer;
+  margin-top: 400px;
 
 }
 
@@ -240,7 +287,7 @@ color:red
 
 .article-interactive{
   text-align: center;
-  min-height: 60vh;
+  min-height: 50vh;
   display: flex;
   align-items:center;
 
@@ -280,12 +327,12 @@ color:red
 .article-pic3 {
   background-image: url(../images/door1.png);
   background-position: center;
-  background-size: 40%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 700px;
   width: auto;
   margin-left: -23%;
-  margin-top: -40%;
+  margin-top: -400px;
 }
 
 .header {
@@ -353,10 +400,14 @@ body::-webkit-scrollbar-thumb {
 .read-on{
   color: magenta;
   max-width: 700px;
-  margin-left: 20%;
+  /* margin-left: 20%; */
   margin-right: auto;
-  width: 4rem;
+  /* width: 4rem;
   padding: 0.6rem 1.3rem;
   border: 5px magenta;
-  box-shadow: 10px 10px 20px 0 magenta;
+  box-shadow: 10px 10px 20px 0 magenta; */
+}
+
+a {
+  text-decoration: none;
 }
